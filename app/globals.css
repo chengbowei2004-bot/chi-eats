@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #1A1A1A;
+  --primary-light: #333333;
+  --primary-dark: #000000;
+  --background: #FAFAFA;
+  --surface: #FFFFFF;
+  --text-primary: #1A1A1A;
+  --text-secondary: #6B6B6B;
+  --text-on-primary: #FFFFFF;
+  --border: #E5E5E5;
+  --error: #D32F2F;
+  --success: #2E7D32;
+}
+
+body {
+  background: var(--background);
+  color: var(--text-primary);
+  font-family: 'Helvetica Neue', Helvetica, Arial, -apple-system, 'PingFang SC',
+    'Microsoft YaHei', 'Noto Sans SC', sans-serif;
+}
