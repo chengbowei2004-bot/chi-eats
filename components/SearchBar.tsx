@@ -34,7 +34,7 @@ export function SearchBar({ initialValue = "", showButton = false }: { initialVa
         />
       </div>
       {showButton && (
-        <div className="flex justify-center mt-4">
+        <div className="flex justify-center mt-2">
           <button
             type="submit"
             className="py-2 px-6 rounded-full bg-[#1A1A1A] text-white text-sm tracking-wider uppercase hover:bg-[#333333] transition-colors"

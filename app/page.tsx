@@ -52,12 +52,12 @@ export default function HomePage() {
 
   return (
     <>
-      <main className="flex flex-col items-center min-h-screen px-6 pb-28 pt-[35vh]">
+      <main className="flex flex-col items-center min-h-screen px-6 pb-28 pt-[30vh]">
         {/* Logo + tagline */}
-        <h1 className="text-6xl font-light text-[#1A1A1A] tracking-tight mb-3">
+        <h1 className="text-6xl font-light text-[#1A1A1A] tracking-tight mb-2">
           ChiEats
         </h1>
-        <p className="text-sm text-[#AAAAAA] mb-14">
+        <p className="text-sm text-[#AAAAAA] mb-10">
           {t("发现你身边的中国味道", "Discover Chinese flavors near you")}
         </p>
 
@@ -68,7 +68,7 @@ export default function HomePage() {
 
         {/* Suggestions */}
         {suggestions.length > 0 && (
-          <div className="mt-12 text-center">
+          <div className="mt-4 text-center">
             <div className="flex items-center justify-center gap-3">
               {suggestions.map((dish, i) => (
                 <span key={dish.id} className="flex items-center gap-3">
