@@ -20,7 +20,8 @@ export default function HomePage() {
   useEffect(() => {
     const onboarded = localStorage.getItem("chieats_onboarded");
     if (!onboarded) {
-      router.replace("/onboarding");
+      const langChosen = localStorage.getItem("chieats_lang_chosen");
+      router.replace(langChosen ? "/onboarding" : "/language");
     }
   }, [router]);
 
