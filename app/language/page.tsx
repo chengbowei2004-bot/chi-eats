@@ -16,20 +16,21 @@ export default function LanguagePage() {
 
   return (
     <main className="min-h-screen flex flex-col items-center justify-center px-5">
-      <h1 className="text-4xl font-bold text-[#1A1A1A] tracking-tight mb-16">
+      <h1 className="text-4xl font-light text-[#1A1A1A] tracking-tight mb-20">
         ChiEats
       </h1>
 
-      <div className="w-full max-w-xs space-y-4">
+      <div className="flex items-center gap-6">
         <button
           onClick={() => pick("zh")}
-          className="w-full py-4 rounded-full bg-[#1A1A1A] text-white text-lg font-medium hover:bg-[#333333] transition-colors"
+          className="text-xl text-[#999999] hover:text-[#1A1A1A] transition-colors"
         >
           中文
         </button>
+        <span className="text-[#D0D0D0] text-sm select-none">|</span>
         <button
           onClick={() => pick("en")}
-          className="w-full py-4 rounded-full bg-[#1A1A1A] text-white text-lg font-medium hover:bg-[#333333] transition-colors"
+          className="text-xl text-[#999999] hover:text-[#1A1A1A] transition-colors"
         >
           English
         </button>
