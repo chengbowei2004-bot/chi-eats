@@ -90,6 +90,9 @@ export default function HomePage() {
         {/* Suggestions */}
         {suggestions.length > 0 && (
           <div className="mt-4 text-center">
+            <p className="text-xs text-gray-300 tracking-wide mb-2">
+              {t("不知道吃什么？试试这些", "Not sure what to eat? Try these")}
+            </p>
             <div className="flex items-center justify-center gap-3">
               {suggestions.map((dish, i) => (
                 <span key={dish.id} className="flex items-center gap-3">
