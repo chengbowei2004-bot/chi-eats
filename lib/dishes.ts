@@ -20,6 +20,7 @@ export type Restaurant = {
   address: string;
   lat: number;
   lng: number;
+  city: string;
   cuisine_tags: string[];
   review_summary: string;
   review_score: number;
@@ -48,10 +49,21 @@ export function getRestaurantsByIds(ids: string[]): Restaurant[] {
   return allRestaurants.filter((r) => idSet.has(r.id));
 }
 
-export function getRestaurantsForDish(dishId: string): Restaurant[] {
+export function getRestaurantsForDish(dishId: string, city?: string): Restaurant[] {
   const dish = getDishById(dishId);
   if (!dish) return [];
-  return getRestaurantsByIds(dish.available_at);
+  let restaurants = getRestaurantsByIds(dish.available_at);
+  if (city) restaurants = restaurants.filter((r) => r.city === city);
+  return restaurants;
+}
+
+export function getRestaurantsByCity(city: string): Restaurant[] {
+  return allRestaurants.filter((r) => r.city === city);
+}
+
+export function getDishesForCity(city: string): Dish[] {
+  const cityRestaurantIds = new Set(getRestaurantsByCity(city).map((r) => r.id));
+  return allDishes.filter((d) => d.available_at.some((id) => cityRestaurantIds.has(id)));
 }
 
 /**
@@ -60,12 +72,18 @@ export function getRestaurantsForDish(dishId: string): Restaurant[] {
  */
 export function getRandomDishes(
   count: number,
-  options: { cuisineTags?: string[]; excludeIds?: string[] } = {}
+  options: { cuisineTags?: string[]; excludeIds?: string[]; city?: string } = {}
 ): Dish[] {
-  const { cuisineTags, excludeIds = [] } = options;
+  const { cuisineTags, excludeIds = [], city } = options;
   const excludeSet = new Set(excludeIds);
 
   let pool = allDishes.filter((d) => !excludeSet.has(d.id));
+
+  if (city) {
+    const cityRestaurantIds = new Set(getRestaurantsByCity(city).map((r) => r.id));
+    const cityFiltered = pool.filter((d) => d.available_at.some((id) => cityRestaurantIds.has(id)));
+    if (cityFiltered.length > 0) pool = cityFiltered;
+  }
 
   if (cuisineTags && cuisineTags.length > 0) {
     const tagSet = new Set(cuisineTags);

@@ -10,6 +10,7 @@ import { SkeletonRestaurantCard } from "@/components/SkeletonCard";
 import { SignInModal } from "@/components/SignInModal";
 import { useLanguage } from "@/lib/useLanguage";
 import { useAuth } from "@/lib/useAuth";
+import { useCity } from "@/lib/useCity";
 
 type Sort = "nearest" | "best_reviewed";
 
@@ -56,6 +57,7 @@ export default function RestaurantResultsPage() {
   const router = useRouter();
   const { t } = useLanguage();
   const { user } = useAuth();
+  const { city } = useCity();
 
   const [dish, setDish] = useState<DishHeader | null>(null);
   const [restaurants, setRestaurants] = useState<RestaurantResult[]>([]);
@@ -94,7 +96,7 @@ export default function RestaurantResultsPage() {
     if (!dishId) return;
     setLoading(true);
 
-    const params = new URLSearchParams({ sort });
+    const params = new URLSearchParams({ sort, city });
     if (userLat !== null) params.set("lat", String(userLat));
     if (userLng !== null) params.set("lng", String(userLng));
 
@@ -113,7 +115,7 @@ export default function RestaurantResultsPage() {
       })
       .catch(() => {})
       .finally(() => setLoading(false));
-  }, [dishId, sort, userLat, userLng]);
+  }, [dishId, sort, city, userLat, userLng]);
 
   return (
     <>

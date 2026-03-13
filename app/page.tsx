@@ -2,16 +2,19 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import { MapPin } from "lucide-react";
 import { BottomNav } from "@/components/BottomNav";
 import { SearchBar } from "@/components/SearchBar";
 import { useAuth } from "@/lib/useAuth";
 import { useLanguage } from "@/lib/useLanguage";
+import { useCity, type City } from "@/lib/useCity";
 
 type SuggestionDish = { id: string; name_zh: string };
 
 export default function HomePage() {
   const { user } = useAuth();
   const { t } = useLanguage();
+  const { city, setCity, cityLabel } = useCity();
   const router = useRouter();
 
   const [suggestions, setSuggestions] = useState<SuggestionDish[]>([]);
@@ -30,6 +33,7 @@ export default function HomePage() {
     async function fetchSuggestions() {
       try {
         const params = new URLSearchParams();
+        params.set("city", city);
         if (user) params.set("userId", user.id);
         else {
           const prefs = localStorage.getItem("chieats_preferences");
@@ -48,18 +52,35 @@ export default function HomePage() {
       }
     }
     fetchSuggestions();
-  }, [user]);
+  }, [user, city]);
+
+  function toggleCity() {
+    setCity(city === "providence" ? "boston" : "providence");
+  }
 
   return (
     <>
       <main className="flex flex-col items-center min-h-screen px-6 pb-28 pt-[30vh]">
         {/* Logo + tagline */}
-        <h1 className="text-6xl font-light text-[#1A1A1A] tracking-tight mb-2">
+        <h1 className="text-6xl font-light text-gray-900 tracking-tight mb-2">
           ChiEats
         </h1>
-        <p className="text-sm text-[#AAAAAA] mb-10">
+        <p className="text-sm text-gray-400 mb-6">
           {t("发现你身边的中国味道", "Discover Chinese flavors near you")}
         </p>
+
+        {/* City picker */}
+        <button
+          onClick={toggleCity}
+          className="flex items-center gap-1.5 text-xs text-gray-400 hover:text-gray-900 transition-colors mb-8"
+        >
+          <MapPin size={14} strokeWidth={1.5} />
+          <span>{t(cityLabel.zh, cityLabel.en)}</span>
+          <span className="text-gray-300">|</span>
+          <span className="underline underline-offset-2">
+            {t("切换城市", "Switch")}
+          </span>
+        </button>
 
         {/* Search bar */}
         <div className="w-full max-w-sm">
@@ -73,7 +94,7 @@ export default function HomePage() {
               {suggestions.map((dish, i) => (
                 <span key={dish.id} className="flex items-center gap-3">
                   {i > 0 && (
-                    <span className="text-[#D0D0D0] text-xs select-none">
+                    <span className="text-gray-300 text-xs select-none">
                       ·
                     </span>
                   )}
@@ -83,7 +104,7 @@ export default function HomePage() {
                         `/search?q=${encodeURIComponent(dish.name_zh)}`
                       )
                     }
-                    className="text-sm text-[#AAAAAA] underline underline-offset-4 decoration-[#D0D0D0] hover:text-[#1A1A1A] hover:decoration-[#1A1A1A] transition-colors"
+                    className="text-sm text-gray-400 underline underline-offset-4 decoration-gray-300 hover:text-gray-900 hover:decoration-gray-900 transition-colors"
                   >
                     {dish.name_zh}
                   </button>

@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { searchDishes } from "@/lib/claude";
-import { getDishesByIds, getRestaurantsForDish, getRandomDishes } from "@/lib/dishes";
-import { distanceMiles, generateBothMapsUrls, PROVIDENCE_CENTER } from "@/lib/geo";
+import { getDishesByIds, getRestaurantsForDish, getRandomDishes, getRestaurantsByCity } from "@/lib/dishes";
+import { distanceMiles, generateBothMapsUrls, getCityCenter } from "@/lib/geo";
 
 // Simple in-memory rate limiter: max 20 requests per user (by IP) per hour.
 const rateLimitMap = new Map<string, { count: number; resetAt: number }>();
@@ -29,6 +29,7 @@ export async function POST(req: NextRequest) {
     const userLat = parseFloat(body?.lat ?? "");
     const userLng = parseFloat(body?.lng ?? "");
     const sort: string = body?.sort ?? "nearest";
+    const city: string = body?.city ?? "providence";
 
     if (!query) {
       return NextResponse.json(
@@ -51,7 +52,7 @@ export async function POST(req: NextRequest) {
     const dishes = getDishesByIds(dishIds);
 
     if (dishes.length === 0) {
-      const alternatives = getRandomDishes(3);
+      const alternatives = getRandomDishes(3, { city });
       return NextResponse.json({
         restaurants: [],
         matchedDishes: [],
@@ -63,8 +64,11 @@ export async function POST(req: NextRequest) {
       });
     }
 
-    const lat = isFinite(userLat) ? userLat : PROVIDENCE_CENTER.lat;
-    const lng = isFinite(userLng) ? userLng : PROVIDENCE_CENTER.lng;
+    const center = getCityCenter(city);
+    const lat = isFinite(userLat) ? userLat : center.lat;
+    const lng = isFinite(userLng) ? userLng : center.lng;
+
+    const cityRestaurantIds = new Set(getRestaurantsByCity(city).map((r) => r.id));
 
     // Aggregate restaurants from all matched dishes, deduplicating by restaurant ID
     const restaurantMap = new Map<
@@ -88,6 +92,7 @@ export async function POST(req: NextRequest) {
     for (const dish of dishes) {
       const restaurants = getRestaurantsForDish(dish.id);
       for (const r of restaurants) {
+        if (!cityRestaurantIds.has(r.id)) continue;
         if (!restaurantMap.has(r.id)) {
           const miles = distanceMiles(lat, lng, r.lat, r.lng);
           const maps = generateBothMapsUrls(r.lat, r.lng);

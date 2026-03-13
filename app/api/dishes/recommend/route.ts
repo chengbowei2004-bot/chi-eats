@@ -7,6 +7,7 @@ export async function GET(req: NextRequest) {
     const { searchParams } = new URL(req.url);
     const userId = searchParams.get("userId");
     const preferencesParam = searchParams.get("preferences"); // e.g. "川菜,火锅"
+    const city = searchParams.get("city") ?? "providence";
 
     let cuisineTags: string[] | undefined;
 
@@ -33,7 +34,7 @@ export async function GET(req: NextRequest) {
       cuisineTags = preferencesParam.split(",").map((t) => t.trim()).filter(Boolean);
     }
 
-    const dishes = getRandomDishes(3, { cuisineTags });
+    const dishes = getRandomDishes(3, { cuisineTags, city });
     return NextResponse.json({ dishes });
   } catch (err) {
     console.error("[/api/dishes/recommend]", err);

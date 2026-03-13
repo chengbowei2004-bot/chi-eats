@@ -17,7 +17,11 @@
       "chongqing-house",
       "chengdu-taste",
       "rong-chic",
-      "chef-yao"
+      "chef-yao",
+      "noahs-kitchen",
+      "yi-ma-yi-la",
+      "baozang-55beach",
+      "china-gourmet"
     ]
   },
   {
@@ -39,7 +43,10 @@
       "chengdu-taste",
       "rong-chic",
       "wongs-kitchen",
-      "chef-yao"
+      "chef-yao",
+      "noahs-kitchen",
+      "china-gourmet",
+      "baozang-55beach"
     ]
   },
   {
@@ -60,7 +67,9 @@
       "chongqing-house",
       "chengdu-taste",
       "mala-noodle",
-      "rong-chic"
+      "rong-chic",
+      "noahs-kitchen",
+      "yi-ma-yi-la"
     ]
   },
   {
@@ -80,7 +89,9 @@
     "available_at": [
       "chongqing-house",
       "chengdu-taste",
-      "rong-chic"
+      "rong-chic",
+      "noahs-kitchen",
+      "baozang-55beach"
     ]
   },
   {
@@ -102,7 +113,9 @@
       "chengdu-taste",
       "rong-chic",
       "chef-yao",
-      "wongs-kitchen"
+      "wongs-kitchen",
+      "noahs-kitchen",
+      "china-gourmet"
     ]
   },
   {
@@ -122,7 +135,9 @@
     "available_at": [
       "chongqing-house",
       "chengdu-taste",
-      "mala-noodle"
+      "mala-noodle",
+      "noahs-kitchen",
+      "yi-ma-yi-la"
     ]
   },
   {
@@ -141,7 +156,9 @@
     "image_url": "/images/dishes/spicy-boiled-beef.webp",
     "available_at": [
       "chongqing-house",
-      "chengdu-taste"
+      "chengdu-taste",
+      "noahs-kitchen",
+      "yi-ma-yi-la"
     ]
   },
   {
@@ -161,7 +178,8 @@
     "available_at": [
       "chongqing-house",
       "chengdu-taste",
-      "rong-chic"
+      "rong-chic",
+      "noahs-kitchen"
     ]
   },
   {
@@ -181,7 +199,9 @@
     "available_at": [
       "chongqing-house",
       "chengdu-taste",
-      "rong-chic"
+      "rong-chic",
+      "noahs-kitchen",
+      "yi-ma-yi-la"
     ]
   },
   {
@@ -202,7 +222,8 @@
       "chongqing-house",
       "chengdu-taste",
       "rong-chic",
-      "mala-noodle"
+      "mala-noodle",
+      "noahs-kitchen"
     ]
   },
   {
@@ -222,7 +243,9 @@
     "available_at": [
       "chongqing-house",
       "chengdu-taste",
-      "lamei-hotpot"
+      "lamei-hotpot",
+      "yi-ma-yi-la",
+      "wing-it"
     ]
   },
   {
@@ -243,7 +266,8 @@
       "chongqing-house",
       "chengdu-taste",
       "mala-noodle",
-      "rong-chic"
+      "rong-chic",
+      "noahs-kitchen"
     ]
   },
   {
@@ -301,7 +325,8 @@
     ],
     "image_url": "/images/dishes/hotpot-beef-slices.webp",
     "available_at": [
-      "lamei-hotpot"
+      "lamei-hotpot",
+      "shu-da-xia"
     ]
   },
   {
@@ -319,7 +344,8 @@
     ],
     "image_url": "/images/dishes/hotpot-lamb-slices.webp",
     "available_at": [
-      "lamei-hotpot"
+      "lamei-hotpot",
+      "shu-da-xia"
     ]
   },
   {
@@ -337,7 +363,8 @@
     ],
     "image_url": "/images/dishes/hotpot-tripe.webp",
     "available_at": [
-      "lamei-hotpot"
+      "lamei-hotpot",
+      "shu-da-xia"
     ]
   },
   {
@@ -355,7 +382,8 @@
     ],
     "image_url": "/images/dishes/duck-blood-curd.webp",
     "available_at": [
-      "lamei-hotpot"
+      "lamei-hotpot",
+      "shu-da-xia"
     ]
   },
   {
@@ -373,7 +401,8 @@
     ],
     "image_url": "/images/dishes/enoki-mushrooms.webp",
     "available_at": [
-      "lamei-hotpot"
+      "lamei-hotpot",
+      "shu-da-xia"
     ]
   },
   {
@@ -391,7 +420,8 @@
     ],
     "image_url": "/images/dishes/fatty-beef-hotpot.webp",
     "available_at": [
-      "lamei-hotpot"
+      "lamei-hotpot",
+      "shu-da-xia"
     ]
   },
   {
@@ -409,7 +439,8 @@
     ],
     "image_url": "/images/dishes/tofu-skin-hotpot.webp",
     "available_at": [
-      "lamei-hotpot"
+      "lamei-hotpot",
+      "shu-da-xia"
     ]
   },
   {
@@ -449,7 +480,9 @@
       "wongs-kitchen",
       "rong-chic",
       "lobanton",
-      "chongqing-house"
+      "chongqing-house",
+      "baozang-55beach",
+      "china-gourmet"
     ]
   },
   {
@@ -469,7 +502,9 @@
     "available_at": [
       "mala-noodle",
       "y-noodle-bar",
-      "rong-chic"
+      "rong-chic",
+      "aries-noodle",
+      "ifresh-noodle"
     ]
   },
   {
@@ -490,7 +525,9 @@
       "chef-yao",
       "wongs-kitchen",
       "lobanton",
-      "y-noodle-bar"
+      "y-noodle-bar",
+      "wings-kitchen",
+      "big-fun-cafe"
     ]
   },
   {
@@ -530,7 +567,8 @@
     "available_at": [
       "y-noodle-bar",
       "rong-chic",
-      "mala-noodle"
+      "mala-noodle",
+      "wings-kitchen"
     ]
   },
   {
@@ -569,7 +607,9 @@
     "image_url": "/images/dishes/crossing-bridge-noodles.webp",
     "available_at": [
       "y-noodle-bar",
-      "rong-chic"
+      "rong-chic",
+      "jibei-chuan",
+      "wens-yunnan"
     ]
   },
   {
@@ -609,7 +649,9 @@
     "available_at": [
       "mala-noodle",
       "y-noodle-bar",
-      "rong-chic"
+      "rong-chic",
+      "aries-noodle",
+      "ifresh-noodle"
     ]
   },
   {
@@ -668,7 +710,9 @@
     "available_at": [
       "12-dumplings",
       "rong-chic",
-      "chef-yao"
+      "chef-yao",
+      "aries-noodle",
+      "golden-garden-malden"
     ]
   },
   {
@@ -687,7 +731,9 @@
     "image_url": "/images/dishes/har-gow.webp",
     "available_at": [
       "chef-yao",
-      "wongs-kitchen"
+      "wongs-kitchen",
+      "jumbo-seafood",
+      "jade-garden"
     ]
   },
   {
@@ -708,7 +754,9 @@
       "12-dumplings",
       "rong-chic",
       "chef-yao",
-      "chongqing-house"
+      "chongqing-house",
+      "jumbo-seafood",
+      "jade-garden"
     ]
   },
   {
@@ -730,7 +778,9 @@
       "rong-chic",
       "chef-yao",
       "wongs-kitchen",
-      "chongqing-house"
+      "chongqing-house",
+      "golden-garden-malden",
+      "aries-noodle"
     ]
   },
   {
@@ -808,7 +858,9 @@
     "image_url": "/images/dishes/shaomai.webp",
     "available_at": [
       "chef-yao",
-      "wongs-kitchen"
+      "wongs-kitchen",
+      "jumbo-seafood",
+      "jade-garden"
     ]
   },
   {
@@ -829,7 +881,9 @@
       "12-dumplings",
       "rong-chic",
       "chef-yao",
-      "chongqing-house"
+      "chongqing-house",
+      "chung-shin-yuan",
+      "golden-garden-malden"
     ]
   },
   {
@@ -848,7 +902,9 @@
     "image_url": "/images/dishes/turnip-cake.webp",
     "available_at": [
       "chef-yao",
-      "wongs-kitchen"
+      "wongs-kitchen",
+      "jade-garden",
+      "jumbo-seafood"
     ]
   },
   {
@@ -887,7 +943,10 @@
     "available_at": [
       "chef-yao",
       "wongs-kitchen",
-      "lobanton"
+      "lobanton",
+      "wings-kitchen",
+      "big-fun-cafe",
+      "susu-gourmet"
     ]
   },
   {
@@ -907,7 +966,10 @@
     "available_at": [
       "chef-yao",
       "wongs-kitchen",
-      "lobanton"
+      "lobanton",
+      "wings-kitchen",
+      "susu-gourmet",
+      "feng-shui-burlington"
     ]
   },
   {
@@ -947,7 +1009,9 @@
       "chef-yao",
       "wongs-kitchen",
       "lobanton",
-      "rong-chic"
+      "rong-chic",
+      "china-gourmet",
+      "wings-kitchen"
     ]
   },
   {
@@ -966,7 +1030,9 @@
     "image_url": "/images/dishes/egg-tarts.webp",
     "available_at": [
       "chef-yao",
-      "wongs-kitchen"
+      "wongs-kitchen",
+      "big-fun-cafe",
+      "jade-garden"
     ]
   },
   {
@@ -986,7 +1052,9 @@
     "available_at": [
       "chef-yao",
       "wongs-kitchen",
-      "lobanton"
+      "lobanton",
+      "susu-gourmet",
+      "big-fun-cafe"
     ]
   },
   {
@@ -1005,7 +1073,9 @@
     "image_url": "/images/dishes/steamed-spare-ribs.webp",
     "available_at": [
       "chef-yao",
-      "wongs-kitchen"
+      "wongs-kitchen",
+      "jumbo-seafood",
+      "jade-garden"
     ]
   },
   {
@@ -1044,7 +1114,9 @@
     "image_url": "/images/dishes/chicken-feet.webp",
     "available_at": [
       "chef-yao",
-      "wongs-kitchen"
+      "wongs-kitchen",
+      "jumbo-seafood",
+      "jade-garden"
     ]
   },
   {
@@ -1065,7 +1137,8 @@
       "rong-chic",
       "chef-yao",
       "lobanton",
-      "chongqing-house"
+      "chongqing-house",
+      "golden-garden-malden"
     ]
   },
   {
@@ -1084,7 +1157,8 @@
     "image_url": "/images/dishes/guo-bao-rou.webp",
     "available_at": [
       "rong-chic",
-      "lobanton"
+      "lobanton",
+      "golden-garden-malden"
     ]
   },
   {
@@ -1104,7 +1178,8 @@
     "available_at": [
       "chongqing-house",
       "rong-chic",
-      "mala-noodle"
+      "mala-noodle",
+      "golden-garden-malden"
     ]
   },
   {
@@ -1123,7 +1198,8 @@
     "image_url": "/images/dishes/pork-glass-noodle-stew.webp",
     "available_at": [
       "rong-chic",
-      "lobanton"
+      "lobanton",
+      "golden-garden-malden"
     ]
   },
   {
@@ -1146,7 +1222,9 @@
       "rong-chic",
       "chef-yao",
       "wongs-kitchen",
-      "lobanton"
+      "lobanton",
+      "golden-garden-malden",
+      "yi-ma-yi-la"
     ]
   },
   {
@@ -1242,7 +1320,9 @@
     "image_url": "/images/dishes/dry-pot-cauliflower.webp",
     "available_at": [
       "rong-chic",
-      "mala-noodle"
+      "mala-noodle",
+      "yi-ma-yi-la",
+      "wing-it"
     ]
   },
   {
@@ -1261,7 +1341,9 @@
     "image_url": "/images/dishes/pork-peppers-hunan.webp",
     "available_at": [
       "rong-chic",
-      "mala-noodle"
+      "mala-noodle",
+      "yi-ma-yi-la",
+      "noahs-kitchen"
     ]
   },
   {
@@ -1279,7 +1361,9 @@
     ],
     "image_url": "/images/dishes/hand-pulled-lamb-noodles.webp",
     "available_at": [
-      "jahunger"
+      "jahunger",
+      "aries-noodle",
+      "ifresh-noodle"
     ]
   },
   {
@@ -1297,7 +1381,10 @@
     ],
     "image_url": "/images/dishes/lamb-skewers.webp",
     "available_at": [
-      "jahunger"
+      "jahunger",
+      "wu-er-roast",
+      "friendship-bbq",
+      "wing-it"
     ]
   },
   {
@@ -1315,7 +1402,8 @@
     ],
     "image_url": "/images/dishes/xinjiang-pilaf.webp",
     "available_at": [
-      "jahunger"
+      "jahunger",
+      "wing-it"
     ]
   },
   {
@@ -1334,7 +1422,9 @@
     "image_url": "/images/dishes/big-plate-chicken.webp",
     "available_at": [
       "jahunger",
-      "chongqing-house"
+      "chongqing-house",
+      "wing-it",
+      "wu-er-roast"
     ]
   },
   {
@@ -1412,7 +1502,9 @@
       "wongs-kitchen",
       "rong-chic",
       "lobanton",
-      "y-bento"
+      "y-bento",
+      "baozang-55beach",
+      "china-gourmet"
     ]
   },
   {
@@ -1452,7 +1544,8 @@
     "image_url": "/images/dishes/malatang.webp",
     "available_at": [
       "mala-noodle",
-      "rong-chic"
+      "rong-chic",
+      "yi-ma-yi-la"
     ]
   },
   {
@@ -1513,7 +1606,9 @@
     "image_url": "/images/dishes/tiger-skin-peppers.webp",
     "available_at": [
       "chengdu-taste",
-      "rong-chic"
+      "rong-chic",
+      "noahs-kitchen",
+      "yi-ma-yi-la"
     ]
   },
   {
@@ -1572,7 +1667,9 @@
     "available_at": [
       "chef-yao",
       "wongs-kitchen",
-      "lobanton"
+      "lobanton",
+      "jumbo-seafood",
+      "feng-shui-burlington"
     ]
   },
   {
@@ -1748,7 +1845,9 @@
     "available_at": [
       "chongqing-house",
       "chengdu-taste",
-      "rong-chic"
+      "rong-chic",
+      "baozang-55beach",
+      "china-gourmet"
     ]
   },
   {
@@ -2106,7 +2205,10 @@
     "available_at": [
       "jahunger",
       "rong-chic",
-      "chongqing-house"
+      "chongqing-house",
+      "friendship-bbq",
+      "wu-er-roast",
+      "wing-it"
     ]
   },
   {
@@ -2169,7 +2271,9 @@
       "chef-yao",
       "wongs-kitchen",
       "lobanton",
-      "chongqing-house"
+      "chongqing-house",
+      "baozang-55beach",
+      "china-gourmet"
     ]
   },
   {
@@ -2190,6 +2294,187 @@
       "chengdu-taste",
       "rong-chic",
       "mala-noodle"
+    ]
+  },
+  {
+    "id": "peking-duck",
+    "name_en": "Peking Duck",
+    "name_zh": "北京烤鸭",
+    "description_en": "Whole duck roasted until the skin is lacquered and crispy, served with thin pancakes, scallions, and hoisin sauce.",
+    "description_zh": "整只鸭子烤至皮脆肉嫩，配薄饼、葱丝和甜面酱一起食用。",
+    "cuisine_tag": "北京菜",
+    "flavor_tags": [
+      "savory",
+      "rich",
+      "aromatic",
+      "crispy"
+    ],
+    "image_url": "/images/dishes/peking-duck.webp",
+    "available_at": [
+      "feng-shui-burlington"
+    ]
+  },
+  {
+    "id": "chinese-fried-chicken",
+    "name_en": "Chinese Fried Chicken",
+    "name_zh": "中式炸鸡",
+    "description_en": "Crispy deep-fried chicken pieces seasoned with five-spice, garlic, and chili — crunchy outside, juicy inside.",
+    "description_zh": "鸡块经五香粉、蒜和辣椒调味后炸至金黄酥脆，外酥里嫩。",
+    "cuisine_tag": "小吃",
+    "flavor_tags": [
+      "crispy",
+      "savory",
+      "spicy",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/chinese-fried-chicken.webp",
+    "available_at": [
+      "moon-flower-house"
+    ]
+  },
+  {
+    "id": "taiwanese-egg-crepe",
+    "name_en": "Taiwanese Egg Crepe",
+    "name_zh": "蛋饼",
+    "description_en": "A thin, chewy crepe wrapped around egg, often with corn, cheese, or pork floss fillings — classic Taiwanese breakfast.",
+    "description_zh": "薄脆面皮裹上鸡蛋，可加玉米、芝士或肉松，是台湾经典早餐。",
+    "cuisine_tag": "台湾菜",
+    "flavor_tags": [
+      "savory",
+      "mild",
+      "comforting"
+    ],
+    "image_url": "/images/dishes/taiwanese-egg-crepe.webp",
+    "available_at": [
+      "chung-shin-yuan"
+    ]
+  },
+  {
+    "id": "soy-milk-you-tiao",
+    "name_en": "Soy Milk & You Tiao",
+    "name_zh": "豆浆油条",
+    "description_en": "Warm fresh soy milk paired with golden fried dough sticks — the quintessential Chinese breakfast combo.",
+    "description_zh": "温热的现磨豆浆搭配金黄酥脆的油条，是最经典的中式早餐搭配。",
+    "cuisine_tag": "台湾菜",
+    "flavor_tags": [
+      "mild",
+      "comforting",
+      "crispy"
+    ],
+    "image_url": "/images/dishes/soy-milk-you-tiao.webp",
+    "available_at": [
+      "chung-shin-yuan"
+    ]
+  },
+  {
+    "id": "yunnan-rice-noodle",
+    "name_en": "Yunnan Rice Noodle Soup",
+    "name_zh": "云南米线",
+    "description_en": "Silky rice noodles in a rich, slow-simmered chicken or pork broth with pickled vegetables and fresh herbs.",
+    "description_zh": "滑嫩米线浸在浓郁的鸡汤或猪骨汤中，配酸菜和香草，鲜美可口。",
+    "cuisine_tag": "云南菜",
+    "flavor_tags": [
+      "savory",
+      "mild",
+      "comforting",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/yunnan-rice-noodle.webp",
+    "available_at": [
+      "jibei-chuan",
+      "wens-yunnan"
+    ]
+  },
+  {
+    "id": "char-siu-rice",
+    "name_en": "BBQ Pork Rice",
+    "name_zh": "叉烧饭",
+    "description_en": "Sliced honey-glazed char siu pork over steamed rice, drizzled with sweet soy sauce — a Hong Kong lunch staple.",
+    "description_zh": "蜜汁叉烧切片铺在白饭上，淋上甜酱油，是港式经典午餐。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "sweet",
+      "savory",
+      "rich"
+    ],
+    "image_url": "/images/dishes/char-siu-rice.webp",
+    "available_at": [
+      "wings-kitchen",
+      "big-fun-cafe",
+      "susu-gourmet"
+    ]
+  },
+  {
+    "id": "hk-milk-tea",
+    "name_en": "Hong Kong Milk Tea",
+    "name_zh": "港式奶茶",
+    "description_en": "Strong black tea pulled through a silk stocking filter, mixed with evaporated milk — smooth, bold, and iconic.",
+    "description_zh": "浓红茶经丝袜过滤后加入淡奶，口感顺滑醇厚，是港式经典。",
+    "cuisine_tag": "港式",
+    "flavor_tags": [
+      "rich",
+      "sweet",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/hk-milk-tea.webp",
+    "available_at": [
+      "big-fun-cafe"
+    ]
+  },
+  {
+    "id": "spicy-diced-chicken",
+    "name_en": "Spicy Diced Chicken",
+    "name_zh": "辣子鸡",
+    "description_en": "Bite-sized chicken pieces wok-fried with a mountain of dried red chilies, Sichuan peppercorns, and peanuts.",
+    "description_zh": "鸡丁与大量干辣椒、花椒和花生一起爆炒，麻辣焦香。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "crispy",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/spicy-diced-chicken.webp",
+    "available_at": [
+      "noahs-kitchen",
+      "yi-ma-yi-la",
+      "friendship-bbq"
+    ]
+  },
+  {
+    "id": "grilled-fish-mala",
+    "name_en": "Mala Grilled Fish",
+    "name_zh": "麻辣烤鱼",
+    "description_en": "Whole fish grilled then simmered in a bubbling mala broth with tofu, vegetables, and bean sprouts.",
+    "description_zh": "整条鱼烤至焦香后浸入麻辣汤底，配豆腐、蔬菜和豆芽，麻辣鲜美。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "savory",
+      "rich"
+    ],
+    "image_url": "/images/dishes/grilled-fish-mala.webp",
+    "available_at": [
+      "yi-ma-yi-la",
+      "friendship-bbq"
+    ]
+  },
+  {
+    "id": "baked-pork-chop-rice",
+    "name_en": "Baked Pork Chop Rice",
+    "name_zh": "焗猪排饭",
+    "description_en": "Fried pork chop over fried rice, baked with tomato sauce and melted cheese — a Hong Kong cha chaan teng classic.",
+    "description_zh": "炸猪排铺在炒饭上，浇番茄酱和芝士焗至金黄，是茶餐厅经典。",
+    "cuisine_tag": "港式",
+    "flavor_tags": [
+      "savory",
+      "rich",
+      "cheesy"
+    ],
+    "image_url": "/images/dishes/baked-pork-chop-rice.webp",
+    "available_at": [
+      "big-fun-cafe"
     ]
   }
 ]

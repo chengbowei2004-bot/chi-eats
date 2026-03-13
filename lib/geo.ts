@@ -1,5 +1,14 @@
-// Providence city center — fallback when GPS is unavailable
-export const PROVIDENCE_CENTER = { lat: 41.824, lng: -71.4128 };
+// City center coordinates — fallback when GPS is unavailable
+export const CITY_CENTERS: Record<string, { lat: number; lng: number }> = {
+  providence: { lat: 41.824, lng: -71.4128 },
+  boston: { lat: 42.3555, lng: -71.0565 },
+};
+
+export const PROVIDENCE_CENTER = CITY_CENTERS.providence;
+
+export function getCityCenter(city: string) {
+  return CITY_CENTERS[city] ?? CITY_CENTERS.providence;
+}
 
 /**
  * Haversine formula — returns distance in miles between two lat/lng points.

@@ -12,6 +12,7 @@ import { DishThumbnailRow, DishChip } from "@/components/DishThumbnail";
 import { SignInModal } from "@/components/SignInModal";
 import { useLanguage } from "@/lib/useLanguage";
 import { useAuth } from "@/lib/useAuth";
+import { useCity } from "@/lib/useCity";
 
 type Sort = "nearest" | "best_reviewed";
 
@@ -37,6 +38,7 @@ function SearchResults() {
   const router = useRouter();
   const { t } = useLanguage();
   const { user } = useAuth();
+  const { city } = useCity();
   const query = searchParams.get("q") ?? "";
 
   const [restaurants, setRestaurants] = useState<RestaurantResult[]>([]);
@@ -84,6 +86,7 @@ function SearchResults() {
       body: JSON.stringify({
         query,
         sort,
+        city,
         ...(userLat !== null && { lat: userLat }),
         ...(userLng !== null && { lng: userLng }),
       }),
@@ -102,7 +105,7 @@ function SearchResults() {
         setSearched(true);
       })
       .finally(() => setLoading(false));
-  }, [query, sort, userLat, userLng]);
+  }, [query, sort, city, userLat, userLng]);
 
   return (
     <>

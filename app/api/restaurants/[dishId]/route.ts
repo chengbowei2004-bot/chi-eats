@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getDishById, getRestaurantsForDish, getSimilarDishes } from "@/lib/dishes";
-import { distanceMiles, generateBothMapsUrls, PROVIDENCE_CENTER } from "@/lib/geo";
+import { distanceMiles, generateBothMapsUrls, getCityCenter } from "@/lib/geo";
 
 type RestaurantWithDistance = {
   id: string;
@@ -30,10 +30,11 @@ export async function GET(
     const userLat = parseFloat(searchParams.get("lat") ?? "");
     const userLng = parseFloat(searchParams.get("lng") ?? "");
     const sort = searchParams.get("sort") ?? "nearest"; // "nearest" | "best_reviewed"
+    const city = searchParams.get("city") ?? "providence";
 
-    // Use GPS if valid, otherwise fall back to Providence center
-    const lat = isFinite(userLat) ? userLat : PROVIDENCE_CENTER.lat;
-    const lng = isFinite(userLng) ? userLng : PROVIDENCE_CENTER.lng;
+    const center = getCityCenter(city);
+    const lat = isFinite(userLat) ? userLat : center.lat;
+    const lng = isFinite(userLng) ? userLng : center.lng;
 
     const dish = getDishById(dishId);
     if (!dish) {
@@ -43,7 +44,7 @@ export async function GET(
       );
     }
 
-    const restaurants = getRestaurantsForDish(dishId);
+    const restaurants = getRestaurantsForDish(dishId, city);
 
     const withDistance: RestaurantWithDistance[] = restaurants.map((r) => {
       const miles = distanceMiles(lat, lng, r.lat, r.lng);
