@@ -8,7 +8,7 @@ import { RestaurantCard } from "@/components/RestaurantCard";
 import { SortToggle } from "@/components/SortToggle";
 import { SkeletonRestaurantCard } from "@/components/SkeletonCard";
 import { SearchBar } from "@/components/SearchBar";
-import { DishThumbnailRow } from "@/components/DishThumbnail";
+import { DishThumbnailRow, DishChip } from "@/components/DishThumbnail";
 import { SignInModal } from "@/components/SignInModal";
 import { useLanguage } from "@/lib/useLanguage";
 import { useAuth } from "@/lib/useAuth";
@@ -175,9 +175,9 @@ function SearchResults() {
             </p>
 
             {alternatives.length > 0 && (
-              <div className="flex justify-center gap-3 mt-4">
+              <div className="flex flex-wrap justify-center gap-2 mt-4">
                 {alternatives.map((dish) => (
-                  <DishThumbnailRow key={dish.id} dishes={[dish.name_zh]} />
+                  <DishChip key={dish.id} name={dish.name_zh} />
                 ))}
               </div>
             )}
