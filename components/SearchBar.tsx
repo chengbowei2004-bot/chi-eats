@@ -26,12 +26,14 @@ export function SearchBar({ initialValue = "", showButton = false }: { initialVa
         className="w-full h-12 px-5 rounded-full bg-[#F0F0F0] text-[#1A1A1A] placeholder-[#6B6B6B] text-base outline-none focus:bg-white focus:ring-2 focus:ring-[#1A1A1A] transition-all"
       />
       {showButton && (
-        <button
-          type="submit"
-          className="w-full h-12 mt-3 rounded-full bg-[#1A1A1A] text-white text-base font-medium hover:bg-[#333333] transition-colors"
-        >
-          {t("找餐厅", "FIND RESTAURANTS")}
-        </button>
+        <div className="flex justify-center mt-3">
+          <button
+            type="submit"
+            className="py-2.5 px-8 rounded-full bg-[#1A1A1A] text-white text-sm font-medium hover:bg-[#333333] transition-colors"
+          >
+            {t("找餐厅", "FIND RESTAURANTS")}
+          </button>
+        </div>
       )}
     </form>
   );
