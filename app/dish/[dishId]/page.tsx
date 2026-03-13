@@ -43,8 +43,8 @@ type AlternativeDish = {
 function DishHeaderImage({ src, alt, cuisineTag }: { src: string; alt: string; cuisineTag?: string }) {
   const [errored, setErrored] = useState(false);
   if (errored) {
-    return <div className="w-full aspect-video bg-[#E8EDEC] flex items-center justify-center">
-      <span className="text-[#6B6B6B] text-sm">{cuisineTag}</span>
+    return <div className="w-full aspect-video bg-gray-100 flex items-center justify-center">
+      <span className="text-gray-400 text-sm">{cuisineTag}</span>
     </div>;
   }
   // eslint-disable-next-line @next/next/no-img-element
@@ -128,17 +128,17 @@ export default function RestaurantResultsPage() {
             className="absolute top-4 left-4 w-9 h-9 bg-white/90 backdrop-blur-sm flex items-center justify-center rounded-full shadow-sm"
             aria-label="Go back"
           >
-            <ArrowLeft size={18} strokeWidth={1.5} className="text-[#1A1A1A]" />
+            <ArrowLeft size={18} strokeWidth={1.5} className="text-gray-900" />
           </button>
         </div>
 
         <div className="px-5 pt-5">
           {dish && (
             <div className="mb-6">
-              <h1 className="text-2xl font-bold text-[#1A1A1A] leading-tight">
+              <h1 className="text-2xl font-light text-gray-900 tracking-tight leading-tight">
                 {t(dish.name_zh, dish.name_en)}
               </h1>
-              <p className="text-[#6B6B6B] text-sm mt-1">
+              <p className="text-gray-400 text-sm mt-1">
                 {t(dish.name_en, dish.name_zh)}
               </p>
             </div>
@@ -173,17 +173,17 @@ export default function RestaurantResultsPage() {
           {!loading && restaurants.length === 0 && dish && (
             <div>
               <div className="text-center py-8">
-                <p className="text-[#1A1A1A] text-base font-medium">
+                <p className="text-gray-900 text-base font-light">
                   {t("附近暂时没有这道菜", "No restaurants nearby serve this dish")}
                 </p>
-                <p className="text-[#6B6B6B] text-sm mt-2">
+                <p className="text-gray-400 text-sm mt-2">
                   {t("试试类似口味的菜？", "Try something with a similar taste?")}
                 </p>
               </div>
 
               {alternatives.length > 0 && (
                 <>
-                  <p className="text-[#6B6B6B] text-xs font-semibold tracking-widest uppercase mb-4">
+                  <p className="text-gray-400 text-xs tracking-widest uppercase mb-4">
                     {t("口味相似", "SIMILAR DISHES")}
                   </p>
                   <div className="flex flex-wrap gap-2">
@@ -191,7 +191,7 @@ export default function RestaurantResultsPage() {
                       <button
                         key={alt.id}
                         onClick={() => router.push(`/dish/${alt.id}`)}
-                        className="h-9 px-5 rounded-full border border-[#E5E5E5] bg-white text-[#1A1A1A] text-sm hover:bg-[#F0F0F0] transition-colors"
+                        className="h-9 px-5 rounded-full border border-gray-200 bg-white text-gray-900 text-sm hover:bg-gray-50 transition-colors"
                       >
                         {t(alt.name_zh, alt.name_en)}
                       </button>

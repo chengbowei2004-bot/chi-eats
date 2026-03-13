@@ -35,7 +35,6 @@ export default function FavoritesPage() {
     if (!user) return;
     setLoading(true);
 
-    // Get GPS for distance calculation
     function fetchWithCoords(lat?: number, lng?: number) {
       const params = new URLSearchParams();
       if (lat !== undefined) params.set("lat", String(lat));
@@ -61,20 +60,20 @@ export default function FavoritesPage() {
   return (
     <>
       <main className="px-5 pt-12 pb-28">
-        <h1 className="text-2xl font-bold text-[#1A1A1A] mb-8">
+        <h1 className="text-2xl font-light text-gray-900 tracking-tight mb-8">
           {t("我的收藏", "FAVORITES")}
         </h1>
 
         {/* Not signed in */}
         {!authLoading && !user && (
           <div className="flex flex-col items-center justify-center text-center py-20 space-y-4">
-            <div className="w-16 h-16 rounded-full bg-[#F0F0F0] flex items-center justify-center">
-              <Heart size={28} strokeWidth={1.5} className="text-[#6B6B6B]" />
+            <div className="w-16 h-16 rounded-full bg-gray-100 flex items-center justify-center">
+              <Heart size={28} strokeWidth={1.5} className="text-gray-400" />
             </div>
-            <p className="text-[#1A1A1A] text-base font-medium">
+            <p className="text-gray-900 text-base font-light">
               {t("登录后保存喜欢的餐厅", "Sign in to save your favorites")}
             </p>
-            <p className="text-[#6B6B6B] text-sm max-w-[220px]">
+            <p className="text-gray-400 text-sm max-w-[220px]">
               {t(
                 "收藏喜欢的餐厅，随时导航过去",
                 "Save restaurants you love and navigate to them anytime"
@@ -82,7 +81,7 @@ export default function FavoritesPage() {
             </p>
             <button
               onClick={() => setShowSignIn(true)}
-              className="mt-2 h-12 px-8 bg-[#1A1A1A] text-white text-xs font-semibold tracking-widest uppercase rounded-full hover:bg-[#333333] transition-colors"
+              className="mt-2 py-2 px-6 bg-gray-900 text-white text-sm tracking-wider uppercase rounded-full hover:bg-gray-800 transition-colors"
             >
               {t("登录", "SIGN IN")}
             </button>
@@ -101,13 +100,13 @@ export default function FavoritesPage() {
         {/* Empty state */}
         {user && !loading && favorites.length === 0 && (
           <div className="flex flex-col items-center justify-center text-center py-20 space-y-3">
-            <div className="w-16 h-16 rounded-full bg-[#F0F0F0] flex items-center justify-center">
-              <Heart size={28} strokeWidth={1.5} className="text-[#6B6B6B]" />
+            <div className="w-16 h-16 rounded-full bg-gray-100 flex items-center justify-center">
+              <Heart size={28} strokeWidth={1.5} className="text-gray-400" />
             </div>
-            <p className="text-[#1A1A1A] text-base font-medium">
+            <p className="text-gray-900 text-base font-light">
               {t("还没有收藏", "No favorites yet")}
             </p>
-            <p className="text-[#6B6B6B] text-sm max-w-[220px]">
+            <p className="text-gray-400 text-sm max-w-[220px]">
               {t(
                 "在搜索结果中点击 ♡ 收藏喜欢的餐厅",
                 "Tap ♡ on any restaurant to save it here"

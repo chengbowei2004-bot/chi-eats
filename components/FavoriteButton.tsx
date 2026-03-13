@@ -54,7 +54,7 @@ export function FavoriteButton({ restaurantId, initialFavorited = false, onSignI
       <Heart
         size={20}
         strokeWidth={1.5}
-        className={favorited ? "fill-[#1A1A1A] text-[#1A1A1A]" : "text-[#6B6B6B]"}
+        className={favorited ? "fill-gray-900 text-gray-900" : "text-gray-400"}
       />
     </button>
   );

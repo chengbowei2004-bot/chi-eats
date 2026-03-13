@@ -8,7 +8,7 @@ export function DishChip({ name }: { name: string }) {
   return (
     <button
       onClick={() => router.push(`/search?q=${encodeURIComponent(name)}`)}
-      className="shrink-0 h-8 px-4 rounded-full border border-[#E5E5E5] bg-white text-[#1A1A1A] text-xs hover:bg-[#F0F0F0] transition-colors"
+      className="shrink-0 h-8 px-4 rounded-full border border-gray-200 bg-white text-gray-900 text-xs hover:bg-gray-50 transition-colors"
     >
       {name}
     </button>

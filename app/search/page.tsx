@@ -111,10 +111,10 @@ function SearchResults() {
         <div className="flex items-center gap-3 mb-6">
           <button
             onClick={() => router.push("/")}
-            className="shrink-0 w-9 h-9 flex items-center justify-center rounded-full hover:bg-[#F0F0F0] transition-colors"
+            className="shrink-0 w-9 h-9 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors"
             aria-label="Go back"
           >
-            <ArrowLeft size={20} strokeWidth={1.5} className="text-[#1A1A1A]" />
+            <ArrowLeft size={20} strokeWidth={1.5} className="text-gray-900" />
           </button>
           <div className="flex-1">
             <SearchBar initialValue={query} />
@@ -133,7 +133,7 @@ function SearchResults() {
         {/* Results: restaurants found */}
         {!loading && searched && restaurants.length > 0 && (
           <>
-            <p className="text-[#6B6B6B] text-xs font-semibold tracking-widest uppercase mb-4">
+            <p className="text-gray-400 text-xs tracking-widest uppercase mb-4">
               {matchedDishes.length === 1
                 ? t(
                     `为你找到「${matchedDishes[0].name_zh}」的餐厅`,
@@ -167,7 +167,7 @@ function SearchResults() {
         {/* No results: show alternatives */}
         {!loading && searched && restaurants.length === 0 && query && (
           <div className="text-center py-16 space-y-4">
-            <p className="text-[#1A1A1A] text-base font-medium">
+            <p className="text-gray-900 text-base font-light">
               {t(
                 "没有完美匹配的菜品，但这些类似的值得一试：",
                 "No exact matches, but these are worth a try:"

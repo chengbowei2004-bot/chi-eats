@@ -2,22 +2,24 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { useLanguage } from "@/lib/useLanguage";
 
 const CUISINE_OPTIONS = [
-  { id: "川菜", en: "Sichuan", emoji: "🌶️" },
-  { id: "粤菜", en: "Cantonese", emoji: "🥡" },
-  { id: "江浙菜", en: "Jiangzhe", emoji: "🐟" },
-  { id: "火锅", en: "Hotpot", emoji: "🍲" },
-  { id: "东北菜", en: "Dongbei", emoji: "🥟" },
-  { id: "湘菜", en: "Hunan", emoji: "🫑" },
-  { id: "烧烤", en: "BBQ", emoji: "🔥" },
-  { id: "新疆菜", en: "Northwestern", emoji: "🍖" },
-  { id: "面食", en: "Noodles", emoji: "🍜" },
-  { id: "饺子", en: "Dumplings", emoji: "🥟" },
+  { id: "川菜", en: "Sichuan" },
+  { id: "粤菜", en: "Cantonese" },
+  { id: "江浙菜", en: "Jiangzhe" },
+  { id: "火锅", en: "Hotpot" },
+  { id: "东北菜", en: "Dongbei" },
+  { id: "湘菜", en: "Hunan" },
+  { id: "烧烤", en: "BBQ" },
+  { id: "新疆菜", en: "Northwestern" },
+  { id: "面食", en: "Noodles" },
+  { id: "饺子", en: "Dumplings" },
 ];
 
 export default function OnboardingPage() {
   const router = useRouter();
+  const { t } = useLanguage();
   const [selected, setSelected] = useState<string[]>([]);
 
   function toggle(id: string) {
@@ -38,14 +40,14 @@ export default function OnboardingPage() {
     <main className="min-h-screen flex flex-col px-5 pt-16 pb-12">
       {/* Header */}
       <div className="mb-10">
-        <p className="text-[#1A1A1A] text-xs font-semibold tracking-widest uppercase mb-3">
+        <p className="text-gray-400 text-xs tracking-widest uppercase mb-3">
           CHIEATS
         </p>
-        <h1 className="text-3xl font-bold text-[#1A1A1A] leading-tight">
-          你喜欢吃<br />什么菜系？
+        <h1 className="text-3xl font-light text-gray-900 tracking-tight leading-tight">
+          {t("你喜欢吃", "What cuisines")}<br />{t("什么菜系？", "do you like?")}
         </h1>
-        <p className="text-[#6B6B6B] text-base mt-3">
-          What cuisines do you like?
+        <p className="text-gray-400 text-sm mt-3">
+          {t("选择你喜欢的菜系", "Pick your favorite cuisines")}
         </p>
       </div>
 
@@ -58,22 +60,22 @@ export default function OnboardingPage() {
               <button
                 key={id}
                 onClick={() => toggle(id)}
-                className={`h-11 px-5 rounded-full text-sm border transition-all active:scale-95 ${
+                className={`h-10 px-5 rounded-full text-sm border transition-all active:scale-95 ${
                   active
-                    ? "bg-[#1A1A1A] text-white border-[#1A1A1A]"
-                    : "bg-white text-[#1A1A1A] border-[#E5E5E5]"
+                    ? "bg-gray-900 text-white border-gray-900"
+                    : "bg-white text-gray-900 border-gray-200"
                 }`}
               >
                 <span>{id}</span>
-                <span className="text-[0.7em] ml-1.5 opacity-70">{en}</span>
+                <span className="text-[0.7em] ml-1.5 opacity-50">{en}</span>
               </button>
             );
           })}
         </div>
 
         {selected.length > 0 && (
-          <p className="text-[#6B6B6B] text-xs mt-5">
-            {selected.length} {selected.length === 1 ? "菜系" : "菜系"} 已选择
+          <p className="text-gray-400 text-xs mt-5">
+            {selected.length} {t("菜系已选择", "selected")}
           </p>
         )}
       </div>
@@ -82,17 +84,17 @@ export default function OnboardingPage() {
       <div className="space-y-3 mt-10">
         <button
           onClick={() => finish(false)}
-          className="w-full h-13 py-3.5 bg-[#1A1A1A] text-white text-sm font-semibold tracking-widest uppercase rounded-full hover:bg-[#333333] active:bg-[#000000] transition-colors"
+          className="w-full py-2.5 bg-gray-900 text-white text-sm tracking-wider uppercase rounded-full hover:bg-gray-800 transition-colors"
         >
           {selected.length > 0
-            ? `继续 CONTINUE (${selected.length})`
-            : "继续 CONTINUE"}
+            ? `${t("继续", "CONTINUE")} (${selected.length})`
+            : t("继续", "CONTINUE")}
         </button>
         <button
           onClick={() => finish(true)}
-          className="w-full py-3 text-[#6B6B6B] text-sm"
+          className="w-full py-3 text-gray-400 text-sm hover:text-gray-900 transition-colors"
         >
-          跳过 Skip
+          {t("跳过", "Skip")}
         </button>
       </div>
     </main>

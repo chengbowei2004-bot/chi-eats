@@ -24,32 +24,9 @@ const CUISINE_OPTIONS = [
 
 function SectionLabel({ children }: { children: React.ReactNode }) {
   return (
-    <p className="text-[#6B6B6B] text-xs font-semibold tracking-widest uppercase mb-3 mt-8 first:mt-0">
+    <p className="text-gray-400 text-xs tracking-widest uppercase mb-3 mt-8 first:mt-0">
       {children}
     </p>
-  );
-}
-
-function SettingsRow({
-  label,
-  value,
-  onClick,
-}: {
-  label: string;
-  value?: string;
-  onClick?: () => void;
-}) {
-  return (
-    <button
-      onClick={onClick}
-      className="flex items-center justify-between w-full py-4 border-b border-[#E5E5E5] last:border-0"
-    >
-      <span className="text-[#1A1A1A] text-sm">{label}</span>
-      <div className="flex items-center gap-2">
-        {value && <span className="text-[#6B6B6B] text-sm">{value}</span>}
-        <ChevronRight size={16} strokeWidth={1.5} className="text-[#6B6B6B]" />
-      </div>
-    </button>
   );
 }
 
@@ -109,26 +86,26 @@ export default function SettingsPage() {
   return (
     <>
       <main className="px-5 pt-12 pb-28">
-        <h1 className="text-2xl font-bold text-[#1A1A1A] mb-8">
+        <h1 className="text-2xl font-light text-gray-900 tracking-tight mb-8">
           {t("设置", "SETTINGS")}
         </h1>
 
         {/* Account */}
         <SectionLabel>{t("账户", "ACCOUNT")}</SectionLabel>
-        <div className="bg-white rounded-xl border border-[#E5E5E5] divide-y divide-[#E5E5E5] overflow-hidden">
+        <div className="bg-white rounded-xl border border-gray-200 divide-y divide-gray-100 overflow-hidden">
           {authLoading ? (
             <div className="py-4 px-4">
-              <div className="h-4 bg-[#E5E5E5] rounded w-1/2 animate-pulse" />
+              <div className="h-4 bg-gray-100 rounded w-1/2 animate-pulse" />
             </div>
           ) : user ? (
             <>
               <div className="px-4 py-4">
-                <p className="text-[#6B6B6B] text-xs mb-0.5">{t("登录邮箱", "Signed in as")}</p>
-                <p className="text-[#1A1A1A] text-sm font-medium truncate">{user.email}</p>
+                <p className="text-gray-400 text-xs mb-0.5">{t("登录邮箱", "Signed in as")}</p>
+                <p className="text-gray-900 text-sm truncate">{user.email}</p>
               </div>
               <button
                 onClick={handleSignOut}
-                className="flex items-center gap-2 w-full px-4 py-4 text-[#D32F2F] text-sm"
+                className="flex items-center gap-2 w-full px-4 py-4 text-red-500 text-sm"
               >
                 <LogOut size={16} strokeWidth={1.5} />
                 {t("退出登录", "Sign out")}
@@ -139,24 +116,24 @@ export default function SettingsPage() {
               onClick={() => setShowSignIn(true)}
               className="flex items-center justify-between w-full px-4 py-4"
             >
-              <span className="text-[#1A1A1A] text-sm">{t("登录 / 注册", "Sign in")}</span>
-              <ChevronRight size={16} strokeWidth={1.5} className="text-[#6B6B6B]" />
+              <span className="text-gray-900 text-sm">{t("登录 / 注册", "Sign in")}</span>
+              <ChevronRight size={16} strokeWidth={1.5} className="text-gray-400" />
             </button>
           )}
         </div>
 
         {/* Language */}
         <SectionLabel>{t("语言", "LANGUAGE")}</SectionLabel>
-        <div className="bg-white rounded-xl border border-[#E5E5E5] overflow-hidden">
+        <div className="bg-white rounded-xl border border-gray-200 overflow-hidden">
           <div className="px-4 py-4 flex items-center justify-between">
-            <span className="text-[#1A1A1A] text-sm">{t("显示语言", "Display language")}</span>
-            <div className="flex bg-[#F0F0F0] rounded-full p-1">
+            <span className="text-gray-900 text-sm">{t("显示语言", "Display language")}</span>
+            <div className="flex bg-gray-100 rounded-full p-1">
               {(["zh", "en"] as Lang[]).map((l) => (
                 <button
                   key={l}
                   onClick={() => setLang(l)}
-                  className={`px-3 py-1 rounded-full text-xs font-semibold transition-all ${
-                    lang === l ? "bg-[#1A1A1A] text-white" : "text-[#6B6B6B]"
+                  className={`px-3 py-1 rounded-full text-xs transition-all ${
+                    lang === l ? "bg-gray-900 text-white" : "text-gray-400"
                   }`}
                 >
                   {l === "zh" ? "中文" : "EN"}
@@ -168,12 +145,12 @@ export default function SettingsPage() {
 
         {/* Location */}
         <SectionLabel>{t("位置", "LOCATION")}</SectionLabel>
-        <div className="bg-white rounded-xl border border-[#E5E5E5] overflow-hidden">
+        <div className="bg-white rounded-xl border border-gray-200 overflow-hidden">
           <div className="px-4 py-4 flex items-center gap-3">
-            <MapPin size={16} strokeWidth={1.5} className="text-[#6B6B6B] shrink-0" />
+            <MapPin size={16} strokeWidth={1.5} className="text-gray-400 shrink-0" />
             <div>
-              <p className="text-[#1A1A1A] text-sm">{t("使用 GPS 定位", "Use GPS location")}</p>
-              <p className="text-[#6B6B6B] text-xs mt-0.5">
+              <p className="text-gray-900 text-sm">{t("使用 GPS 定位", "Use GPS location")}</p>
+              <p className="text-gray-400 text-xs mt-0.5">
                 {t("未授权时默认显示 Providence 市中心", "Defaults to Providence center if denied")}
               </p>
             </div>
@@ -191,8 +168,8 @@ export default function SettingsPage() {
                 onClick={() => toggleCuisine(id)}
                 className={`h-9 px-4 rounded-full text-sm border transition-all ${
                   active
-                    ? "bg-[#1A1A1A] text-white border-[#1A1A1A]"
-                    : "bg-white text-[#1A1A1A] border-[#E5E5E5]"
+                    ? "bg-gray-900 text-white border-gray-900"
+                    : "bg-white text-gray-900 border-gray-200"
                 }`}
               >
                 {t(id, en)}
@@ -205,10 +182,10 @@ export default function SettingsPage() {
           <button
             onClick={savePreferences}
             disabled={savingPrefs}
-            className={`mt-5 w-full h-11 rounded-full text-xs font-semibold tracking-widest uppercase transition-colors ${
+            className={`mt-5 w-full py-2.5 rounded-full text-sm tracking-wider uppercase transition-colors ${
               prefsSaved
-                ? "bg-[#2E7D32] text-white"
-                : "bg-[#1A1A1A] text-white hover:bg-[#333333]"
+                ? "bg-green-700 text-white"
+                : "bg-gray-900 text-white hover:bg-gray-800"
             } disabled:opacity-60`}
           >
             {savingPrefs
