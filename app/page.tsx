@@ -59,7 +59,7 @@ export default function HomePage() {
 
         {/* Search bar */}
         <div className="w-full max-w-sm">
-          <SearchBar />
+          <SearchBar showButton />
         </div>
 
         {/* Suggestion chips */}
