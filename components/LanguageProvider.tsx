@@ -16,7 +16,7 @@ export const LanguageContext = createContext<LanguageContextValue>({
   t: (zh) => zh,
 });
 
-const STORAGE_KEY = "chieats_lang";
+const STORAGE_KEY = "deedao_lang";
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const [lang, setLangState] = useState<Lang>("zh");

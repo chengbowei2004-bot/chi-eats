@@ -1,4 +1,4 @@
-# IMPLEMENTATION_PLAN.md — ChiEats
+# IMPLEMENTATION_PLAN.md — DeeDao
 
 ## Timeline
 
@@ -24,7 +24,7 @@ These must be done by the user manually before any code is written.
 
 ### Supabase Project Setup
 
-1. Create a new Supabase project (name: `chiEats`, region: US East).
+1. Create a new Supabase project (name: `deedao`, region: US East).
 2. Go to Authentication → Providers → enable **Email** (magic link) and **Google**.
 3. For Google OAuth: create credentials in Google Cloud Console (free), paste Client ID + Secret into Supabase.
 4. Copy and save these values:
@@ -42,7 +42,7 @@ These must be done by the user manually before any code is written.
 
 1. Install Node.js (LTS version) if not already installed.
 2. Install Claude Code CLI.
-3. Create project folder: `mkdir chiEats && cd chiEats`
+3. Create project folder: `mkdir deedao && cd deedao`
 4. Initialize Git: `git init`
 5. Create `/docs` folder, place all 6 doc files inside.
 
@@ -258,7 +258,7 @@ These must be done by the user manually before any code is written.
   - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
   - `SUPABASE_SERVICE_ROLE_KEY`
   - `ANTHROPIC_API_KEY`
-- Deploy. Verify at `chiEats.vercel.app` (or chosen subdomain).
+- Deploy. Verify at `deedao.vercel.app` (or chosen subdomain).
 
 ### Step 5.2 — Production Testing
 
@@ -301,7 +301,7 @@ These must be done by the user manually before any code is written.
 
 The app is done when:
 
-- [ ] User can open `chiEats.vercel.app` on their phone.
+- [ ] User can open `deedao.vercel.app` on their phone.
 - [ ] First-time user sees onboarding cuisine picker.
 - [ ] Home screen shows search bar + 3 dish recommendations.
 - [ ] Search works with Chinese and English input (AI-powered).

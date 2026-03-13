@@ -1,4 +1,4 @@
-# FRONTEND_GUIDELINES.md — ChiEats
+# FRONTEND_GUIDELINES.md — DeeDao
 
 ## Design Philosophy
 
@@ -10,8 +10,8 @@ Minimal, clean, elevated. Inspired by SSENSE's editorial luxury aesthetic — ge
 
 | Element | Value |
 |---|---|
-| App name | ChiEats |
-| Tagline (optional) | 今天吃什么 / What to eat today |
+| App name | DeeDao |
+| Tagline (optional) | 发现你身边的地道中国味 / Find authentic flavors near you |
 | Voice | Concise, confident, slightly playful in Chinese |
 
 ---

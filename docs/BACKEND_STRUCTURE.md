@@ -1,4 +1,4 @@
-# BACKEND_STRUCTURE.md — ChiEats
+# BACKEND_STRUCTURE.md — DeeDao
 
 ## Architecture
 

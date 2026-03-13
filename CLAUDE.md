@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-ChiEats is a dish-first Chinese food discovery web app for Chinese international students in Providence, RI. Users search for what they want to eat (not which restaurant) and get nearby options. Target launch: March 14, 2026.
+DeeDao is a dish-first Chinese food discovery web app for Chinese international students in Providence, RI. Users search for what they want to eat (not which restaurant) and get nearby options. Target launch: March 14, 2026.
 
 ## Development Commands
 

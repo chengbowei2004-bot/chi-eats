@@ -1,4 +1,4 @@
-# TECH_STACK.md — ChiEats
+# TECH_STACK.md — DeeDao
 
 ## Guiding Principles
 
@@ -202,7 +202,7 @@ Detect platform (iOS vs other) and open the appropriate link.
 
 | Choice | Reason |
 |---|---|
-| **Vercel (Free Tier)** | Native Next.js hosting. Free tier: 100GB bandwidth, serverless functions, automatic HTTPS. Domain: `chiEats.vercel.app`. |
+| **Vercel (Free Tier)** | Native Next.js hosting. Free tier: 100GB bandwidth, serverless functions, automatic HTTPS. Domain: `deedao.vercel.app`. |
 
 - Push to GitHub → auto-deploys to Vercel.
 - No Docker, no server management.
@@ -228,7 +228,7 @@ Detect platform (iOS vs other) and open the appropriate link.
 |---|---|---|
 | Vercel hosting | $0 | Free tier |
 | Supabase | $0 | Free tier |
-| Domain | $0 | Using `chiEats.vercel.app` |
+| Domain | $0 | Using `deedao.vercel.app` |
 | Claude API | ~$80 | Semantic search + recommendations |
 | Dish image generation | ~$10–20 | One-time generation for ~100+ dishes |
 | **Contingency** | ~$50–60 | Buffer for overages or extra tools |
@@ -272,4 +272,4 @@ Apple Sign-In requires a $99/year Apple Developer Account. Given your $150 budge
 | Maps | Direct Google/Apple Maps links |
 | i18n | next-intl |
 | Hosting | Vercel (free tier) |
-| Domain | chiEats.vercel.app |
+| Domain | deedao.vercel.app |

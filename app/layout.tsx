@@ -4,8 +4,8 @@ import { AuthProvider } from "@/components/AuthProvider";
 import { LanguageProvider } from "@/components/LanguageProvider";
 
 export const metadata: Metadata = {
-  title: "ChiEats — 今天吃什么",
-  description: "Dish-first Chinese food discovery for Providence, RI",
+  title: "DeeDao — 发现你身边的地道中国味",
+  description: "Find authentic Chinese flavors near you",
   manifest: "/manifest.json",
 };
 

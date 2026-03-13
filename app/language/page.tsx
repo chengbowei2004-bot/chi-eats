@@ -10,14 +10,14 @@ export default function LanguagePage() {
 
   function pick(lang: Lang) {
     setLang(lang);
-    localStorage.setItem("chieats_lang_chosen", "1");
+    localStorage.setItem("deedao_lang_chosen", "1");
     router.replace("/onboarding");
   }
 
   return (
     <main className="min-h-screen flex flex-col items-center justify-center px-5">
       <h1 className="text-4xl font-light text-[#1A1A1A] tracking-tight mb-20">
-        ChiEats
+        DeeDao
       </h1>
 
       <div className="flex items-center gap-6">

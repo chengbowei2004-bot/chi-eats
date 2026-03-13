@@ -48,7 +48,7 @@ export default function SettingsPage() {
         .then((data) => setSelectedCuisines(data.preferences ?? []))
         .catch(() => {});
     } else {
-      const local = localStorage.getItem("chieats_preferences");
+      const local = localStorage.getItem("deedao_preferences");
       if (local) setSelectedCuisines(local.split(",").filter(Boolean));
     }
   }, [user]);
@@ -70,7 +70,7 @@ export default function SettingsPage() {
           body: JSON.stringify({ preferences: selectedCuisines }),
         });
       } else {
-        localStorage.setItem("chieats_preferences", selectedCuisines.join(","));
+        localStorage.setItem("deedao_preferences", selectedCuisines.join(","));
       }
       setPrefsSaved(true);
     } finally {

@@ -29,9 +29,9 @@ export default function OnboardingPage() {
   }
 
   function finish(skip = false) {
-    localStorage.setItem("chieats_onboarded", "1");
+    localStorage.setItem("deedao_onboarded", "1");
     if (!skip && selected.length > 0) {
-      localStorage.setItem("chieats_preferences", selected.join(","));
+      localStorage.setItem("deedao_preferences", selected.join(","));
     }
     router.replace("/");
   }
@@ -41,7 +41,7 @@ export default function OnboardingPage() {
       {/* Header */}
       <div className="mb-10">
         <p className="text-gray-400 text-xs tracking-widest uppercase mb-3">
-          CHIEATS
+          DEEDAO
         </p>
         <h1 className="text-3xl font-light text-gray-900 tracking-tight leading-tight">
           {t("你喜欢吃", "What cuisines")}<br />{t("什么菜系？", "do you like?")}

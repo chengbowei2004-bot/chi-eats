@@ -21,9 +21,9 @@ export default function HomePage() {
 
   // Check if first-time user
   useEffect(() => {
-    const onboarded = localStorage.getItem("chieats_onboarded");
+    const onboarded = localStorage.getItem("deedao_onboarded");
     if (!onboarded) {
-      const langChosen = localStorage.getItem("chieats_lang_chosen");
+      const langChosen = localStorage.getItem("deedao_lang_chosen");
       router.replace(langChosen ? "/onboarding" : "/language");
     }
   }, [router]);
@@ -36,7 +36,7 @@ export default function HomePage() {
         params.set("city", city);
         if (user) params.set("userId", user.id);
         else {
-          const prefs = localStorage.getItem("chieats_preferences");
+          const prefs = localStorage.getItem("deedao_preferences");
           if (prefs) params.set("preferences", prefs);
         }
         const res = await fetch(`/api/dishes/recommend?${params}`);
@@ -63,10 +63,10 @@ export default function HomePage() {
       <main className="flex flex-col items-center min-h-screen px-6 pb-28 pt-[30vh]">
         {/* Logo + tagline */}
         <h1 className="text-6xl font-light text-gray-900 tracking-tight mb-2">
-          ChiEats
+          DeeDao
         </h1>
         <p className="text-sm text-gray-400 mb-6">
-          {t("发现你身边的中国味道", "Discover Chinese flavors near you")}
+          {t("发现你身边的地道中国味", "Find authentic flavors near you")}
         </p>
 
         {/* City picker */}

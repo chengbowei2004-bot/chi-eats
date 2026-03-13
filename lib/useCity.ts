@@ -4,7 +4,7 @@ import { useState, useEffect, useCallback } from "react";
 
 export type City = "providence" | "boston";
 
-const STORAGE_KEY = "chieats_city";
+const STORAGE_KEY = "deedao_city";
 
 const CITY_LABELS: Record<City, { zh: string; en: string }> = {
   providence: { zh: "Providence", en: "Providence" },

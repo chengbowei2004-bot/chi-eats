@@ -1,4 +1,4 @@
-# APP_FLOW.md — ChiEats
+# APP_FLOW.md — DeeDao
 
 ## Screen Map
 

@@ -1,4 +1,4 @@
--- ChiEats Supabase Schema
+-- DeeDao Supabase Schema
 -- Run this in: Supabase Dashboard → SQL Editor → New Query
 
 -- ============================================================

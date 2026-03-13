@@ -58,7 +58,7 @@ export function SignInModal({ onClose }: Props) {
         </button>
 
         <h2 className="text-gray-900 text-xl font-light tracking-tight mt-2">
-          {t("登录 ChiEats", "Sign in to ChiEats")}
+          {t("登录 DeeDao", "Sign in to DeeDao")}
         </h2>
         <p className="text-gray-400 text-sm mt-1">
           {t("保存你喜欢的菜，个性化推荐", "Save favorites and get personalized picks")}

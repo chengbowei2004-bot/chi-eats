@@ -1,8 +1,8 @@
-# PRD.md — ChiEats (Working Title)
+# PRD.md — DeeDao
 
 ## 1. Overview
 
-ChiEats is a dish-first Chinese food discovery app for Chinese internationals living in the US. Unlike existing platforms that organize around restaurants, ChiEats starts from what the user wants to eat and finds the best nearby place to get it.
+DeeDao is a dish-first Chinese food discovery app for Chinese internationals living in the US. Unlike existing platforms that organize around restaurants, DeeDao starts from what the user wants to eat and finds the best nearby place to get it.
 
 ## 2. Problem Statement
 
