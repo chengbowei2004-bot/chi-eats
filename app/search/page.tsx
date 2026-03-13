@@ -8,6 +8,7 @@ import { RestaurantCard } from "@/components/RestaurantCard";
 import { SortToggle } from "@/components/SortToggle";
 import { SkeletonRestaurantCard } from "@/components/SkeletonCard";
 import { SearchBar } from "@/components/SearchBar";
+import { DishThumbnailRow } from "@/components/DishThumbnail";
 import { SignInModal } from "@/components/SignInModal";
 import { useLanguage } from "@/lib/useLanguage";
 import { useAuth } from "@/lib/useAuth";
@@ -151,11 +152,7 @@ function SearchResults() {
             <div className="space-y-4">
               {restaurants.map((r) => (
                 <div key={r.id}>
-                  {r.dishes_served.length > 0 && (
-                    <p className="text-[#6B6B6B] text-xs mb-2">
-                      {r.dishes_served.join("、")}
-                    </p>
-                  )}
+                  <DishThumbnailRow dishes={r.dishes_served} />
                   <RestaurantCard
                     restaurant={r}
                     favorited={favoritedIds.has(r.id)}
@@ -178,19 +175,9 @@ function SearchResults() {
             </p>
 
             {alternatives.length > 0 && (
-              <div className="flex flex-wrap justify-center gap-2 mt-4">
+              <div className="flex justify-center gap-3 mt-4">
                 {alternatives.map((dish) => (
-                  <button
-                    key={dish.id}
-                    onClick={() =>
-                      router.push(
-                        `/search?q=${encodeURIComponent(dish.name_zh)}`
-                      )
-                    }
-                    className="h-9 px-5 rounded-full border border-[#E5E5E5] bg-white text-[#1A1A1A] text-sm hover:bg-[#F0F0F0] transition-colors"
-                  >
-                    {dish.name_zh}
-                  </button>
+                  <DishThumbnailRow key={dish.id} dishes={[dish.name_zh]} />
                 ))}
               </div>
             )}
