@@ -2,6 +2,7 @@
 
 import { useState, type FormEvent } from "react";
 import { useRouter } from "next/navigation";
+import { Search } from "lucide-react";
 import { useLanguage } from "@/lib/useLanguage";
 
 export function SearchBar({ initialValue = "", showButton = false }: { initialValue?: string; showButton?: boolean }) {
@@ -18,20 +19,27 @@ export function SearchBar({ initialValue = "", showButton = false }: { initialVa
 
   return (
     <form onSubmit={handleSubmit}>
-      <input
-        type="text"
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-        placeholder={t("输入你想吃的", "Type what you want to eat")}
-        className="w-full h-12 px-5 rounded-full bg-[#F0F0F0] text-[#1A1A1A] placeholder-[#6B6B6B] text-base outline-none focus:bg-white focus:ring-2 focus:ring-[#1A1A1A] transition-all"
-      />
+      <div className="relative">
+        <Search
+          size={18}
+          strokeWidth={1.5}
+          className="absolute left-5 top-1/2 -translate-y-1/2 text-[#AAAAAA] pointer-events-none"
+        />
+        <input
+          type="text"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder={t("输入你想吃的", "Type what you want to eat")}
+          className="w-full py-4 pl-12 pr-6 rounded-full bg-white border border-[#E5E5E5] text-[#1A1A1A] placeholder-[#AAAAAA] text-base outline-none focus:shadow-sm focus:border-[#CCCCCC] transition-all"
+        />
+      </div>
       {showButton && (
-        <div className="flex justify-center mt-3">
+        <div className="flex justify-center mt-4">
           <button
             type="submit"
-            className="py-2.5 px-8 rounded-full bg-[#1A1A1A] text-white text-sm font-medium hover:bg-[#333333] transition-colors"
+            className="py-2 px-6 rounded-full bg-[#1A1A1A] text-white text-sm tracking-wider uppercase hover:bg-[#333333] transition-colors"
           >
-            {t("找餐厅", "FIND RESTAURANTS")}
+            {t("找餐厅", "FIND")}
           </button>
         </div>
       )}
