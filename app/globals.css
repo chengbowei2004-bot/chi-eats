@@ -21,6 +21,10 @@
   }
 }
 
+.home-search::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }

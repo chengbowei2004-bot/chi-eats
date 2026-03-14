@@ -2,8 +2,8 @@
 
 import { useEffect, useState, type FormEvent } from "react";
 import { useRouter } from "next/navigation";
-import Image from "next/image";
-import { BottomNav } from "@/components/BottomNav";
+import { Settings } from "lucide-react";
+import { DishPlaceholder } from "@/components/DishPlaceholder";
 import { useAuth } from "@/lib/useAuth";
 import { useCity } from "@/lib/useCity";
 
@@ -12,6 +12,7 @@ type BrowseDish = {
   name_zh: string;
   name_en: string;
   image_url: string;
+  cuisine_tag: string;
   restaurant_count: number;
 };
 
@@ -65,142 +66,166 @@ export default function HomePage() {
   }
 
   return (
-    <>
-      <main className="min-h-screen bg-[#FAFAFA] dark:bg-[#0A0A0A] pb-28">
-        {/* ── Top nav ── */}
-        <div className="flex items-center justify-between px-6 py-5">
-          <span
-            className="text-[18px] font-medium text-[#1A1A1A] dark:text-[#F0F0F0]"
-            style={{ letterSpacing: "-0.5px" }}
-          >
-            DeeDao
-          </span>
-          <span className="text-[11px] text-[#999] dark:text-[#666]">
+    <main className="min-h-screen bg-black">
+      {/* ── Top nav ── */}
+      <div className="flex items-center justify-between" style={{ padding: "20px 24px" }}>
+        <span
+          className="text-[18px] font-medium text-white"
+          style={{ letterSpacing: "-0.5px" }}
+        >
+          DeeDao
+        </span>
+        <div className="flex items-center gap-3">
+          <span className="text-[11px]" style={{ color: "rgba(255,255,255,0.5)" }}>
             {cityLabel.en}
           </span>
-        </div>
-
-        {/* ── Hero ── */}
-        <div className="px-7 pt-14 pb-13 text-center" style={{ paddingBottom: 52 }}>
-          <h1
-            className="text-[34px] font-medium text-[#1A1A1A] dark:text-[#F0F0F0]"
-            style={{ letterSpacing: "-1px" }}
+          <button
+            onClick={() => router.push("/settings")}
+            aria-label="Settings"
+            className="transition-opacity hover:opacity-80"
           >
-            今天想吃什么？
-          </h1>
-
-          <div className="mt-10 flex justify-center">
-            <form onSubmit={handleSearch}>
-              <div
-                className="flex items-center gap-2.5 border rounded-[10px] px-4 py-2.5"
-                style={{
-                  maxWidth: 280,
-                  borderColor: "var(--search-border, #D4D4D4)",
-                }}
-              >
-                <svg
-                  width="14"
-                  height="14"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="text-[#999] dark:text-[#666] shrink-0"
-                >
-                  <circle cx="11" cy="11" r="8" />
-                  <line x1="21" y1="21" x2="16.65" y2="16.65" />
-                </svg>
-                <input
-                  type="text"
-                  value={query}
-                  onChange={(e) => setQuery(e.target.value)}
-                  placeholder="搜索你想吃的"
-                  className="text-[13px] text-[#1A1A1A] dark:text-[#F0F0F0] placeholder-[#AAAAAA] dark:placeholder-[#555] bg-transparent outline-none border-none p-0 m-0 w-full"
-                  style={{ all: "unset", width: "100%", fontSize: 13 }}
-                />
-              </div>
-            </form>
-          </div>
+            <Settings size={14} strokeWidth={1.5} color="rgba(255,255,255,0.5)" />
+          </button>
         </div>
+      </div>
 
-        {/* ── Category tags ── */}
-        <div className="flex flex-wrap justify-center gap-2.5 px-6">
-          {CATEGORIES.map((cat) => {
-            const active = activeTag === cat.tag;
-            return (
-              <button
-                key={cat.tag}
-                onClick={() => setActiveTag(cat.tag)}
-                className={`px-4 py-1.5 rounded-full text-[12px] transition-colors ${
-                  active
-                    ? "bg-[#1A1A1A] text-white dark:bg-[#F0F0F0] dark:text-[#0A0A0A]"
-                    : "bg-transparent border text-[#888] dark:text-[#777] border-[#D4D4D4] dark:border-[#333] hover:border-[#999] dark:hover:border-[#555]"
-                }`}
-              >
-                {cat.label}
-              </button>
-            );
-          })}
-        </div>
+      {/* ── Hero ── */}
+      <div className="text-center" style={{ padding: "56px 24px 0" }}>
+        <h1
+          className="text-[34px] font-medium text-white"
+          style={{ letterSpacing: "-1px" }}
+        >
+          今天想吃什么？
+        </h1>
 
-        {/* ── Section title ── */}
-        <div className="px-6 pt-10">
-          <p
-            className="text-[10px] text-[#999] dark:text-[#666] uppercase"
-            style={{ letterSpacing: "2.5px" }}
-          >
-            附近热门
-          </p>
-        </div>
-
-        {/* ── Dish card grid ── */}
-        <div className="grid grid-cols-2 gap-4 px-6 mt-4">
-          {dishes.map((dish) => (
-            <button
-              key={dish.id}
-              onClick={() => router.push(`/dish/${dish.id}`)}
-              className="text-left rounded-[14px] border border-[#E5E5E5] dark:border-[#2A2A2A] bg-white dark:bg-[#141414] overflow-hidden transition-shadow hover:shadow-sm"
-              style={{ borderWidth: "0.5px" }}
+        {/* ── Search box ── */}
+        <div style={{ marginTop: 40, padding: "0 0" }}>
+          <form onSubmit={handleSearch}>
+            <div
+              className="flex items-center rounded-[12px]"
+              style={{
+                border: "1px solid rgba(255,255,255,0.2)",
+                padding: "12px 16px",
+                gap: 12,
+              }}
             >
-              <div className="relative w-full" style={{ height: 150 }}>
-                <Image
-                  src={dish.image_url}
-                  alt={dish.name_zh}
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 430px) 50vw, 200px"
-                  unoptimized
-                />
-              </div>
-              <div className="p-4">
-                <p className="text-[18px] font-medium text-[#1A1A1A] dark:text-[#F0F0F0] leading-tight">
-                  {dish.name_zh}
-                </p>
-                <p className="text-[11px] text-[#999] dark:text-[#666] mt-1">
-                  {dish.name_en}
-                </p>
-                <p className="text-[11px] text-[#1A1A1A] dark:text-[#CCC] mt-1.5">
-                  ● {dish.restaurant_count} 家餐厅
-                </p>
-              </div>
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="shrink-0"
+                style={{ stroke: "rgba(255,255,255,0.4)" }}
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+              <input
+                type="text"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                placeholder="搜索你想吃的"
+                className="home-search"
+                style={{
+                  border: "none",
+                  background: "none",
+                  outline: "none",
+                  color: "#ffffff",
+                  width: "100%",
+                  fontSize: 14,
+                  padding: 0,
+                  margin: 0,
+                }}
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+
+      {/* ── Category tags ── */}
+      <div className="flex flex-wrap justify-center" style={{ gap: 10, padding: "32px 24px 0" }}>
+        {CATEGORIES.map((cat) => {
+          const active = activeTag === cat.tag;
+          return (
+            <button
+              key={cat.tag}
+              onClick={() => setActiveTag(cat.tag)}
+              className="rounded-full text-[12px] transition-colors"
+              style={
+                active
+                  ? {
+                      background: "#ffffff",
+                      color: "#000000",
+                      padding: "6px 16px",
+                      border: "1px solid #ffffff",
+                    }
+                  : {
+                      background: "transparent",
+                      color: "rgba(255,255,255,0.6)",
+                      padding: "6px 16px",
+                      border: "1px solid rgba(255,255,255,0.2)",
+                    }
+              }
+            >
+              {cat.label}
             </button>
-          ))}
-        </div>
+          );
+        })}
+      </div>
 
-        {/* ── Footer ── */}
-        <div className="px-6 pt-9 pb-8 text-center">
-          <p
-            className="text-[11px] text-[#999] dark:text-[#555]"
-            style={{ letterSpacing: "2px" }}
+      {/* ── Section title ── */}
+      <div style={{ padding: "40px 24px 0" }}>
+        <p
+          className="text-[10px] uppercase"
+          style={{ color: "rgba(255,255,255,0.4)", letterSpacing: "2.5px" }}
+        >
+          附近热门
+        </p>
+      </div>
+
+      {/* ── Dish card grid ── */}
+      <div
+        className="grid grid-cols-2"
+        style={{ gap: 16, padding: "16px 24px 0" }}
+      >
+        {dishes.map((dish) => (
+          <button
+            key={dish.id}
+            onClick={() => router.push(`/dish/${dish.id}`)}
+            className="text-left rounded-[14px] overflow-hidden transition-opacity hover:opacity-90"
+            style={{
+              background: "rgba(255,255,255,0.05)",
+              border: "1px solid rgba(255,255,255,0.1)",
+            }}
           >
-            以菜寻味，以味寻道。
-          </p>
-        </div>
-      </main>
+            <DishPlaceholder nameZh={dish.name_zh} cuisineTag={dish.cuisine_tag} />
+            <div style={{ padding: 16 }}>
+              <p className="text-[18px] font-medium text-white leading-tight">
+                {dish.name_zh}
+              </p>
+              <p className="text-[11px] mt-1" style={{ color: "rgba(255,255,255,0.4)" }}>
+                {dish.name_en}
+              </p>
+              <p className="text-[11px] text-white mt-1.5">
+                ● {dish.restaurant_count} 家餐厅
+              </p>
+            </div>
+          </button>
+        ))}
+      </div>
 
-      <BottomNav />
-    </>
+      {/* ── Footer slogan ── */}
+      <div className="text-center" style={{ padding: "36px 24px 32px" }}>
+        <p
+          className="text-[11px]"
+          style={{ color: "rgba(255,255,255,0.4)", letterSpacing: "2px" }}
+        >
+          以菜寻味，以味寻道。
+        </p>
+      </div>
+    </main>
   );
 }

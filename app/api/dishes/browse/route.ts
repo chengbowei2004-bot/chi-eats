@@ -32,6 +32,7 @@ export async function GET(req: NextRequest) {
     name_zh: d.name_zh,
     name_en: d.name_en,
     image_url: d.image_url,
+    cuisine_tag: d.cuisine_tag,
     restaurant_count: getRestaurantsForDish(d.id, city).length,
   }));
 
