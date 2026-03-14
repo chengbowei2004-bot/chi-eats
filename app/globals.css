@@ -44,29 +44,51 @@ body {
     'Microsoft YaHei', 'Noto Sans SC', sans-serif;
 }
 
-@keyframes emoji-fall {
-  0% {
-    transform: translateY(0);
-    opacity: 0;
-  }
-  8% {
-    opacity: 0.8;
-  }
-  80% {
-    opacity: 0.8;
-  }
-  100% {
-    transform: translateY(calc(100vh + 60px));
-    opacity: 0;
-  }
-}
-
 @keyframes fade-in {
   from { opacity: 0; }
   to { opacity: 1; }
 }
 
-@keyframes waterfall-fade {
+@keyframes orbit-fade {
   0% { opacity: 1; }
   100% { opacity: 0; }
+}
+
+/* ── Inner ring: CW, rx=100 ry=45 ── */
+@keyframes orbit-inner-cw {
+  0%    { transform: translate(100px, 0)     scale(0.97); opacity: 0.80; }
+  12.5% { transform: translate(71px, 32px)   scale(1.06); opacity: 0.94; }
+  25%   { transform: translate(0, 45px)      scale(1.10); opacity: 1.00; }
+  37.5% { transform: translate(-71px, 32px)  scale(1.06); opacity: 0.94; }
+  50%   { transform: translate(-100px, 0)    scale(0.97); opacity: 0.80; }
+  62.5% { transform: translate(-71px, -32px) scale(0.88); opacity: 0.65; }
+  75%   { transform: translate(0, -45px)     scale(0.85); opacity: 0.60; }
+  87.5% { transform: translate(71px, -32px)  scale(0.88); opacity: 0.65; }
+  100%  { transform: translate(100px, 0)     scale(0.97); opacity: 0.80; }
+}
+
+/* ── Middle ring: CCW, rx=160 ry=70 ── */
+@keyframes orbit-middle-ccw {
+  0%    { transform: translate(160px, 0)      scale(0.97); opacity: 0.80; }
+  12.5% { transform: translate(113px, -49px)  scale(0.88); opacity: 0.65; }
+  25%   { transform: translate(0, -70px)      scale(0.85); opacity: 0.60; }
+  37.5% { transform: translate(-113px, -49px) scale(0.88); opacity: 0.65; }
+  50%   { transform: translate(-160px, 0)     scale(0.97); opacity: 0.80; }
+  62.5% { transform: translate(-113px, 49px)  scale(1.06); opacity: 0.94; }
+  75%   { transform: translate(0, 70px)       scale(1.10); opacity: 1.00; }
+  87.5% { transform: translate(113px, 49px)   scale(1.06); opacity: 0.94; }
+  100%  { transform: translate(160px, 0)      scale(0.97); opacity: 0.80; }
+}
+
+/* ── Outer ring: CW, rx=220 ry=95 ── */
+@keyframes orbit-outer-cw {
+  0%    { transform: translate(220px, 0)      scale(0.97); opacity: 0.80; }
+  12.5% { transform: translate(156px, 67px)   scale(1.06); opacity: 0.94; }
+  25%   { transform: translate(0, 95px)       scale(1.10); opacity: 1.00; }
+  37.5% { transform: translate(-156px, 67px)  scale(1.06); opacity: 0.94; }
+  50%   { transform: translate(-220px, 0)     scale(0.97); opacity: 0.80; }
+  62.5% { transform: translate(-156px, -67px) scale(0.88); opacity: 0.65; }
+  75%   { transform: translate(0, -95px)      scale(0.85); opacity: 0.60; }
+  87.5% { transform: translate(156px, -67px)  scale(0.88); opacity: 0.65; }
+  100%  { transform: translate(220px, 0)      scale(0.97); opacity: 0.80; }
 }
