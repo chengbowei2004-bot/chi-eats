@@ -2,7 +2,7 @@
 
 import { useEffect, useState, type FormEvent } from "react";
 import { useRouter } from "next/navigation";
-import { Settings, ChevronDown } from "lucide-react";
+import { Settings } from "lucide-react";
 import { getDishImage } from "@/lib/dishImages";
 import { useAuth } from "@/lib/useAuth";
 import { useCity, type City } from "@/lib/useCity";
@@ -81,37 +81,60 @@ export default function HomePage() {
 
   return (
     <main className="min-h-screen bg-white">
-      {/* ── Top nav (3-column) ── */}
+      {/* ── Top nav (2-column) ── */}
       <nav
         className="flex items-center justify-between"
         style={{ padding: "20px 24px" }}
       >
-        {/* Left: brand */}
         <span
           className="text-[18px] font-medium text-[#1A1A1A]"
           style={{ letterSpacing: "-0.5px" }}
         >
           DeeDao 地道
         </span>
+        <button
+          onClick={() => router.push("/settings")}
+          aria-label="Settings"
+          className="transition-opacity hover:opacity-70"
+        >
+          <Settings size={16} strokeWidth={1.5} color="#999" />
+        </button>
+      </nav>
 
-        {/* Center: city picker */}
-        <div className="relative">
+      {/* ── Hero ── */}
+      <div className="text-center" style={{ padding: "56px 28px 0" }}>
+        <h1
+          className="text-[34px] font-medium text-[#1A1A1A]"
+          style={{ letterSpacing: "-1px", margin: "0 0 12px" }}
+        >
+          今天想吃什么？
+        </h1>
+
+        {/* City picker */}
+        <div className="relative inline-block" style={{ marginBottom: 40 }}>
           <button
             onClick={(e) => {
               e.stopPropagation();
               setShowCityPicker(!showCityPicker);
             }}
-            className="flex items-center gap-1 transition-opacity hover:opacity-70"
+            className="inline-flex items-center gap-1 transition-opacity hover:opacity-70"
             style={{
-              fontSize: 13,
-              color: "#666",
               background: "none",
               border: "none",
               cursor: "pointer",
+              padding: 0,
             }}
           >
-            {cityLabel.en}
-            <ChevronDown size={12} strokeWidth={2} />
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#bbb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            <span style={{ fontSize: 12, color: "#bbb", letterSpacing: "0.3px" }}>
+              {cityLabel.en}
+            </span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#bbb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M6 9l6 6 6-6" />
+            </svg>
           </button>
 
           {showCityPicker && (
@@ -139,27 +162,8 @@ export default function HomePage() {
           )}
         </div>
 
-        {/* Right: settings */}
-        <button
-          onClick={() => router.push("/settings")}
-          aria-label="Settings"
-          className="transition-opacity hover:opacity-70"
-        >
-          <Settings size={16} strokeWidth={1.5} color="#999" />
-        </button>
-      </nav>
-
-      {/* ── Hero ── */}
-      <div className="text-center" style={{ padding: "56px 24px 0" }}>
-        <h1
-          className="text-[34px] font-medium text-[#1A1A1A]"
-          style={{ letterSpacing: "-1px" }}
-        >
-          今天想吃什么？
-        </h1>
-
         {/* ── Search box ── */}
-        <div style={{ marginTop: 40 }}>
+        <div>
           <form onSubmit={handleSearch}>
             <div
               className="flex items-center rounded-[12px]"
