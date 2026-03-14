@@ -66,22 +66,11 @@ export default function HomePage() {
 
   return (
     <>
-      <main className="flex flex-col items-center min-h-screen px-6 pb-28 pt-[30vh]">
-        {/* Logo + tagline */}
-        <h1 className="text-6xl font-light text-gray-900 tracking-tight mb-2">
-          DeeDao
-        </h1>
-        <p className="text-sm text-gray-400 tracking-wider mb-1">
-          {t("以菜寻味，以味寻道。", "以菜寻味，以味寻道。")}
-        </p>
-        <p className="text-xs text-gray-300 italic mb-6">
-          Search the dish. Find the authentic.
-        </p>
-
+      <main className="flex flex-col items-center min-h-screen px-6 pb-28 pt-[35vh]">
         {/* City picker */}
         <button
           onClick={toggleCity}
-          className="flex items-center gap-1.5 text-xs text-gray-400 hover:text-gray-900 transition-colors mb-8"
+          className="flex items-center gap-1.5 text-xs text-gray-400 hover:text-gray-600 transition-colors mb-5"
         >
           <MapPin size={14} strokeWidth={1.5} />
           <span>{t(cityLabel.zh, cityLabel.en)}</span>
