@@ -17,12 +17,12 @@
       "chongqing-house",
       "chengdu-taste",
       "rong-chic",
-      "chef-yao",
       "noahs-kitchen",
       "yi-ma-yi-la",
       "baozang-55beach",
       "china-gourmet",
-      "kings-garden"
+      "kings-garden",
+      "chef-yao"
     ]
   },
   {
@@ -44,11 +44,11 @@
       "chengdu-taste",
       "rong-chic",
       "wongs-kitchen",
-      "chef-yao",
       "noahs-kitchen",
       "china-gourmet",
       "baozang-55beach",
-      "kings-garden"
+      "kings-garden",
+      "chef-yao"
     ]
   },
   {
@@ -70,7 +70,8 @@
       "chengdu-taste",
       "rong-chic",
       "noahs-kitchen",
-      "yi-ma-yi-la"
+      "yi-ma-yi-la",
+      "chef-yao"
     ]
   },
   {
@@ -92,7 +93,8 @@
       "chengdu-taste",
       "rong-chic",
       "noahs-kitchen",
-      "baozang-55beach"
+      "baozang-55beach",
+      "chef-yao"
     ]
   },
   {
@@ -113,10 +115,10 @@
       "chongqing-house",
       "chengdu-taste",
       "rong-chic",
-      "chef-yao",
       "wongs-kitchen",
       "noahs-kitchen",
-      "china-gourmet"
+      "china-gourmet",
+      "chef-yao"
     ]
   },
   {
@@ -137,7 +139,8 @@
       "chongqing-house",
       "chengdu-taste",
       "noahs-kitchen",
-      "yi-ma-yi-la"
+      "yi-ma-yi-la",
+      "chef-yao"
     ]
   },
   {
@@ -158,7 +161,8 @@
       "chongqing-house",
       "chengdu-taste",
       "noahs-kitchen",
-      "yi-ma-yi-la"
+      "yi-ma-yi-la",
+      "chef-yao"
     ]
   },
   {
@@ -179,7 +183,8 @@
       "chongqing-house",
       "chengdu-taste",
       "rong-chic",
-      "noahs-kitchen"
+      "noahs-kitchen",
+      "chef-yao"
     ]
   },
   {
@@ -200,7 +205,8 @@
       "chongqing-house",
       "rong-chic",
       "noahs-kitchen",
-      "yi-ma-yi-la"
+      "yi-ma-yi-la",
+      "chef-yao"
     ]
   },
   {
@@ -221,7 +227,8 @@
       "chongqing-house",
       "chengdu-taste",
       "rong-chic",
-      "noahs-kitchen"
+      "noahs-kitchen",
+      "chef-yao"
     ]
   },
   {
@@ -282,7 +289,6 @@
     ],
     "image_url": "/images/dishes/preserved-egg-tofu.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "rong-chic"
     ]
@@ -303,7 +309,8 @@
     "image_url": "/images/dishes/garlic-pork-slices.webp",
     "available_at": [
       "chengdu-taste",
-      "rong-chic"
+      "rong-chic",
+      "chef-yao"
     ]
   },
   {
@@ -472,7 +479,6 @@
     ],
     "image_url": "/images/dishes/red-braised-pork-belly.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "rong-chic",
       "lobanton",
@@ -518,7 +524,6 @@
     ],
     "image_url": "/images/dishes/wonton-noodle-soup.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "lobanton",
       "y-noodle-bar",
@@ -701,7 +706,6 @@
     "available_at": [
       "12-dumplings",
       "rong-chic",
-      "chef-yao",
       "aries-noodle",
       "golden-garden-malden",
       "chengdu-taste"
@@ -722,12 +726,12 @@
     ],
     "image_url": "/images/dishes/har-gow.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "jumbo-seafood",
       "jade-garden",
       "kings-garden",
-      "chengdu-taste"
+      "chengdu-taste",
+      "chef-yao"
     ]
   },
   {
@@ -747,11 +751,11 @@
     "available_at": [
       "12-dumplings",
       "rong-chic",
-      "chef-yao",
       "chongqing-house",
       "jumbo-seafood",
       "jade-garden",
-      "chengdu-taste"
+      "chengdu-taste",
+      "chef-yao"
     ]
   },
   {
@@ -771,7 +775,6 @@
     "available_at": [
       "12-dumplings",
       "rong-chic",
-      "chef-yao",
       "wongs-kitchen",
       "chongqing-house",
       "golden-garden-malden",
@@ -814,8 +817,7 @@
     "image_url": "/images/dishes/vegetable-dumplings.webp",
     "available_at": [
       "12-dumplings",
-      "rong-chic",
-      "chef-yao"
+      "rong-chic"
     ]
   },
   {
@@ -834,7 +836,6 @@
     "image_url": "/images/dishes/steamed-pork-buns.webp",
     "available_at": [
       "12-dumplings",
-      "chef-yao",
       "wongs-kitchen"
     ]
   },
@@ -853,7 +854,6 @@
     ],
     "image_url": "/images/dishes/shaomai.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "jumbo-seafood",
       "jade-garden",
@@ -877,12 +877,12 @@
     "available_at": [
       "12-dumplings",
       "rong-chic",
-      "chef-yao",
       "chongqing-house",
       "chung-shin-yuan",
       "golden-garden-malden",
       "chengdu-taste",
-      "jahunger"
+      "jahunger",
+      "chef-yao"
     ]
   },
   {
@@ -900,7 +900,6 @@
     ],
     "image_url": "/images/dishes/turnip-cake.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "jade-garden",
       "jumbo-seafood",
@@ -922,7 +921,6 @@
     ],
     "image_url": "/images/dishes/lotus-leaf-sticky-rice.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "kings-garden"
     ]
@@ -942,7 +940,6 @@
     ],
     "image_url": "/images/dishes/char-siu.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "lobanton",
       "wings-kitchen",
@@ -966,7 +963,6 @@
     ],
     "image_url": "/images/dishes/steamed-fish.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "lobanton",
       "wings-kitchen",
@@ -989,7 +985,6 @@
     ],
     "image_url": "/images/dishes/salt-baked-chicken.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen"
     ]
   },
@@ -1008,7 +1003,6 @@
     ],
     "image_url": "/images/dishes/sweet-and-sour-pork.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "lobanton",
       "rong-chic",
@@ -1031,7 +1025,6 @@
     ],
     "image_url": "/images/dishes/egg-tarts.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "big-fun-cafe",
       "jade-garden",
@@ -1053,7 +1046,6 @@
     ],
     "image_url": "/images/dishes/century-egg-congee.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "lobanton",
       "susu-gourmet",
@@ -1075,7 +1067,6 @@
     ],
     "image_url": "/images/dishes/steamed-spare-ribs.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "jumbo-seafood",
       "jade-garden"
@@ -1096,7 +1087,6 @@
     ],
     "image_url": "/images/dishes/oyster-sauce-beef.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "lobanton"
     ]
@@ -1116,7 +1106,6 @@
     ],
     "image_url": "/images/dishes/chicken-feet.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "jumbo-seafood",
       "jade-garden",
@@ -1139,7 +1128,6 @@
     "image_url": "/images/dishes/di-san-xian.webp",
     "available_at": [
       "rong-chic",
-      "chef-yao",
       "lobanton",
       "chongqing-house",
       "golden-garden-malden"
@@ -1184,7 +1172,8 @@
       "chongqing-house",
       "rong-chic",
       "golden-garden-malden",
-      "chengdu-taste"
+      "chengdu-taste",
+      "chef-yao"
     ]
   },
   {
@@ -1225,7 +1214,6 @@
       "chongqing-house",
       "chengdu-taste",
       "rong-chic",
-      "chef-yao",
       "wongs-kitchen",
       "lobanton",
       "golden-garden-malden",
@@ -1247,7 +1235,6 @@
     ],
     "image_url": "/images/dishes/lion-head-meatballs.webp",
     "available_at": [
-      "chef-yao",
       "lobanton"
     ]
   },
@@ -1266,7 +1253,6 @@
     ],
     "image_url": "/images/dishes/drunken-chicken.webp",
     "available_at": [
-      "chef-yao",
       "lobanton"
     ]
   },
@@ -1285,7 +1271,6 @@
     ],
     "image_url": "/images/dishes/stir-fried-rice-cake.webp",
     "available_at": [
-      "chef-yao",
       "rong-chic",
       "chongqing-house"
     ]
@@ -1496,7 +1481,6 @@
     ],
     "image_url": "/images/dishes/egg-fried-rice.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "rong-chic",
       "lobanton",
@@ -1520,7 +1504,6 @@
     ],
     "image_url": "/images/dishes/yangzhou-fried-rice.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "lobanton",
       "chongqing-house"
@@ -1561,7 +1544,6 @@
     ],
     "image_url": "/images/dishes/clay-pot-rice.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "lobanton"
     ]
@@ -1581,7 +1563,6 @@
     ],
     "image_url": "/images/dishes/spring-rolls.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "rong-chic",
       "lobanton",
@@ -1641,7 +1622,6 @@
     ],
     "image_url": "/images/dishes/steamed-egg-custard.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "lobanton"
     ]
@@ -1661,7 +1641,6 @@
     ],
     "image_url": "/images/dishes/garlic-shrimp.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "lobanton",
       "jumbo-seafood",
@@ -1721,7 +1700,6 @@
     ],
     "image_url": "/images/dishes/water-spinach.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "lobanton"
     ]
@@ -1741,7 +1719,6 @@
     ],
     "image_url": "/images/dishes/winter-melon-soup.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "lobanton"
     ]
@@ -1761,7 +1738,8 @@
     ],
     "image_url": "/images/dishes/mao-pork.webp",
     "available_at": [
-      "rong-chic"
+      "rong-chic",
+      "chef-yao"
     ]
   },
   {
@@ -1779,8 +1757,8 @@
     ],
     "image_url": "/images/dishes/lotus-root-soup.webp",
     "available_at": [
-      "chef-yao",
-      "lobanton"
+      "lobanton",
+      "chef-yao"
     ]
   },
   {
@@ -1817,7 +1795,6 @@
     ],
     "image_url": "/images/dishes/braised-pork-knuckle.webp",
     "available_at": [
-      "chef-yao",
       "rong-chic",
       "lobanton"
     ]
@@ -1842,7 +1819,8 @@
       "rong-chic",
       "baozang-55beach",
       "china-gourmet",
-      "jahunger"
+      "jahunger",
+      "chef-yao"
     ]
   },
   {
@@ -1860,7 +1838,6 @@
     ],
     "image_url": "/images/dishes/steamed-pork-patty.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "lobanton"
     ]
@@ -1880,7 +1857,6 @@
     ],
     "image_url": "/images/dishes/crispy-tofu.webp",
     "available_at": [
-      "chef-yao",
       "rong-chic",
       "lobanton"
     ]
@@ -1900,9 +1876,9 @@
     ],
     "image_url": "/images/dishes/corn-pork-rib-soup.webp",
     "available_at": [
-      "chef-yao",
       "lobanton",
-      "wongs-kitchen"
+      "wongs-kitchen",
+      "chef-yao"
     ]
   },
   {
@@ -1936,7 +1912,6 @@
     ],
     "image_url": "/images/dishes/jellyfish-salad.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "lobanton"
     ]
@@ -1975,7 +1950,6 @@
     "image_url": "/images/dishes/red-braised-eggplant.webp",
     "available_at": [
       "rong-chic",
-      "chef-yao",
       "lobanton",
       "wongs-kitchen"
     ]
@@ -2014,8 +1988,7 @@
     "image_url": "/images/dishes/cucumber-pork-stir-fry.webp",
     "available_at": [
       "rong-chic",
-      "lobanton",
-      "chef-yao"
+      "lobanton"
     ]
   },
   {
@@ -2034,7 +2007,6 @@
     "image_url": "/images/dishes/pork-belly-tofu-braise.webp",
     "available_at": [
       "rong-chic",
-      "chef-yao",
       "lobanton"
     ]
   },
@@ -2055,7 +2027,6 @@
     "available_at": [
       "chongqing-house",
       "rong-chic",
-      "chef-yao",
       "lobanton"
     ]
   },
@@ -2074,7 +2045,6 @@
     ],
     "image_url": "/images/dishes/soy-sauce-chicken.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "lobanton"
     ]
@@ -2167,8 +2137,7 @@
     ],
     "image_url": "/images/dishes/wood-ear-mushroom-salad.webp",
     "available_at": [
-      "rong-chic",
-      "chef-yao"
+      "rong-chic"
     ]
   },
   {
@@ -2209,7 +2178,6 @@
     ],
     "image_url": "/images/dishes/three-cup-chicken.webp",
     "available_at": [
-      "chef-yao",
       "rong-chic",
       "lobanton",
       "chongqing-house"
@@ -2230,8 +2198,7 @@
     ],
     "image_url": "/images/dishes/kung-pao-shrimp.webp",
     "available_at": [
-      "chongqing-house",
-      "chef-yao"
+      "chongqing-house"
     ]
   },
   {
@@ -2250,7 +2217,6 @@
     "image_url": "/images/dishes/tomato-egg-stir-fry.webp",
     "available_at": [
       "rong-chic",
-      "chef-yao",
       "wongs-kitchen",
       "lobanton",
       "chongqing-house",
@@ -2474,11 +2440,11 @@
     ],
     "image_url": "/images/dishes/char-siu-bao.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "jumbo-seafood",
       "jade-garden",
-      "kings-garden"
+      "kings-garden",
+      "chef-yao"
     ]
   },
   {
@@ -2496,7 +2462,6 @@
     ],
     "image_url": "/images/dishes/cheung-fun.webp",
     "available_at": [
-      "chef-yao",
       "wongs-kitchen",
       "jumbo-seafood",
       "jade-garden",
@@ -2664,7 +2629,8 @@
     ],
     "image_url": "/images/dishes/hot-sour-soup.webp",
     "available_at": [
-      "chengdu-taste"
+      "chengdu-taste",
+      "chef-yao"
     ]
   },
   {
@@ -2700,7 +2666,8 @@
     ],
     "image_url": "/images/dishes/west-lake-beef-soup.webp",
     "available_at": [
-      "chengdu-taste"
+      "chengdu-taste",
+      "chef-yao"
     ]
   },
   {
@@ -3060,7 +3027,8 @@
     "image_url": "/images/dishes/hot-sour-shredded-potato.webp",
     "available_at": [
       "chengdu-taste",
-      "jahunger"
+      "jahunger",
+      "chef-yao"
     ]
   },
   {
@@ -3224,7 +3192,8 @@
     "available_at": [
       "chengdu-taste",
       "chongqing-house",
-      "rong-chic"
+      "rong-chic",
+      "chef-yao"
     ]
   },
   {
@@ -3773,6 +3742,284 @@
     "image_url": "/images/dishes/honey-cake.webp",
     "available_at": [
       "jahunger"
+    ]
+  },
+  {
+    "id": "sesame-cold-noodles",
+    "name_en": "Sesame Cold Noodles",
+    "name_zh": "麻酱凉面",
+    "description_en": "Chilled noodles tossed in a rich sesame paste dressing — nutty and refreshing.",
+    "description_zh": "凉拌面条裹上浓郁麻酱，香滑爽口，夏日解馋小食。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "nutty",
+      "savory",
+      "refreshing"
+    ],
+    "image_url": "/images/dishes/sesame-cold-noodles.webp",
+    "available_at": [
+      "chef-yao"
+    ]
+  },
+  {
+    "id": "spicy-cold-noodles",
+    "name_en": "Cold Noodles with Spicy Sauce",
+    "name_zh": "麻辣凉面",
+    "description_en": "Chilled noodles dressed in a numbing-spicy chili oil sauce — bold and addictive.",
+    "description_zh": "凉面配麻辣红油调味，爽滑过瘾，麻辣开胃。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "refreshing"
+    ],
+    "image_url": "/images/dishes/spicy-cold-noodles.webp",
+    "available_at": [
+      "chef-yao"
+    ]
+  },
+  {
+    "id": "spicy-crispy-cucumber",
+    "name_en": "Spicy Crispy Cucumber",
+    "name_zh": "麻辣拍黄瓜",
+    "description_en": "Smashed cucumber in a numbing-spicy chili oil dressing — crunchy and fiery.",
+    "description_zh": "拍磨黄瓜配麻辣红油，爽脆麻辣，开胃凉菜。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "refreshing",
+      "crunchy"
+    ],
+    "image_url": "/images/dishes/spicy-crispy-cucumber.webp",
+    "available_at": [
+      "chef-yao"
+    ]
+  },
+  {
+    "id": "spicy-wood-ear-fungus",
+    "name_en": "Spicy Fungus",
+    "name_zh": "麻辣木耳",
+    "description_en": "Wood ear mushrooms in a spicy chili oil dressing — crunchy and numbing.",
+    "description_zh": "木耳配麻辣红油调味，爽脆弹牙，麻辣开胃。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "crunchy"
+    ],
+    "image_url": "/images/dishes/spicy-wood-ear-fungus.webp",
+    "available_at": [
+      "chef-yao"
+    ]
+  },
+  {
+    "id": "beef-scallion-pancake-wrap",
+    "name_en": "Beef Stuffed Scallion Pancake Wrap",
+    "name_zh": "牛肉葱油饼卷",
+    "description_en": "Crispy scallion pancake rolled around seasoned beef — savory and satisfying.",
+    "description_zh": "香脆葱油饼卷上入味牛肉，香脆可口。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "savory",
+      "crispy",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/beef-scallion-pancake-wrap.webp",
+    "available_at": [
+      "chef-yao"
+    ]
+  },
+  {
+    "id": "fried-mini-buns",
+    "name_en": "Fried Mini Buns",
+    "name_zh": "煎包",
+    "description_en": "Pan-fried buns with a crispy golden bottom and juicy pork filling.",
+    "description_zh": "生煎包，底部金黄酥脆，内馅多汁鲜美。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "savory",
+      "crispy",
+      "juicy"
+    ],
+    "image_url": "/images/dishes/fried-mini-buns.webp",
+    "available_at": [
+      "chef-yao"
+    ]
+  },
+  {
+    "id": "xiao-chao-huang-niu",
+    "name_en": "Stir-Fried Yellow Beef",
+    "name_zh": "小炒黄牛肉",
+    "description_en": "Tender yellow beef stir-fried with fresh chili and cumin — a Hunan wok classic.",
+    "description_zh": "黄牛肉配小米椒爆炒，鲜嫩香辣，湖南经典小炒。",
+    "cuisine_tag": "湖南菜",
+    "flavor_tags": [
+      "spicy",
+      "savory",
+      "aromatic",
+      "wok-hei"
+    ],
+    "image_url": "/images/dishes/xiao-chao-huang-niu.webp",
+    "available_at": [
+      "chef-yao"
+    ]
+  },
+  {
+    "id": "hunan-xiao-chao-rou",
+    "name_en": "Hunan Style Stir-Fried Pork",
+    "name_zh": "湖南小炒肉",
+    "description_en": "Pork belly slices wok-tossed with fresh chili and fermented black beans — smoky and bold.",
+    "description_zh": "五花肉配小米椒爆炒，锅气十足，湖南经典下饭菜。",
+    "cuisine_tag": "湖南菜",
+    "flavor_tags": [
+      "spicy",
+      "smoky",
+      "savory",
+      "wok-hei"
+    ],
+    "image_url": "/images/dishes/hunan-xiao-chao-rou.webp",
+    "available_at": [
+      "chef-yao"
+    ]
+  },
+  {
+    "id": "hunan-sauteed-chicken",
+    "name_en": "Hunan Style Sauteed Chicken",
+    "name_zh": "湖南小炒鸡",
+    "description_en": "Chicken pieces wok-fired with fresh chili and aromatic spices — Hunan-style heat.",
+    "description_zh": "鸡肉配小米椒爆炒，香辣入味，湖南风味小炒。",
+    "cuisine_tag": "湖南菜",
+    "flavor_tags": [
+      "spicy",
+      "savory",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/hunan-sauteed-chicken.webp",
+    "available_at": [
+      "chef-yao"
+    ]
+  },
+  {
+    "id": "bamboo-shoots-bacon",
+    "name_en": "Stir-Fried Bacon with Bamboo Shoots",
+    "name_zh": "笋炒腊肉",
+    "description_en": "Hunan smoked bacon stir-fried with crisp bamboo shoots — smoky and earthy.",
+    "description_zh": "湖南腊肉配鲜笋片爆炒，腊香十足，笋脆可口。",
+    "cuisine_tag": "湖南菜",
+    "flavor_tags": [
+      "smoky",
+      "savory",
+      "earthy"
+    ],
+    "image_url": "/images/dishes/bamboo-shoots-bacon.webp",
+    "available_at": [
+      "chef-yao"
+    ]
+  },
+  {
+    "id": "hunan-stir-fried-bacon",
+    "name_en": "Hunan Style Stir-Fried Bacon",
+    "name_zh": "湖南炒腊肉",
+    "description_en": "Smoky Hunan cured bacon stir-fried with leeks and dried chili — deeply savory.",
+    "description_zh": "湖南腊肉配蔑椒爆炒，腊香浓郁，下饭神器。",
+    "cuisine_tag": "湖南菜",
+    "flavor_tags": [
+      "smoky",
+      "savory",
+      "spicy"
+    ],
+    "image_url": "/images/dishes/hunan-stir-fried-bacon.webp",
+    "available_at": [
+      "chef-yao"
+    ]
+  },
+  {
+    "id": "spicy-chicken-gizzard",
+    "name_en": "Spicy Chicken Gizzard",
+    "name_zh": "爆炒鸡胗",
+    "description_en": "Chicken gizzards flash-fried with chili and Sichuan peppercorn — crunchy and fiery.",
+    "description_zh": "鸡胗爆炒，配辣椒花椒，爽脆弹牙，麻辣可口。",
+    "cuisine_tag": "湖南菜",
+    "flavor_tags": [
+      "spicy",
+      "crunchy",
+      "numbing"
+    ],
+    "image_url": "/images/dishes/spicy-chicken-gizzard.webp",
+    "available_at": [
+      "chef-yao"
+    ]
+  },
+  {
+    "id": "chopped-pepper-fish",
+    "name_en": "Steamed Fish Fillets with Chopped Pepper",
+    "name_zh": "剁椒蒸鱼片",
+    "description_en": "Delicate fish fillets steamed under a blanket of fiery chopped red pepper — Hunan's signature.",
+    "description_zh": "鱼片铺上剁椒蒸制，鲜嫩香辣，湖南经典菜。",
+    "cuisine_tag": "湖南菜",
+    "flavor_tags": [
+      "spicy",
+      "savory",
+      "fresh"
+    ],
+    "image_url": "/images/dishes/chopped-pepper-fish.webp",
+    "available_at": [
+      "chef-yao"
+    ]
+  },
+  {
+    "id": "spicy-stinky-tofu",
+    "name_en": "Spicy Stinky Tofu",
+    "name_zh": "臭豆腐",
+    "description_en": "Deep-fried fermented tofu served with spicy sauce — crispy outside, soft inside, pungent and addictive.",
+    "description_zh": "油炒臭豆腐，外酥内嫩，配辣椒酱，闻着臭吃着香。",
+    "cuisine_tag": "湖南菜",
+    "flavor_tags": [
+      "spicy",
+      "crispy",
+      "pungent",
+      "savory"
+    ],
+    "image_url": "/images/dishes/spicy-stinky-tofu.webp",
+    "available_at": [
+      "chef-yao"
+    ]
+  },
+  {
+    "id": "spicy-bullfrog",
+    "name_en": "Spicy Bullfrog",
+    "name_zh": "香辣牛蛙",
+    "description_en": "Tender bullfrog braised in a fiery chili and Sichuan peppercorn sauce — bold and succulent.",
+    "description_zh": "牛蛙配麻辣酱汁烧制，肉质鲜嫩，麻辣过瘾。",
+    "cuisine_tag": "湖南菜",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "savory",
+      "rich"
+    ],
+    "image_url": "/images/dishes/spicy-bullfrog.webp",
+    "available_at": [
+      "chef-yao"
+    ]
+  },
+  {
+    "id": "mao-xue-wang",
+    "name_en": "Mao Xue Wang",
+    "name_zh": "毛血旺",
+    "description_en": "A fiery Chongqing hotpot of blood curd, tripe, and meat in bubbling chili oil — the ultimate spicy indulgence.",
+    "description_zh": "重庆经典毛血旺，鸭血、毛肚、午餐肉在麻辣红油中翻滚，香辣过瘾。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "rich",
+      "bold"
+    ],
+    "image_url": "/images/dishes/mao-xue-wang.webp",
+    "available_at": [
+      "chef-yao"
     ]
   }
 ]
