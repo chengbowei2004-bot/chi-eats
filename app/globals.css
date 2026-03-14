@@ -49,46 +49,88 @@ body {
   to { opacity: 1; }
 }
 
-@keyframes orbit-fade {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
+/* ── Splash: stagger rise animation ── */
+@keyframes splash-rise {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Inner ring: CW, rx=100 ry=45 ── */
-@keyframes orbit-inner-cw {
-  0%    { transform: translate(100px, 0)     scale(0.97); opacity: 0.80; }
-  12.5% { transform: translate(71px, 32px)   scale(1.06); opacity: 0.94; }
-  25%   { transform: translate(0, 45px)      scale(1.10); opacity: 1.00; }
-  37.5% { transform: translate(-71px, 32px)  scale(1.06); opacity: 0.94; }
-  50%   { transform: translate(-100px, 0)    scale(0.97); opacity: 0.80; }
-  62.5% { transform: translate(-71px, -32px) scale(0.88); opacity: 0.65; }
-  75%   { transform: translate(0, -45px)     scale(0.85); opacity: 0.60; }
-  87.5% { transform: translate(71px, -32px)  scale(0.88); opacity: 0.65; }
-  100%  { transform: translate(100px, 0)     scale(0.97); opacity: 0.80; }
+.splash-rise {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: splash-rise 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
-/* ── Middle ring: CCW, rx=160 ry=70 ── */
-@keyframes orbit-middle-ccw {
-  0%    { transform: translate(160px, 0)      scale(0.97); opacity: 0.80; }
-  12.5% { transform: translate(113px, -49px)  scale(0.88); opacity: 0.65; }
-  25%   { transform: translate(0, -70px)      scale(0.85); opacity: 0.60; }
-  37.5% { transform: translate(-113px, -49px) scale(0.88); opacity: 0.65; }
-  50%   { transform: translate(-160px, 0)     scale(0.97); opacity: 0.80; }
-  62.5% { transform: translate(-113px, 49px)  scale(1.06); opacity: 0.94; }
-  75%   { transform: translate(0, 70px)       scale(1.10); opacity: 1.00; }
-  87.5% { transform: translate(113px, 49px)   scale(1.06); opacity: 0.94; }
-  100%  { transform: translate(160px, 0)      scale(0.97); opacity: 0.80; }
+/* ── Splash: screen positioning & transitions ── */
+.splash-screen {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.splash-show { opacity: 1; transform: translateX(0); pointer-events: auto; }
+.splash-out  { opacity: 0; transform: translateX(-60px); pointer-events: none; }
+.splash-hide { opacity: 0; transform: translateX(60px); pointer-events: none; }
+
+/* ── Splash: screen 2 element transitions ── */
+.splash-el {
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-/* ── Outer ring: CW, rx=220 ry=95 ── */
-@keyframes orbit-outer-cw {
-  0%    { transform: translate(220px, 0)      scale(0.97); opacity: 0.80; }
-  12.5% { transform: translate(156px, 67px)   scale(1.06); opacity: 0.94; }
-  25%   { transform: translate(0, 95px)       scale(1.10); opacity: 1.00; }
-  37.5% { transform: translate(-156px, 67px)  scale(1.06); opacity: 0.94; }
-  50%   { transform: translate(-220px, 0)     scale(0.97); opacity: 0.80; }
-  62.5% { transform: translate(-156px, -67px) scale(0.88); opacity: 0.65; }
-  75%   { transform: translate(0, -95px)      scale(0.85); opacity: 0.60; }
-  87.5% { transform: translate(156px, -67px)  scale(0.88); opacity: 0.65; }
-  100%  { transform: translate(220px, 0)      scale(0.97); opacity: 0.80; }
+/* ── Splash: language buttons ── */
+.splash-btn {
+  width: 240px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: transparent;
+  color: #1A1A1A;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.splash-btn:hover {
+  background: #1A1A1A;
+  color: #fff;
+  border-color: #1A1A1A;
+  transform: translateY(0) scale(1.02);
+}
+.splash-btn:active {
+  transform: translateY(0) scale(0.97);
+}
+
+/* ── Splash: enter button ── */
+.splash-enter-btn {
+  padding: 12px 40px;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  background: transparent;
+  color: #888;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.splash-enter-btn:hover {
+  border-color: #1A1A1A;
+  color: #1A1A1A;
+  transform: translateY(0) scale(1.03);
+}
+.splash-enter-btn:active {
+  transform: translateY(0) scale(0.96);
+}
+
+/* ── Splash: typewriter cursor blink ── */
+.splash-cursor {
+  border-right: 2px solid #000;
+  padding-right: 4px;
+  animation: cursor-blink 0.8s step-end infinite;
+}
+@keyframes cursor-blink {
+  0%, 100% { border-color: transparent; }
+  50% { border-color: #000; }
 }

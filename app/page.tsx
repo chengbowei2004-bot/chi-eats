@@ -35,17 +35,17 @@ export default function HomePage() {
   const [dishes, setDishes] = useState<BrowseDish[]>([]);
   const [showCityPicker, setShowCityPicker] = useState(false);
 
-  // Splash / onboarding redirect
+  // Redirect to splash if no language set (first-time user)
   useEffect(() => {
-    const splashSeen = sessionStorage.getItem("deedao_splash_seen");
-    if (!splashSeen) {
+    const lang = localStorage.getItem("deedao_lang");
+    if (!lang) {
       router.replace("/splash");
       return;
     }
+    // Check onboarding for existing users
     const onboarded = localStorage.getItem("deedao_onboarded");
     if (!onboarded) {
-      const langChosen = localStorage.getItem("deedao_lang_chosen");
-      router.replace(langChosen ? "/onboarding" : "/language");
+      router.replace("/onboarding");
     }
   }, [router]);
 
