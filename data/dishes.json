@@ -23,7 +23,8 @@
       "china-gourmet",
       "kings-garden",
       "chef-yao",
-      "y-bento"
+      "y-bento",
+      "12-dumplings"
     ]
   },
   {
@@ -142,7 +143,8 @@
       "chengdu-taste",
       "noahs-kitchen",
       "yi-ma-yi-la",
-      "chef-yao"
+      "chef-yao",
+      "12-dumplings"
     ]
   },
   {
@@ -209,7 +211,8 @@
       "noahs-kitchen",
       "yi-ma-yi-la",
       "chef-yao",
-      "y-bento"
+      "y-bento",
+      "12-dumplings"
     ]
   },
   {
@@ -231,7 +234,8 @@
       "chengdu-taste",
       "rong-chic",
       "noahs-kitchen",
-      "chef-yao"
+      "chef-yao",
+      "12-dumplings"
     ]
   },
   {
@@ -634,7 +638,8 @@
     "image_url": "/images/dishes/tomato-egg-noodles.webp",
     "available_at": [
       "rong-chic",
-      "y-noodle-bar"
+      "y-noodle-bar",
+      "12-dumplings"
     ]
   },
   {
@@ -710,11 +715,11 @@
     ],
     "image_url": "/images/dishes/pork-cabbage-dumplings.webp",
     "available_at": [
-      "12-dumplings",
       "rong-chic",
       "aries-noodle",
       "golden-garden-malden",
-      "chengdu-taste"
+      "chengdu-taste",
+      "12-dumplings"
     ]
   },
   {
@@ -737,7 +742,8 @@
       "jade-garden",
       "kings-garden",
       "chengdu-taste",
-      "chef-yao"
+      "chef-yao",
+      "12-dumplings"
     ]
   },
   {
@@ -755,13 +761,13 @@
     ],
     "image_url": "/images/dishes/xiao-long-bao.webp",
     "available_at": [
-      "12-dumplings",
       "rong-chic",
       "chongqing-house",
       "jumbo-seafood",
       "jade-garden",
       "chengdu-taste",
-      "chef-yao"
+      "chef-yao",
+      "12-dumplings"
     ]
   },
   {
@@ -779,7 +785,6 @@
     ],
     "image_url": "/images/dishes/pan-fried-dumplings.webp",
     "available_at": [
-      "12-dumplings",
       "rong-chic",
       "wongs-kitchen",
       "chongqing-house",
@@ -803,7 +808,6 @@
     ],
     "image_url": "/images/dishes/pork-chive-dumplings.webp",
     "available_at": [
-      "12-dumplings",
       "rong-chic"
     ]
   },
@@ -822,7 +826,6 @@
     ],
     "image_url": "/images/dishes/vegetable-dumplings.webp",
     "available_at": [
-      "12-dumplings",
       "rong-chic"
     ]
   },
@@ -841,7 +844,6 @@
     ],
     "image_url": "/images/dishes/steamed-pork-buns.webp",
     "available_at": [
-      "12-dumplings",
       "wongs-kitchen"
     ]
   },
@@ -863,7 +865,8 @@
       "wongs-kitchen",
       "jumbo-seafood",
       "jade-garden",
-      "kings-garden"
+      "kings-garden",
+      "12-dumplings"
     ]
   },
   {
@@ -881,14 +884,14 @@
     ],
     "image_url": "/images/dishes/scallion-pancake.webp",
     "available_at": [
-      "12-dumplings",
       "rong-chic",
       "chongqing-house",
       "chung-shin-yuan",
       "golden-garden-malden",
       "chengdu-taste",
       "jahunger",
-      "chef-yao"
+      "chef-yao",
+      "12-dumplings"
     ]
   },
   {
@@ -1055,7 +1058,8 @@
       "wongs-kitchen",
       "lobanton",
       "susu-gourmet",
-      "big-fun-cafe"
+      "big-fun-cafe",
+      "12-dumplings"
     ]
   },
   {
@@ -1115,7 +1119,8 @@
       "wongs-kitchen",
       "jumbo-seafood",
       "jade-garden",
-      "kings-garden"
+      "kings-garden",
+      "12-dumplings"
     ]
   },
   {
@@ -1511,7 +1516,8 @@
     "available_at": [
       "wongs-kitchen",
       "lobanton",
-      "chongqing-house"
+      "chongqing-house",
+      "12-dumplings"
     ]
   },
   {
@@ -1781,7 +1787,6 @@
     ],
     "image_url": "/images/dishes/corn-pork-dumplings.webp",
     "available_at": [
-      "12-dumplings",
       "rong-chic"
     ]
   },
@@ -2069,7 +2074,6 @@
     ],
     "image_url": "/images/dishes/pork-mushroom-dumplings.webp",
     "available_at": [
-      "12-dumplings",
       "rong-chic"
     ]
   },
@@ -2107,7 +2111,6 @@
     ],
     "image_url": "/images/dishes/chive-egg-pancake.webp",
     "available_at": [
-      "12-dumplings",
       "rong-chic"
     ]
   },
@@ -2227,7 +2230,8 @@
       "chongqing-house",
       "baozang-55beach",
       "china-gourmet",
-      "chengdu-taste"
+      "chengdu-taste",
+      "12-dumplings"
     ]
   },
   {
@@ -2449,7 +2453,8 @@
       "jumbo-seafood",
       "jade-garden",
       "kings-garden",
-      "chef-yao"
+      "chef-yao",
+      "12-dumplings"
     ]
   },
   {
@@ -2744,7 +2749,9 @@
       "light"
     ],
     "image_url": "/images/dishes/singapore-mei-fun.webp",
-    "available_at": []
+    "available_at": [
+      "12-dumplings"
+    ]
   },
   {
     "id": "double-cooked-fish",
@@ -3218,7 +3225,8 @@
     "image_url": "/images/dishes/chongqing-spicy-chicken.webp",
     "available_at": [
       "chengdu-taste",
-      "chongqing-house"
+      "chongqing-house",
+      "12-dumplings"
     ]
   },
   {
@@ -4095,6 +4103,415 @@
     "image_url": "/images/dishes/vegetable-fried-rice.webp",
     "available_at": [
       "y-bento"
+    ]
+  },
+  {
+    "id": "popcorn-chicken",
+    "name_en": "Popcorn Chicken",
+    "name_zh": "盐酥鸡",
+    "description_en": "Bite-sized chicken pieces fried until golden and crispy, seasoned with salt and pepper.",
+    "description_zh": "鸡肉炸至金黄酥脆，撒上椒盐调味，香脆可口。",
+    "cuisine_tag": "台湾菜",
+    "flavor_tags": [
+      "crispy",
+      "savory",
+      "salty"
+    ],
+    "image_url": "/images/dishes/popcorn-chicken.webp",
+    "available_at": [
+      "12-dumplings"
+    ]
+  },
+  {
+    "id": "crispy-pork-tenderloin",
+    "name_en": "Crispy Pork Tenderloin",
+    "name_zh": "炸猪里脊",
+    "description_en": "Tender pork loin strips deep-fried to a golden crisp.",
+    "description_zh": "猪里脊肉裹粉炸至金黄酥脆，外酥里嫩。",
+    "cuisine_tag": "中菜",
+    "flavor_tags": [
+      "crispy",
+      "savory",
+      "mild"
+    ],
+    "image_url": "/images/dishes/crispy-pork-tenderloin.webp",
+    "available_at": [
+      "12-dumplings"
+    ]
+  },
+  {
+    "id": "sesame-balls",
+    "name_en": "Sesame Balls",
+    "name_zh": "芝麻球",
+    "description_en": "Fried glutinous rice balls coated in sesame seeds with sweet filling inside.",
+    "description_zh": "糖米粉团裹上芝麻炸制，外酥内糖，香甜可口。",
+    "cuisine_tag": "中菜",
+    "flavor_tags": [
+      "sweet",
+      "crispy",
+      "chewy"
+    ],
+    "image_url": "/images/dishes/sesame-balls.webp",
+    "available_at": [
+      "12-dumplings"
+    ]
+  },
+  {
+    "id": "tofu-dumplings",
+    "name_en": "Tofu Dumplings",
+    "name_zh": "豆腐饺子",
+    "description_en": "Handmade dumplings with a savory tofu filling — light and vegetarian-friendly.",
+    "description_zh": "豆腐馅手工饺子，清淡鲜香，素食之选。",
+    "cuisine_tag": "中菜",
+    "flavor_tags": [
+      "mild",
+      "savory",
+      "light"
+    ],
+    "image_url": "/images/dishes/tofu-dumplings.webp",
+    "available_at": [
+      "12-dumplings"
+    ]
+  },
+  {
+    "id": "vegetable-dumplings-12d",
+    "name_en": "Vegetable Dumplings",
+    "name_zh": "素饺子",
+    "description_en": "Dumplings filled with a mix of fresh seasonal vegetables.",
+    "description_zh": "时令蔬菜馅饺子，清爰可口。",
+    "cuisine_tag": "中菜",
+    "flavor_tags": [
+      "mild",
+      "savory",
+      "light"
+    ],
+    "image_url": "/images/dishes/vegetable-dumplings-12d.webp",
+    "available_at": [
+      "12-dumplings"
+    ]
+  },
+  {
+    "id": "pork-dumplings",
+    "name_en": "Pork Dumplings",
+    "name_zh": "猪肉饺子",
+    "description_en": "Classic pork dumplings — juicy and savory.",
+    "description_zh": "经典猪肉馅饺子，多汁鲜香。",
+    "cuisine_tag": "中菜",
+    "flavor_tags": [
+      "savory",
+      "juicy",
+      "mild"
+    ],
+    "image_url": "/images/dishes/pork-dumplings.webp",
+    "available_at": [
+      "12-dumplings"
+    ]
+  },
+  {
+    "id": "teriyaki-chicken-dumplings",
+    "name_en": "Teriyaki Chicken Dumplings",
+    "name_zh": "照烧鸡饺子",
+    "description_en": "Dumplings filled with teriyaki-glazed chicken — sweet-savory fusion.",
+    "description_zh": "照烧鸡肉馅饺子，甜咸适口，融合风味。",
+    "cuisine_tag": "中菜",
+    "flavor_tags": [
+      "sweet",
+      "savory",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/teriyaki-chicken-dumplings.webp",
+    "available_at": [
+      "12-dumplings"
+    ]
+  },
+  {
+    "id": "black-pepper-beef-dumplings",
+    "name_en": "Black Pepper Steak Dumplings",
+    "name_zh": "黑椒牛肉饺子",
+    "description_en": "Dumplings stuffed with black pepper seasoned beef — bold and peppery.",
+    "description_zh": "黑椒牛肉馅饺子，椒香浓郁，肉香四溢。",
+    "cuisine_tag": "中菜",
+    "flavor_tags": [
+      "savory",
+      "peppery",
+      "rich"
+    ],
+    "image_url": "/images/dishes/black-pepper-beef-dumplings.webp",
+    "available_at": [
+      "12-dumplings"
+    ]
+  },
+  {
+    "id": "signature-dumplings-12d",
+    "name_en": "Signature Dumplings",
+    "name_zh": "招牌饺子",
+    "description_en": "The house specialty dumpling with a unique filling — chef's pride.",
+    "description_zh": "店家招牌饺子，独家秘制馅料。",
+    "cuisine_tag": "中菜",
+    "flavor_tags": [
+      "savory",
+      "aromatic",
+      "rich"
+    ],
+    "image_url": "/images/dishes/signature-dumplings-12d.webp",
+    "available_at": [
+      "12-dumplings"
+    ]
+  },
+  {
+    "id": "custard-bun",
+    "name_en": "Custard Bun",
+    "name_zh": "奶黄包",
+    "description_en": "Soft steamed bun filled with rich, golden egg custard.",
+    "description_zh": "松软包子内裹浓郁奶黄馅，香甜细滑。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "sweet",
+      "creamy",
+      "mild"
+    ],
+    "image_url": "/images/dishes/custard-bun.webp",
+    "available_at": [
+      "12-dumplings"
+    ]
+  },
+  {
+    "id": "beef-tripe-dim-sum",
+    "name_en": "Beef Tripe",
+    "name_zh": "牛百叶",
+    "description_en": "Tender beef tripe steamed dim sum style with ginger and scallion.",
+    "description_zh": "牛百叶蒸制，配姜葱调味，经典茶楼点心。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "savory",
+      "mild",
+      "tender"
+    ],
+    "image_url": "/images/dishes/beef-tripe-dim-sum.webp",
+    "available_at": [
+      "12-dumplings"
+    ]
+  },
+  {
+    "id": "curry-chicken-rice",
+    "name_en": "Curry Chicken Rice",
+    "name_zh": "咖喱鸡饭",
+    "description_en": "Tender chicken in a rich curry sauce served over steamed rice.",
+    "description_zh": "鸡肉配浓郁咖喱汁浇在白饭上，香浓入味。",
+    "cuisine_tag": "中菜",
+    "flavor_tags": [
+      "savory",
+      "aromatic",
+      "rich"
+    ],
+    "image_url": "/images/dishes/curry-chicken-rice.webp",
+    "available_at": [
+      "12-dumplings"
+    ]
+  },
+  {
+    "id": "braised-pork-rice",
+    "name_en": "Braised Pork Rice",
+    "name_zh": "红烧肉饭",
+    "description_en": "Tender braised pork belly served over steamed rice — rich and savory.",
+    "description_zh": "红烧肉盖饭，肉质酥烂，汁浓味美。",
+    "cuisine_tag": "中菜",
+    "flavor_tags": [
+      "savory",
+      "rich",
+      "sweet"
+    ],
+    "image_url": "/images/dishes/braised-pork-rice.webp",
+    "available_at": [
+      "12-dumplings"
+    ]
+  },
+  {
+    "id": "mapo-tofu-rice",
+    "name_en": "Mapo Tofu Rice",
+    "name_zh": "麻婆豆腐饭",
+    "description_en": "Numbing-spicy mapo tofu served over steamed rice.",
+    "description_zh": "麻婆豆腐盖饭，麻辣鲜香，下饭神器。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "savory"
+    ],
+    "image_url": "/images/dishes/mapo-tofu-rice.webp",
+    "available_at": [
+      "12-dumplings"
+    ]
+  },
+  {
+    "id": "chili-chicken-rice",
+    "name_en": "Hot Chili Pepper Chicken Rice",
+    "name_zh": "辣子鸡饭",
+    "description_en": "Crispy chili pepper chicken served over steamed rice — spicy and satisfying.",
+    "description_zh": "辣子鸡盖饭，香辣酥脊，下饭过瘾。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "crispy",
+      "savory"
+    ],
+    "image_url": "/images/dishes/chili-chicken-rice.webp",
+    "available_at": [
+      "12-dumplings"
+    ]
+  },
+  {
+    "id": "tomato-egg-rice",
+    "name_en": "Egg With Tomato Rice",
+    "name_zh": "番茄炒蛋饭",
+    "description_en": "Classic tomato and scrambled egg served over steamed rice — homestyle comfort.",
+    "description_zh": "番茄炒蛋盖饭，家常味道，简单温馨。",
+    "cuisine_tag": "中菜",
+    "flavor_tags": [
+      "savory",
+      "mild",
+      "comforting"
+    ],
+    "image_url": "/images/dishes/tomato-egg-rice.webp",
+    "available_at": [
+      "12-dumplings"
+    ]
+  },
+  {
+    "id": "mala-classic-dry-pot",
+    "name_en": "Mala Classic Dry Pot",
+    "name_zh": "经典麻辣",
+    "description_en": "A sizzling dry pot with your choice of proteins and vegetables in classic mala seasoning.",
+    "description_zh": "经典麻辣干锅，自选荤菜，麻辣鲜香。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "savory",
+      "bold"
+    ],
+    "image_url": "/images/dishes/mala-classic-dry-pot.webp",
+    "available_at": [
+      "12-dumplings"
+    ]
+  },
+  {
+    "id": "mala-your-way",
+    "name_en": "Mala Your Way",
+    "name_zh": "自选麻辣",
+    "description_en": "Build your own mala dry pot — pick your proteins, vegetables, and spice level.",
+    "description_zh": "自选食材和辣度，打造专属麻辣干锅。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "savory"
+    ],
+    "image_url": "/images/dishes/mala-your-way.webp",
+    "available_at": [
+      "12-dumplings"
+    ]
+  },
+  {
+    "id": "chicken-congee",
+    "name_en": "Chicken Congee",
+    "name_zh": "鸡肉粥",
+    "description_en": "Silky rice porridge simmered with tender chicken — warm and comforting.",
+    "description_zh": "鸡肉粥，米香浓郁，鸡肉嫩滑，暖胃暖心。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "mild",
+      "savory",
+      "comforting"
+    ],
+    "image_url": "/images/dishes/chicken-congee.webp",
+    "available_at": [
+      "12-dumplings"
+    ]
+  },
+  {
+    "id": "fish-congee",
+    "name_en": "Fish Congee",
+    "name_zh": "鱼片粥",
+    "description_en": "Smooth rice porridge with delicate sliced fish — light and nourishing.",
+    "description_zh": "鱼片粥，米香绵密，鱼肉鲜嫩，清淡滑美。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "mild",
+      "savory",
+      "light"
+    ],
+    "image_url": "/images/dishes/fish-congee.webp",
+    "available_at": [
+      "12-dumplings"
+    ]
+  },
+  {
+    "id": "beef-potato-stew-noodles",
+    "name_en": "Beef Stew With Potato Noodle",
+    "name_zh": "土豆炖牛肉面",
+    "description_en": "Hearty noodle soup with braised beef and potato in a rich broth.",
+    "description_zh": "牛肉土豆慢炖汤面，汤浓肉烂，暖心暖胃。",
+    "cuisine_tag": "中菜",
+    "flavor_tags": [
+      "savory",
+      "hearty",
+      "comforting"
+    ],
+    "image_url": "/images/dishes/beef-potato-stew-noodles.webp",
+    "available_at": [
+      "12-dumplings"
+    ]
+  },
+  {
+    "id": "braised-pork-noodles",
+    "name_en": "Braised Pork Noodle",
+    "name_zh": "红烧肉面",
+    "description_en": "Noodles in a rich broth topped with tender braised pork belly.",
+    "description_zh": "红烧肉汤面，肉质酥烂，汤底浓郁。",
+    "cuisine_tag": "中菜",
+    "flavor_tags": [
+      "savory",
+      "rich",
+      "hearty"
+    ],
+    "image_url": "/images/dishes/braised-pork-noodles.webp",
+    "available_at": [
+      "12-dumplings"
+    ]
+  },
+  {
+    "id": "home-style-tofu",
+    "name_en": "Home Style Tofu",
+    "name_zh": "家常豆腐",
+    "description_en": "Pan-fried tofu braised with vegetables in a savory sauce — classic homestyle comfort.",
+    "description_zh": "豆腐煎至金黄，配菜红烧，家常味道。",
+    "cuisine_tag": "中菜",
+    "flavor_tags": [
+      "savory",
+      "mild",
+      "comforting"
+    ],
+    "image_url": "/images/dishes/home-style-tofu.webp",
+    "available_at": [
+      "12-dumplings"
+    ]
+  },
+  {
+    "id": "beef-potato-stew",
+    "name_en": "Beef Stew With Potato",
+    "name_zh": "土豆炖牛肉",
+    "description_en": "Tender beef chunks braised with potato in a rich savory broth.",
+    "description_zh": "牛肉土豆慢炖，肉烂汤浓，家常暖菜。",
+    "cuisine_tag": "中菜",
+    "flavor_tags": [
+      "savory",
+      "hearty",
+      "comforting"
+    ],
+    "image_url": "/images/dishes/beef-potato-stew.webp",
+    "available_at": [
+      "12-dumplings"
     ]
   }
 ]
