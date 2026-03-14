@@ -206,7 +206,6 @@
     "available_at": [
       "chongqing-house",
       "chengdu-taste",
-      "lamei-hotpot",
       "yi-ma-yi-la",
       "wing-it"
     ]
@@ -268,7 +267,6 @@
     ],
     "image_url": "/images/dishes/hotpot-beef-slices.webp",
     "available_at": [
-      "lamei-hotpot",
       "shu-da-xia"
     ]
   },
@@ -287,7 +285,6 @@
     ],
     "image_url": "/images/dishes/hotpot-lamb-slices.webp",
     "available_at": [
-      "lamei-hotpot",
       "shu-da-xia"
     ]
   },
@@ -306,7 +303,6 @@
     ],
     "image_url": "/images/dishes/hotpot-tripe.webp",
     "available_at": [
-      "lamei-hotpot",
       "shu-da-xia"
     ]
   },
@@ -325,7 +321,6 @@
     ],
     "image_url": "/images/dishes/duck-blood-curd.webp",
     "available_at": [
-      "lamei-hotpot",
       "shu-da-xia"
     ]
   },
@@ -344,7 +339,6 @@
     ],
     "image_url": "/images/dishes/enoki-mushrooms.webp",
     "available_at": [
-      "lamei-hotpot",
       "shu-da-xia"
     ]
   },
@@ -363,7 +357,6 @@
     ],
     "image_url": "/images/dishes/fatty-beef-hotpot.webp",
     "available_at": [
-      "lamei-hotpot",
       "shu-da-xia"
     ]
   },
@@ -382,26 +375,7 @@
     ],
     "image_url": "/images/dishes/tofu-skin-hotpot.webp",
     "available_at": [
-      "lamei-hotpot",
       "shu-da-xia"
-    ]
-  },
-  {
-    "id": "shrimp-paste-hotpot",
-    "name_en": "Shrimp Paste Balls",
-    "name_zh": "虾滑",
-    "description_en": "Smooth balls of fresh shrimp paste that cook into tender, bouncy morsels in the hotpot.",
-    "description_zh": "新鲜虾肉打成泥，在火锅中煮熟后弹牙爽口，鲜甜无比。",
-    "cuisine_tag": "火锅",
-    "flavor_tags": [
-      "fresh",
-      "savory",
-      "tender",
-      "light"
-    ],
-    "image_url": "/images/dishes/shrimp-paste-hotpot.webp",
-    "available_at": [
-      "lamei-hotpot"
     ]
   },
   {
@@ -1009,22 +983,6 @@
     ]
   },
   {
-    "id": "nan-flatbread",
-    "name_en": "Nan Flatbread",
-    "name_zh": "馕",
-    "description_en": "Crisp-edged, sesame-dusted Uyghur flatbread baked in a tandoor oven — essential for scooping up stews and curries.",
-    "description_zh": "撒上芝麻的维吾尔族馕饼，在馕坑中烤至外脆内软，搭配各种炖菜食用，是新疆人的主食。",
-    "cuisine_tag": "新疆菜",
-    "flavor_tags": [
-      "savory",
-      "crispy",
-      "aromatic",
-      "light"
-    ],
-    "image_url": "/images/dishes/nan-bread.webp",
-    "available_at": []
-  },
-  {
     "id": "malatang",
     "name_en": "Malatang",
     "name_zh": "麻辣烫",
@@ -1239,22 +1197,6 @@
     ]
   },
   {
-    "id": "mapo-eggplant",
-    "name_en": "Mapo Eggplant",
-    "name_zh": "麻婆茄子",
-    "description_en": "A plant-based riff on mapo tofu with silky eggplant taking the place of tofu in a fiery mala sauce.",
-    "description_zh": "以茄子代替豆腐，裹上与麻婆豆腐同款的麻辣酱汁，软糯入味，是麻婆系列的创意演绎。",
-    "cuisine_tag": "川菜",
-    "flavor_tags": [
-      "spicy",
-      "numbing",
-      "savory",
-      "rich"
-    ],
-    "image_url": "/images/dishes/mapo-eggplant.webp",
-    "available_at": []
-  },
-  {
     "id": "sichuan-braised-pork-ribs",
     "name_en": "Sichuan-Spiced Pork Ribs",
     "name_zh": "川味排骨",
@@ -1402,22 +1344,6 @@
     "available_at": [
       "rong-chic"
     ]
-  },
-  {
-    "id": "lamb-soup-xinjiang",
-    "name_en": "Spiced Lamb Soup",
-    "name_zh": "羊杂汤",
-    "description_en": "A warming Xinjiang-style soup of tender lamb offal in a milky, cumin-scented broth — hearty and restorative.",
-    "description_zh": "羊杂与香料在奶白的羊骨汤中慢炖，孜然香气浓郁，暖胃养身，是新疆人冬日早餐的首选。",
-    "cuisine_tag": "新疆菜",
-    "flavor_tags": [
-      "savory",
-      "hearty",
-      "aromatic",
-      "rich"
-    ],
-    "image_url": "/images/dishes/lamb-soup.webp",
-    "available_at": []
   },
   {
     "id": "wood-ear-mushroom-salad",
@@ -1714,7 +1640,6 @@
     ],
     "image_url": "/images/dishes/sichuan-hot-pot.webp",
     "available_at": [
-      "lamei-hotpot",
       "chongqing-house",
       "shu-da-xia"
     ]
@@ -1738,38 +1663,6 @@
       "noahs-kitchen",
       "chengdu-taste"
     ]
-  },
-  {
-    "id": "cold-beef-special-sauce",
-    "name_en": "Cold Beef with Special Sauce",
-    "name_zh": "凉拌牛肉",
-    "description_en": "Chilled sliced beef dressed in a bold, tangy special sauce with chili oil and aromatic spices.",
-    "description_zh": "冷切牛肉片拌以特制酱汁，辣椒油与香料交织，是开胃的川式凉菜。",
-    "cuisine_tag": "川菜",
-    "flavor_tags": [
-      "savory",
-      "spicy",
-      "aromatic",
-      "tangy"
-    ],
-    "image_url": "/images/dishes/cold-beef-special-sauce.webp",
-    "available_at": []
-  },
-  {
-    "id": "pork-dumplings-chili-oil",
-    "name_en": "Pork Dumplings in Chili Oil",
-    "name_zh": "红油水饺",
-    "description_en": "Boiled pork dumplings served in a pool of fragrant red chili oil with garlic and Sichuan peppercorn.",
-    "description_zh": "水煮猪肉饺子浸在红油辣椒中，配以蒜末和花椒，麻辣鲜香。",
-    "cuisine_tag": "川菜",
-    "flavor_tags": [
-      "spicy",
-      "numbing",
-      "savory",
-      "aromatic"
-    ],
-    "image_url": "/images/dishes/pork-dumplings-chili-oil.webp",
-    "available_at": []
   },
   {
     "id": "mala-beef",
@@ -4360,6 +4253,600 @@
     "image_url": "/images/dishes/beef-tripe-noodle-soup.webp",
     "available_at": [
       "kings-garden"
+    ]
+  },
+  {
+    "id": "wild-mushroom-broth-lamei",
+    "name_en": "Wild Mushroom Broth",
+    "name_zh": "野生菌菇锅",
+    "description_en": "Earthy broth made with a blend of wild mushrooms for a rich, umami-packed hotpot base.",
+    "description_zh": "多种野生菌菇熬制的鲜美锅底，鲜香浓郁。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "umami",
+      "earthy",
+      "savory",
+      "rich"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "tomato-broth-lamei",
+    "name_en": "Tomato Broth",
+    "name_zh": "香浓番茄锅",
+    "description_en": "Sweet and tangy tomato-based hotpot broth, perfect for a milder flavor.",
+    "description_zh": "酸甜可口的番茄锅底，清爽开胃。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "tangy",
+      "sweet",
+      "savory",
+      "light"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "bone-broth-lamei",
+    "name_en": "Bone Broth",
+    "name_zh": "秘制养生骨汤锅",
+    "description_en": "Slow-simmered pork bone broth with nourishing herbs for a comforting hotpot base.",
+    "description_zh": "秘制养生骨汤，慢火熬制，醇厚滋补。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "rich",
+      "savory",
+      "umami",
+      "comforting"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "spicy-veg-oil-broth-lamei",
+    "name_en": "Spicy Vegetable Oil Broth",
+    "name_zh": "麻辣清油锅",
+    "description_en": "A lighter spicy broth using vegetable oil with Sichuan peppercorns and dried chilies.",
+    "description_zh": "清油锅底，麻辣鲜香，比牛油锅更清爽。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "aromatic",
+      "light"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "spicy-beef-tallow-broth-lamei",
+    "name_en": "Spicy Premium Beef Tallow Broth",
+    "name_zh": "麻辣牛油锅",
+    "description_en": "Rich and fiery beef tallow broth loaded with Sichuan peppercorns, dried chilies, and aromatic spices.",
+    "description_zh": "浓郁牛油锅底，麻辣醇厚，经典川味火锅。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "rich",
+      "savory"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "two-flavor-broth-lamei",
+    "name_en": "Two Flavor Broth",
+    "name_zh": "两味鸳鸯锅",
+    "description_en": "Split pot with two broth choices — enjoy both spicy and mild in one session.",
+    "description_zh": "鸳鸯锅，一锅两味，满足不同口味需求。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "spicy",
+      "savory",
+      "rich",
+      "versatile"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "ice-jelly-lamei",
+    "name_en": "Ice Jelly With Brown Sugar",
+    "name_zh": "冰粉",
+    "description_en": "Refreshing chilled jelly dessert drizzled with brown sugar syrup, a classic Sichuan palate cleanser.",
+    "description_zh": "冰凉爽滑的冰粉，配红糖浆，解辣佳品。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "sweet",
+      "refreshing",
+      "light",
+      "cold"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "fried-rice-cake-lamei",
+    "name_en": "Fried Rice Cake With Brown Sugar",
+    "name_zh": "红糖糍粑",
+    "description_en": "Crispy fried glutinous rice cakes coated in brown sugar and soybean powder.",
+    "description_zh": "外酥里糯的红糖糍粑，甜香可口。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "sweet",
+      "crispy",
+      "chewy",
+      "rich"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "fried-mini-bun-lamei",
+    "name_en": "Fried Mini Bun",
+    "name_zh": "黄金小馒头",
+    "description_en": "Golden deep-fried mini steamed buns, crispy outside and fluffy inside.",
+    "description_zh": "炸至金黄的小馒头，外酥内软。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "crispy",
+      "savory",
+      "light",
+      "fluffy"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "crispy-pork-strip-lamei",
+    "name_en": "Crispy Pork Strip",
+    "name_zh": "现炸小酥肉",
+    "description_en": "Freshly fried crispy pork strips, perfect for dipping into hotpot broth.",
+    "description_zh": "现炸小酥肉，外酥里嫩，涮锅必备。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "crispy",
+      "savory",
+      "tender",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "pork-dumplings-lamei",
+    "name_en": "Pork Dumplings",
+    "name_zh": "猪肉水饺",
+    "description_en": "Classic boiled pork dumplings with a juicy filling.",
+    "description_zh": "鲜嫩多汁的猪肉水饺。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "savory",
+      "tender",
+      "umami",
+      "comforting"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "fried-rice-lamei",
+    "name_en": "House Special Fried Rice",
+    "name_zh": "黄金蛋炒饭",
+    "description_en": "Wok-fried rice with egg, a simple and satisfying staple.",
+    "description_zh": "粒粒分明的黄金蛋炒饭，香气四溢。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "savory",
+      "aromatic",
+      "rich",
+      "comforting"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "snowflake-short-ribs-lamei",
+    "name_en": "Sliced Snowflake Short Ribs",
+    "name_zh": "雪花牛小排",
+    "description_en": "Beautifully marbled snowflake short rib slices, perfect for a quick swish in the hotpot.",
+    "description_zh": "纹理细密的雪花牛小排，涮烫即食，鲜嫩多汁。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "rich",
+      "tender",
+      "savory",
+      "umami"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "premium-beef-lamei",
+    "name_en": "Sliced Premium Beef",
+    "name_zh": "精选肥牛",
+    "description_en": "Thinly sliced premium fatty beef, the essential hotpot staple.",
+    "description_zh": "精选肥牛卷，薄如蝉翼，涮锅经典。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "rich",
+      "tender",
+      "savory",
+      "umami"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "beef-lamb-combo-lamei",
+    "name_en": "Beef & Lamb Combo",
+    "name_zh": "牛羊双拼",
+    "description_en": "A combination platter of sliced beef and lamb for the best of both worlds.",
+    "description_zh": "牛肉与羊肉双拼，一次满足两种口味。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "rich",
+      "tender",
+      "savory",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "nz-lamb-shoulder-lamei",
+    "name_en": "Sliced New Zealand Lamb Shoulder",
+    "name_zh": "新西兰羊肩肉",
+    "description_en": "Premium New Zealand lamb shoulder, sliced thin for hotpot.",
+    "description_zh": "新西兰进口羊肩肉，肉质鲜嫩，膻味轻。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "tender",
+      "savory",
+      "rich",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "beef-tongue-lamei",
+    "name_en": "Sliced Premium Beef Tongue",
+    "name_zh": "精选牛舌",
+    "description_en": "Thinly sliced beef tongue with a unique tender texture, a hotpot delicacy.",
+    "description_zh": "精选牛舌片，口感独特，鲜嫩弹滑。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "tender",
+      "savory",
+      "umami",
+      "chewy"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "crunchy-meatballs-lamei",
+    "name_en": "Fresh Crunchy Meatballs",
+    "name_zh": "手打贡菜鲜肉丸",
+    "description_en": "Hand-beaten pork meatballs with crunchy celtuce stem for a unique bouncy texture.",
+    "description_zh": "手打贡菜鲜肉丸，脆嫩弹牙，口感丰富。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "savory",
+      "crunchy",
+      "tender",
+      "umami"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "pork-kidney-lamei",
+    "name_en": "Large Sliced Pork Kidney",
+    "name_zh": "大刀腰片",
+    "description_en": "Thinly sliced pork kidney, a classic spicy hotpot ingredient with a crisp bite.",
+    "description_zh": "大刀腰片，刀工精细，涮后脆嫩爽口。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "savory",
+      "crispy",
+      "tender",
+      "rich"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "beef-omasum-lamei",
+    "name_en": "Beef Omasum Slice",
+    "name_zh": "精选草原黑毛肚",
+    "description_en": "Premium black beef omasum (tripe), the signature spicy hotpot must-have with a satisfying crunch.",
+    "description_zh": "精选草原黑毛肚，七上八下涮出脆嫩口感，辣锅必点。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "savory",
+      "crunchy",
+      "spicy",
+      "chewy"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "beef-tripe-lamei",
+    "name_en": "Beef Tripe",
+    "name_zh": "牛百叶",
+    "description_en": "Sliced beef tripe with a distinctive layered texture, great in spicy broth.",
+    "description_zh": "牛百叶，层次分明，涮后爽脆可口。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "savory",
+      "chewy",
+      "crunchy",
+      "spicy"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "frog-leg-lamei",
+    "name_en": "Frog Leg",
+    "name_zh": "牛蛙腿",
+    "description_en": "Tender frog legs that cook quickly in the hotpot for a delicate, savory bite.",
+    "description_zh": "鲜嫩牛蛙腿，涮后肉质细嫩，鲜美可口。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "tender",
+      "savory",
+      "light",
+      "fresh"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "goose-intestine-lamei",
+    "name_en": "Goose Intestine",
+    "name_zh": "精品鹅肠",
+    "description_en": "Premium goose intestine with a signature crispy, bouncy texture when briefly cooked in the broth.",
+    "description_zh": "精品鹅肠，涮烫数秒即可，脆嫩弹牙。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "crispy",
+      "chewy",
+      "savory",
+      "light"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "pork-brain-lamei",
+    "name_en": "Pork Brain",
+    "name_zh": "猪脑花",
+    "description_en": "Silky, creamy pork brain — a rich delicacy best enjoyed in spicy mala broth.",
+    "description_zh": "猪脑花，口感绵密细腻，麻辣锅中的经典。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "rich",
+      "creamy",
+      "savory",
+      "tender"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "beef-throat-lamei",
+    "name_en": "Beef Throat",
+    "name_zh": "极品黄喉",
+    "description_en": "Premium beef aorta (yellow throat), prized for its crunchy, springy texture in hotpot.",
+    "description_zh": "极品黄喉，脆爽弹牙，火锅涮品中的上品。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "crunchy",
+      "chewy",
+      "savory",
+      "light"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "boneless-duck-feet-lamei",
+    "name_en": "Boneless Duck Feet",
+    "name_zh": "无骨鸭掌",
+    "description_en": "Deboned duck feet with a gelatinous, chewy texture that soaks up the spicy broth.",
+    "description_zh": "无骨鸭掌，软糯弹牙，吸满汤汁更入味。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "chewy",
+      "savory",
+      "rich",
+      "spicy"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "shrimp-paste-lamei",
+    "name_en": "Handmade Shrimp Paste",
+    "name_zh": "手工虾滑",
+    "description_en": "Handmade shrimp paste, scooped fresh into the broth for bouncy, flavorful bites.",
+    "description_zh": "手工现打虾滑，鲜嫩弹牙，虾味十足。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "fresh",
+      "tender",
+      "savory",
+      "umami"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "flounder-slices-lamei",
+    "name_en": "Sliced Flounder",
+    "name_zh": "龙利鱼片",
+    "description_en": "Delicate flounder fillets sliced thin for a quick cook in the hotpot.",
+    "description_zh": "龙利鱼片，肉质细嫩，入锅即熟。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "fresh",
+      "tender",
+      "light",
+      "savory"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "whole-shrimp-lamei",
+    "name_en": "Whole Shrimp",
+    "name_zh": "有头大虾",
+    "description_en": "Whole head-on shrimp, cooked in the hotpot for sweet, succulent bites.",
+    "description_zh": "有头大虾，虾肉饱满鲜甜。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "fresh",
+      "sweet",
+      "savory",
+      "tender"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "lobster-tail-lamei",
+    "name_en": "Boston Lobster Tail",
+    "name_zh": "波士顿龙虾尾",
+    "description_en": "Premium Boston lobster tail, a luxurious hotpot addition with sweet, firm meat.",
+    "description_zh": "波士顿龙虾尾，肉质紧实鲜甜，火锅中的奢华之选。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "fresh",
+      "sweet",
+      "rich",
+      "tender"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "hand-pulled-noodles-lamei",
+    "name_en": "LaMei Hand-Pulled Noodles",
+    "name_zh": "辣妹拽面",
+    "description_en": "House specialty hand-pulled noodles, perfect for soaking up the flavorful broth.",
+    "description_zh": "辣妹招牌拽面，劲道爽滑，吸满锅底精华。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "chewy",
+      "savory",
+      "comforting",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "purple-potato-noodles-lamei",
+    "name_en": "Purple Potato Noodles",
+    "name_zh": "紫薯川粉",
+    "description_en": "Slippery purple potato glass noodles that absorb the rich hotpot broth beautifully.",
+    "description_zh": "紫薯川粉，爽滑Q弹，吸汤入味。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "chewy",
+      "light",
+      "savory",
+      "comforting"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "rice-cake-lamei",
+    "name_en": "Rice Cake",
+    "name_zh": "年糕",
+    "description_en": "Chewy sliced rice cakes that soak up the hotpot broth for a satisfying bite.",
+    "description_zh": "软糯年糕，涮煮后吸满汤汁，口感Q弹。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "chewy",
+      "savory",
+      "comforting",
+      "light"
+    ],
+    "image_url": "/images/dishes/default-hotpot.webp",
+    "available_at": [
+      "lamei-hotpot"
     ]
   }
 ]
