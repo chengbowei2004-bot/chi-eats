@@ -22,7 +22,8 @@
       "baozang-55beach",
       "china-gourmet",
       "kings-garden",
-      "chef-yao"
+      "chef-yao",
+      "y-bento"
     ]
   },
   {
@@ -94,7 +95,8 @@
       "rong-chic",
       "noahs-kitchen",
       "baozang-55beach",
-      "chef-yao"
+      "chef-yao",
+      "y-bento"
     ]
   },
   {
@@ -206,7 +208,8 @@
       "rong-chic",
       "noahs-kitchen",
       "yi-ma-yi-la",
-      "chef-yao"
+      "chef-yao",
+      "y-bento"
     ]
   },
   {
@@ -271,7 +274,8 @@
       "chongqing-house",
       "chengdu-taste",
       "rong-chic",
-      "noahs-kitchen"
+      "noahs-kitchen",
+      "y-bento"
     ]
   },
   {
@@ -568,7 +572,8 @@
     "available_at": [
       "y-noodle-bar",
       "rong-chic",
-      "wings-kitchen"
+      "wings-kitchen",
+      "y-bento"
     ]
   },
   {
@@ -588,7 +593,8 @@
     "available_at": [
       "rong-chic",
       "y-noodle-bar",
-      "chengdu-taste"
+      "chengdu-taste",
+      "y-bento"
     ]
   },
   {
@@ -1484,7 +1490,6 @@
       "wongs-kitchen",
       "rong-chic",
       "lobanton",
-      "y-bento",
       "baozang-55beach",
       "china-gourmet"
     ]
@@ -3028,7 +3033,8 @@
     "available_at": [
       "chengdu-taste",
       "jahunger",
-      "chef-yao"
+      "chef-yao",
+      "y-bento"
     ]
   },
   {
@@ -4020,6 +4026,75 @@
     "image_url": "/images/dishes/mao-xue-wang.webp",
     "available_at": [
       "chef-yao"
+    ]
+  },
+  {
+    "id": "tomato-radish-beef-stew",
+    "name_en": "Tomato Radish Beef Stew",
+    "name_zh": "西红柿萝卜炖牛肉",
+    "description_en": "Tender beef slow-braised with tomato and radish — hearty and comforting.",
+    "description_zh": "牛肉配番茄萝卜慢炖，汤浓肉烂，家常暖心菜。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "savory",
+      "hearty",
+      "mild"
+    ],
+    "image_url": "/images/dishes/tomato-radish-beef-stew.webp",
+    "available_at": [
+      "y-bento"
+    ]
+  },
+  {
+    "id": "nappa-cabbage-pork-dumplings",
+    "name_en": "Nappa Cabbage & Pork Dumplings",
+    "name_zh": "白菜猪肉水饺",
+    "description_en": "Classic boiled dumplings filled with nappa cabbage and seasoned pork.",
+    "description_zh": "白菜猪肉馅水饺，皮薄馅大，经典家常味。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "savory",
+      "mild",
+      "comforting"
+    ],
+    "image_url": "/images/dishes/nappa-cabbage-pork-dumplings.webp",
+    "available_at": [
+      "y-bento"
+    ]
+  },
+  {
+    "id": "beef-mao-cai",
+    "name_en": "Szechuan Beef Mao Cai",
+    "name_zh": "牛肉冒菜",
+    "description_en": "Beef and mixed vegetables simmered in a spicy Sichuan broth — like a personal hotpot.",
+    "description_zh": "牛肉配时令菜在麻辣汤底中焖煮，一人份的麻辣火锅。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "savory",
+      "hearty"
+    ],
+    "image_url": "/images/dishes/beef-mao-cai.webp",
+    "available_at": [
+      "y-bento"
+    ]
+  },
+  {
+    "id": "vegetable-fried-rice",
+    "name_en": "Vegetable Fried Rice",
+    "name_zh": "素炒饭",
+    "description_en": "Wok-fried rice with mixed vegetables — light and satisfying.",
+    "description_zh": "时令蔬菜炒饭，粒粒分明，清甘可口。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "savory",
+      "mild",
+      "light"
+    ],
+    "image_url": "/images/dishes/vegetable-fried-rice.webp",
+    "available_at": [
+      "y-bento"
     ]
   }
 ]
