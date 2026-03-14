@@ -2,9 +2,19 @@
 
 import { useState, useEffect, useRef } from "react";
 
-export function useTypewriter(dishes: string[], active: boolean) {
+export function useTypewriter(
+  dishes: string[],
+  active: boolean,
+  onFirstComplete?: () => void
+) {
   const [text, setText] = useState("");
-  const state = useRef({ idx: 0, charIdx: 0, deleting: false, pause: 0 });
+  const state = useRef({
+    idx: 0,
+    charIdx: 0,
+    deleting: false,
+    pause: 0,
+    firstDone: false,
+  });
 
   useEffect(() => {
     if (!active) return;
@@ -13,6 +23,7 @@ export function useTypewriter(dishes: string[], active: boolean) {
     s.charIdx = 0;
     s.deleting = false;
     s.pause = 0;
+    s.firstDone = false;
     setText("");
 
     const id = setInterval(() => {
@@ -27,6 +38,10 @@ export function useTypewriter(dishes: string[], active: boolean) {
         if (s.charIdx === word.length) {
           s.deleting = true;
           s.pause = 15;
+          if (!s.firstDone) {
+            s.firstDone = true;
+            onFirstComplete?.();
+          }
         }
       } else {
         s.charIdx--;
@@ -39,7 +54,7 @@ export function useTypewriter(dishes: string[], active: boolean) {
     }, s.deleting ? 60 : 120 + Math.random() * 80);
 
     return () => clearInterval(id);
-  }, [dishes, active]);
+  }, [dishes, active, onFirstComplete]);
 
   return text;
 }

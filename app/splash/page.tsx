@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState, useCallback, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { useTypewriter } from "@/lib/useTypewriter";
 
@@ -32,7 +32,13 @@ export default function SplashPage() {
   const [typewriterActive, setTypewriterActive] = useState(false);
 
   const dishes = chosenLang === "zh" ? DISHES_ZH : DISHES_EN;
-  const typedText = useTypewriter(dishes, typewriterActive);
+
+  const onFirstComplete = useCallback(() => {
+    setTimeout(() => setS2Slogan(true), 0);
+    setTimeout(() => setS2Button(true), 200);
+  }, []);
+
+  const typedText = useTypewriter(dishes, typewriterActive, onFirstComplete);
 
   // Skip if language already chosen
   useEffect(() => {
@@ -58,11 +64,9 @@ export default function SplashPage() {
         // Enter screen 2
         setTimeout(() => setTyperEntering(true), 50);
 
-        // Stagger screen 2 elements
+        // Stagger screen 2 elements (slogan + button deferred to onFirstComplete)
         setTimeout(() => setS2Logo(true), 100);
         setTimeout(() => setS2Typer(true), 300);
-        setTimeout(() => setS2Slogan(true), 500);
-        setTimeout(() => setS2Button(true), 700);
 
         // Start typewriter 800ms after logo
         setTimeout(() => setTypewriterActive(true), 900);
@@ -204,14 +208,14 @@ export default function SplashPage() {
             </span>
           </div>
 
-          {/* Slogan */}
+          {/* Slogan — appears after first word typed */}
           <div
             className="splash-el"
             style={{
               marginTop: 32,
               textAlign: "center",
               opacity: s2Slogan ? 1 : 0,
-              transform: s2Slogan ? "translateY(0)" : "translateY(24px)",
+              transform: s2Slogan ? "translateY(0)" : "translateY(12px)",
             }}
           >
             <p style={{ fontSize: 12, color: "#bbb", letterSpacing: 2 }}>
@@ -221,14 +225,15 @@ export default function SplashPage() {
             </p>
           </div>
 
-          {/* Enter button */}
+          {/* Enter button — appears 200ms after slogan */}
           <button
             onClick={handleEnter}
             className="splash-el splash-enter-btn"
             style={{
               marginTop: 40,
               opacity: s2Button ? 1 : 0,
-              transform: s2Button ? "translateY(0)" : "translateY(24px)",
+              transform: s2Button ? "translateY(0)" : "translateY(12px)",
+              pointerEvents: s2Button ? "auto" : "none",
             }}
           >
             {chosenLang === "zh" ? "开始探索" : "Start exploring"}
