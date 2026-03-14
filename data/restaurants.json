@@ -453,5 +453,18 @@
     "review_summary": "A Chinatown staple serving a wide range of Chinese classics. Reliable and affordable — the menu has something for everyone.",
     "review_score": 4.0,
     "yelp_url": "https://www.yelp.com/biz/china-gourmet-restaurant-boston"
+  },
+  {
+    "id": "kings-garden",
+    "name": "King's Garden",
+    "name_zh": "",
+    "address": "90 Rolfe Square, Cranston, RI 02910",
+    "lat": 41.7756,
+    "lng": -71.4366,
+    "city": "providence",
+    "cuisine_tags": ["点心", "粤菜", "川菜"],
+    "review_summary": "Popular dim sum spot with extensive menu including Szechuan dishes, hot pots, and classic dim sum staples. Known for generous portions and authentic flavors.",
+    "review_score": 4.3,
+    "yelp_url": ""
   }
 ]

@@ -21,7 +21,8 @@
       "noahs-kitchen",
       "yi-ma-yi-la",
       "baozang-55beach",
-      "china-gourmet"
+      "china-gourmet",
+      "kings-garden"
     ]
   },
   {
@@ -46,7 +47,8 @@
       "chef-yao",
       "noahs-kitchen",
       "china-gourmet",
-      "baozang-55beach"
+      "baozang-55beach",
+      "kings-garden"
     ]
   },
   {
@@ -733,7 +735,8 @@
       "chef-yao",
       "wongs-kitchen",
       "jumbo-seafood",
-      "jade-garden"
+      "jade-garden",
+      "kings-garden"
     ]
   },
   {
@@ -860,7 +863,8 @@
       "chef-yao",
       "wongs-kitchen",
       "jumbo-seafood",
-      "jade-garden"
+      "jade-garden",
+      "kings-garden"
     ]
   },
   {
@@ -904,7 +908,8 @@
       "chef-yao",
       "wongs-kitchen",
       "jade-garden",
-      "jumbo-seafood"
+      "jumbo-seafood",
+      "kings-garden"
     ]
   },
   {
@@ -923,7 +928,8 @@
     "image_url": "/images/dishes/lotus-leaf-sticky-rice.webp",
     "available_at": [
       "chef-yao",
-      "wongs-kitchen"
+      "wongs-kitchen",
+      "kings-garden"
     ]
   },
   {
@@ -946,7 +952,8 @@
       "lobanton",
       "wings-kitchen",
       "big-fun-cafe",
-      "susu-gourmet"
+      "susu-gourmet",
+      "kings-garden"
     ]
   },
   {
@@ -1032,7 +1039,8 @@
       "chef-yao",
       "wongs-kitchen",
       "big-fun-cafe",
-      "jade-garden"
+      "jade-garden",
+      "kings-garden"
     ]
   },
   {
@@ -1116,7 +1124,8 @@
       "chef-yao",
       "wongs-kitchen",
       "jumbo-seafood",
-      "jade-garden"
+      "jade-garden",
+      "kings-garden"
     ]
   },
   {
@@ -2475,6 +2484,92 @@
     "image_url": "/images/dishes/baked-pork-chop-rice.webp",
     "available_at": [
       "big-fun-cafe"
+    ]
+  },
+  {
+    "id": "char-siu-bao",
+    "name_en": "Char Siu Bao (BBQ Pork Bun)",
+    "name_zh": "叉烧包",
+    "description_en": "Fluffy steamed buns filled with sweet and savory barbecued pork in a sticky glaze — a dim sum essential.",
+    "description_zh": "松软的蒸包子里包裹着甜咸适口的蜜汁叉烧馅料，是广式早茶必点之一。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "sweet",
+      "savory",
+      "tender",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/char-siu-bao.webp",
+    "available_at": [
+      "chef-yao",
+      "wongs-kitchen",
+      "jumbo-seafood",
+      "jade-garden",
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "cheung-fun",
+    "name_en": "Cheung Fun (Rice Noodle Roll)",
+    "name_zh": "肠粉",
+    "description_en": "Silky steamed rice noodle sheets rolled around shrimp, pork, or vegetables, drizzled with sweet soy sauce.",
+    "description_zh": "滑嫩的蒸米粉皮卷入虾仁、猪肉或蔬菜，淋上甜酱油，是广东早茶的经典主食。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "light",
+      "savory",
+      "tender",
+      "fresh"
+    ],
+    "image_url": "/images/dishes/cheung-fun.webp",
+    "available_at": [
+      "chef-yao",
+      "wongs-kitchen",
+      "jumbo-seafood",
+      "jade-garden",
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "sichuan-hot-pot",
+    "name_en": "Sichuan Hot Pot",
+    "name_zh": "四川火锅",
+    "description_en": "A bubbling pot of fiery Sichuan broth loaded with chili and peppercorn — cook meats, vegetables, and noodles at the table.",
+    "description_zh": "翻滚的麻辣锅底配上各式涮菜和肉类，在餐桌上现煮现吃，是川菜社交聚餐的灵魂。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "rich",
+      "savory"
+    ],
+    "image_url": "/images/dishes/sichuan-hot-pot.webp",
+    "available_at": [
+      "lamei-hotpot",
+      "chongqing-house",
+      "shu-da-xia",
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "spicy-wonton-chili-oil",
+    "name_en": "Spicy Wontons in Chili Oil",
+    "name_zh": "红油馄饨",
+    "description_en": "Plump pork wontons bathed in a fragrant chili oil sauce with garlic, vinegar, and Sichuan peppercorn.",
+    "description_zh": "饱满的猪肉馄饨浸在香辣红油中，配以蒜泥、香醋和花椒，麻辣鲜香，开胃过瘾。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "savory",
+      "tangy"
+    ],
+    "image_url": "/images/dishes/spicy-wontons.webp",
+    "available_at": [
+      "chongqing-house",
+      "chengdu-taste",
+      "noahs-kitchen",
+      "kings-garden"
     ]
   }
 ]
