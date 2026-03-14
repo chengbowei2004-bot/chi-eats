@@ -24,7 +24,7 @@ export default function HomePage() {
     const onboarded = localStorage.getItem("deedao_onboarded");
     if (!onboarded) {
       const langChosen = localStorage.getItem("deedao_lang_chosen");
-      router.replace(langChosen ? "/onboarding" : "/language");
+      router.replace(langChosen ? "/onboarding" : "/splash");
     }
   }, [router]);
 
