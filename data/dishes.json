@@ -28,31 +28,6 @@
     ]
   },
   {
-    "id": "kung-pao-chicken",
-    "name_en": "Kung Pao Chicken",
-    "name_zh": "宫保鸡丁",
-    "description_en": "Diced chicken stir-fried with dried chilies, peanuts, and Sichuan peppercorns in a glossy sweet-spicy sauce.",
-    "description_zh": "鸡丁与干辣椒、花生和花椒爆炒，裹上光亮的甜辣酱汁。",
-    "cuisine_tag": "川菜",
-    "flavor_tags": [
-      "spicy",
-      "sweet",
-      "savory",
-      "numbing"
-    ],
-    "image_url": "/images/dishes/kung-pao-chicken.webp",
-    "available_at": [
-      "chongqing-house",
-      "chengdu-taste",
-      "rong-chic",
-      "wongs-kitchen",
-      "noahs-kitchen",
-      "china-gourmet",
-      "baozang-55beach",
-      "chef-yao"
-    ]
-  },
-  {
     "id": "dan-dan-noodles",
     "name_en": "Dan Dan Noodles",
     "name_zh": "担担面",
@@ -98,30 +73,6 @@
       "chef-yao",
       "y-bento",
       "kings-garden"
-    ]
-  },
-  {
-    "id": "fish-fragrant-eggplant",
-    "name_en": "Fish-Fragrant Eggplant",
-    "name_zh": "鱼香茄子",
-    "description_en": "Soft eggplant braised in a tangy-spicy sauce of vinegar, chili, garlic, and ginger — no fish required.",
-    "description_zh": "茄子软烂，裹上以醋、辣椒、大蒜和姜调制的鱼香汁，酸辣开胃。",
-    "cuisine_tag": "川菜",
-    "flavor_tags": [
-      "spicy",
-      "tangy",
-      "savory",
-      "aromatic"
-    ],
-    "image_url": "/images/dishes/fish-fragrant-eggplant.webp",
-    "available_at": [
-      "chongqing-house",
-      "chengdu-taste",
-      "rong-chic",
-      "wongs-kitchen",
-      "noahs-kitchen",
-      "china-gourmet",
-      "chef-yao"
     ]
   },
   {
@@ -280,25 +231,6 @@
       "rong-chic",
       "noahs-kitchen",
       "y-bento"
-    ]
-  },
-  {
-    "id": "preserved-egg-tofu",
-    "name_en": "Century Egg with Tofu",
-    "name_zh": "皮蛋豆腐",
-    "description_en": "Chilled soft tofu topped with century egg, soy sauce, sesame oil, and scallions — a refreshing appetizer.",
-    "description_zh": "冷豆腐上摆皮蛋，淋酱油和香油，撒葱花，清爽开胃。",
-    "cuisine_tag": "川菜",
-    "flavor_tags": [
-      "savory",
-      "light",
-      "fresh",
-      "umami"
-    ],
-    "image_url": "/images/dishes/preserved-egg-tofu.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "rong-chic"
     ]
   },
   {
@@ -473,30 +405,6 @@
     ]
   },
   {
-    "id": "red-braised-pork-belly",
-    "name_en": "Red-Braised Pork Belly",
-    "name_zh": "红烧肉",
-    "description_en": "Melt-in-your-mouth pork belly slow-braised in soy sauce, Shaoxing wine, and rock sugar until lacquered and irresistible.",
-    "description_zh": "猪五花用酱油、绍兴酒和冰糖慢炖，色泽红亮，软烂入味，入口即化。",
-    "cuisine_tag": "家常菜",
-    "flavor_tags": [
-      "sweet",
-      "savory",
-      "rich",
-      "tender"
-    ],
-    "image_url": "/images/dishes/red-braised-pork-belly.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "rong-chic",
-      "lobanton",
-      "chongqing-house",
-      "baozang-55beach",
-      "china-gourmet",
-      "chengdu-taste"
-    ]
-  },
-  {
     "id": "beef-noodle-soup",
     "name_en": "Beef Noodle Soup",
     "name_zh": "红烧牛肉面",
@@ -515,29 +423,6 @@
       "rong-chic",
       "aries-noodle",
       "ifresh-noodle"
-    ]
-  },
-  {
-    "id": "wonton-noodle-soup",
-    "name_en": "Wonton Noodle Soup",
-    "name_zh": "云吞面",
-    "description_en": "Silky pork-and-shrimp wontons served in a clear, fragrant broth with thin egg noodles.",
-    "description_zh": "猪肉虾仁馄饨在清澈鲜美的汤底中煮熟，配细滑蛋面，简单却令人满足。",
-    "cuisine_tag": "粤菜",
-    "flavor_tags": [
-      "savory",
-      "light",
-      "fresh",
-      "umami"
-    ],
-    "image_url": "/images/dishes/wonton-noodle-soup.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "lobanton",
-      "y-noodle-bar",
-      "wings-kitchen",
-      "big-fun-cafe",
-      "kings-garden"
     ]
   },
   {
@@ -724,30 +609,6 @@
     ]
   },
   {
-    "id": "shrimp-dumplings-har-gow",
-    "name_en": "Shrimp Dumplings (Har Gow)",
-    "name_zh": "虾饺",
-    "description_en": "Translucent steamed rice-flour wrappers encasing whole, crunchy shrimp — the crown jewel of Cantonese dim sum.",
-    "description_zh": "半透明的澄面皮包裹整只弹牙的虾肉，是粤式点心中的精品，皮薄馅鲜。",
-    "cuisine_tag": "粤菜",
-    "flavor_tags": [
-      "fresh",
-      "light",
-      "savory",
-      "tender"
-    ],
-    "image_url": "/images/dishes/har-gow.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "jumbo-seafood",
-      "jade-garden",
-      "chengdu-taste",
-      "chef-yao",
-      "12-dumplings",
-      "kings-garden"
-    ]
-  },
-  {
     "id": "xiao-long-bao",
     "name_en": "Xiao Long Bao",
     "name_zh": "小笼包",
@@ -770,29 +631,6 @@
       "chef-yao",
       "12-dumplings",
       "kings-garden"
-    ]
-  },
-  {
-    "id": "pan-fried-dumplings",
-    "name_en": "Pan-Fried Dumplings (Guotie)",
-    "name_zh": "锅贴",
-    "description_en": "Dumplings pan-fried until the bottom is golden and crispy while the top stays soft, filled with pork and ginger.",
-    "description_zh": "饺子底部煎至金黄酥脆，顶部柔软，猪肉姜末馅鲜嫩多汁，一口一个停不下来。",
-    "cuisine_tag": "饺子",
-    "flavor_tags": [
-      "savory",
-      "crispy",
-      "rich",
-      "aromatic"
-    ],
-    "image_url": "/images/dishes/pan-fried-dumplings.webp",
-    "available_at": [
-      "rong-chic",
-      "wongs-kitchen",
-      "chongqing-house",
-      "golden-garden-malden",
-      "aries-noodle",
-      "chengdu-taste"
     ]
   },
   {
@@ -832,46 +670,6 @@
     ]
   },
   {
-    "id": "steamed-pork-buns",
-    "name_en": "Steamed Pork Buns",
-    "name_zh": "肉包子",
-    "description_en": "Fluffy steamed buns filled with seasoned pork, scallions, and a hint of ginger — breakfast food elevated to perfection.",
-    "description_zh": "松软的发面包子，内馅为猪肉、葱花和姜末，是中式早餐中最受欢迎的选择之一。",
-    "cuisine_tag": "点心",
-    "flavor_tags": [
-      "savory",
-      "light",
-      "tender",
-      "aromatic"
-    ],
-    "image_url": "/images/dishes/steamed-pork-buns.webp",
-    "available_at": [
-      "wongs-kitchen"
-    ]
-  },
-  {
-    "id": "shaomai",
-    "name_en": "Shaomai",
-    "name_zh": "烧卖",
-    "description_en": "Open-top steamed dumplings filled with pork and glutinous rice, topped with a dot of bright orange roe.",
-    "description_zh": "顶部敞开的蒸饺，内馅为猪肉和糯米，点缀橙色鱼子，是港式茶楼的招牌点心。",
-    "cuisine_tag": "粤菜",
-    "flavor_tags": [
-      "savory",
-      "rich",
-      "chewy",
-      "umami"
-    ],
-    "image_url": "/images/dishes/shaomai.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "jumbo-seafood",
-      "jade-garden",
-      "12-dumplings",
-      "kings-garden"
-    ]
-  },
-  {
     "id": "scallion-pancake",
     "name_en": "Scallion Pancake",
     "name_zh": "葱油饼",
@@ -894,236 +692,6 @@
       "jahunger",
       "chef-yao",
       "12-dumplings"
-    ]
-  },
-  {
-    "id": "turnip-cake",
-    "name_en": "Turnip Cake (Lo Bak Go)",
-    "name_zh": "萝卜糕",
-    "description_en": "Pan-fried savory cake made from shredded radish and rice flour with dried shrimp and mushrooms.",
-    "description_zh": "白萝卜丝与粘米粉制成的糕点，加入虾米和香菇，煎至两面金黄，是港式茶餐厅的经典点心。",
-    "cuisine_tag": "粤菜",
-    "flavor_tags": [
-      "savory",
-      "crispy",
-      "umami",
-      "tender"
-    ],
-    "image_url": "/images/dishes/turnip-cake.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "jade-garden",
-      "jumbo-seafood",
-      "kings-garden"
-    ]
-  },
-  {
-    "id": "sticky-rice-lotus-leaf",
-    "name_en": "Lotus Leaf Sticky Rice",
-    "name_zh": "荷叶糯米鸡",
-    "description_en": "Glutinous rice stuffed with pork, mushrooms, and chicken, steamed inside a lotus leaf that perfumes the filling.",
-    "description_zh": "糯米包入猪肉、香菇和鸡肉，用荷叶包裹后蒸制，荷叶清香渗入糯米中，回味无穷。",
-    "cuisine_tag": "粤菜",
-    "flavor_tags": [
-      "savory",
-      "aromatic",
-      "rich",
-      "chewy"
-    ],
-    "image_url": "/images/dishes/lotus-leaf-sticky-rice.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "kings-garden"
-    ]
-  },
-  {
-    "id": "bbq-pork-char-siu",
-    "name_en": "BBQ Pork (Char Siu)",
-    "name_zh": "叉烧肉",
-    "description_en": "Caramelized pork shoulder marinated in honey, soy, and five-spice, roasted until lacquered with a perfect sweet-smoky crust.",
-    "description_zh": "猪肩肉用蜂蜜、酱油和五香粉腌制后烤制，外皮焦糖化，甜咸相间，是粤式烧腊的招牌。",
-    "cuisine_tag": "粤菜",
-    "flavor_tags": [
-      "sweet",
-      "savory",
-      "smoky",
-      "rich"
-    ],
-    "image_url": "/images/dishes/char-siu.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "lobanton",
-      "wings-kitchen",
-      "big-fun-cafe",
-      "susu-gourmet"
-    ]
-  },
-  {
-    "id": "steamed-fish-cantonese",
-    "name_en": "Steamed Fish",
-    "name_zh": "清蒸鱼",
-    "description_en": "Whole fish steamed to flaky perfection then topped with ginger, scallions, and a pour of hot soy-sesame oil.",
-    "description_zh": "整条鱼蒸至刚熟，铺上姜丝和葱段，泼入热油激出香气，鲜嫩清甜，是粤菜的精髓所在。",
-    "cuisine_tag": "粤菜",
-    "flavor_tags": [
-      "light",
-      "fresh",
-      "savory",
-      "tender"
-    ],
-    "image_url": "/images/dishes/steamed-fish.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "lobanton",
-      "wings-kitchen",
-      "susu-gourmet",
-      "feng-shui-burlington"
-    ]
-  },
-  {
-    "id": "salt-baked-chicken",
-    "name_en": "Salt-Baked Chicken",
-    "name_zh": "盐焗鸡",
-    "description_en": "Whole chicken slow-cooked in coarse salt until the meat is unbelievably tender and infused with subtle savory depth.",
-    "description_zh": "整鸡用粗盐焗制，肉质鲜嫩多汁，皮薄有嚼劲，是客家名菜，原汁原味。",
-    "cuisine_tag": "粤菜",
-    "flavor_tags": [
-      "savory",
-      "light",
-      "tender",
-      "aromatic"
-    ],
-    "image_url": "/images/dishes/salt-baked-chicken.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "kings-garden"
-    ]
-  },
-  {
-    "id": "sweet-and-sour-pork",
-    "name_en": "Sweet and Sour Pork",
-    "name_zh": "咕咾肉",
-    "description_en": "Crispy battered pork pieces glazed in a vibrant sweet and sour sauce with pineapple and bell peppers.",
-    "description_zh": "酥炸猪肉块裹上酸甜酱汁，配菠萝和彩椒，色彩鲜艳，酸甜可口，老少皆宜。",
-    "cuisine_tag": "粤菜",
-    "flavor_tags": [
-      "sweet",
-      "sour",
-      "crispy",
-      "tangy"
-    ],
-    "image_url": "/images/dishes/sweet-and-sour-pork.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "lobanton",
-      "rong-chic",
-      "china-gourmet",
-      "wings-kitchen"
-    ]
-  },
-  {
-    "id": "egg-tarts",
-    "name_en": "Egg Tarts",
-    "name_zh": "蛋挞",
-    "description_en": "Buttery pastry shells filled with a smooth, lightly sweetened egg custard — the signature dessert of dim sum.",
-    "description_zh": "酥脆的黄油挞皮中填入细滑的鸡蛋布丁，甜而不腻，是港式点心中最受欢迎的甜点。",
-    "cuisine_tag": "粤菜",
-    "flavor_tags": [
-      "sweet",
-      "light",
-      "tender",
-      "aromatic"
-    ],
-    "image_url": "/images/dishes/egg-tarts.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "big-fun-cafe",
-      "jade-garden"
-    ]
-  },
-  {
-    "id": "congee-century-egg",
-    "name_en": "Century Egg and Pork Congee",
-    "name_zh": "皮蛋瘦肉粥",
-    "description_en": "Silky rice porridge slow-cooked with lean pork and century egg, a nourishing Cantonese breakfast classic.",
-    "description_zh": "大米熬成绵滑的粥底，加入瘦肉丝和皮蛋，是粤式早餐中最养胃的选择。",
-    "cuisine_tag": "粤菜",
-    "flavor_tags": [
-      "savory",
-      "light",
-      "silky",
-      "umami"
-    ],
-    "image_url": "/images/dishes/century-egg-congee.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "lobanton",
-      "susu-gourmet",
-      "big-fun-cafe",
-      "12-dumplings",
-      "kings-garden"
-    ]
-  },
-  {
-    "id": "steamed-spare-ribs-black-bean",
-    "name_en": "Steamed Spare Ribs with Black Bean",
-    "name_zh": "豆豉蒸排骨",
-    "description_en": "Bite-sized spare ribs steamed with fermented black beans and chili until fork-tender and deeply savory.",
-    "description_zh": "小块排骨与豆豉和辣椒一同蒸制，软烂入味，豆豉的咸香渗透每一块排骨。",
-    "cuisine_tag": "粤菜",
-    "flavor_tags": [
-      "savory",
-      "umami",
-      "tender",
-      "aromatic"
-    ],
-    "image_url": "/images/dishes/steamed-spare-ribs.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "jumbo-seafood",
-      "jade-garden",
-      "kings-garden"
-    ]
-  },
-  {
-    "id": "oyster-sauce-beef",
-    "name_en": "Beef with Oyster Sauce",
-    "name_zh": "蚝油牛肉",
-    "description_en": "Velvety slices of beef stir-fried with broccoli in a glossy, savory oyster sauce — a Cantonese restaurant staple.",
-    "description_zh": "嫩滑的牛肉片与西兰花在蚝油中爆炒，酱汁浓亮，是粤菜馆的常见家常菜。",
-    "cuisine_tag": "粤菜",
-    "flavor_tags": [
-      "savory",
-      "umami",
-      "tender",
-      "rich"
-    ],
-    "image_url": "/images/dishes/oyster-sauce-beef.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "lobanton"
-    ]
-  },
-  {
-    "id": "chicken-feet-dim-sum",
-    "name_en": "Dim Sum Chicken Feet",
-    "name_zh": "凤爪",
-    "description_en": "Deep-fried then steamed chicken feet in a black bean sauce — gelatinous, savory, and a true dim sum classic.",
-    "description_zh": "先炸后蒸的鸡爪，裹上豆豉酱，皮软骨韧，是港式茶楼的招牌点心，深受食客喜爱。",
-    "cuisine_tag": "粤菜",
-    "flavor_tags": [
-      "savory",
-      "rich",
-      "umami",
-      "aromatic"
-    ],
-    "image_url": "/images/dishes/chicken-feet.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "jumbo-seafood",
-      "jade-garden",
-      "12-dumplings",
-      "kings-garden"
     ]
   },
   {
@@ -1208,30 +776,6 @@
       "rong-chic",
       "lobanton",
       "golden-garden-malden"
-    ]
-  },
-  {
-    "id": "smashed-cucumber-salad",
-    "name_en": "Smashed Cucumber Salad",
-    "name_zh": "拍黄瓜",
-    "description_en": "Lightly smashed cucumbers dressed with garlic, rice vinegar, sesame oil, and chili — crunchy and refreshing.",
-    "description_zh": "拍碎的黄瓜拌上蒜末、米醋、芝麻油和辣椒，清脆爽口，是夏日开胃小菜的首选。",
-    "cuisine_tag": "家常菜",
-    "flavor_tags": [
-      "light",
-      "fresh",
-      "tangy",
-      "aromatic"
-    ],
-    "image_url": "/images/dishes/smashed-cucumber.webp",
-    "available_at": [
-      "chongqing-house",
-      "chengdu-taste",
-      "rong-chic",
-      "wongs-kitchen",
-      "lobanton",
-      "golden-garden-malden",
-      "yi-ma-yi-la"
     ]
   },
   {
@@ -1481,49 +1025,6 @@
     "available_at": []
   },
   {
-    "id": "egg-fried-rice",
-    "name_en": "Egg Fried Rice",
-    "name_zh": "蛋炒饭",
-    "description_en": "Wok-tossed day-old rice with eggs, scallions, and a touch of soy — simple, smoky, and deeply satisfying.",
-    "description_zh": "隔夜米饭与鸡蛋在高温铁锅中爆炒，加入葱花和酱油，锅气十足，是最经典的中式炒饭。",
-    "cuisine_tag": "家常菜",
-    "flavor_tags": [
-      "savory",
-      "light",
-      "aromatic",
-      "umami"
-    ],
-    "image_url": "/images/dishes/egg-fried-rice.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "rong-chic",
-      "lobanton",
-      "baozang-55beach",
-      "china-gourmet"
-    ]
-  },
-  {
-    "id": "yangzhou-fried-rice",
-    "name_en": "Yangzhou Fried Rice",
-    "name_zh": "扬州炒饭",
-    "description_en": "The definitive Chinese fried rice with shrimp, char siu, peas, and egg, each grain distinct and aromatic.",
-    "description_zh": "虾仁、叉烧、豌豆和鸡蛋炒制，米粒颗颗分明，色泽金黄，是中国炒饭的标杆之作。",
-    "cuisine_tag": "家常菜",
-    "flavor_tags": [
-      "savory",
-      "light",
-      "fresh",
-      "aromatic"
-    ],
-    "image_url": "/images/dishes/yangzhou-fried-rice.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "lobanton",
-      "chongqing-house",
-      "12-dumplings"
-    ]
-  },
-  {
     "id": "malatang",
     "name_en": "Malatang",
     "name_zh": "麻辣烫",
@@ -1541,46 +1042,6 @@
       "mala-noodle",
       "rong-chic",
       "yi-ma-yi-la"
-    ]
-  },
-  {
-    "id": "clay-pot-rice",
-    "name_en": "Clay Pot Rice",
-    "name_zh": "煲仔饭",
-    "description_en": "Rice cooked in a clay pot with your choice of toppings — the crust that forms on the bottom is the best part.",
-    "description_zh": "砂锅中焖制的米饭，表面铺上各式食材，锅底形成的焦脆饭焦是粤式煲仔饭的精华所在。",
-    "cuisine_tag": "粤菜",
-    "flavor_tags": [
-      "savory",
-      "crispy",
-      "rich",
-      "aromatic"
-    ],
-    "image_url": "/images/dishes/clay-pot-rice.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "lobanton"
-    ]
-  },
-  {
-    "id": "spring-rolls",
-    "name_en": "Spring Rolls",
-    "name_zh": "春卷",
-    "description_en": "Crispy fried rolls stuffed with glass noodles, pork, and vegetables — golden and satisfying.",
-    "description_zh": "酥脆的炸春卷内填粉丝、猪肉和蔬菜，外皮金黄，咬开热气腾腾，是宴席上的常见凉菜点心。",
-    "cuisine_tag": "家常菜",
-    "flavor_tags": [
-      "crispy",
-      "savory",
-      "light",
-      "fresh"
-    ],
-    "image_url": "/images/dishes/spring-rolls.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "rong-chic",
-      "lobanton",
-      "chongqing-house"
     ]
   },
   {
@@ -1622,46 +1083,6 @@
     ]
   },
   {
-    "id": "steamed-egg-custard",
-    "name_en": "Steamed Egg Custard",
-    "name_zh": "蒸水蛋",
-    "description_en": "Ultra-silky steamed egg custard finished with soy sauce and sesame oil — as smooth as tofu, deeply comforting.",
-    "description_zh": "蛋液加水蒸制成细嫩如豆腐的蛋羹，淋上酱油和香油，入口即化，是最简单却最治愈的家常菜。",
-    "cuisine_tag": "粤菜",
-    "flavor_tags": [
-      "light",
-      "savory",
-      "silky",
-      "tender"
-    ],
-    "image_url": "/images/dishes/steamed-egg-custard.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "lobanton"
-    ]
-  },
-  {
-    "id": "garlic-shrimp",
-    "name_en": "Garlic Butter Shrimp",
-    "name_zh": "蒜蓉虾",
-    "description_en": "Whole shrimp sautéed in an avalanche of garlic with glass noodles that soak up every drop of the sauce.",
-    "description_zh": "整只虾铺在粉丝上，蒜蓉大量铺盖蒸制，蒜香渗入粉丝和虾肉，鲜嫩无比。",
-    "cuisine_tag": "粤菜",
-    "flavor_tags": [
-      "savory",
-      "aromatic",
-      "fresh",
-      "rich"
-    ],
-    "image_url": "/images/dishes/garlic-shrimp.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "lobanton",
-      "jumbo-seafood",
-      "feng-shui-burlington"
-    ]
-  },
-  {
     "id": "guilin-rice-noodles",
     "name_en": "Guilin Rice Noodles",
     "name_zh": "桂林米粉",
@@ -1697,44 +1118,6 @@
     "available_at": [
       "y-noodle-bar",
       "rong-chic"
-    ]
-  },
-  {
-    "id": "stir-fried-water-spinach",
-    "name_en": "Stir-Fried Water Spinach",
-    "name_zh": "清炒通心菜",
-    "description_en": "Hollow-stemmed water spinach flash-fried with garlic and fermented tofu — crisp, vibrant, and satisfying.",
-    "description_zh": "通心菜与蒜末和腐乳大火翻炒，脆嫩爽口，是粤式餐厅最受欢迎的炒青菜之一。",
-    "cuisine_tag": "粤菜",
-    "flavor_tags": [
-      "light",
-      "savory",
-      "fresh",
-      "aromatic"
-    ],
-    "image_url": "/images/dishes/water-spinach.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "lobanton"
-    ]
-  },
-  {
-    "id": "winter-melon-soup",
-    "name_en": "Winter Melon Soup",
-    "name_zh": "冬瓜汤",
-    "description_en": "Clear, delicate broth with translucent winter melon and minced pork — a gentle, nourishing Cantonese classic.",
-    "description_zh": "冬瓜与猪肉末在清鸡汤中煮制，汤色清澈，口感清甜，是粤式家庭餐桌上常见的养生汤品。",
-    "cuisine_tag": "粤菜",
-    "flavor_tags": [
-      "light",
-      "savory",
-      "fresh",
-      "mild"
-    ],
-    "image_url": "/images/dishes/winter-melon-soup.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "lobanton"
     ]
   },
   {
@@ -1837,25 +1220,6 @@
     ]
   },
   {
-    "id": "steamed-egg-pork-patty",
-    "name_en": "Steamed Pork Patty with Egg",
-    "name_zh": "蒸肉饼",
-    "description_en": "A flat disc of seasoned ground pork steamed until silky smooth, topped with a soy glaze — simple home cooking at its finest.",
-    "description_zh": "猪肉末调味后压成饼状蒸制，嫩滑细腻，淋上酱油和葱花，是广东家庭最暖心的家常蒸菜。",
-    "cuisine_tag": "粤菜",
-    "flavor_tags": [
-      "savory",
-      "light",
-      "tender",
-      "mild"
-    ],
-    "image_url": "/images/dishes/steamed-pork-patty.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "lobanton"
-    ]
-  },
-  {
     "id": "crispy-tofu",
     "name_en": "Crispy Tofu with Scallion Sauce",
     "name_zh": "炸豆腐",
@@ -1875,26 +1239,6 @@
     ]
   },
   {
-    "id": "pork-rib-corn-soup",
-    "name_en": "Corn and Pork Rib Soup",
-    "name_zh": "玉米排骨汤",
-    "description_en": "Sweet corn cobs and tender pork ribs simmered into a naturally sweet, milky soup — the definition of Chinese home comfort.",
-    "description_zh": "玉米与猪排骨一同炖煮，汤汁清甜，是最朴实的中式家常汤品，每一口都是家的味道。",
-    "cuisine_tag": "家常菜",
-    "flavor_tags": [
-      "sweet",
-      "light",
-      "savory",
-      "mild"
-    ],
-    "image_url": "/images/dishes/corn-pork-rib-soup.webp",
-    "available_at": [
-      "lobanton",
-      "wongs-kitchen",
-      "chef-yao"
-    ]
-  },
-  {
     "id": "mapo-eggplant",
     "name_en": "Mapo Eggplant",
     "name_zh": "麻婆茄子",
@@ -1909,25 +1253,6 @@
     ],
     "image_url": "/images/dishes/mapo-eggplant.webp",
     "available_at": []
-  },
-  {
-    "id": "jellyfish-salad",
-    "name_en": "Marinated Jellyfish Salad",
-    "name_zh": "凉拌海蜇",
-    "description_en": "Crunchy, sliced jellyfish tossed with sesame oil, garlic, and rice vinegar — a refreshing, textural cold starter.",
-    "description_zh": "海蜇丝拌上芝麻油、蒜末和米醋，清爽脆嫩，是中式冷盘中不可多得的清新小菜。",
-    "cuisine_tag": "家常菜",
-    "flavor_tags": [
-      "light",
-      "tangy",
-      "savory",
-      "fresh"
-    ],
-    "image_url": "/images/dishes/jellyfish-salad.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "lobanton"
-    ]
   },
   {
     "id": "sichuan-braised-pork-ribs",
@@ -1945,26 +1270,6 @@
     "image_url": "/images/dishes/sichuan-pork-ribs.webp",
     "available_at": [
       "chongqing-house"
-    ]
-  },
-  {
-    "id": "hong-shao-eggplant",
-    "name_en": "Red-Braised Eggplant",
-    "name_zh": "红烧茄子",
-    "description_en": "Plump eggplant chunks braised in a sweet soy sauce until glossy and meltingly tender.",
-    "description_zh": "茄子块在酱油和糖汁中慢炖至软烂，色泽红亮，甜鲜入味，是家常便饭里最下饭的一道菜。",
-    "cuisine_tag": "家常菜",
-    "flavor_tags": [
-      "sweet",
-      "savory",
-      "rich",
-      "tender"
-    ],
-    "image_url": "/images/dishes/red-braised-eggplant.webp",
-    "available_at": [
-      "rong-chic",
-      "lobanton",
-      "wongs-kitchen"
     ]
   },
   {
@@ -2040,25 +1345,6 @@
     "available_at": [
       "chongqing-house",
       "rong-chic",
-      "lobanton"
-    ]
-  },
-  {
-    "id": "soy-sauce-chicken",
-    "name_en": "Soy Sauce Chicken",
-    "name_zh": "豉油鸡",
-    "description_en": "Poached chicken bathed in dark soy, ginger, and star anise until mahogany-lacquered and deeply savory.",
-    "description_zh": "整鸡在生抽、姜和八角中卤至酱色深红，斩件后肉质嫩滑，咸鲜回甘，是粤式卤味的代表。",
-    "cuisine_tag": "粤菜",
-    "flavor_tags": [
-      "savory",
-      "sweet",
-      "aromatic",
-      "tender"
-    ],
-    "image_url": "/images/dishes/soy-sauce-chicken.webp",
-    "available_at": [
-      "wongs-kitchen",
       "lobanton"
     ]
   },
@@ -2210,31 +1496,6 @@
     "image_url": "/images/dishes/kung-pao-shrimp.webp",
     "available_at": [
       "chongqing-house"
-    ]
-  },
-  {
-    "id": "tomato-egg-stir-fry",
-    "name_en": "Tomato and Egg Stir-Fry",
-    "name_zh": "番茄炒鸡蛋",
-    "description_en": "The most beloved Chinese home dish: sweet tomatoes and fluffy scrambled eggs tossed together in a savory-sweet sauce.",
-    "description_zh": "酸甜的番茄与嫩滑的鸡蛋翻炒，是中国人最有家的感觉的一道菜，简单却无可替代。",
-    "cuisine_tag": "家常菜",
-    "flavor_tags": [
-      "tangy",
-      "sweet",
-      "savory",
-      "light"
-    ],
-    "image_url": "/images/dishes/tomato-egg-stir-fry.webp",
-    "available_at": [
-      "rong-chic",
-      "wongs-kitchen",
-      "lobanton",
-      "chongqing-house",
-      "baozang-55beach",
-      "china-gourmet",
-      "chengdu-taste",
-      "12-dumplings"
     ]
   },
   {
@@ -2436,49 +1697,6 @@
     "image_url": "/images/dishes/baked-pork-chop-rice.webp",
     "available_at": [
       "big-fun-cafe"
-    ]
-  },
-  {
-    "id": "char-siu-bao",
-    "name_en": "Char Siu Bao (BBQ Pork Bun)",
-    "name_zh": "叉烧包",
-    "description_en": "Fluffy steamed buns filled with sweet and savory barbecued pork in a sticky glaze — a dim sum essential.",
-    "description_zh": "松软的蒸包子里包裹着甜咸适口的蜜汁叉烧馅料，是广式早茶必点之一。",
-    "cuisine_tag": "粤菜",
-    "flavor_tags": [
-      "sweet",
-      "savory",
-      "tender",
-      "aromatic"
-    ],
-    "image_url": "/images/dishes/char-siu-bao.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "jumbo-seafood",
-      "jade-garden",
-      "chef-yao",
-      "12-dumplings",
-      "kings-garden"
-    ]
-  },
-  {
-    "id": "cheung-fun",
-    "name_en": "Cheung Fun (Rice Noodle Roll)",
-    "name_zh": "肠粉",
-    "description_en": "Silky steamed rice noodle sheets rolled around shrimp, pork, or vegetables, drizzled with sweet soy sauce.",
-    "description_zh": "滑嫩的蒸米粉皮卷入虾仁、猪肉或蔬菜，淋上甜酱油，是广东早茶的经典主食。",
-    "cuisine_tag": "粤菜",
-    "flavor_tags": [
-      "light",
-      "savory",
-      "tender",
-      "fresh"
-    ],
-    "image_url": "/images/dishes/cheung-fun.webp",
-    "available_at": [
-      "wongs-kitchen",
-      "jumbo-seafood",
-      "jade-garden"
     ]
   },
   {

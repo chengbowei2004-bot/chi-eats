@@ -7,7 +7,11 @@
     "lat": 41.8227,
     "lng": -71.4133,
     "city": "providence",
-    "cuisine_tags": ["川菜", "火锅", "麻辣"],
+    "cuisine_tags": [
+      "川菜",
+      "火锅",
+      "麻辣"
+    ],
     "review_summary": "Authentic Sichuan flavors with generous portions. The mapo tofu and spicy boiled fish are standouts.",
     "review_score": 4.4,
     "yelp_url": "https://www.yelp.com/biz/chongqing-house-providence"
@@ -20,7 +24,10 @@
     "lat": 41.8192,
     "lng": -71.3948,
     "city": "providence",
-    "cuisine_tags": ["川菜", "麻辣"],
+    "cuisine_tags": [
+      "川菜",
+      "麻辣"
+    ],
     "review_summary": "Classic Chengdu-style dishes done right. Dan dan noodles and twice-cooked pork are fan favorites.",
     "review_score": 4.3,
     "yelp_url": "https://www.yelp.com/biz/chengdu-taste-providence"
@@ -33,7 +40,11 @@
     "lat": 41.8231,
     "lng": -71.4158,
     "city": "providence",
-    "cuisine_tags": ["川菜", "面食", "家常菜"],
+    "cuisine_tags": [
+      "川菜",
+      "面食",
+      "家常菜"
+    ],
     "review_summary": "A no-frills spot beloved by Chinese students for its affordable home-style dishes and hearty noodle soups.",
     "review_score": 4.2,
     "yelp_url": "https://www.yelp.com/biz/rong-chic-providence"
@@ -46,7 +57,11 @@
     "lat": 41.8214,
     "lng": -71.4173,
     "city": "providence",
-    "cuisine_tags": ["新疆菜", "清真", "烧烤"],
+    "cuisine_tags": [
+      "新疆菜",
+      "清真",
+      "烧烤"
+    ],
     "review_summary": "Providence's only Uyghur restaurant. The lamb skewers, big plate chicken, and hand-pulled noodles are unlike anything else in the city.",
     "review_score": 4.6,
     "yelp_url": "https://www.yelp.com/biz/jahunger-providence"
@@ -59,7 +74,11 @@
     "lat": 41.8224,
     "lng": -71.4317,
     "city": "providence",
-    "cuisine_tags": ["粤菜", "家常菜", "点心"],
+    "cuisine_tags": [
+      "粤菜",
+      "家常菜",
+      "点心"
+    ],
     "review_summary": "Dependable Cantonese classics with a friendly atmosphere. Great for a full sit-down meal with roast meats and stir-fries.",
     "review_score": 4.1,
     "yelp_url": "https://www.yelp.com/biz/chef-yao-providence"
@@ -72,7 +91,11 @@
     "lat": 41.8271,
     "lng": -71.3998,
     "city": "providence",
-    "cuisine_tags": ["川菜", "面食", "麻辣"],
+    "cuisine_tags": [
+      "川菜",
+      "面食",
+      "麻辣"
+    ],
     "review_summary": "Excellent spicy noodle soups popular with the Brown and RISD crowd. The mala broth is addictive.",
     "review_score": 4.5,
     "yelp_url": "https://www.yelp.com/biz/mala-noodle-providence"
@@ -85,7 +108,11 @@
     "lat": 41.8268,
     "lng": -71.4003,
     "city": "providence",
-    "cuisine_tags": ["饺子", "点心", "面食"],
+    "cuisine_tags": [
+      "饺子",
+      "点心",
+      "面食"
+    ],
     "review_summary": "Handmade dumplings with a variety of fillings — pork and cabbage are the classic, but the shrimp and chive are excellent too.",
     "review_score": 4.4,
     "yelp_url": "https://www.yelp.com/biz/12-dumplings-providence"
@@ -95,12 +122,16 @@
     "name": "Y Bento",
     "name_zh": "",
     "address": "255 Thayer St, Providence, RI 02906",
-    "lat": 41.8270,
+    "lat": 41.827,
     "lng": -71.4001,
     "city": "providence",
-    "cuisine_tags": ["日式", "便当", "亚洲融合"],
+    "cuisine_tags": [
+      "日式",
+      "便当",
+      "亚洲融合"
+    ],
     "review_summary": "Quick, affordable Japanese-style bento boxes with generous rice and protein combinations. Great for a fast lunch.",
-    "review_score": 4.0,
+    "review_score": 4,
     "yelp_url": "https://www.yelp.com/biz/y-bento-providence"
   },
   {
@@ -111,7 +142,11 @@
     "lat": 41.8269,
     "lng": -71.4002,
     "city": "providence",
-    "cuisine_tags": ["面食", "亚洲融合", "汤面"],
+    "cuisine_tags": [
+      "面食",
+      "亚洲融合",
+      "汤面"
+    ],
     "review_summary": "A casual noodle bar with broth-based soups and dry noodle options. Customizable spice levels and toppings.",
     "review_score": 4.1,
     "yelp_url": "https://www.yelp.com/biz/y-noodle-bar-providence"
@@ -122,9 +157,13 @@
     "name_zh": "辣妹火锅",
     "address": "93 Eddy St, Providence, RI 02903",
     "lat": 41.8198,
-    "lng": -71.4090,
+    "lng": -71.409,
     "city": "providence",
-    "cuisine_tags": ["火锅", "川菜", "麻辣"],
+    "cuisine_tags": [
+      "火锅",
+      "川菜",
+      "麻辣"
+    ],
     "review_summary": "Providence's best hotpot experience with quality fresh ingredients and rich broth options. Come hungry and with friends.",
     "review_score": 4.5,
     "yelp_url": "https://www.yelp.com/biz/lamei-hotpot-providence"
@@ -137,7 +176,11 @@
     "lat": 41.7868,
     "lng": -71.4378,
     "city": "providence",
-    "cuisine_tags": ["越南菜", "河粉", "汤面"],
+    "cuisine_tags": [
+      "越南菜",
+      "河粉",
+      "汤面"
+    ],
     "review_summary": "Exceptional pho and Vietnamese staples just outside Providence. The bone broth is simmered for hours and it shows.",
     "review_score": 4.6,
     "yelp_url": "https://www.yelp.com/biz/pho-horn-cranston"
@@ -150,7 +193,11 @@
     "lat": 41.8223,
     "lng": -71.4316,
     "city": "providence",
-    "cuisine_tags": ["东南亚", "老挝菜", "泰国菜"],
+    "cuisine_tags": [
+      "东南亚",
+      "老挝菜",
+      "泰国菜"
+    ],
     "review_summary": "Flavorful Southeast Asian dishes with a focus on Lao cuisine. The papaya salad and larb are fresh and vibrant.",
     "review_score": 4.3,
     "yelp_url": "https://www.yelp.com/biz/champa-providence"
@@ -163,23 +210,14 @@
     "lat": 41.8188,
     "lng": -71.3916,
     "city": "providence",
-    "cuisine_tags": ["粤菜", "家常菜", "炒菜"],
+    "cuisine_tags": [
+      "粤菜",
+      "家常菜",
+      "炒菜"
+    ],
     "review_summary": "A neighborhood Chinese restaurant with solid Cantonese stir-fries and rice plates. Relaxed vibe and reliable quality.",
-    "review_score": 4.0,
+    "review_score": 4,
     "yelp_url": "https://www.yelp.com/biz/lobanton-providence"
-  },
-  {
-    "id": "wongs-kitchen",
-    "name": "Wong's Kitchen",
-    "name_zh": "",
-    "address": "1011 Park Ave, Cranston, RI 02910",
-    "lat": 41.7921,
-    "lng": -71.4501,
-    "city": "providence",
-    "cuisine_tags": ["粤菜", "家常菜", "点心"],
-    "review_summary": "Family-run Cantonese kitchen with a loyal local following. Roast duck and dim sum items are a must-order.",
-    "review_score": 4.2,
-    "yelp_url": "https://www.yelp.com/biz/wongs-kitchen-cranston"
   },
   {
     "id": "noahs-kitchen",
@@ -189,7 +227,10 @@
     "lat": 42.3328,
     "lng": -71.1389,
     "city": "boston",
-    "cuisine_tags": ["川菜", "麻辣"],
+    "cuisine_tags": [
+      "川菜",
+      "麻辣"
+    ],
     "review_summary": "Brookline's go-to Sichuan spot. Fiery mapo tofu, crispy spicy chicken, and generous portions draw a loyal crowd.",
     "review_score": 4.4,
     "yelp_url": "https://www.yelp.com/biz/noahs-kitchen-brookline"
@@ -202,7 +243,10 @@
     "lat": 42.3513,
     "lng": -71.0607,
     "city": "boston",
-    "cuisine_tags": ["家常菜", "川菜"],
+    "cuisine_tags": [
+      "家常菜",
+      "川菜"
+    ],
     "review_summary": "A Chinatown gem for hearty home-style Chinese. Braised pork belly and tomato egg are comfort food done right.",
     "review_score": 4.2,
     "yelp_url": "https://www.yelp.com/biz/fuchun-ju-boston-2"
@@ -213,9 +257,12 @@
     "name_zh": "金山饭店",
     "address": "9 Highland Ave, Malden, MA 02148",
     "lat": 42.4298,
-    "lng": -71.0710,
+    "lng": -71.071,
     "city": "boston",
-    "cuisine_tags": ["东北菜", "家常菜"],
+    "cuisine_tags": [
+      "东北菜",
+      "家常菜"
+    ],
     "review_summary": "Hearty Dongbei classics like guo bao rou and suan cai fish. Feels like eating at a northeastern grandma's house.",
     "review_score": 4.3,
     "yelp_url": "https://www.yelp.com/biz/golden-garden-malden-2"
@@ -228,7 +275,11 @@
     "lat": 42.3531,
     "lng": -71.1311,
     "city": "boston",
-    "cuisine_tags": ["川菜", "麻辣", "烧烤"],
+    "cuisine_tags": [
+      "川菜",
+      "麻辣",
+      "烧烤"
+    ],
     "review_summary": "Fiery mala flavors in Allston. The spicy grilled fish and mala dry pot are dangerously addictive late-night picks.",
     "review_score": 4.5,
     "yelp_url": "https://www.yelp.com/biz/mala-restaurant-boston"
@@ -241,7 +292,11 @@
     "lat": 42.3505,
     "lng": -71.0604,
     "city": "boston",
-    "cuisine_tags": ["粤菜", "家常菜", "点心"],
+    "cuisine_tags": [
+      "粤菜",
+      "家常菜",
+      "点心"
+    ],
     "review_summary": "Reliable Cantonese comfort food in the heart of Chinatown. Char siu rice and wonton noodle soup are must-orders.",
     "review_score": 4.1,
     "yelp_url": "https://www.yelp.com/biz/wings-kitchen-boston-2"
@@ -251,10 +306,13 @@
     "name": "Chung Shin Yuan",
     "name_zh": "中兴园",
     "address": "183 California St, Newton, MA 02458",
-    "lat": 42.3370,
+    "lat": 42.337,
     "lng": -71.2092,
     "city": "boston",
-    "cuisine_tags": ["台湾菜", "早餐"],
+    "cuisine_tags": [
+      "台湾菜",
+      "早餐"
+    ],
     "review_summary": "The Boston area's best Taiwanese breakfast. Egg crepes, soy milk with you tiao, and scallion pancakes worth the drive to Newton.",
     "review_score": 4.6,
     "yelp_url": "https://www.yelp.com/biz/chung-shin-yuan-newton"
@@ -267,7 +325,10 @@
     "lat": 42.3328,
     "lng": -71.1389,
     "city": "boston",
-    "cuisine_tags": ["烧烤", "新疆菜"],
+    "cuisine_tags": [
+      "烧烤",
+      "新疆菜"
+    ],
     "review_summary": "All-you-can-eat Chinese BBQ with quality meats and lively atmosphere. Lamb skewers and cumin dishes are the highlights.",
     "review_score": 4.2,
     "yelp_url": "https://www.yelp.com/biz/wu-er-by-wow-barbecue-brookline-4"
@@ -277,10 +338,13 @@
     "name": "Wing It",
     "name_zh": "",
     "address": "1153 Commonwealth Ave, Allston, MA 02134",
-    "lat": 42.3530,
+    "lat": 42.353,
     "lng": -71.1328,
     "city": "boston",
-    "cuisine_tags": ["新疆菜", "湘菜"],
+    "cuisine_tags": [
+      "新疆菜",
+      "湘菜"
+    ],
     "review_summary": "Xinjiang meets Hunan in Allston. Big plate chicken, spicy dry pot, and bold flavors that pack a punch.",
     "review_score": 4.3,
     "yelp_url": "https://www.yelp.com/biz/boston-wing-it-allston"
@@ -293,9 +357,12 @@
     "lat": 42.3535,
     "lng": -71.1323,
     "city": "boston",
-    "cuisine_tags": ["炸鸡", "小吃"],
+    "cuisine_tags": [
+      "炸鸡",
+      "小吃"
+    ],
     "review_summary": "Crispy, juicy Chinese fried chicken that rivals any chain. Late-night favorite for BU and BC students.",
-    "review_score": 4.0,
+    "review_score": 4,
     "yelp_url": "https://www.yelp.com/biz/moon-flower-house-boston-4"
   },
   {
@@ -303,10 +370,14 @@
     "name": "Jumbo Seafood",
     "name_zh": "珍宝海鲜",
     "address": "5 Hudson St, Boston, MA 02111",
-    "lat": 42.3510,
+    "lat": 42.351,
     "lng": -71.0601,
     "city": "boston",
-    "cuisine_tags": ["粤菜", "点心", "海鲜"],
+    "cuisine_tags": [
+      "粤菜",
+      "点心",
+      "海鲜"
+    ],
     "review_summary": "A Chinatown institution for dim sum and seafood. Weekend brunch carts roll through with har gow, siu mai, and more.",
     "review_score": 4.3,
     "yelp_url": "https://www.yelp.com/biz/jumbo-seafood-restaurant-boston"
@@ -316,10 +387,14 @@
     "name": "Feng Shui",
     "name_zh": "风水",
     "address": "2200 District Ave, Burlington, MA 01803",
-    "lat": 42.5050,
-    "lng": -71.2030,
+    "lat": 42.505,
+    "lng": -71.203,
     "city": "boston",
-    "cuisine_tags": ["粤菜", "北京菜", "融合菜"],
+    "cuisine_tags": [
+      "粤菜",
+      "北京菜",
+      "融合菜"
+    ],
     "review_summary": "Upscale Chinese dining with an excellent Peking duck. Modern ambiance and a cocktail bar set it apart from the crowd.",
     "review_score": 4.4,
     "yelp_url": "https://gofengshui.com/burlington/"
@@ -332,7 +407,11 @@
     "lat": 42.3765,
     "lng": -71.2356,
     "city": "boston",
-    "cuisine_tags": ["面食", "清真", "兰州拉面"],
+    "cuisine_tags": [
+      "面食",
+      "清真",
+      "兰州拉面"
+    ],
     "review_summary": "Hand-pulled Lanzhou beef noodles made fresh to order. The broth is clear, aromatic, and deeply satisfying.",
     "review_score": 4.5,
     "yelp_url": "https://www.yelp.com/biz/aries-noodle-and-dumpling-waltham"
@@ -345,7 +424,11 @@
     "lat": 42.2515,
     "lng": -71.0023,
     "city": "boston",
-    "cuisine_tags": ["粤菜", "港式", "茶餐厅"],
+    "cuisine_tags": [
+      "粤菜",
+      "港式",
+      "茶餐厅"
+    ],
     "review_summary": "Authentic Hong Kong-style cafe in Quincy. Baked pork chop rice, milk tea, and egg tarts transport you to Kowloon.",
     "review_score": 4.3,
     "yelp_url": "https://www.yelp.com/biz/big-fun-cafe-quincy"
@@ -358,7 +441,10 @@
     "lat": 42.3513,
     "lng": -71.0621,
     "city": "boston",
-    "cuisine_tags": ["粤菜", "家常菜"],
+    "cuisine_tags": [
+      "粤菜",
+      "家常菜"
+    ],
     "review_summary": "Tiny Chinatown counter serving satisfying Cantonese plates. Steamed fish, congee, and stir-fries at unbeatable prices.",
     "review_score": 4.1,
     "yelp_url": "https://www.yelp.com/biz/su-su-gourmet-boston"
@@ -369,9 +455,12 @@
     "name_zh": "口口香",
     "address": "182 Brighton Ave, Allston, MA 02134",
     "lat": 42.3535,
-    "lng": -71.1340,
+    "lng": -71.134,
     "city": "boston",
-    "cuisine_tags": ["面食", "兰州拉面"],
+    "cuisine_tags": [
+      "面食",
+      "兰州拉面"
+    ],
     "review_summary": "Allston's hand-pulled noodle shop. Watch the noodle master stretch dough to order — the beef noodle soup is the star.",
     "review_score": 4.4,
     "yelp_url": "https://www.yelp.com/biz/ifresh-noodle-allston"
@@ -381,10 +470,14 @@
     "name": "Shu Da Xia Hotpot",
     "name_zh": "蜀大侠火锅",
     "address": "580 Commonwealth Ave, Boston, MA 02215",
-    "lat": 42.3490,
-    "lng": -71.1060,
+    "lat": 42.349,
+    "lng": -71.106,
     "city": "boston",
-    "cuisine_tags": ["火锅", "川菜", "麻辣"],
+    "cuisine_tags": [
+      "火锅",
+      "川菜",
+      "麻辣"
+    ],
     "review_summary": "Premium Sichuan hot pot near BU. Rich mala broth, fresh sliced meats, and a vibrant communal dining atmosphere.",
     "review_score": 4.5,
     "yelp_url": "https://www.yelp.com/biz/shudaxia-hotpot-boston"
@@ -395,9 +488,12 @@
     "name_zh": "季北川",
     "address": "50 Beach St, Boston, MA 02111",
     "lat": 42.3517,
-    "lng": -71.0620,
+    "lng": -71.062,
     "city": "boston",
-    "cuisine_tags": ["云南菜", "面食"],
+    "cuisine_tags": [
+      "云南菜",
+      "面食"
+    ],
     "review_summary": "Yunnan-style rice noodle soups with rich chicken broth and fish maw. A Chinatown newcomer with a cult following.",
     "review_score": 4.3,
     "yelp_url": "https://www.yelp.com/biz/jibei-chuan-boston-3"
@@ -410,7 +506,10 @@
     "lat": 42.3513,
     "lng": -71.0614,
     "city": "boston",
-    "cuisine_tags": ["粤菜", "点心"],
+    "cuisine_tags": [
+      "粤菜",
+      "点心"
+    ],
     "review_summary": "Classic Chinatown dim sum parlor. Weekend mornings are packed for a reason — steaming carts, fast turnover, great value.",
     "review_score": 4.2,
     "yelp_url": "https://www.yelp.com/biz/jade-garden-boston"
@@ -420,10 +519,13 @@
     "name": "Wen's Yunnan Noodle",
     "name_zh": "云南米线",
     "address": "247 Newbury St, Boston, MA 02116",
-    "lat": 42.3480,
-    "lng": -71.0870,
+    "lat": 42.348,
+    "lng": -71.087,
     "city": "boston",
-    "cuisine_tags": ["云南菜", "面食"],
+    "cuisine_tags": [
+      "云南菜",
+      "面食"
+    ],
     "review_summary": "Crossing-the-bridge noodles on Newbury St. A unique find in Back Bay with rich broth and customizable toppings.",
     "review_score": 4.1,
     "yelp_url": "https://www.yelp.com/biz/wens-yunnan-noodle-and-ramen-boston-7"
@@ -433,10 +535,14 @@
     "name": "Friendship BBQ",
     "name_zh": "友情客串",
     "address": "103 Brighton Ave, Boston, MA 02134",
-    "lat": 42.3530,
-    "lng": -71.1290,
+    "lat": 42.353,
+    "lng": -71.129,
     "city": "boston",
-    "cuisine_tags": ["烧烤", "新疆菜", "川菜"],
+    "cuisine_tags": [
+      "烧烤",
+      "新疆菜",
+      "川菜"
+    ],
     "review_summary": "Allston's favorite Chinese BBQ. Lamb skewers over charcoal, cumin-spiced everything, and a lively late-night scene.",
     "review_score": 4.4,
     "yelp_url": "https://www.yelp.com/biz/friendship-bbq-boston-6"
@@ -449,9 +555,13 @@
     "lat": 42.3512,
     "lng": -71.0613,
     "city": "boston",
-    "cuisine_tags": ["家常菜", "川菜", "粤菜"],
+    "cuisine_tags": [
+      "家常菜",
+      "川菜",
+      "粤菜"
+    ],
     "review_summary": "A Chinatown staple serving a wide range of Chinese classics. Reliable and affordable — the menu has something for everyone.",
-    "review_score": 4.0,
+    "review_score": 4,
     "yelp_url": "https://www.yelp.com/biz/china-gourmet-restaurant-boston"
   },
   {
@@ -462,7 +572,11 @@
     "lat": 41.7756,
     "lng": -71.4366,
     "city": "providence",
-    "cuisine_tags": ["点心", "粤菜", "川菜"],
+    "cuisine_tags": [
+      "点心",
+      "粤菜",
+      "川菜"
+    ],
     "review_summary": "Popular dim sum spot with extensive menu including Szechuan dishes, hot pots, and classic dim sum staples. Known for generous portions and authentic flavors.",
     "review_score": 4.3,
     "yelp_url": ""
