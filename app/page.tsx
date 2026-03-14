@@ -3,7 +3,7 @@
 import { useEffect, useState, type FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import { Settings } from "lucide-react";
-import { DishPlaceholder } from "@/components/DishPlaceholder";
+import { getDishImage } from "@/lib/dishImages";
 import { useAuth } from "@/lib/useAuth";
 import { useCity } from "@/lib/useCity";
 
@@ -66,25 +66,25 @@ export default function HomePage() {
   }
 
   return (
-    <main className="min-h-screen bg-black">
+    <main className="min-h-screen bg-white">
       {/* ── Top nav ── */}
       <div className="flex items-center justify-between" style={{ padding: "20px 24px" }}>
         <span
-          className="text-[18px] font-medium text-white"
+          className="text-[18px] font-medium text-[#1A1A1A]"
           style={{ letterSpacing: "-0.5px" }}
         >
           DeeDao
         </span>
         <div className="flex items-center gap-3">
-          <span className="text-[11px]" style={{ color: "rgba(255,255,255,0.5)" }}>
+          <span className="text-[11px] text-[#999]">
             {cityLabel.en}
           </span>
           <button
             onClick={() => router.push("/settings")}
             aria-label="Settings"
-            className="transition-opacity hover:opacity-80"
+            className="transition-opacity hover:opacity-70"
           >
-            <Settings size={14} strokeWidth={1.5} color="rgba(255,255,255,0.5)" />
+            <Settings size={14} strokeWidth={1.5} color="#999" />
           </button>
         </div>
       </div>
@@ -92,19 +92,19 @@ export default function HomePage() {
       {/* ── Hero ── */}
       <div className="text-center" style={{ padding: "56px 24px 0" }}>
         <h1
-          className="text-[34px] font-medium text-white"
+          className="text-[34px] font-medium text-[#1A1A1A]"
           style={{ letterSpacing: "-1px" }}
         >
           今天想吃什么？
         </h1>
 
         {/* ── Search box ── */}
-        <div style={{ marginTop: 40, padding: "0 0" }}>
+        <div style={{ marginTop: 40 }}>
           <form onSubmit={handleSearch}>
             <div
               className="flex items-center rounded-[12px]"
               style={{
-                border: "1px solid rgba(255,255,255,0.2)",
+                border: "1px solid #E0E0E0",
                 padding: "12px 16px",
                 gap: 12,
               }}
@@ -114,11 +114,11 @@ export default function HomePage() {
                 height="14"
                 viewBox="0 0 24 24"
                 fill="none"
+                stroke="#AAAAAA"
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 className="shrink-0"
-                style={{ stroke: "rgba(255,255,255,0.4)" }}
               >
                 <circle cx="11" cy="11" r="8" />
                 <line x1="21" y1="21" x2="16.65" y2="16.65" />
@@ -128,12 +128,12 @@ export default function HomePage() {
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder="搜索你想吃的"
-                className="home-search"
+                className="home-search-light"
                 style={{
                   border: "none",
                   background: "none",
                   outline: "none",
-                  color: "#ffffff",
+                  color: "#1A1A1A",
                   width: "100%",
                   fontSize: 14,
                   padding: 0,
@@ -157,16 +157,16 @@ export default function HomePage() {
               style={
                 active
                   ? {
-                      background: "#ffffff",
-                      color: "#000000",
+                      background: "#1A1A1A",
+                      color: "#ffffff",
                       padding: "6px 16px",
-                      border: "1px solid #ffffff",
+                      border: "1px solid #1A1A1A",
                     }
                   : {
                       background: "transparent",
-                      color: "rgba(255,255,255,0.6)",
+                      color: "#888",
                       padding: "6px 16px",
-                      border: "1px solid rgba(255,255,255,0.2)",
+                      border: "1px solid #D4D4D4",
                     }
               }
             >
@@ -180,7 +180,7 @@ export default function HomePage() {
       <div style={{ padding: "40px 24px 0" }}>
         <p
           className="text-[10px] uppercase"
-          style={{ color: "rgba(255,255,255,0.4)", letterSpacing: "2.5px" }}
+          style={{ color: "#999", letterSpacing: "2.5px" }}
         >
           附近热门
         </p>
@@ -195,21 +195,32 @@ export default function HomePage() {
           <button
             key={dish.id}
             onClick={() => router.push(`/dish/${dish.id}`)}
-            className="text-left rounded-[14px] overflow-hidden transition-opacity hover:opacity-90"
+            className="text-left rounded-[14px] overflow-hidden transition-shadow hover:shadow-md"
             style={{
-              background: "rgba(255,255,255,0.05)",
-              border: "1px solid rgba(255,255,255,0.1)",
+              border: "0.5px solid #E5E5E5",
+              background: "#ffffff",
             }}
           >
-            <DishPlaceholder nameZh={dish.name_zh} cuisineTag={dish.cuisine_tag} />
+            <div style={{ height: 160, overflow: "hidden" }}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={getDishImage(dish.name_zh)}
+                alt={dish.name_zh}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                }}
+              />
+            </div>
             <div style={{ padding: 16 }}>
-              <p className="text-[18px] font-medium text-white leading-tight">
+              <p className="text-[18px] font-medium text-[#1A1A1A] leading-tight">
                 {dish.name_zh}
               </p>
-              <p className="text-[11px] mt-1" style={{ color: "rgba(255,255,255,0.4)" }}>
+              <p className="text-[11px] text-[#999] mt-1">
                 {dish.name_en}
               </p>
-              <p className="text-[11px] text-white mt-1.5">
+              <p className="text-[11px] text-[#1A1A1A] mt-1.5">
                 ● {dish.restaurant_count} 家餐厅
               </p>
             </div>
@@ -220,8 +231,8 @@ export default function HomePage() {
       {/* ── Footer slogan ── */}
       <div className="text-center" style={{ padding: "36px 24px 32px" }}>
         <p
-          className="text-[11px]"
-          style={{ color: "rgba(255,255,255,0.4)", letterSpacing: "2px" }}
+          className="text-[11px] text-[#999]"
+          style={{ letterSpacing: "2px" }}
         >
           以菜寻味，以味寻道。
         </p>

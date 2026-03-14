@@ -25,6 +25,10 @@
   color: rgba(255, 255, 255, 0.4);
 }
 
+.home-search-light::placeholder {
+  color: #AAAAAA;
+}
+
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
