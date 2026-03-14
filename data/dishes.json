@@ -684,7 +684,6 @@
     "image_url": "/images/dishes/di-san-xian.webp",
     "available_at": [
       "rong-chic",
-      "lobanton",
       "chongqing-house",
       "golden-garden-malden"
     ]
@@ -705,7 +704,6 @@
     "image_url": "/images/dishes/guo-bao-rou.webp",
     "available_at": [
       "rong-chic",
-      "lobanton",
       "golden-garden-malden",
       "mala-noodle"
     ]
@@ -748,44 +746,7 @@
     "image_url": "/images/dishes/pork-glass-noodle-stew.webp",
     "available_at": [
       "rong-chic",
-      "lobanton",
       "golden-garden-malden"
-    ]
-  },
-  {
-    "id": "lion-head-meatballs",
-    "name_en": "Lion Head Meatballs",
-    "name_zh": "狮子头",
-    "description_en": "Giant, tender Shanghainese pork meatballs braised with napa cabbage in a clear, delicate broth.",
-    "description_zh": "大如拳头的猪肉丸子与白菜一同在清汤中慢炖，肉质松软细嫩，汤汁鲜甜清淡。",
-    "cuisine_tag": "沪菜",
-    "flavor_tags": [
-      "savory",
-      "light",
-      "tender",
-      "rich"
-    ],
-    "image_url": "/images/dishes/lion-head-meatballs.webp",
-    "available_at": [
-      "lobanton"
-    ]
-  },
-  {
-    "id": "drunken-chicken",
-    "name_en": "Drunken Chicken",
-    "name_zh": "醉鸡",
-    "description_en": "Cold poached chicken marinated in Shaoxing wine and aromatics overnight, served chilled with a fragrant jelly.",
-    "description_zh": "白煮鸡浸在绍兴花雕酒和香料中腌制一夜，冷藏后切片，酒香浓郁，肉质嫩滑。",
-    "cuisine_tag": "沪菜",
-    "flavor_tags": [
-      "savory",
-      "light",
-      "aromatic",
-      "tender"
-    ],
-    "image_url": "/images/dishes/drunken-chicken.webp",
-    "available_at": [
-      "lobanton"
     ]
   },
   {
@@ -1112,7 +1073,6 @@
     ],
     "image_url": "/images/dishes/lotus-root-soup.webp",
     "available_at": [
-      "lobanton",
       "chef-yao"
     ]
   },
@@ -1149,8 +1109,7 @@
     ],
     "image_url": "/images/dishes/braised-pork-knuckle.webp",
     "available_at": [
-      "rong-chic",
-      "lobanton"
+      "rong-chic"
     ]
   },
   {
@@ -1192,8 +1151,7 @@
     ],
     "image_url": "/images/dishes/crispy-tofu.webp",
     "available_at": [
-      "rong-chic",
-      "lobanton"
+      "rong-chic"
     ]
   },
   {
@@ -1247,8 +1205,7 @@
     ],
     "image_url": "/images/dishes/cucumber-pork-stir-fry.webp",
     "available_at": [
-      "rong-chic",
-      "lobanton"
+      "rong-chic"
     ]
   },
   {
@@ -1266,8 +1223,7 @@
     ],
     "image_url": "/images/dishes/pork-belly-tofu-braise.webp",
     "available_at": [
-      "rong-chic",
-      "lobanton"
+      "rong-chic"
     ]
   },
   {
@@ -1286,8 +1242,7 @@
     "image_url": "/images/dishes/cold-dressed-cucumber.webp",
     "available_at": [
       "chongqing-house",
-      "rong-chic",
-      "lobanton"
+      "rong-chic"
     ]
   },
   {
@@ -1402,7 +1357,6 @@
     "image_url": "/images/dishes/three-cup-chicken.webp",
     "available_at": [
       "rong-chic",
-      "lobanton",
       "chongqing-house"
     ]
   },
@@ -4847,6 +4801,150 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ]
+  },
+  {
+    "id": "thai-basil-chicken-dumplings-lobanton",
+    "name_en": "Thai Basil Chicken Dumplings",
+    "name_zh": "泰式九层塔鸡肉饺子",
+    "description_en": "Pan-fried dumplings filled with chicken and fragrant Thai basil.",
+    "description_zh": "泰式九层塔与鸡肉馅的煎饺，香气扑鼻。",
+    "cuisine_tag": "融合菜",
+    "flavor_tags": [
+      "aromatic",
+      "savory",
+      "herbal",
+      "crispy"
+    ],
+    "image_url": "/images/dishes/default-dumpling.webp",
+    "available_at": [
+      "lobanton"
+    ]
+  },
+  {
+    "id": "maize-runner-dumplings-lobanton",
+    "name_en": "Maize Runner Chicken Dumplings",
+    "name_zh": "玉米鸡肉饺子",
+    "description_en": "Dumplings stuffed with sweet corn and chicken, pan-fried to a golden crisp.",
+    "description_zh": "鸡肉玉米馅煎饺，甜嫩多汁。",
+    "cuisine_tag": "融合菜",
+    "flavor_tags": [
+      "sweet",
+      "savory",
+      "tender",
+      "crispy"
+    ],
+    "image_url": "/images/dishes/default-dumpling.webp",
+    "available_at": [
+      "lobanton"
+    ]
+  },
+  {
+    "id": "spam-egg-onigirazu-lobanton",
+    "name_en": "The Classic Onigirazu (Spam & Egg)",
+    "name_zh": "经典午餐肉蛋饭团",
+    "description_en": "Japanese rice sandwich with pan-fried spam, egg, and seasoned rice wrapped in nori.",
+    "description_zh": "经典午餐肉煎蛋饭团三明治，紫菜包裹，简单美味。",
+    "cuisine_tag": "日式",
+    "flavor_tags": [
+      "savory",
+      "rich",
+      "umami",
+      "comforting"
+    ],
+    "image_url": "/images/dishes/default-onigiri.webp",
+    "available_at": [
+      "lobanton"
+    ]
+  },
+  {
+    "id": "shrimp-tempura-onigirazu-lobanton",
+    "name_en": "Shrimply the Best Onigirazu (Shrimp Tempura)",
+    "name_zh": "虾天妇罗饭团",
+    "description_en": "Crispy shrimp tempura tucked into a nori-wrapped rice sandwich.",
+    "description_zh": "酥脆虾天妇罗饭团三明治，外酥内软。",
+    "cuisine_tag": "日式",
+    "flavor_tags": [
+      "crispy",
+      "savory",
+      "fresh",
+      "umami"
+    ],
+    "image_url": "/images/dishes/default-onigiri.webp",
+    "available_at": [
+      "lobanton"
+    ]
+  },
+  {
+    "id": "pumpkin-onigirazu-lobanton",
+    "name_en": "Pumpkin Patch Onigirazu (Vegan)",
+    "name_zh": "南瓜天妇罗饭团",
+    "description_en": "Vegan rice sandwich with crispy pumpkin tempura wrapped in nori.",
+    "description_zh": "南瓜天妇罗素食饭团三明治，香甜酥脆。",
+    "cuisine_tag": "日式",
+    "flavor_tags": [
+      "sweet",
+      "crispy",
+      "savory",
+      "light"
+    ],
+    "image_url": "/images/dishes/default-onigiri.webp",
+    "available_at": [
+      "lobanton"
+    ]
+  },
+  {
+    "id": "lu-ro-fan-lobanton",
+    "name_en": "Lu Ro Fan (Taiwanese Braised Pork Rice)",
+    "name_zh": "卤肉饭",
+    "description_en": "Classic Taiwanese comfort food — slow-braised minced pork in aromatic soy sauce over steamed rice.",
+    "description_zh": "台湾经典卤肉饭，慢炖五花肉末浇在白米饭上，咸香下饭。",
+    "cuisine_tag": "台湾菜",
+    "flavor_tags": [
+      "savory",
+      "rich",
+      "aromatic",
+      "comforting"
+    ],
+    "image_url": "/images/dishes/default-rice.webp",
+    "available_at": [
+      "lobanton"
+    ]
+  },
+  {
+    "id": "japanese-curry-bento-lobanton",
+    "name_en": "Japanese Curry Rice Bento",
+    "name_zh": "日式咖喱饭",
+    "description_en": "Mild and hearty Japanese curry served over rice with vegetables and protein.",
+    "description_zh": "浓郁日式咖喱配白米饭，温和醇厚。",
+    "cuisine_tag": "日式",
+    "flavor_tags": [
+      "savory",
+      "rich",
+      "sweet",
+      "comforting"
+    ],
+    "image_url": "/images/dishes/default-rice.webp",
+    "available_at": [
+      "lobanton"
+    ]
+  },
+  {
+    "id": "lemon-garlic-fries-lobanton",
+    "name_en": "Lemon Garlic Herb Fries",
+    "name_zh": "柠檬蒜香薯条",
+    "description_en": "Crispy fries tossed with lemon zest, garlic, and fresh herbs.",
+    "description_zh": "柠檬蒜香香草薯条，酥脆清爽。",
+    "cuisine_tag": "融合菜",
+    "flavor_tags": [
+      "crispy",
+      "tangy",
+      "aromatic",
+      "savory"
+    ],
+    "image_url": "/images/dishes/default-snack.webp",
+    "available_at": [
+      "lobanton"
     ]
   }
 ]
