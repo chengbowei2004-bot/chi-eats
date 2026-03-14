@@ -41,10 +41,10 @@ export default function SplashPage() {
 
   const typedText = useTypewriter(dishes, phase === "typing", onFirstComplete);
 
-  // Start typing 1s after search box appears
+  // Start typing 300ms after search box appears
   useEffect(() => {
     if (!s2Search) return;
-    const timer = setTimeout(() => setPhase("typing"), 1000);
+    const timer = setTimeout(() => setPhase("typing"), 300);
     return () => clearTimeout(timer);
   }, [s2Search]);
 
@@ -69,13 +69,12 @@ export default function SplashPage() {
       // After 400ms, switch to screen 2
       setTimeout(() => {
         setScreen("typer");
-        // Enter screen 2
         setTimeout(() => setTyperEntering(true), 50);
 
-        // Stagger screen 2 elements (slogan + button deferred to onFirstComplete)
-        setTimeout(() => setS2Logo(true), 100);
-        setTimeout(() => setS2Title(true), 300);
-        setTimeout(() => setS2Search(true), 600);
+        // Fast stagger (slogan + button deferred to onFirstComplete)
+        setTimeout(() => setS2Logo(true), 0);
+        setTimeout(() => setS2Title(true), 100);
+        setTimeout(() => setS2Search(true), 200);
       }, 400);
     },
     []
@@ -101,47 +100,24 @@ export default function SplashPage() {
       {/* ── Screen 1: Language selection ── */}
       <div className={s1Class}>
         <div className="flex flex-col items-center gap-0">
-          {/* DeeDao */}
           <span
             className="splash-rise"
-            style={{
-              fontSize: 22,
-              fontWeight: 500,
-              color: "#1A1A1A",
-              animationDelay: "0.2s",
-            }}
+            style={{ fontSize: 22, fontWeight: 500, color: "#1A1A1A", animationDelay: "0.2s" }}
           >
             DeeDao
           </span>
-
-          {/* 地道 */}
           <span
             className="splash-rise"
-            style={{
-              fontSize: 13,
-              color: "#bbb",
-              letterSpacing: 2,
-              marginTop: 6,
-              animationDelay: "0.4s",
-            }}
+            style={{ fontSize: 13, color: "#bbb", letterSpacing: 2, marginTop: 6, animationDelay: "0.4s" }}
           >
             地道
           </span>
-
-          {/* Choose your language */}
           <span
             className="splash-rise"
-            style={{
-              fontSize: 12,
-              color: "#bbb",
-              marginTop: 40,
-              animationDelay: "0.4s",
-            }}
+            style={{ fontSize: 12, color: "#bbb", marginTop: 40, animationDelay: "0.4s" }}
           >
             Choose your language
           </span>
-
-          {/* 中文 button */}
           <button
             onClick={() => handleLangSelect("zh")}
             className="splash-rise splash-btn"
@@ -149,8 +125,6 @@ export default function SplashPage() {
           >
             中文
           </button>
-
-          {/* English button */}
           <button
             onClick={() => handleLangSelect("en")}
             className="splash-rise splash-btn"
@@ -158,16 +132,9 @@ export default function SplashPage() {
           >
             English
           </button>
-
-          {/* Hint */}
           <span
             className="splash-rise"
-            style={{
-              fontSize: 11,
-              color: "#bbb",
-              marginTop: 24,
-              animationDelay: "1.0s",
-            }}
+            style={{ fontSize: 11, color: "#bbb", marginTop: 24, animationDelay: "1.0s" }}
           >
             You can change this later in settings
           </span>
@@ -179,7 +146,7 @@ export default function SplashPage() {
         <div className="flex flex-col items-center w-full" style={{ padding: "0 40px" }}>
           {/* Top logo */}
           <span
-            className="splash-el"
+            className="splash-el-fast"
             style={{
               fontSize: 14,
               color: "#bbb",
@@ -194,7 +161,7 @@ export default function SplashPage() {
 
           {/* Title */}
           <h2
-            className="splash-el"
+            className="splash-el-fast"
             style={{
               fontSize: 28,
               fontWeight: 500,
@@ -204,12 +171,14 @@ export default function SplashPage() {
               transform: s2Title ? "translateY(0)" : "translateY(24px)",
             }}
           >
-            {chosenLang === "zh" ? "今天想吃什么？" : "What are you craving?"}
+            {chosenLang === "zh"
+              ? "今天想吃什么？"
+              : "Search the dish. Find the authentic."}
           </h2>
 
           {/* Search box (simulated) */}
           <div
-            className="splash-el"
+            className="splash-el-fast"
             style={{
               marginTop: 32,
               maxWidth: 300,
@@ -271,29 +240,29 @@ export default function SplashPage() {
             </div>
           </div>
 
-          {/* Slogan — appears after first word typed */}
-          <div
-            className="splash-el"
-            style={{
-              marginTop: 32,
-              textAlign: "center",
-              opacity: s2Slogan ? 1 : 0,
-              transform: s2Slogan ? "translateY(0)" : "translateY(12px)",
-            }}
-          >
-            <p style={{ fontSize: 12, color: "#bbb", letterSpacing: 2 }}>
-              {chosenLang === "zh"
-                ? "以菜寻味，以味寻道。"
-                : "Search the dish. Find the authentic."}
-            </p>
-          </div>
+          {/* Slogan — only in Chinese mode, after first word typed */}
+          {chosenLang === "zh" && (
+            <div
+              className="splash-el-fast"
+              style={{
+                marginTop: 32,
+                textAlign: "center",
+                opacity: s2Slogan ? 1 : 0,
+                transform: s2Slogan ? "translateY(0)" : "translateY(12px)",
+              }}
+            >
+              <p style={{ fontSize: 12, color: "#bbb", letterSpacing: 2 }}>
+                以菜寻味，以味寻道。
+              </p>
+            </div>
+          )}
 
-          {/* Enter button — appears 200ms after slogan */}
+          {/* Enter button */}
           <button
             onClick={handleEnter}
-            className="splash-el splash-enter-btn"
+            className="splash-el-fast splash-enter-btn"
             style={{
-              marginTop: 40,
+              marginTop: chosenLang === "zh" ? 40 : 32,
               opacity: s2Button ? 1 : 0,
               transform: s2Button ? "translateY(0)" : "translateY(12px)",
               pointerEvents: s2Button ? "auto" : "none",

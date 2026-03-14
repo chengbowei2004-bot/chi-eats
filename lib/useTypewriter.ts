@@ -37,7 +37,7 @@ export function useTypewriter(
         setText(word.substring(0, s.charIdx));
         if (s.charIdx === word.length) {
           s.deleting = true;
-          s.pause = 15;
+          s.pause = 8;
           if (!s.firstDone) {
             s.firstDone = true;
             onFirstComplete?.();
@@ -51,7 +51,7 @@ export function useTypewriter(
           s.idx = (s.idx + 1) % dishes.length;
         }
       }
-    }, s.deleting ? 60 : 120 + Math.random() * 80);
+    }, s.deleting ? 25 : 40 + Math.random() * 30);
 
     return () => clearInterval(id);
   }, [dishes, active, onFirstComplete]);

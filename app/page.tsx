@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { Settings } from "lucide-react";
 import { getDishImage } from "@/lib/dishImages";
 import { useAuth } from "@/lib/useAuth";
+import { useLanguage } from "@/lib/useLanguage";
 import { useCity, type City } from "@/lib/useCity";
 
 type BrowseDish = {
@@ -17,16 +18,17 @@ type BrowseDish = {
 };
 
 const CATEGORIES = [
-  { label: "全部", tag: "" },
-  { label: "面食", tag: "面食" },
-  { label: "火锅", tag: "火锅" },
-  { label: "点心", tag: "点心" },
-  { label: "烧烤", tag: "烧烤" },
-  { label: "米饭", tag: "米饭" },
+  { zh: "全部", en: "All", tag: "" },
+  { zh: "面食", en: "Noodles", tag: "面食" },
+  { zh: "火锅", en: "Hot Pot", tag: "火锅" },
+  { zh: "点心", en: "Dim Sum", tag: "点心" },
+  { zh: "烧烤", en: "BBQ", tag: "烧烤" },
+  { zh: "米饭", en: "Rice", tag: "米饭" },
 ];
 
 export default function HomePage() {
   const { user } = useAuth();
+  const { t } = useLanguage();
   const { city, setCity, cityLabel, allCities } = useCity();
   const router = useRouter();
 
@@ -42,7 +44,6 @@ export default function HomePage() {
       router.replace("/splash");
       return;
     }
-    // Check onboarding for existing users
     const onboarded = localStorage.getItem("deedao_onboarded");
     if (!onboarded) {
       router.replace("/onboarding");
@@ -90,7 +91,7 @@ export default function HomePage() {
           className="text-[18px] font-medium text-[#1A1A1A]"
           style={{ letterSpacing: "-0.5px" }}
         >
-          DeeDao 地道
+          {t("DeeDao 地道", "DeeDao")}
         </span>
         <button
           onClick={() => router.push("/settings")}
@@ -107,7 +108,7 @@ export default function HomePage() {
           className="text-[34px] font-medium text-[#1A1A1A]"
           style={{ letterSpacing: "-1px", margin: "0 0 12px" }}
         >
-          今天想吃什么？
+          {t("今天想吃什么？", "What are you craving?")}
         </h1>
 
         {/* City picker */}
@@ -191,7 +192,7 @@ export default function HomePage() {
                 type="text"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                placeholder="搜索你想吃的"
+                placeholder={t("搜索你想吃的", "Search a dish...")}
                 className="home-search-light"
                 style={{
                   border: "none",
@@ -234,7 +235,7 @@ export default function HomePage() {
                     }
               }
             >
-              {cat.label}
+              {t(cat.zh, cat.en)}
             </button>
           );
         })}
@@ -246,7 +247,7 @@ export default function HomePage() {
           className="text-[10px] uppercase"
           style={{ color: "#999", letterSpacing: "2.5px" }}
         >
-          附近热门食物
+          {t("附近热门食物", "POPULAR NEARBY")}
         </p>
       </div>
 
@@ -279,13 +280,13 @@ export default function HomePage() {
             </div>
             <div style={{ padding: 16 }}>
               <p className="text-[18px] font-medium text-[#1A1A1A] leading-tight">
-                {dish.name_zh}
+                {t(dish.name_zh, dish.name_en)}
               </p>
               <p className="text-[11px] text-[#999] mt-1">
-                {dish.name_en}
+                {t(dish.name_en, dish.name_zh)}
               </p>
               <p className="text-[11px] text-[#1A1A1A] mt-1.5">
-                ● {dish.restaurant_count} 家餐厅
+                ● {dish.restaurant_count} {t("家餐厅", "restaurants")}
               </p>
             </div>
           </button>
@@ -298,7 +299,7 @@ export default function HomePage() {
           className="text-[11px] text-[#999]"
           style={{ letterSpacing: "2px" }}
         >
-          以菜寻味，以味寻道。
+          {t("以菜寻味，以味寻道。", "Search the dish. Find the authentic.")}
         </p>
       </div>
     </main>
