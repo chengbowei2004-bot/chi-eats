@@ -31,17 +31,17 @@ body {
 
 @keyframes emoji-fall {
   0% {
-    transform: translateY(-60px);
+    transform: translateY(0);
     opacity: 0;
   }
-  10% {
-    opacity: 1;
+  8% {
+    opacity: 0.8;
   }
-  70% {
-    opacity: 1;
+  80% {
+    opacity: 0.8;
   }
   100% {
-    transform: translateY(calc(100vh - 60px));
+    transform: translateY(calc(100vh + 60px));
     opacity: 0;
   }
 }
