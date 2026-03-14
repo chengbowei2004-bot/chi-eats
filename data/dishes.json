@@ -200,7 +200,6 @@
     "image_url": "/images/dishes/mouthwatering-chicken.webp",
     "available_at": [
       "chongqing-house",
-      "chengdu-taste",
       "rong-chic",
       "noahs-kitchen",
       "yi-ma-yi-la"
@@ -2570,7 +2569,8 @@
     "available_at": [
       "chongqing-house",
       "noahs-kitchen",
-      "kings-garden"
+      "kings-garden",
+      "chengdu-taste"
     ]
   },
   {
@@ -2587,9 +2587,7 @@
       "tangy"
     ],
     "image_url": "/images/dishes/cold-beef-special-sauce.webp",
-    "available_at": [
-      "chengdu-taste"
-    ]
+    "available_at": []
   },
   {
     "id": "pork-dumplings-chili-oil",
@@ -2605,9 +2603,7 @@
       "aromatic"
     ],
     "image_url": "/images/dishes/pork-dumplings-chili-oil.webp",
-    "available_at": [
-      "chengdu-taste"
-    ]
+    "available_at": []
   },
   {
     "id": "mala-beef",
@@ -2630,7 +2626,7 @@
   {
     "id": "steamed-eggplant-chili",
     "name_en": "Steamed Eggplant with Chili Sauce",
-    "name_zh": "凉拌蒸茄子",
+    "name_zh": "蒸茄子拌辣椒酱",
     "description_en": "Silky steamed eggplant drizzled with a spicy chili-garlic sauce — light yet boldly flavored.",
     "description_zh": "蒸至软糟的茄子淋上辣椒蒜蓉酱，口感细嫩，辣味醇厚。",
     "cuisine_tag": "川菜",
@@ -2756,7 +2752,7 @@
   {
     "id": "mustard-pork-noodle-soup",
     "name_en": "Mustard Pork Noodle Soup",
-    "name_zh": "榴菜肉丝面",
+    "name_zh": "榨菜肉丝面",
     "description_en": "Noodle soup with shredded pork and tangy Sichuan preserved mustard greens in a light broth.",
     "description_zh": "肉丝和榴菜丝在清汤面中，咸鲜适口，是四川面馆的家常款。",
     "cuisine_tag": "面食",
@@ -2774,7 +2770,7 @@
   {
     "id": "hot-sour-rice-noodle",
     "name_en": "Hot and Sour Rice Noodle",
-    "name_zh": "酸辣粉",
+    "name_zh": "酸辣米线",
     "description_en": "Chewy sweet potato noodles in a tangy, spicy broth topped with peanuts, scallions, and chili oil.",
     "description_zh": "红薯粉条在酸辣汤底中，配花生碎、葱花和辣椒油，酸辣爽滑，是重庆街头名小吃。",
     "cuisine_tag": "川菜",
@@ -2803,9 +2799,7 @@
       "light"
     ],
     "image_url": "/images/dishes/singapore-mei-fun.webp",
-    "available_at": [
-      "chengdu-taste"
-    ]
+    "available_at": []
   },
   {
     "id": "double-cooked-fish",
@@ -2846,7 +2840,7 @@
   {
     "id": "dry-sauteed-shredded-beef",
     "name_en": "Dry Sauteed Shredded Beef",
-    "name_zh": "干煨牛肉丝",
+    "name_zh": "干煸牛肉丝",
     "description_en": "Shredded beef dry-fried until crispy with celery, chili, and Sichuan peppercorn — chewy and intensely savory.",
     "description_zh": "牛肉丝干煨至酥脆，与芹菜、辣椒和花椒翻炒，干香有嚼劲。",
     "cuisine_tag": "川菜",
@@ -2863,8 +2857,8 @@
   },
   {
     "id": "hot-spicy-crispy-beef",
-    "name_en": "Hot Spicy Crispy Beef",
-    "name_zh": "香辣脆牛",
+    "name_en": "Hot Spicy Beef",
+    "name_zh": "香辣牛肉",
     "description_en": "Battered beef strips deep-fried until shatteringly crispy, then tossed with dried chilies and Sichuan peppercorn.",
     "description_zh": "牛肉条裹浆炸至酥脆，与干辣椒和花椒爆炒，外酥内嫩，香辣过瘾。",
     "cuisine_tag": "川菜",
@@ -2882,7 +2876,7 @@
   {
     "id": "beef-sour-soup",
     "name_en": "Beef in Sour Soup",
-    "name_zh": "酸汤肥牛",
+    "name_zh": "酸汤牛肉",
     "description_en": "Tender fatty beef slices in a golden sour pepper broth — tangy, warming, and deeply flavorful.",
     "description_zh": "肥牛片在酸汤中涮煮，汤色金黄，酸辣开胃，鲜香浓郁。",
     "cuisine_tag": "川菜",
@@ -2972,7 +2966,7 @@
   {
     "id": "hot-spicy-pork-feet",
     "name_en": "Hot Spicy Pork Feet",
-    "name_zh": "麻辣猪蹄",
+    "name_zh": "香辣猪蹄",
     "description_en": "Braised pork feet tossed in a fiery mala sauce — rich, gelatinous, and intensely spiced.",
     "description_zh": "卤猪蹄拌上麻辣酱汁，胶质丰富，又麻又辣，是重口味爱好者的心头好。",
     "cuisine_tag": "川菜",
@@ -2989,8 +2983,8 @@
   },
   {
     "id": "shredded-beef-green-pepper",
-    "name_en": "Shredded Beef with Spicy Green Pepper",
-    "name_zh": "小椒牛肉丝",
+    "name_en": "Shredded Beef with Green Pepper",
+    "name_zh": "青椒牛肉丝",
     "description_en": "Tender shredded beef stir-fried with spicy green peppers — a quick, fragrant Sichuan classic.",
     "description_zh": "牛肉丝与小青椒爆炒，鲜辣脆嫩，是四川家常快手菜。",
     "cuisine_tag": "川菜",
@@ -3026,7 +3020,7 @@
   {
     "id": "beer-duck-griddle",
     "name_en": "Beer Duck in Griddle",
-    "name_zh": "啤酒鸭",
+    "name_zh": "干锅啤酒鸭",
     "description_en": "Duck pieces braised in beer with ginger, star anise, and dried chilies until tender and deeply savory.",
     "description_zh": "鸭块加啤酒、姜、八角和干辣椒焖煮，酒香与肉香交融，鲜嫩入味。",
     "cuisine_tag": "家常菜",
@@ -3145,6 +3139,261 @@
       "aromatic"
     ],
     "image_url": "/images/dishes/sesame-rice-balls.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "beef-tripe-red-oil",
+    "name_en": "Beef and Tripe in Red Chili Oil",
+    "name_zh": "牛肉牛肚红油拌",
+    "description_en": "Sliced beef and honeycomb tripe tossed in a bold red chili oil dressing with sesame and scallion.",
+    "description_zh": "牛肉片和牛肚拌上红油、芝麻和葱花，麻辣鲜香，是川式经典凉拌菜。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "savory",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/beef-tripe-red-oil.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "steamed-chicken-garlic",
+    "name_en": "Steamed Chicken with Garlic Sauce",
+    "name_zh": "蒜泥蒸鸡",
+    "description_en": "Tender steamed chicken drenched in a pungent garlic and chili oil sauce — silky and aromatic.",
+    "description_zh": "鸡肉蒸至嫩滑，淋上蒜泥和辣椒油，香气扑鼻，蒜香浓郁。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "savory",
+      "aromatic",
+      "tender",
+      "spicy"
+    ],
+    "image_url": "/images/dishes/steamed-chicken-garlic.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "bang-bang-chicken",
+    "name_en": "Bang Bang Chicken",
+    "name_zh": "棒棒鸡丝",
+    "description_en": "Shredded poached chicken in a nutty sesame-chili sauce — the name comes from the mallet used to tenderize the meat.",
+    "description_zh": "鸡肉丝拌上芝麻辣椒酱汁，因制作时用棒敲打鸡肉而得名，麻辣鲜香。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "savory",
+      "spicy",
+      "numbing",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/bang-bang-chicken.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "chengdu-cold-jelly",
+    "name_en": "Chengdu Cold Jelly Noodles",
+    "name_zh": "成都凉粉",
+    "description_en": "Slippery mung bean jelly noodles dressed in a fiery chili oil and Sichuan peppercorn sauce — a Chengdu street snack.",
+    "description_zh": "绿豆凉粉切条，拌上红油、花椒和蒜泥，滑嫩爽口，是成都街头的人气小吃。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "light",
+      "chewy"
+    ],
+    "image_url": "/images/dishes/chengdu-cold-jelly.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "sichuan-pickles",
+    "name_en": "Sichuan Pickles",
+    "name_zh": "四川泡菜",
+    "description_en": "Crunchy fermented vegetables pickled in a tangy Sichuan brine with chili and Sichuan peppercorn.",
+    "description_zh": "蔬菜在四川泡菜坛中发酵，酸辣爽脆，是川菜餐桌上的经典开胃小菜。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "sour",
+      "spicy",
+      "crispy",
+      "light"
+    ],
+    "image_url": "/images/dishes/sichuan-pickles.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "fish-fragrant-shredded-pork",
+    "name_en": "Fish-Fragrant Shredded Pork",
+    "name_zh": "鱼香肉丝",
+    "description_en": "Shredded pork stir-fried in a tangy, slightly sweet fish-fragrant sauce with wood ear mushrooms and bamboo shoots.",
+    "description_zh": "肉丝与木耳、笋丝在鱼香汁中翻炒，酸甜微辣，是川菜中最经典的家常菜之一。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "tangy",
+      "sweet",
+      "savory",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/fish-fragrant-shredded-pork.webp",
+    "available_at": [
+      "chengdu-taste",
+      "chongqing-house",
+      "rong-chic"
+    ]
+  },
+  {
+    "id": "chongqing-spicy-chicken",
+    "name_en": "Chongqing Diced Chicken with Hot Chili Peppercorn",
+    "name_zh": "重庆辣子鸡",
+    "description_en": "Crispy diced chicken buried in a mountain of dried chilies and Sichuan peppercorns — fiery and addictive Chongqing style.",
+    "description_zh": "鸡丁在大量干辣椒和花椒中爆炒，外酥里嫩，麻辣刺激，是重庆江湖菜的代表。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "crispy",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/chongqing-spicy-chicken.webp",
+    "available_at": [
+      "chengdu-taste",
+      "chongqing-house"
+    ]
+  },
+  {
+    "id": "douban-fish-fillet",
+    "name_en": "Doubanjiang Fish Fillet",
+    "name_zh": "豆瓣鱼片",
+    "description_en": "Tender fish fillets braised in a rich, savory doubanjiang chili bean paste sauce.",
+    "description_zh": "鱼片在豆瓣酱中烧制，酱香浓郁，咸鲜微辣，是川菜中的经典鱼类做法。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "savory",
+      "spicy",
+      "rich",
+      "tender"
+    ],
+    "image_url": "/images/dishes/douban-fish-fillet.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "fish-fragrant-chicken",
+    "name_en": "Fish-Fragrant Chicken Shreds",
+    "name_zh": "鱼香鸡丝",
+    "description_en": "Shredded chicken stir-fried in a tangy fish-fragrant sauce with pickled peppers, garlic, and ginger.",
+    "description_zh": "鸡丝在鱼香酱汁中翻炒，配泡椒、蒜和姜，酸甜咸辣，层次丰富。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "tangy",
+      "sweet",
+      "savory",
+      "spicy"
+    ],
+    "image_url": "/images/dishes/fish-fragrant-chicken.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "dry-pot-intestines",
+    "name_en": "Dry Pot Intestines",
+    "name_zh": "干锅肥肠",
+    "description_en": "Braised pork intestines wok-fried with peppers, onions, and chili bean paste in a sizzling dry pot.",
+    "description_zh": "肥肠与辣椒、洋葱在豆瓣酱中干锅翻炒，肥而不腻，香辣过瘾。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "savory",
+      "spicy",
+      "rich",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/dry-pot-intestines.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "mala-whole-fish",
+    "name_en": "Mala Whole Fish",
+    "name_zh": "麻辣全鱼",
+    "description_en": "A whole fish simmered in a fiery mala broth of Sichuan peppercorn and dried chili — the house signature.",
+    "description_zh": "整条鱼在麻辣汤底中炖煮，花椒和干辣椒的香气渗入鱼肉，是店内招牌菜。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "savory",
+      "rich"
+    ],
+    "image_url": "/images/dishes/mala-whole-fish.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "spicy-whole-fish",
+    "name_en": "Spicy Whole Fish",
+    "name_zh": "香辣全鱼",
+    "description_en": "Whole fish braised in a fragrant, spicy sauce with garlic, ginger, and dried chilies.",
+    "description_zh": "整条鱼在香辣酱汁中烧制，蒜、姜和干辣椒的香气浓郁，鲜辣可口。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "savory",
+      "aromatic",
+      "rich"
+    ],
+    "image_url": "/images/dishes/spicy-whole-fish.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "pine-nut-whole-fish",
+    "name_en": "Pine Nut Whole Fish",
+    "name_zh": "松子全鱼",
+    "description_en": "Crispy whole fish scored in a crosshatch pattern, deep-fried and glazed with a sweet-tangy sauce topped with pine nuts.",
+    "description_zh": "整鱼改花刀炸至酥脆，淋上糖醋汁，撒上松子，外酥里嫩，酸甜适口。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "sweet",
+      "tangy",
+      "crispy",
+      "savory"
+    ],
+    "image_url": "/images/dishes/pine-nut-whole-fish.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "douban-whole-fish",
+    "name_en": "Doubanjiang Whole Fish",
+    "name_zh": "豆瓣全鱼",
+    "description_en": "Whole fish braised in a rich, savory doubanjiang chili bean paste sauce — a Sichuan classic preparation.",
+    "description_zh": "整条鱼在豆瓣酱中红烧，酱香浓厚，咸鲜入味，是四川鱼类菜品的经典做法。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "savory",
+      "spicy",
+      "rich",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/douban-whole-fish.webp",
     "available_at": [
       "chengdu-taste"
     ]
