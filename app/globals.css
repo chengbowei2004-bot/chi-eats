@@ -29,7 +29,17 @@ body {
     'Microsoft YaHei', 'Noto Sans SC', sans-serif;
 }
 
-@keyframes orbit {
+@keyframes orbit-cw {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+@keyframes orbit-ccw {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-360deg); }
+}
+
+@keyframes bob {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50% { transform: translateX(-50%) translateY(-10px); }
 }

@@ -5,18 +5,24 @@ import { useRouter } from "next/navigation";
 import { useLanguage } from "@/lib/useLanguage";
 import type { Lang } from "@/components/LanguageProvider";
 
-const ORBIT_ICONS = [
-  { emoji: "🥟", size: 28, radius: 100, duration: 18, delay: 0 },
-  { emoji: "🍜", size: 26, radius: 120, duration: 22, delay: -3 },
-  { emoji: "🔥", size: 22, radius: 90, duration: 16, delay: -7 },
-  { emoji: "🥢", size: 24, radius: 130, duration: 25, delay: -2 },
-  { emoji: "🍚", size: 20, radius: 80, duration: 20, delay: -10 },
-  { emoji: "🌶️", size: 26, radius: 110, duration: 19, delay: -5 },
-  { emoji: "🫕", size: 24, radius: 140, duration: 28, delay: -8 },
-  { emoji: "🥘", size: 22, radius: 95, duration: 17, delay: -12 },
-  { emoji: "🍲", size: 28, radius: 125, duration: 23, delay: -1 },
-  { emoji: "🧄", size: 20, radius: 85, duration: 21, delay: -6 },
-];
+/* ── Two orbit rings ─────────────────────────────────────────── */
+
+const INNER_RING = {
+  radius: 100,
+  duration: 20,       // 20s per revolution, clockwise
+  direction: "cw" as const,
+  icons: ["🥟", "🍜", "🌶️", "🥘"],        // 4 icons, 90° apart
+};
+
+const OUTER_RING = {
+  radius: 155,
+  duration: 30,       // 30s per revolution, counter-clockwise
+  direction: "ccw" as const,
+  icons: ["🔥", "🥢", "🍚", "🫕", "🍲", "🧄"],  // 6 icons, 60° apart
+};
+
+/* Each icon gets a different bob delay for organic feel */
+const BOB_DURATION = 3; // seconds per bob cycle
 
 export default function LanguagePage() {
   const router = useRouter();
@@ -25,8 +31,8 @@ export default function LanguagePage() {
   const [splashFading, setSplashFading] = useState(false);
 
   useEffect(() => {
-    const fadeTimer = setTimeout(() => setSplashFading(true), 2000);
-    const hideTimer = setTimeout(() => setShowSplash(false), 2500);
+    const fadeTimer = setTimeout(() => setSplashFading(true), 3000);
+    const hideTimer = setTimeout(() => setShowSplash(false), 3500);
     return () => {
       clearTimeout(fadeTimer);
       clearTimeout(hideTimer);
@@ -37,6 +43,47 @@ export default function LanguagePage() {
     setLang(lang);
     localStorage.setItem("deedao_lang_chosen", "1");
     router.replace("/onboarding");
+  }
+
+  function renderRing(ring: { radius: number; duration: number; direction: "cw" | "ccw"; icons: string[] }, ringIndex: number) {
+    const count = ring.icons.length;
+    const angleStep = 360 / count;
+
+    return (
+      <div
+        className="absolute"
+        style={{
+          width: ring.radius * 2,
+          height: ring.radius * 2,
+          animation: `orbit-${ring.direction} ${ring.duration}s ease-in-out infinite`,
+        }}
+      >
+        {ring.icons.map((emoji, i) => {
+          const angleDeg = angleStep * i;
+          const angleRad = (angleDeg * Math.PI) / 180;
+          const x = ring.radius + Math.cos(angleRad) * ring.radius;
+          const y = ring.radius + Math.sin(angleRad) * ring.radius;
+          const bobDelay = -(ringIndex * count + i) * 0.4; // stagger
+
+          return (
+            <span
+              key={i}
+              className="absolute"
+              style={{
+                fontSize: 44,
+                left: x,
+                top: y,
+                transform: "translateX(-50%) translateY(0)",
+                animation: `bob ${BOB_DURATION}s ease-in-out ${bobDelay}s infinite`,
+                filter: "drop-shadow(0 2px 4px rgba(0,0,0,0.08))",
+              }}
+            >
+              {emoji}
+            </span>
+          );
+        })}
+      </div>
+    );
   }
 
   return (
@@ -52,38 +99,18 @@ export default function LanguagePage() {
           <div
             className="absolute rounded-full"
             style={{
-              width: 320,
-              height: 320,
+              width: 380,
+              height: 380,
               background:
                 "radial-gradient(circle, rgba(255,140,50,0.12) 0%, rgba(220,80,40,0.06) 40%, transparent 70%)",
             }}
           />
 
-          {/* Orbiting icons */}
-          {ORBIT_ICONS.map((icon, i) => (
-            <div
-              key={i}
-              className="absolute"
-              style={{
-                width: icon.radius * 2,
-                height: icon.radius * 2,
-                animation: `orbit ${icon.duration}s linear ${icon.delay}s infinite`,
-              }}
-            >
-              <span
-                className="absolute"
-                style={{
-                  fontSize: icon.size,
-                  top: 0,
-                  left: "50%",
-                  transform: "translateX(-50%)",
-                  filter: "drop-shadow(0 1px 2px rgba(0,0,0,0.06))",
-                }}
-              >
-                {icon.emoji}
-              </span>
-            </div>
-          ))}
+          {/* Inner ring – clockwise */}
+          {renderRing(INNER_RING, 0)}
+
+          {/* Outer ring – counter-clockwise */}
+          {renderRing(OUTER_RING, 1)}
 
           {/* Logo */}
           <h1 className="relative text-5xl font-light text-[#1A1A1A] tracking-tight z-10">
@@ -126,7 +153,6 @@ export default function LanguagePage() {
           </button>
         </div>
       </main>
-
     </>
   );
 }
