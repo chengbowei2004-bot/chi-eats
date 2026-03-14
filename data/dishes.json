@@ -287,7 +287,6 @@
     ],
     "image_url": "/images/dishes/preserved-egg-tofu.webp",
     "available_at": [
-      "chengdu-taste",
       "chef-yao",
       "wongs-kitchen",
       "rong-chic"
@@ -484,7 +483,8 @@
       "lobanton",
       "chongqing-house",
       "baozang-55beach",
-      "china-gourmet"
+      "china-gourmet",
+      "chengdu-taste"
     ]
   },
   {
@@ -549,7 +549,8 @@
     "available_at": [
       "mala-noodle",
       "y-noodle-bar",
-      "rong-chic"
+      "rong-chic",
+      "chengdu-taste"
     ]
   },
   {
@@ -590,7 +591,8 @@
     "available_at": [
       "rong-chic",
       "y-noodle-bar",
-      "mala-noodle"
+      "mala-noodle",
+      "chengdu-taste"
     ]
   },
   {
@@ -714,7 +716,8 @@
       "rong-chic",
       "chef-yao",
       "aries-noodle",
-      "golden-garden-malden"
+      "golden-garden-malden",
+      "chengdu-taste"
     ]
   },
   {
@@ -736,7 +739,8 @@
       "wongs-kitchen",
       "jumbo-seafood",
       "jade-garden",
-      "kings-garden"
+      "kings-garden",
+      "chengdu-taste"
     ]
   },
   {
@@ -759,7 +763,8 @@
       "chef-yao",
       "chongqing-house",
       "jumbo-seafood",
-      "jade-garden"
+      "jade-garden",
+      "chengdu-taste"
     ]
   },
   {
@@ -783,7 +788,8 @@
       "wongs-kitchen",
       "chongqing-house",
       "golden-garden-malden",
-      "aries-noodle"
+      "aries-noodle",
+      "chengdu-taste"
     ]
   },
   {
@@ -887,7 +893,8 @@
       "chef-yao",
       "chongqing-house",
       "chung-shin-yuan",
-      "golden-garden-malden"
+      "golden-garden-malden",
+      "chengdu-taste"
     ]
   },
   {
@@ -1188,7 +1195,8 @@
       "chongqing-house",
       "rong-chic",
       "mala-noodle",
-      "golden-garden-malden"
+      "golden-garden-malden",
+      "chengdu-taste"
     ]
   },
   {
@@ -1614,7 +1622,6 @@
     ],
     "image_url": "/images/dishes/tiger-skin-peppers.webp",
     "available_at": [
-      "chengdu-taste",
       "rong-chic",
       "noahs-kitchen",
       "yi-ma-yi-la"
@@ -1635,7 +1642,6 @@
     ],
     "image_url": "/images/dishes/doubanjiang-eggplant.webp",
     "available_at": [
-      "chengdu-taste",
       "rong-chic"
     ]
   },
@@ -1935,7 +1941,6 @@
     ],
     "image_url": "/images/dishes/mapo-eggplant.webp",
     "available_at": [
-      "chengdu-taste",
       "mala-noodle"
     ]
   },
@@ -1974,8 +1979,7 @@
     ],
     "image_url": "/images/dishes/sichuan-pork-ribs.webp",
     "available_at": [
-      "chongqing-house",
-      "chengdu-taste"
+      "chongqing-house"
     ]
   },
   {
@@ -2014,7 +2018,6 @@
     ],
     "image_url": "/images/dishes/spicy-tofu-skin.webp",
     "available_at": [
-      "chengdu-taste",
       "rong-chic",
       "mala-noodle"
     ]
@@ -2075,7 +2078,6 @@
     "image_url": "/images/dishes/cold-dressed-cucumber.webp",
     "available_at": [
       "chongqing-house",
-      "chengdu-taste",
       "rong-chic",
       "chef-yao",
       "lobanton",
@@ -2192,7 +2194,6 @@
     ],
     "image_url": "/images/dishes/wood-ear-mushroom-salad.webp",
     "available_at": [
-      "chengdu-taste",
       "rong-chic",
       "chef-yao"
     ]
@@ -2217,7 +2218,8 @@
       "chongqing-house",
       "friendship-bbq",
       "wu-er-roast",
-      "wing-it"
+      "wing-it",
+      "chengdu-taste"
     ]
   },
   {
@@ -2257,7 +2259,6 @@
     "image_url": "/images/dishes/kung-pao-shrimp.webp",
     "available_at": [
       "chongqing-house",
-      "chengdu-taste",
       "chef-yao"
     ]
   },
@@ -2282,7 +2283,8 @@
       "lobanton",
       "chongqing-house",
       "baozang-55beach",
-      "china-gourmet"
+      "china-gourmet",
+      "chengdu-taste"
     ]
   },
   {
@@ -2300,7 +2302,6 @@
     ],
     "image_url": "/images/dishes/spicy-braised-tofu.webp",
     "available_at": [
-      "chengdu-taste",
       "rong-chic",
       "mala-noodle"
     ]
@@ -2447,7 +2448,8 @@
     "available_at": [
       "noahs-kitchen",
       "yi-ma-yi-la",
-      "friendship-bbq"
+      "friendship-bbq",
+      "chengdu-taste"
     ]
   },
   {
@@ -2567,9 +2569,584 @@
     "image_url": "/images/dishes/spicy-wontons.webp",
     "available_at": [
       "chongqing-house",
-      "chengdu-taste",
       "noahs-kitchen",
       "kings-garden"
+    ]
+  },
+  {
+    "id": "cold-beef-special-sauce",
+    "name_en": "Cold Beef with Special Sauce",
+    "name_zh": "凉拌牛肉",
+    "description_en": "Chilled sliced beef dressed in a bold, tangy special sauce with chili oil and aromatic spices.",
+    "description_zh": "冷切牛肉片拌以特制酱汁，辣椒油与香料交织，是开胃的川式凉菜。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "savory",
+      "spicy",
+      "aromatic",
+      "tangy"
+    ],
+    "image_url": "/images/dishes/cold-beef-special-sauce.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "pork-dumplings-chili-oil",
+    "name_en": "Pork Dumplings in Chili Oil",
+    "name_zh": "红油水饺",
+    "description_en": "Boiled pork dumplings served in a pool of fragrant red chili oil with garlic and Sichuan peppercorn.",
+    "description_zh": "水煮猪肉饺子浸在红油辣椒中，配以蒜末和花椒，麻辣鲜香。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "savory",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/pork-dumplings-chili-oil.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "mala-beef",
+    "name_en": "Mala Beef",
+    "name_zh": "麻辣牛肉",
+    "description_en": "Thinly sliced beef tossed in a fiery mala sauce with Sichuan peppercorns, chili flakes, and sesame.",
+    "description_zh": "薄切牛肉拌上麻辣酱汁、花椒碎和芝麻，又麻又辣，层次丰富。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "savory",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/mala-beef.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "steamed-eggplant-chili",
+    "name_en": "Steamed Eggplant with Chili Sauce",
+    "name_zh": "凉拌蒸茄子",
+    "description_en": "Silky steamed eggplant drizzled with a spicy chili-garlic sauce — light yet boldly flavored.",
+    "description_zh": "蒸至软糟的茄子淋上辣椒蒜蓉酱，口感细嫩，辣味醇厚。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "savory",
+      "tender",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/steamed-eggplant-chili.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "smoked-tea-duck",
+    "name_en": "Smoked Tea Duck",
+    "name_zh": "樟茶鸭",
+    "description_en": "Whole duck smoked over camphor wood and tea leaves, then deep-fried for crackling skin — a Sichuan delicacy.",
+    "description_zh": "整鸭以樟木和茶叶烟熏后油炸，外皮酥脆，肉质紧实，是四川名菜。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "smoky",
+      "savory",
+      "crispy",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/smoked-tea-duck.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "pig-ear-chili-oil",
+    "name_en": "Pig Ear in Red Chili Oil",
+    "name_zh": "红油猪耳",
+    "description_en": "Thinly sliced braised pig ear dressed in red chili oil with garlic and cilantro — crunchy and spicy.",
+    "description_zh": "卤猪耳切薄片，拌上红油、蒜末和香菜，脆嫩爽口，是经典川味凉菜。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "crispy",
+      "savory",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/pig-ear-chili-oil.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "hot-sour-soup",
+    "name_en": "Hot and Sour Soup",
+    "name_zh": "酸辣汤",
+    "description_en": "A warming soup thickened with egg ribbons, tofu, and wood ear mushrooms in a peppery vinegar broth.",
+    "description_zh": "以醋和胡椒调味的浓汤，内有蛋花、豆腐和木耳，酸辣开胃。",
+    "cuisine_tag": "家常菜",
+    "flavor_tags": [
+      "sour",
+      "spicy",
+      "savory",
+      "light"
+    ],
+    "image_url": "/images/dishes/hot-sour-soup.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "wonton-soup",
+    "name_en": "Wonton Soup",
+    "name_zh": "馄饨汤",
+    "description_en": "Delicate pork wontons floating in a clear, savory chicken broth with scallions and sesame oil.",
+    "description_zh": "薄皮猪肉馄饨浮在清鸡汤中，撒上葱花和芝麻油，清淡鲜美。",
+    "cuisine_tag": "家常菜",
+    "flavor_tags": [
+      "light",
+      "savory",
+      "fresh",
+      "tender"
+    ],
+    "image_url": "/images/dishes/wonton-soup.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "west-lake-beef-soup",
+    "name_en": "West Lake Beef Chowder",
+    "name_zh": "西湖牛肉羹",
+    "description_en": "A velvety Hangzhou-style soup of minced beef, egg whites, and cilantro in a delicate starch-thickened broth.",
+    "description_zh": "杭州名汤，牛肉末与蛋白在芡汁中交融，口感丝滑，撒上香菜，清鲜雅致。",
+    "cuisine_tag": "江浙菜",
+    "flavor_tags": [
+      "light",
+      "savory",
+      "tender",
+      "fresh"
+    ],
+    "image_url": "/images/dishes/west-lake-beef-soup.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "pig-feet-soup",
+    "name_en": "Mama's Pig Feet Soup",
+    "name_zh": "猪脚汤",
+    "description_en": "Slow-simmered pig feet in a rich, milky collagen broth with ginger and peanuts — hearty and nourishing.",
+    "description_zh": "猪蹄加姜和花生慢炖至汤色浓白，胶原蛋白丰富，滋补暖身。",
+    "cuisine_tag": "家常菜",
+    "flavor_tags": [
+      "rich",
+      "savory",
+      "tender",
+      "hearty"
+    ],
+    "image_url": "/images/dishes/pig-feet-soup.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "mustard-pork-noodle-soup",
+    "name_en": "Mustard Pork Noodle Soup",
+    "name_zh": "榴菜肉丝面",
+    "description_en": "Noodle soup with shredded pork and tangy Sichuan preserved mustard greens in a light broth.",
+    "description_zh": "肉丝和榴菜丝在清汤面中，咸鲜适口，是四川面馆的家常款。",
+    "cuisine_tag": "面食",
+    "flavor_tags": [
+      "savory",
+      "tangy",
+      "light",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/mustard-pork-noodle.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "hot-sour-rice-noodle",
+    "name_en": "Hot and Sour Rice Noodle",
+    "name_zh": "酸辣粉",
+    "description_en": "Chewy sweet potato noodles in a tangy, spicy broth topped with peanuts, scallions, and chili oil.",
+    "description_zh": "红薯粉条在酸辣汤底中，配花生碎、葱花和辣椒油，酸辣爽滑，是重庆街头名小吃。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "sour",
+      "spicy",
+      "chewy",
+      "savory"
+    ],
+    "image_url": "/images/dishes/hot-sour-rice-noodle.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "singapore-mei-fun",
+    "name_en": "Singapore Mei Fun",
+    "name_zh": "星洲米粉",
+    "description_en": "Stir-fried thin rice vermicelli with curry powder, shrimp, pork, and vegetables — lightly spiced and fragrant.",
+    "description_zh": "细米粉与哖喱粉、虾仁、猪肉和蓔菜翻炒，色泽金黄，香气四溢。",
+    "cuisine_tag": "家常菜",
+    "flavor_tags": [
+      "aromatic",
+      "savory",
+      "spicy",
+      "light"
+    ],
+    "image_url": "/images/dishes/singapore-mei-fun.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "double-cooked-fish",
+    "name_en": "Double Cooked Fish Fillet",
+    "name_zh": "回锅鱼片",
+    "description_en": "Fish fillets wok-tossed in a savory doubanjiang sauce with peppers and leeks — a seafood twist on twice-cooked pork.",
+    "description_zh": "鱼片先滑油后与青椒、蒜苗在豆瓣酱中回锅翻炒，是回锅肉的鱼版创意。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "savory",
+      "spicy",
+      "aromatic",
+      "tender"
+    ],
+    "image_url": "/images/dishes/double-cooked-fish.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "cumin-beef-stir-fry",
+    "name_en": "Fried Beef with Cumin",
+    "name_zh": "孜然牛肉",
+    "description_en": "Wok-seared beef strips coated in toasted cumin, chili flakes, and onion — smoky and aromatic.",
+    "description_zh": "牛肉条爆炒后裹上孜然、辣椒碎和洋葱，烟熏香浓，西北风味十足。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "aromatic",
+      "savory",
+      "spicy",
+      "smoky"
+    ],
+    "image_url": "/images/dishes/cumin-beef.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "dry-sauteed-shredded-beef",
+    "name_en": "Dry Sauteed Shredded Beef",
+    "name_zh": "干煨牛肉丝",
+    "description_en": "Shredded beef dry-fried until crispy with celery, chili, and Sichuan peppercorn — chewy and intensely savory.",
+    "description_zh": "牛肉丝干煨至酥脆，与芹菜、辣椒和花椒翻炒，干香有嚼劲。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "savory",
+      "spicy",
+      "crispy",
+      "numbing"
+    ],
+    "image_url": "/images/dishes/dry-sauteed-shredded-beef.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "hot-spicy-crispy-beef",
+    "name_en": "Hot Spicy Crispy Beef",
+    "name_zh": "香辣脆牛",
+    "description_en": "Battered beef strips deep-fried until shatteringly crispy, then tossed with dried chilies and Sichuan peppercorn.",
+    "description_zh": "牛肉条裹浆炸至酥脆，与干辣椒和花椒爆炒，外酥内嫩，香辣过瘾。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "crispy",
+      "spicy",
+      "numbing",
+      "savory"
+    ],
+    "image_url": "/images/dishes/hot-spicy-crispy-beef.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "beef-sour-soup",
+    "name_en": "Beef in Sour Soup",
+    "name_zh": "酸汤肥牛",
+    "description_en": "Tender fatty beef slices in a golden sour pepper broth — tangy, warming, and deeply flavorful.",
+    "description_zh": "肥牛片在酸汤中涮煮，汤色金黄，酸辣开胃，鲜香浓郁。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "sour",
+      "spicy",
+      "savory",
+      "rich"
+    ],
+    "image_url": "/images/dishes/beef-sour-soup.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "fish-sour-sauce",
+    "name_en": "Fish in Sour Sauce",
+    "name_zh": "酸汤鱼",
+    "description_en": "Fish fillets poached in a tart, chili-laced sour broth with tomato and pickled peppers.",
+    "description_zh": "鱼片在酸辣汤底中煮制，以番茄和泡椒提味，酸爽鲜嫩。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "sour",
+      "spicy",
+      "fresh",
+      "savory"
+    ],
+    "image_url": "/images/dishes/fish-sour-sauce.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "ants-climbing-tree",
+    "name_en": "Spicy Cellophane Noodle with Minced Pork",
+    "name_zh": "蚂蚁上树",
+    "description_en": "Glass noodles stir-fried with seasoned minced pork in a savory, lightly spicy sauce — the pork clings to the noodles like ants on branches.",
+    "description_zh": "粉丝与调味肉末翻炒，肉末附着在粉丝上如蚂蚁爬树，咸鲜微辣，下饭佳品。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "savory",
+      "spicy",
+      "chewy",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/ants-climbing-tree.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "country-style-pork",
+    "name_en": "Country Style Pork",
+    "name_zh": "农家小炒肉",
+    "description_en": "Sliced pork belly wok-fried with fresh green and red peppers in a smoky, savory sauce — rustic comfort food.",
+    "description_zh": "五花肉与青红椒在高温下爆炒，锅气十足，是最家常的下饭菜。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "savory",
+      "spicy",
+      "smoky",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/country-style-pork.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "sweet-sour-pork-ribs",
+    "name_en": "Sweet and Sour Pork Ribs",
+    "name_zh": "糖醋排骨",
+    "description_en": "Pork ribs glazed in a sticky sweet-and-sour sauce of vinegar, sugar, and soy — caramelized and tender.",
+    "description_zh": "排骨裹上糖醋汁烧至收汁，外层焦糖化，酸甜适口，骨肉相连。",
+    "cuisine_tag": "家常菜",
+    "flavor_tags": [
+      "sweet",
+      "tangy",
+      "savory",
+      "rich"
+    ],
+    "image_url": "/images/dishes/sweet-sour-pork-ribs.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "hot-spicy-pork-feet",
+    "name_en": "Hot Spicy Pork Feet",
+    "name_zh": "麻辣猪蹄",
+    "description_en": "Braised pork feet tossed in a fiery mala sauce — rich, gelatinous, and intensely spiced.",
+    "description_zh": "卤猪蹄拌上麻辣酱汁，胶质丰富，又麻又辣，是重口味爱好者的心头好。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "rich",
+      "savory"
+    ],
+    "image_url": "/images/dishes/hot-spicy-pork-feet.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "shredded-beef-green-pepper",
+    "name_en": "Shredded Beef with Spicy Green Pepper",
+    "name_zh": "小椒牛肉丝",
+    "description_en": "Tender shredded beef stir-fried with spicy green peppers — a quick, fragrant Sichuan classic.",
+    "description_zh": "牛肉丝与小青椒爆炒，鲜辣脆嫩，是四川家常快手菜。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "savory",
+      "fresh",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/shredded-beef-green-pepper.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "spicy-beef-pot",
+    "name_en": "Spicy Beef in Pot",
+    "name_zh": "麻辣牛肉锅",
+    "description_en": "Tender beef simmered in a bubbling, fiery mala broth served in a cast-iron pot at the table.",
+    "description_zh": "牛肉在麻辣锅底中炖煮，端上铁锅热气腾腾，麻辣浓香。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "rich",
+      "savory"
+    ],
+    "image_url": "/images/dishes/spicy-beef-pot.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "beer-duck-griddle",
+    "name_en": "Beer Duck in Griddle",
+    "name_zh": "啤酒鸭",
+    "description_en": "Duck pieces braised in beer with ginger, star anise, and dried chilies until tender and deeply savory.",
+    "description_zh": "鸭块加啤酒、姜、八角和干辣椒焖煮，酒香与肉香交融，鲜嫩入味。",
+    "cuisine_tag": "家常菜",
+    "flavor_tags": [
+      "savory",
+      "aromatic",
+      "rich",
+      "tender"
+    ],
+    "image_url": "/images/dishes/beer-duck-griddle.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "beef-griddle",
+    "name_en": "Beef in Griddle",
+    "name_zh": "干锅牛肉",
+    "description_en": "Sizzling dry-pot beef with onions, peppers, and celery in a bold chili-bean sauce — served on a hot griddle.",
+    "description_zh": "牛肉与洋葱、辣椒在干锅中翻炒，酱香浓郁，端上铁板滋滋作响。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "savory",
+      "spicy",
+      "smoky",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/beef-griddle.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "lamb-griddle",
+    "name_en": "Lamb in Griddle",
+    "name_zh": "干锅羊肉",
+    "description_en": "Wok-charred lamb slices on a sizzling griddle with cumin, dried chili, and onions.",
+    "description_zh": "羊肉片与孜然、干辣椒和洋葱在干锅中爆炒，膻香与麻辣交织。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "savory",
+      "spicy",
+      "aromatic",
+      "smoky"
+    ],
+    "image_url": "/images/dishes/lamb-griddle.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "hot-sour-shredded-potato",
+    "name_en": "Hot and Sour Shredded Potato",
+    "name_zh": "酸辣土豆丝",
+    "description_en": "Julienned potato stir-fried with dried chilies and Sichuan peppercorn in rice vinegar — crunchy and tangy.",
+    "description_zh": "土豆切丝爆炒，加干辣椒、花椒和米醋，酸辣爽脆，是中国国民家常菜。",
+    "cuisine_tag": "家常菜",
+    "flavor_tags": [
+      "sour",
+      "spicy",
+      "crispy",
+      "light"
+    ],
+    "image_url": "/images/dishes/hot-sour-shredded-potato.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "pumpkin-cake",
+    "name_en": "Pumpkin Cake",
+    "name_zh": "南瓜饼",
+    "description_en": "Pan-fried glutinous rice cakes filled with sweet pumpkin paste and coated in sesame seeds — golden and chewy.",
+    "description_zh": "南瓜泥与糟米粉制成饼，裹上芝麻煎至金黄，外酥内糟，清甜可口。",
+    "cuisine_tag": "点心",
+    "flavor_tags": [
+      "sweet",
+      "chewy",
+      "crispy",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/pumpkin-cake.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "fermented-rice-balls",
+    "name_en": "Fermented Rice Balls",
+    "name_zh": "酒酿圆子",
+    "description_en": "Tiny glutinous rice balls in a warm, sweet fermented rice soup with osmanthus and goji berries.",
+    "description_zh": "小汤圆浸在甜酒酿中，加桂花和枞杮，温热甜蜜，是江南经典甜品。",
+    "cuisine_tag": "点心",
+    "flavor_tags": [
+      "sweet",
+      "light",
+      "aromatic",
+      "tender"
+    ],
+    "image_url": "/images/dishes/fermented-rice-balls.webp",
+    "available_at": [
+      "chengdu-taste"
+    ]
+  },
+  {
+    "id": "sesame-rice-balls",
+    "name_en": "Sesame Rice Balls",
+    "name_zh": "芝麻汤圆",
+    "description_en": "Chewy glutinous rice balls filled with a molten black sesame paste — a classic Chinese dessert.",
+    "description_zh": "糟米皮包裹流沙黑芝麻馅，咬开后芝麻糊缓缓流出，甜香浓郁。",
+    "cuisine_tag": "点心",
+    "flavor_tags": [
+      "sweet",
+      "chewy",
+      "rich",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/sesame-rice-balls.webp",
+    "available_at": [
+      "chengdu-taste"
     ]
   }
 ]
