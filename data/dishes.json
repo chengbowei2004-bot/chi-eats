@@ -21,10 +21,10 @@
       "yi-ma-yi-la",
       "baozang-55beach",
       "china-gourmet",
-      "kings-garden",
       "chef-yao",
       "y-bento",
-      "12-dumplings"
+      "12-dumplings",
+      "kings-garden"
     ]
   },
   {
@@ -49,7 +49,6 @@
       "noahs-kitchen",
       "china-gourmet",
       "baozang-55beach",
-      "kings-garden",
       "chef-yao"
     ]
   },
@@ -97,7 +96,8 @@
       "noahs-kitchen",
       "baozang-55beach",
       "chef-yao",
-      "y-bento"
+      "y-bento",
+      "kings-garden"
     ]
   },
   {
@@ -536,7 +536,8 @@
       "lobanton",
       "y-noodle-bar",
       "wings-kitchen",
-      "big-fun-cafe"
+      "big-fun-cafe",
+      "kings-garden"
     ]
   },
   {
@@ -740,10 +741,10 @@
       "wongs-kitchen",
       "jumbo-seafood",
       "jade-garden",
-      "kings-garden",
       "chengdu-taste",
       "chef-yao",
-      "12-dumplings"
+      "12-dumplings",
+      "kings-garden"
     ]
   },
   {
@@ -767,7 +768,8 @@
       "jade-garden",
       "chengdu-taste",
       "chef-yao",
-      "12-dumplings"
+      "12-dumplings",
+      "kings-garden"
     ]
   },
   {
@@ -865,8 +867,8 @@
       "wongs-kitchen",
       "jumbo-seafood",
       "jade-garden",
-      "kings-garden",
-      "12-dumplings"
+      "12-dumplings",
+      "kings-garden"
     ]
   },
   {
@@ -953,8 +955,7 @@
       "lobanton",
       "wings-kitchen",
       "big-fun-cafe",
-      "susu-gourmet",
-      "kings-garden"
+      "susu-gourmet"
     ]
   },
   {
@@ -994,7 +995,8 @@
     ],
     "image_url": "/images/dishes/salt-baked-chicken.webp",
     "available_at": [
-      "wongs-kitchen"
+      "wongs-kitchen",
+      "kings-garden"
     ]
   },
   {
@@ -1036,8 +1038,7 @@
     "available_at": [
       "wongs-kitchen",
       "big-fun-cafe",
-      "jade-garden",
-      "kings-garden"
+      "jade-garden"
     ]
   },
   {
@@ -1059,7 +1060,8 @@
       "lobanton",
       "susu-gourmet",
       "big-fun-cafe",
-      "12-dumplings"
+      "12-dumplings",
+      "kings-garden"
     ]
   },
   {
@@ -1079,7 +1081,8 @@
     "available_at": [
       "wongs-kitchen",
       "jumbo-seafood",
-      "jade-garden"
+      "jade-garden",
+      "kings-garden"
     ]
   },
   {
@@ -1119,8 +1122,8 @@
       "wongs-kitchen",
       "jumbo-seafood",
       "jade-garden",
-      "kings-garden",
-      "12-dumplings"
+      "12-dumplings",
+      "kings-garden"
     ]
   },
   {
@@ -2267,7 +2270,8 @@
     ],
     "image_url": "/images/dishes/peking-duck.webp",
     "available_at": [
-      "feng-shui-burlington"
+      "feng-shui-burlington",
+      "kings-garden"
     ]
   },
   {
@@ -2452,9 +2456,9 @@
       "wongs-kitchen",
       "jumbo-seafood",
       "jade-garden",
-      "kings-garden",
       "chef-yao",
-      "12-dumplings"
+      "12-dumplings",
+      "kings-garden"
     ]
   },
   {
@@ -2474,8 +2478,7 @@
     "available_at": [
       "wongs-kitchen",
       "jumbo-seafood",
-      "jade-garden",
-      "kings-garden"
+      "jade-garden"
     ]
   },
   {
@@ -2495,8 +2498,7 @@
     "available_at": [
       "lamei-hotpot",
       "chongqing-house",
-      "shu-da-xia",
-      "kings-garden"
+      "shu-da-xia"
     ]
   },
   {
@@ -2516,7 +2518,6 @@
     "available_at": [
       "chongqing-house",
       "noahs-kitchen",
-      "kings-garden",
       "chengdu-taste"
     ]
   },
@@ -4153,7 +4154,8 @@
     ],
     "image_url": "/images/dishes/sesame-balls.webp",
     "available_at": [
-      "12-dumplings"
+      "12-dumplings",
+      "kings-garden"
     ]
   },
   {
@@ -4289,7 +4291,8 @@
     ],
     "image_url": "/images/dishes/beef-tripe-dim-sum.webp",
     "available_at": [
-      "12-dumplings"
+      "12-dumplings",
+      "kings-garden"
     ]
   },
   {
@@ -4443,7 +4446,8 @@
     ],
     "image_url": "/images/dishes/fish-congee.webp",
     "available_at": [
-      "12-dumplings"
+      "12-dumplings",
+      "kings-garden"
     ]
   },
   {
@@ -4512,6 +4516,632 @@
     "image_url": "/images/dishes/beef-potato-stew.webp",
     "available_at": [
       "12-dumplings"
+    ]
+  },
+  {
+    "id": "char-siu-cheung-fun",
+    "name_en": "Roasted Pork Rice Noodle Roll",
+    "name_zh": "叉烧肠粉",
+    "description_en": "Silky rice noodle sheets wrapped around BBQ roast pork, drizzled with soy sauce.",
+    "description_zh": "滑嫩肠粉裹上叉烧肉，淇上豉油，经典茶楼点心。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "savory",
+      "mild",
+      "silky"
+    ],
+    "image_url": "/images/dishes/char-siu-cheung-fun.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "shrimp-cheung-fun",
+    "name_en": "Shrimp Rice Noodle Roll",
+    "name_zh": "虾肠粉",
+    "description_en": "Delicate rice noodle sheets filled with whole shrimp, steamed to silky perfection.",
+    "description_zh": "鲜虾裹在滑嫩肠粉中，蒸制而成，鲜美可口。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "savory",
+      "fresh",
+      "silky"
+    ],
+    "image_url": "/images/dishes/shrimp-cheung-fun.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "beef-cheung-fun",
+    "name_en": "Beef Rice Noodle Roll",
+    "name_zh": "牛肉肠粉",
+    "description_en": "Rice noodle rolls stuffed with seasoned minced beef.",
+    "description_zh": "牛肉馅肠粉，滑嫩鲜香。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "savory",
+      "mild"
+    ],
+    "image_url": "/images/dishes/beef-cheung-fun.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "golden-lava-bun",
+    "name_en": "Golden Lava Bun",
+    "name_zh": "流沙包",
+    "description_en": "Fluffy steamed bun filled with a molten salted egg yolk custard that flows out when bitten.",
+    "description_zh": "松软包子内裹流心咸蛋黄馅，一口爆浆，香甜浓郁。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "sweet",
+      "rich",
+      "creamy"
+    ],
+    "image_url": "/images/dishes/golden-lava-bun.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "chive-dumplings",
+    "name_en": "Chive Dumplings",
+    "name_zh": "韭菜饺",
+    "description_en": "Crystal-skinned dumplings filled with fresh chives — a dim sum classic.",
+    "description_zh": "水晶皮韭菜饺，韭香四溢，经典点心。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "savory",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/chive-dumplings.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "chao-chow-dumpling",
+    "name_en": "Chao Chow Dumpling",
+    "name_zh": "潮州饺",
+    "description_en": "Teochew-style dumplings with a translucent wrapper and savory peanut-pork filling.",
+    "description_zh": "潮州风味饺子，水晶皮裹花生猪肉馅，弹牙鲜香。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "savory",
+      "nutty",
+      "mild"
+    ],
+    "image_url": "/images/dishes/chao-chow-dumpling.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "stuffed-tofu",
+    "name_en": "Pan Fried Stuffed Tofu",
+    "name_zh": "煎酿豆腐",
+    "description_en": "Tofu stuffed with shrimp paste and pan-fried until golden.",
+    "description_zh": "豆腐酿入虾滑煎至金黄，外酥内嫩。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "savory",
+      "crispy",
+      "fresh"
+    ],
+    "image_url": "/images/dishes/stuffed-tofu.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "stuffed-eggplant",
+    "name_en": "Pan Fried Stuffed Eggplant",
+    "name_zh": "煎酿茄子",
+    "description_en": "Eggplant slices stuffed with shrimp paste and pan-fried until golden.",
+    "description_zh": "茄子酿入虾滑煎至金黄，鲜香可口。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "savory",
+      "crispy",
+      "fresh"
+    ],
+    "image_url": "/images/dishes/stuffed-eggplant.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "stuffed-green-pepper",
+    "name_en": "Pan Fried Stuffed Green Pepper",
+    "name_zh": "煎酿青椒",
+    "description_en": "Green pepper halves stuffed with shrimp paste and pan-fried.",
+    "description_zh": "青椒酿入虾滑煎制，椒香与虾鲜交融。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "savory",
+      "crispy",
+      "fresh"
+    ],
+    "image_url": "/images/dishes/stuffed-green-pepper.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "roast-duck-cantonese",
+    "name_en": "Cantonese Roast Duck",
+    "name_zh": "烤鸭",
+    "description_en": "Whole duck roasted Cantonese-style with crispy lacquered skin and tender meat.",
+    "description_zh": "粤式烤鸭，皮脆肉嫩，香气扑鼻。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "savory",
+      "crispy",
+      "rich"
+    ],
+    "image_url": "/images/dishes/roast-duck-cantonese.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "poached-chicken-ginger",
+    "name_en": "Poached Chicken with Ginger Scallion",
+    "name_zh": "白切鸡配姜葱",
+    "description_en": "Silky poached chicken served cold with a ginger-scallion oil dip — classic Cantonese simplicity.",
+    "description_zh": "白切鸡配姜葱油，皮滑肉嫩，粤菜经典。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "mild",
+      "savory",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/poached-chicken-ginger.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "steamed-chicken-mushroom",
+    "name_en": "Steamed Chicken with Black Mushrooms",
+    "name_zh": "冬菇蒸鸡",
+    "description_en": "Chicken pieces steamed with shiitake mushrooms — earthy and tender.",
+    "description_zh": "鸡肉配冬菇蒸制，菇香鸡嫩，清淡鲜美。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "savory",
+      "earthy",
+      "mild"
+    ],
+    "image_url": "/images/dishes/steamed-chicken-mushroom.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "pepper-salt-pork-chop",
+    "name_en": "Pepper Salted Pork Chop",
+    "name_zh": "椒盐猪排",
+    "description_en": "Crispy fried pork chops seasoned with salt, pepper, and chili flakes.",
+    "description_zh": "猪排炸至酥脆，撒上椒盐调味，香脆可口。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "crispy",
+      "salty",
+      "savory"
+    ],
+    "image_url": "/images/dishes/pepper-salt-pork-chop.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "king-tou-spare-ribs",
+    "name_en": "King Tou Spare Ribs",
+    "name_zh": "京都排骨",
+    "description_en": "Sweet and tangy glazed spare ribs — a Cantonese restaurant classic.",
+    "description_zh": "排骨配甘酸酱汁，酶甜可口，粤式经典。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "sweet",
+      "sour",
+      "savory"
+    ],
+    "image_url": "/images/dishes/king-tou-spare-ribs.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "shredded-pork-snow-cabbage",
+    "name_en": "Shredded Pork with Snow Cabbage",
+    "name_zh": "雪菜肉丝",
+    "description_en": "Tender shredded pork stir-fried with pickled snow cabbage — savory and tangy.",
+    "description_zh": "肉丝配雪菜炒制，咸鲜可口，下饭好菜。",
+    "cuisine_tag": "江浙菜",
+    "flavor_tags": [
+      "savory",
+      "sour",
+      "mild"
+    ],
+    "image_url": "/images/dishes/shredded-pork-snow-cabbage.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "steamed-meat-cake-salted-fish",
+    "name_en": "Steamed Meat Cake with Salted Fish",
+    "name_zh": "咸鱼蒸肉饼",
+    "description_en": "Minced pork patty steamed with salted fish on top — deeply savory Cantonese home cooking.",
+    "description_zh": "猪肉饼铺上咸鱼蒸制，咸鲜入味，粤式家常菜。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "savory",
+      "salty",
+      "umami"
+    ],
+    "image_url": "/images/dishes/steamed-meat-cake-salted-fish.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "ginger-scallion-beef",
+    "name_en": "Sauteed Beef with Ginger & Scallions",
+    "name_zh": "姜葱牛肉",
+    "description_en": "Tender beef slices wok-tossed with fresh ginger and scallions — aromatic and savory.",
+    "description_zh": "牛肉配姜葱爆炒，锅气十足，香气四溢。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "savory",
+      "aromatic",
+      "gingery"
+    ],
+    "image_url": "/images/dishes/ginger-scallion-beef.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "xo-sauce-beef",
+    "name_en": "Sauteed Beef with X.O. Sauce",
+    "name_zh": "XO酱牛肉",
+    "description_en": "Beef slices wok-fired in rich XO sauce — umami-packed and aromatic.",
+    "description_zh": "牛肉配XO酱爆炒，鲜香浓郁，口感丰富。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "savory",
+      "umami",
+      "aromatic",
+      "spicy"
+    ],
+    "image_url": "/images/dishes/xo-sauce-beef.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "black-pepper-beef-filet",
+    "name_en": "Steak Filet in Black Pepper Sauce",
+    "name_zh": "黑椒牛柳",
+    "description_en": "Tender beef filet in a bold black pepper sauce.",
+    "description_zh": "牛柳配黑椒汁，嫩滑多汁，椒香浓郁。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "savory",
+      "peppery",
+      "rich"
+    ],
+    "image_url": "/images/dishes/black-pepper-beef-filet.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "sizzling-steak",
+    "name_en": "Sizzling Steak",
+    "name_zh": "铁板牛排",
+    "description_en": "Juicy steak served on a sizzling hot plate with onions and sauce.",
+    "description_zh": "铁板牛排，滋滋作响，香气扑鼻。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "savory",
+      "rich",
+      "smoky"
+    ],
+    "image_url": "/images/dishes/sizzling-steak.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "pepper-salt-shrimp",
+    "name_en": "Pepper Salted Shrimp",
+    "name_zh": "椒盐虾",
+    "description_en": "Crispy fried shrimp tossed with salt, pepper, and garlic.",
+    "description_zh": "虾炸至酥脆，撒上椒盐蒜末，香脆可口。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "crispy",
+      "salty",
+      "savory"
+    ],
+    "image_url": "/images/dishes/pepper-salt-shrimp.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "pepper-salt-calamari",
+    "name_en": "Pepper Salted Calamari",
+    "name_zh": "椒盐鱿鱼",
+    "description_en": "Crispy fried calamari seasoned with salt, pepper, and chili.",
+    "description_zh": "鱿鱼炸至酥脆，配椒盐调味，香脆弹牙。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "crispy",
+      "salty",
+      "savory"
+    ],
+    "image_url": "/images/dishes/pepper-salt-calamari.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "honey-walnut-prawns",
+    "name_en": "Honey Walnut Prawns",
+    "name_zh": "核桃虾",
+    "description_en": "Crispy prawns coated in creamy mayo sauce, topped with candied walnuts.",
+    "description_zh": "虾仁裹上奶油酱，配蜜汁核桃，香甜酥脆。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "sweet",
+      "creamy",
+      "crispy"
+    ],
+    "image_url": "/images/dishes/honey-walnut-prawns.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "shrimp-scrambled-egg",
+    "name_en": "Shrimp with Scrambled Egg",
+    "name_zh": "滑蛋虾仁",
+    "description_en": "Plump shrimp gently folded into soft scrambled eggs — silky and delicate.",
+    "description_zh": "虾仁配滑嫩炒蛋，嫩滑鲜香，粤菜经典。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "mild",
+      "savory",
+      "fresh"
+    ],
+    "image_url": "/images/dishes/shrimp-scrambled-egg.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "steamed-garlic-shrimp",
+    "name_en": "Steamed Garlic Shrimp",
+    "name_zh": "蒜蓉蒸虾",
+    "description_en": "Whole shrimp steamed with garlic and vermicelli on a sizzling bed.",
+    "description_zh": "鲜虾铺上蒜蓉粉丝蒸制，蒜香浓郁，鲜嫩可口。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "garlicky",
+      "savory",
+      "fresh"
+    ],
+    "image_url": "/images/dishes/steamed-garlic-shrimp.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "stuffed-trio",
+    "name_en": "Stuffed Eggplant, Green Pepper & Bean Curd",
+    "name_zh": "煎酿三宝",
+    "description_en": "The classic trio: eggplant, green pepper, and tofu, all stuffed with shrimp paste and pan-fried.",
+    "description_zh": "茄子、青椒、豆腐酿入虾滑煎制，粤式经典三宝。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "savory",
+      "crispy",
+      "fresh"
+    ],
+    "image_url": "/images/dishes/stuffed-trio.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "hunan-eggplant-pork",
+    "name_en": "Eggplant & Minced Pork in Hunan Sauce",
+    "name_zh": "湖南茄子肉末",
+    "description_en": "Braised eggplant with minced pork in a spicy Hunan-style sauce.",
+    "description_zh": "茄子配肉末湖南风味烧制，香辣入味。",
+    "cuisine_tag": "湖南菜",
+    "flavor_tags": [
+      "spicy",
+      "savory",
+      "rich"
+    ],
+    "image_url": "/images/dishes/hunan-eggplant-pork.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "garlic-pea-shoots",
+    "name_en": "Pea Shoots in Garlic Sauce",
+    "name_zh": "蒜蓉豆苗",
+    "description_en": "Tender pea shoot tips flash-woked with garlic — fresh and vibrant.",
+    "description_zh": "豆苗配蒜蓉爆炒，清爐鲜嫩，蒜香四溢。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "garlicky",
+      "light",
+      "fresh"
+    ],
+    "image_url": "/images/dishes/garlic-pea-shoots.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "xo-string-beans",
+    "name_en": "String Beans in X.O. Sauce",
+    "name_zh": "XO酱四季豆",
+    "description_en": "Crispy string beans stir-fried in rich XO sauce — umami and slightly spicy.",
+    "description_zh": "四季豆配XO酱爆炒，鲜香微辣，口感丰富。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "savory",
+      "umami",
+      "spicy"
+    ],
+    "image_url": "/images/dishes/xo-string-beans.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "braised-beef-brisket",
+    "name_en": "Braised Beef Brisket",
+    "name_zh": "红烧牛腩",
+    "description_en": "Slow-braised beef brisket in a rich soy-based sauce — melt-in-your-mouth tender.",
+    "description_zh": "牛腩红烧至酥烂，汁浓味美，入口即化。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "savory",
+      "rich",
+      "hearty"
+    ],
+    "image_url": "/images/dishes/braised-beef-brisket.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "beef-brisket-turnip",
+    "name_en": "Beef Brisket with Turnips",
+    "name_zh": "萝卜牛腩",
+    "description_en": "Tender braised brisket with soft daikon radish in a savory broth.",
+    "description_zh": "牛腩配白萝卜慢炖，腩烂萝卜绵，汤浓鲜美。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "savory",
+      "hearty",
+      "mild"
+    ],
+    "image_url": "/images/dishes/beef-brisket-turnip.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "eight-treasure-tofu",
+    "name_en": "Eight Delight Bean Curd Casserole",
+    "name_zh": "八珍豆腐煲",
+    "description_en": "Tofu clay pot with assorted seafood, meats, and vegetables in a savory sauce.",
+    "description_zh": "豆腐配八种食材砲仔焖制，鲜香满溡。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "savory",
+      "rich",
+      "hearty"
+    ],
+    "image_url": "/images/dishes/eight-treasure-tofu.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "salted-fish-eggplant-pot",
+    "name_en": "Salted Fish with Eggplant Casserole",
+    "name_zh": "咸鱼茄子煲",
+    "description_en": "Eggplant braised in a clay pot with salted fish — deeply savory Cantonese comfort.",
+    "description_zh": "茄子配咸鱼砲仔焖制，咸鲜浓郁，下饭神器。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "savory",
+      "salty",
+      "umami"
+    ],
+    "image_url": "/images/dishes/salted-fish-eggplant-pot.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "seafood-congee",
+    "name_en": "Seafood Congee",
+    "name_zh": "海鲜粥",
+    "description_en": "Rich rice porridge loaded with mixed seafood — shrimp, fish, and squid.",
+    "description_zh": "海鲜粥，配虾、鱼、鱿鱼，鲜美滚热。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "savory",
+      "fresh",
+      "comforting"
+    ],
+    "image_url": "/images/dishes/seafood-congee.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "beef-brisket-noodle-soup",
+    "name_en": "Beef Brisket Noodle Soup",
+    "name_zh": "牛腩面",
+    "description_en": "Egg noodles in a rich broth topped with tender braised beef brisket.",
+    "description_zh": "牛腩汤面，腩肉酥烂，汤底浓郁。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "savory",
+      "rich",
+      "hearty"
+    ],
+    "image_url": "/images/dishes/beef-brisket-noodle-soup.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "roast-duck-noodle-soup",
+    "name_en": "Roasted Duck Noodle Soup",
+    "name_zh": "烧鸭面",
+    "description_en": "Egg noodles in broth with sliced Cantonese roast duck.",
+    "description_zh": "烧鸭汤面，鸭肉香嫩，汤底鲜美。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "savory",
+      "rich"
+    ],
+    "image_url": "/images/dishes/roast-duck-noodle-soup.webp",
+    "available_at": [
+      "kings-garden"
+    ]
+  },
+  {
+    "id": "beef-tripe-noodle-soup",
+    "name_en": "Beef Tripe Noodle Soup",
+    "name_zh": "牛百叶面",
+    "description_en": "Egg noodles in broth with tender sliced beef tripe.",
+    "description_zh": "牛百叶汤面，百叶爽脆，汤鲜面滑。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "savory",
+      "mild"
+    ],
+    "image_url": "/images/dishes/beef-tripe-noodle-soup.webp",
+    "available_at": [
+      "kings-garden"
     ]
   }
 ]
