@@ -68,7 +68,6 @@
     "available_at": [
       "chongqing-house",
       "chengdu-taste",
-      "mala-noodle",
       "rong-chic",
       "noahs-kitchen",
       "yi-ma-yi-la"
@@ -137,7 +136,6 @@
     "available_at": [
       "chongqing-house",
       "chengdu-taste",
-      "mala-noodle",
       "noahs-kitchen",
       "yi-ma-yi-la"
     ]
@@ -223,7 +221,6 @@
       "chongqing-house",
       "chengdu-taste",
       "rong-chic",
-      "mala-noodle",
       "noahs-kitchen"
     ]
   },
@@ -266,7 +263,6 @@
     "available_at": [
       "chongqing-house",
       "chengdu-taste",
-      "mala-noodle",
       "rong-chic",
       "noahs-kitchen"
     ]
@@ -501,7 +497,6 @@
     ],
     "image_url": "/images/dishes/beef-noodle-soup.webp",
     "available_at": [
-      "mala-noodle",
       "y-noodle-bar",
       "rong-chic",
       "aries-noodle",
@@ -546,7 +541,6 @@
     ],
     "image_url": "/images/dishes/cold-sesame-noodles.webp",
     "available_at": [
-      "mala-noodle",
       "y-noodle-bar",
       "rong-chic",
       "chengdu-taste"
@@ -569,7 +563,6 @@
     "available_at": [
       "y-noodle-bar",
       "rong-chic",
-      "mala-noodle",
       "wings-kitchen"
     ]
   },
@@ -590,7 +583,6 @@
     "available_at": [
       "rong-chic",
       "y-noodle-bar",
-      "mala-noodle",
       "chengdu-taste"
     ]
   },
@@ -631,8 +623,7 @@
     "image_url": "/images/dishes/tomato-egg-noodles.webp",
     "available_at": [
       "rong-chic",
-      "y-noodle-bar",
-      "mala-noodle"
+      "y-noodle-bar"
     ]
   },
   {
@@ -650,7 +641,6 @@
     ],
     "image_url": "/images/dishes/lanzhou-beef-noodle.webp",
     "available_at": [
-      "mala-noodle",
       "y-noodle-bar",
       "rong-chic",
       "aries-noodle",
@@ -672,7 +662,6 @@
     ],
     "image_url": "/images/dishes/hot-dry-noodles.webp",
     "available_at": [
-      "mala-noodle",
       "rong-chic"
     ]
   },
@@ -691,7 +680,6 @@
     ],
     "image_url": "/images/dishes/spicy-beef-noodle-soup.webp",
     "available_at": [
-      "mala-noodle",
       "chongqing-house",
       "chengdu-taste"
     ]
@@ -1173,7 +1161,8 @@
     "available_at": [
       "rong-chic",
       "lobanton",
-      "golden-garden-malden"
+      "golden-garden-malden",
+      "mala-noodle"
     ]
   },
   {
@@ -1193,7 +1182,6 @@
     "available_at": [
       "chongqing-house",
       "rong-chic",
-      "mala-noodle",
       "golden-garden-malden",
       "chengdu-taste"
     ]
@@ -1316,8 +1304,7 @@
     ],
     "image_url": "/images/dishes/fish-head-chili.webp",
     "available_at": [
-      "rong-chic",
-      "mala-noodle"
+      "rong-chic"
     ]
   },
   {
@@ -1336,7 +1323,6 @@
     "image_url": "/images/dishes/dry-pot-cauliflower.webp",
     "available_at": [
       "rong-chic",
-      "mala-noodle",
       "yi-ma-yi-la",
       "wing-it"
     ]
@@ -1357,7 +1343,6 @@
     "image_url": "/images/dishes/pork-peppers-hunan.webp",
     "available_at": [
       "rong-chic",
-      "mala-noodle",
       "yi-ma-yi-la",
       "noahs-kitchen"
     ]
@@ -1477,8 +1462,7 @@
     "image_url": "/images/dishes/liangpi.webp",
     "available_at": [
       "jahunger",
-      "rong-chic",
-      "mala-noodle"
+      "rong-chic"
     ]
   },
   {
@@ -1548,8 +1532,8 @@
     "id": "malatang",
     "name_en": "Malatang",
     "name_zh": "麻辣烫",
-    "description_en": "A customizable Sichuan-style spicy broth with your pick of skewered ingredients — the original build-your-own Chinese soup.",
-    "description_zh": "自选食材插签后在麻辣汤中涮煮，调味自选，是四川街头最接地气的小吃形式。",
+    "description_en": "DIY soup pot — pick your own meats, vegetables, and noodles from the bar, cooked in a spicy mala broth. Sold by weight.",
+    "description_zh": "自选荤素食材按重量计费，在麻辣汤底中涮煮，鲜香麻辣，丰俭由人。",
     "cuisine_tag": "川菜",
     "flavor_tags": [
       "spicy",
@@ -1720,7 +1704,6 @@
     ],
     "image_url": "/images/dishes/pork-bone-noodle-soup.webp",
     "available_at": [
-      "mala-noodle",
       "y-noodle-bar",
       "rong-chic"
     ]
@@ -1780,8 +1763,7 @@
     ],
     "image_url": "/images/dishes/mao-pork.webp",
     "available_at": [
-      "rong-chic",
-      "mala-noodle"
+      "rong-chic"
     ]
   },
   {
@@ -1901,7 +1883,6 @@
     "available_at": [
       "chef-yao",
       "rong-chic",
-      "mala-noodle",
       "lobanton"
     ]
   },
@@ -1939,9 +1920,7 @@
       "rich"
     ],
     "image_url": "/images/dishes/mapo-eggplant.webp",
-    "available_at": [
-      "mala-noodle"
-    ]
+    "available_at": []
   },
   {
     "id": "jellyfish-salad",
@@ -2017,8 +1996,7 @@
     ],
     "image_url": "/images/dishes/spicy-tofu-skin.webp",
     "available_at": [
-      "rong-chic",
-      "mala-noodle"
+      "rong-chic"
     ]
   },
   {
@@ -2301,8 +2279,7 @@
     ],
     "image_url": "/images/dishes/spicy-braised-tofu.webp",
     "available_at": [
-      "rong-chic",
-      "mala-noodle"
+      "rong-chic"
     ]
   },
   {
@@ -2782,7 +2759,8 @@
     ],
     "image_url": "/images/dishes/hot-sour-rice-noodle.webp",
     "available_at": [
-      "chengdu-taste"
+      "chengdu-taste",
+      "mala-noodle"
     ]
   },
   {
@@ -3396,6 +3374,150 @@
     "image_url": "/images/dishes/douban-whole-fish.webp",
     "available_at": [
       "chengdu-taste"
+    ]
+  },
+  {
+    "id": "shouzhuabing",
+    "name_en": "Scallion Pancake",
+    "name_zh": "手抓饼",
+    "description_en": "Flaky, multi-layered pan-fried flatbread with scallions — crispy outside, chewy inside, torn apart by hand.",
+    "description_zh": "层层酥脆的煎饼，外焦里嫩，葱香四溢，用手撕着吃最过瘾。",
+    "cuisine_tag": "小吃",
+    "flavor_tags": [
+      "crispy",
+      "savory",
+      "chewy",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/shouzhuabing.webp",
+    "available_at": [
+      "mala-noodle"
+    ]
+  },
+  {
+    "id": "chicken-soup-wonton",
+    "name_en": "Chicken Soup Wonton",
+    "name_zh": "鸡汤馄饨",
+    "description_en": "Delicate pork wontons swimming in a rich, golden chicken broth with scallions and sesame oil.",
+    "description_zh": "薄皮馄饨浸在浓郁的金色鸡汤中，撒上葱花和芝麻油，鲜美暖胃。",
+    "cuisine_tag": "小吃",
+    "flavor_tags": [
+      "savory",
+      "light",
+      "fresh",
+      "tender"
+    ],
+    "image_url": "/images/dishes/chicken-soup-wonton.webp",
+    "available_at": [
+      "mala-noodle"
+    ]
+  },
+  {
+    "id": "sweet-cream-shrimp",
+    "name_en": "Sweet Cream Shrimp",
+    "name_zh": "酸甜虾仁",
+    "description_en": "Crispy battered shrimp tossed in a creamy sweet sauce — a crowd-pleasing snack.",
+    "description_zh": "炸虾仁裹上酸甜奶油酱，外酥内弹，甜而不腻，老少皆宜。",
+    "cuisine_tag": "小吃",
+    "flavor_tags": [
+      "sweet",
+      "crispy",
+      "savory",
+      "tender"
+    ],
+    "image_url": "/images/dishes/sweet-cream-shrimp.webp",
+    "available_at": [
+      "mala-noodle"
+    ]
+  },
+  {
+    "id": "fried-skewers",
+    "name_en": "Fried Skewers",
+    "name_zh": "特色炸串",
+    "description_en": "Deep-fried skewers of chicken, beef, lamb, sausage, or shrimp — seasoned with cumin and chili.",
+    "description_zh": "鸡肉、牛肉、羊肉、香肠或虾串炸至金黄，撒上孜然和辣椒粉，香气扑鼻。",
+    "cuisine_tag": "小吃",
+    "flavor_tags": [
+      "crispy",
+      "savory",
+      "spicy",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/fried-skewers.webp",
+    "available_at": [
+      "mala-noodle"
+    ]
+  },
+  {
+    "id": "mala-xiang-guo",
+    "name_en": "Mala Xiang Guo",
+    "name_zh": "麻辣香锅",
+    "description_en": "DIY stir-fried dry pot — pick your own meats, vegetables, and noodles, wok-tossed in mala spices. Sold by weight.",
+    "description_zh": "自选荤素食材按重量计费，在麻辣酱料中大火爆炒，干香浓烈，过瘾十足。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "savory",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/mala-xiang-guo.webp",
+    "available_at": [
+      "mala-noodle"
+    ]
+  },
+  {
+    "id": "mala-noodle-beef-ramen",
+    "name_en": "Beef Ramen",
+    "name_zh": "特色牛肉拉面",
+    "description_en": "House specialty hand-pulled noodles in a rich, slow-simmered beef broth with tender braised beef slices.",
+    "description_zh": "招牌手工拉面配浓郁牛骨汤底和卤牛肉片，汤鲜面劲，是店内人气主食。",
+    "cuisine_tag": "面食",
+    "flavor_tags": [
+      "savory",
+      "rich",
+      "hearty",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/mala-noodle-beef-ramen.webp",
+    "available_at": [
+      "mala-noodle"
+    ]
+  },
+  {
+    "id": "golden-bun",
+    "name_en": "Golden Bun",
+    "name_zh": "黄金小馒头",
+    "description_en": "Bite-sized steamed buns deep-fried until golden and crispy, served with sweetened condensed milk for dipping.",
+    "description_zh": "小馒头炸至金黄酥脆，蘸炼乳食用，外酥内软，甜香诱人。",
+    "cuisine_tag": "点心",
+    "flavor_tags": [
+      "sweet",
+      "crispy",
+      "tender",
+      "light"
+    ],
+    "image_url": "/images/dishes/golden-bun.webp",
+    "available_at": [
+      "mala-noodle"
+    ]
+  },
+  {
+    "id": "house-soft-ice-cream",
+    "name_en": "House Special Soft Ice Cream",
+    "name_zh": "特色软冰淇淋",
+    "description_en": "Creamy house-made soft serve ice cream — the perfect cool finish after a spicy meal.",
+    "description_zh": "店内自制软冰淇淋，奶香浓郁，是麻辣大餐后的最佳解辣甜品。",
+    "cuisine_tag": "点心",
+    "flavor_tags": [
+      "sweet",
+      "light",
+      "fresh",
+      "tender"
+    ],
+    "image_url": "/images/dishes/house-soft-ice-cream.webp",
+    "available_at": [
+      "mala-noodle"
     ]
   }
 ]
