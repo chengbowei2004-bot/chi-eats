@@ -881,7 +881,8 @@
       "chongqing-house",
       "chung-shin-yuan",
       "golden-garden-malden",
-      "chengdu-taste"
+      "chengdu-taste",
+      "jahunger"
     ]
   },
   {
@@ -1461,7 +1462,6 @@
     ],
     "image_url": "/images/dishes/liangpi.webp",
     "available_at": [
-      "jahunger",
       "rong-chic"
     ]
   },
@@ -1479,9 +1479,7 @@
       "light"
     ],
     "image_url": "/images/dishes/nan-bread.webp",
-    "available_at": [
-      "jahunger"
-    ]
+    "available_at": []
   },
   {
     "id": "egg-fried-rice",
@@ -1843,7 +1841,8 @@
       "chengdu-taste",
       "rong-chic",
       "baozang-55beach",
-      "china-gourmet"
+      "china-gourmet",
+      "jahunger"
     ]
   },
   {
@@ -2057,8 +2056,7 @@
       "chongqing-house",
       "rong-chic",
       "chef-yao",
-      "lobanton",
-      "jahunger"
+      "lobanton"
     ]
   },
   {
@@ -2152,9 +2150,7 @@
       "rich"
     ],
     "image_url": "/images/dishes/lamb-soup.webp",
-    "available_at": [
-      "jahunger"
-    ]
+    "available_at": []
   },
   {
     "id": "wood-ear-mushroom-salad",
@@ -2190,7 +2186,6 @@
     ],
     "image_url": "/images/dishes/cumin-lamb.webp",
     "available_at": [
-      "jahunger",
       "rong-chic",
       "chongqing-house",
       "friendship-bbq",
@@ -3064,7 +3059,8 @@
     ],
     "image_url": "/images/dishes/hot-sour-shredded-potato.webp",
     "available_at": [
-      "chengdu-taste"
+      "chengdu-taste",
+      "jahunger"
     ]
   },
   {
@@ -3518,6 +3514,265 @@
     "image_url": "/images/dishes/house-soft-ice-cream.webp",
     "available_at": [
       "mala-noodle"
+    ]
+  },
+  {
+    "id": "chive-egg-dumplings",
+    "name_en": "Chive & Egg Dumplings",
+    "name_zh": "韭菜鸡蛋饺子",
+    "description_en": "Handmade dumplings filled with fresh chives and scrambled egg — a light, savory classic.",
+    "description_zh": "手工现包饺子，韭菜鸡蛋香香的经典素馅。",
+    "cuisine_tag": "新疆菜",
+    "flavor_tags": [
+      "savory",
+      "aromatic",
+      "mild"
+    ],
+    "image_url": "/images/dishes/chive-egg-dumplings.webp",
+    "available_at": [
+      "jahunger"
+    ]
+  },
+  {
+    "id": "lamb-dumplings-handmade",
+    "name_en": "Handmade Lamb Dumplings",
+    "name_zh": "手工羊肉饺子",
+    "description_en": "Hand-wrapped dumplings stuffed with seasoned lamb and onion — juicy and aromatic.",
+    "description_zh": "手工现包羊肉饺子，羊肉洋葱馅，多汁香嫩。",
+    "cuisine_tag": "新疆菜",
+    "flavor_tags": [
+      "savory",
+      "aromatic",
+      "rich"
+    ],
+    "image_url": "/images/dishes/lamb-dumplings-handmade.webp",
+    "available_at": [
+      "jahunger"
+    ]
+  },
+  {
+    "id": "ding-ding-noodles",
+    "name_en": "Ding Ding Noodles",
+    "name_zh": "丁丁面",
+    "description_en": "Diced hand-pulled noodle pieces stir-fried with lamb, peppers, and tomato — a Xinjiang comfort classic.",
+    "description_zh": "将拉条子切成小丁，配羊肉、番茄、青椒炒制，新疆风味拌面。",
+    "cuisine_tag": "新疆菜",
+    "flavor_tags": [
+      "savory",
+      "aromatic",
+      "hearty"
+    ],
+    "image_url": "/images/dishes/ding-ding-noodles.webp",
+    "available_at": [
+      "jahunger"
+    ]
+  },
+  {
+    "id": "rice-noodles-plain",
+    "name_en": "Rice Noodles (Plain)",
+    "name_zh": "原味米粉",
+    "description_en": "Smooth rice noodles in a simple savory broth — clean and comforting.",
+    "description_zh": "清汤米粉，米香滑嫩，原汁原味。",
+    "cuisine_tag": "新疆菜",
+    "flavor_tags": [
+      "mild",
+      "savory",
+      "light"
+    ],
+    "image_url": "/images/dishes/rice-noodles-plain.webp",
+    "available_at": [
+      "jahunger"
+    ]
+  },
+  {
+    "id": "jahunger-mixed-noodles",
+    "name_en": "Jahunger Mixed Noodles",
+    "name_zh": "嘉杭尔拌面",
+    "description_en": "Signature hand-pulled noodles tossed with a savory lamb and vegetable sauce.",
+    "description_zh": "拉条子拌上羊肉酱和时令菜，嘉杭尔招牌拌面。",
+    "cuisine_tag": "新疆菜",
+    "flavor_tags": [
+      "savory",
+      "aromatic",
+      "hearty"
+    ],
+    "image_url": "/images/dishes/jahunger-mixed-noodles.webp",
+    "available_at": [
+      "jahunger"
+    ]
+  },
+  {
+    "id": "stir-fried-rice-noodles",
+    "name_en": "Stir-Fried Rice Noodles",
+    "name_zh": "炒米粉",
+    "description_en": "Wok-tossed rice noodles with vegetables and savory seasoning — smoky and satisfying.",
+    "description_zh": "米粉大火爆炒，配菜调味，锅气十足。",
+    "cuisine_tag": "新疆菜",
+    "flavor_tags": [
+      "savory",
+      "smoky",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/stir-fried-rice-noodles.webp",
+    "available_at": [
+      "jahunger"
+    ]
+  },
+  {
+    "id": "cold-chicken-salad",
+    "name_en": "Cold Chicken Salad",
+    "name_zh": "凉拌鸡",
+    "description_en": "Chilled poached chicken in a tangy, spicy dressing with fresh vegetables.",
+    "description_zh": "白煸鸡肉凉拌，酸辣爽口，配时令鲜菜。",
+    "cuisine_tag": "新疆菜",
+    "flavor_tags": [
+      "sour",
+      "spicy",
+      "refreshing"
+    ],
+    "image_url": "/images/dishes/cold-chicken-salad.webp",
+    "available_at": [
+      "jahunger"
+    ]
+  },
+  {
+    "id": "cold-beef-cucumber",
+    "name_en": "Cold Beef & Cucumber Salad",
+    "name_zh": "凉拌牛肉黄瓜",
+    "description_en": "Sliced beef and crisp cucumber in a garlicky, tangy dressing — a refreshing cold appetizer.",
+    "description_zh": "牛肉片配黄瓜，蒜香酸辣调味，爽口开胃。",
+    "cuisine_tag": "新疆菜",
+    "flavor_tags": [
+      "sour",
+      "garlicky",
+      "refreshing"
+    ],
+    "image_url": "/images/dishes/cold-beef-cucumber.webp",
+    "available_at": [
+      "jahunger"
+    ]
+  },
+  {
+    "id": "dry-fried-lamb",
+    "name_en": "Dry-Fried Lamb",
+    "name_zh": "干煸羊肉",
+    "description_en": "Lamb slices wok-seared until crispy with cumin, chili, and onion — intensely aromatic.",
+    "description_zh": "羊肉大火干煸，配孜然、辣椒、洋葱，香辣美味。",
+    "cuisine_tag": "新疆菜",
+    "flavor_tags": [
+      "spicy",
+      "aromatic",
+      "cumin",
+      "crispy"
+    ],
+    "image_url": "/images/dishes/dry-fried-lamb.webp",
+    "available_at": [
+      "jahunger"
+    ]
+  },
+  {
+    "id": "tiger-salad",
+    "name_en": "Tiger Salad",
+    "name_zh": "老虎菜",
+    "description_en": "A bold Xinjiang salad of sliced onion, green pepper, tomato, and cilantro in a sharp vinegar dressing.",
+    "description_zh": "洋葱、青椒、番茄、香菜切丝凉拌，酸辣爬口，新疆开胃菜。",
+    "cuisine_tag": "新疆菜",
+    "flavor_tags": [
+      "sour",
+      "spicy",
+      "refreshing",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/tiger-salad.webp",
+    "available_at": [
+      "jahunger"
+    ]
+  },
+  {
+    "id": "spicy-beef-tripe",
+    "name_en": "Spicy Beef Tripe",
+    "name_zh": "麻辣牛百叶",
+    "description_en": "Thinly sliced beef tripe tossed in a numbing-spicy chili oil dressing — bold and addictive.",
+    "description_zh": "牛百叶切丝，麻辣红油拌制，爽脆麻辣。",
+    "cuisine_tag": "新疆菜",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "aromatic"
+    ],
+    "image_url": "/images/dishes/spicy-beef-tripe.webp",
+    "available_at": [
+      "jahunger"
+    ]
+  },
+  {
+    "id": "kavap-skewers",
+    "name_en": "Kavap (Lamb Skewers)",
+    "name_zh": "烤肉串",
+    "description_en": "Charcoal-grilled cumin lamb skewers — the iconic Xinjiang street food.",
+    "description_zh": "炭火烤制羊肉串，撒上孜然辣椒，新疆经典街头味。",
+    "cuisine_tag": "新疆菜",
+    "flavor_tags": [
+      "smoky",
+      "cumin",
+      "spicy",
+      "savory"
+    ],
+    "image_url": "/images/dishes/kavap-skewers.webp",
+    "available_at": [
+      "jahunger"
+    ]
+  },
+  {
+    "id": "polo-pilaf",
+    "name_en": "PoLo (Xinjiang Pilaf)",
+    "name_zh": "手抓饭",
+    "description_en": "Traditional Uyghur rice pilaf with lamb, carrots, and raisins — fragrant and hearty.",
+    "description_zh": "新疆手抓饭，羊肉、胡萝卜、葡萄干焖制，香气扑鼻。",
+    "cuisine_tag": "新疆菜",
+    "flavor_tags": [
+      "savory",
+      "aromatic",
+      "hearty",
+      "sweet"
+    ],
+    "image_url": "/images/dishes/polo-pilaf.webp",
+    "available_at": [
+      "jahunger"
+    ]
+  },
+  {
+    "id": "homemade-yogurt",
+    "name_en": "Homemade Yogurt",
+    "name_zh": "自制酸奶",
+    "description_en": "Creamy house-made yogurt — tangy and refreshing, a traditional Xinjiang palate cleanser.",
+    "description_zh": "自制浓郁酸奶，酸甜爽口，新疆风味甘品。",
+    "cuisine_tag": "新疆菜",
+    "flavor_tags": [
+      "sweet",
+      "sour",
+      "creamy",
+      "refreshing"
+    ],
+    "image_url": "/images/dishes/homemade-yogurt.webp",
+    "available_at": [
+      "jahunger"
+    ]
+  },
+  {
+    "id": "honey-cake",
+    "name_en": "Honey Cake",
+    "name_zh": "蜂蜜蛋糕",
+    "description_en": "Light, fluffy honey-glazed cake — a sweet finish to a Xinjiang meal.",
+    "description_zh": "松软蜂蜜蛋糕，甘而不腻，新疆风味甘品。",
+    "cuisine_tag": "新疆菜",
+    "flavor_tags": [
+      "sweet",
+      "mild"
+    ],
+    "image_url": "/images/dishes/honey-cake.webp",
+    "available_at": [
+      "jahunger"
     ]
   }
 ]
