@@ -2,10 +2,10 @@
 
 import { useEffect, useState, type FormEvent } from "react";
 import { useRouter } from "next/navigation";
-import { Settings } from "lucide-react";
+import { Settings, ChevronDown } from "lucide-react";
 import { getDishImage } from "@/lib/dishImages";
 import { useAuth } from "@/lib/useAuth";
-import { useCity } from "@/lib/useCity";
+import { useCity, type City } from "@/lib/useCity";
 
 type BrowseDish = {
   id: string;
@@ -27,12 +27,13 @@ const CATEGORIES = [
 
 export default function HomePage() {
   const { user } = useAuth();
-  const { city, cityLabel } = useCity();
+  const { city, setCity, cityLabel, allCities } = useCity();
   const router = useRouter();
 
   const [query, setQuery] = useState("");
   const [activeTag, setActiveTag] = useState("");
   const [dishes, setDishes] = useState<BrowseDish[]>([]);
+  const [showCityPicker, setShowCityPicker] = useState(false);
 
   // Splash / onboarding redirect
   useEffect(() => {
@@ -58,6 +59,14 @@ export default function HomePage() {
       .catch(() => setDishes([]));
   }, [city, activeTag]);
 
+  // Close city picker on outside click
+  useEffect(() => {
+    if (!showCityPicker) return;
+    const close = () => setShowCityPicker(false);
+    window.addEventListener("click", close);
+    return () => window.removeEventListener("click", close);
+  }, [showCityPicker]);
+
   function handleSearch(e: FormEvent) {
     e.preventDefault();
     const trimmed = query.trim();
@@ -65,29 +74,80 @@ export default function HomePage() {
     router.push(`/search?q=${encodeURIComponent(trimmed)}`);
   }
 
+  function handleCitySelect(c: City) {
+    setCity(c);
+    setShowCityPicker(false);
+  }
+
   return (
     <main className="min-h-screen bg-white">
-      {/* ── Top nav ── */}
-      <div className="flex items-center justify-between" style={{ padding: "20px 24px" }}>
+      {/* ── Top nav (3-column) ── */}
+      <nav
+        className="flex items-center justify-between"
+        style={{ padding: "20px 24px" }}
+      >
+        {/* Left: brand */}
         <span
           className="text-[18px] font-medium text-[#1A1A1A]"
           style={{ letterSpacing: "-0.5px" }}
         >
-          DeeDao
+          DeeDao 地道
         </span>
-        <div className="flex items-center gap-3">
-          <span className="text-[11px] text-[#999]">
-            {cityLabel.en}
-          </span>
+
+        {/* Center: city picker */}
+        <div className="relative">
           <button
-            onClick={() => router.push("/settings")}
-            aria-label="Settings"
-            className="transition-opacity hover:opacity-70"
+            onClick={(e) => {
+              e.stopPropagation();
+              setShowCityPicker(!showCityPicker);
+            }}
+            className="flex items-center gap-1 transition-opacity hover:opacity-70"
+            style={{
+              fontSize: 13,
+              color: "#666",
+              background: "none",
+              border: "none",
+              cursor: "pointer",
+            }}
           >
-            <Settings size={14} strokeWidth={1.5} color="#999" />
+            {cityLabel.en}
+            <ChevronDown size={12} strokeWidth={2} />
           </button>
+
+          {showCityPicker && (
+            <div
+              className="absolute top-full left-1/2 mt-2 -translate-x-1/2 bg-white rounded-lg shadow-lg border border-[#E5E5E5] py-1 z-50"
+              style={{ minWidth: 140 }}
+              onClick={(e) => e.stopPropagation()}
+            >
+              {(Object.entries(allCities) as [City, { en: string }][]).map(
+                ([key, label]) => (
+                  <button
+                    key={key}
+                    onClick={() => handleCitySelect(key)}
+                    className="w-full text-left px-4 py-2 text-[13px] hover:bg-[#F5F5F5] transition-colors"
+                    style={{
+                      color: key === city ? "#1A1A1A" : "#666",
+                      fontWeight: key === city ? 500 : 400,
+                    }}
+                  >
+                    {label.en}
+                  </button>
+                )
+              )}
+            </div>
+          )}
         </div>
-      </div>
+
+        {/* Right: settings */}
+        <button
+          onClick={() => router.push("/settings")}
+          aria-label="Settings"
+          className="transition-opacity hover:opacity-70"
+        >
+          <Settings size={16} strokeWidth={1.5} color="#999" />
+        </button>
+      </nav>
 
       {/* ── Hero ── */}
       <div className="text-center" style={{ padding: "56px 24px 0" }}>
@@ -182,7 +242,7 @@ export default function HomePage() {
           className="text-[10px] uppercase"
           style={{ color: "#999", letterSpacing: "2.5px" }}
         >
-          附近热门
+          附近热门食物
         </p>
       </div>
 
