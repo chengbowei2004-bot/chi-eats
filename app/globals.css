@@ -12,6 +12,13 @@
   --border: #E5E5E5;
   --error: #D32F2F;
   --success: #2E7D32;
+  --search-border: #D4D4D4;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --search-border: #444;
+  }
 }
 
 .scrollbar-hide::-webkit-scrollbar {
