@@ -19,12 +19,18 @@ export default function HomePage() {
 
   const [suggestions, setSuggestions] = useState<SuggestionDish[]>([]);
 
-  // Check if first-time user
+  // Always show splash on fresh app open (once per session)
   useEffect(() => {
+    const splashSeen = sessionStorage.getItem("deedao_splash_seen");
+    if (!splashSeen) {
+      router.replace("/splash");
+      return;
+    }
+    // First-time user who hasn't finished onboarding
     const onboarded = localStorage.getItem("deedao_onboarded");
     if (!onboarded) {
       const langChosen = localStorage.getItem("deedao_lang_chosen");
-      router.replace(langChosen ? "/onboarding" : "/splash");
+      router.replace(langChosen ? "/onboarding" : "/language");
     }
   }, [router]);
 

@@ -94,7 +94,11 @@ export default function SplashPage() {
         style={{ opacity: 0, animation: "fade-in 0.5s ease-out 3.5s forwards" }}
       >
         <button
-          onClick={() => router.push("/language")}
+          onClick={() => {
+            sessionStorage.setItem("deedao_splash_seen", "1");
+            const langChosen = localStorage.getItem("deedao_lang_chosen");
+            router.replace(langChosen ? "/" : "/language");
+          }}
           className="py-2.5 px-8 bg-[#1A1A1A] text-white text-sm tracking-wider rounded-full hover:bg-[#333] transition-colors"
         >
           继续 / Continue
