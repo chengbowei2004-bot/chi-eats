@@ -28,3 +28,8 @@ body {
   font-family: 'Helvetica Neue', Helvetica, Arial, -apple-system, 'PingFang SC',
     'Microsoft YaHei', 'Noto Sans SC', sans-serif;
 }
+
+@keyframes orbit {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

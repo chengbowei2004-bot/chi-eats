@@ -65,8 +65,11 @@ export default function HomePage() {
         <h1 className="text-6xl font-light text-gray-900 tracking-tight mb-2">
           DeeDao
         </h1>
-        <p className="text-sm text-gray-400 mb-6">
-          {t("发现你身边的地道中国味", "Find authentic flavors near you")}
+        <p className="text-sm text-gray-400 tracking-wider mb-1">
+          {t("以菜寻味，以味寻道。", "以菜寻味，以味寻道。")}
+        </p>
+        <p className="text-xs text-gray-300 italic mb-6">
+          Search the dish. Find the authentic.
         </p>
 
         {/* City picker */}
