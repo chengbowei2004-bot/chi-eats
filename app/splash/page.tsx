@@ -26,10 +26,11 @@ export default function SplashPage() {
 
   // Screen 2 stagger visibility
   const [s2Logo, setS2Logo] = useState(false);
-  const [s2Typer, setS2Typer] = useState(false);
+  const [s2Title, setS2Title] = useState(false);
+  const [s2Search, setS2Search] = useState(false);
   const [s2Slogan, setS2Slogan] = useState(false);
   const [s2Button, setS2Button] = useState(false);
-  const [typewriterActive, setTypewriterActive] = useState(false);
+  const [phase, setPhase] = useState<"placeholder" | "typing">("placeholder");
 
   const dishes = chosenLang === "zh" ? DISHES_ZH : DISHES_EN;
 
@@ -38,7 +39,14 @@ export default function SplashPage() {
     setTimeout(() => setS2Button(true), 200);
   }, []);
 
-  const typedText = useTypewriter(dishes, typewriterActive, onFirstComplete);
+  const typedText = useTypewriter(dishes, phase === "typing", onFirstComplete);
+
+  // Start typing 1s after search box appears
+  useEffect(() => {
+    if (!s2Search) return;
+    const timer = setTimeout(() => setPhase("typing"), 1000);
+    return () => clearTimeout(timer);
+  }, [s2Search]);
 
   // Skip if language already chosen
   useEffect(() => {
@@ -66,10 +74,8 @@ export default function SplashPage() {
 
         // Stagger screen 2 elements (slogan + button deferred to onFirstComplete)
         setTimeout(() => setS2Logo(true), 100);
-        setTimeout(() => setS2Typer(true), 300);
-
-        // Start typewriter 800ms after logo
-        setTimeout(() => setTypewriterActive(true), 900);
+        setTimeout(() => setS2Title(true), 300);
+        setTimeout(() => setS2Search(true), 600);
       }, 400);
     },
     []
@@ -168,9 +174,9 @@ export default function SplashPage() {
         </div>
       </div>
 
-      {/* ── Screen 2: Typewriter ── */}
+      {/* ── Screen 2: Search box typewriter ── */}
       <div className={s2Class}>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center w-full" style={{ padding: "0 40px" }}>
           {/* Top logo */}
           <span
             className="splash-el"
@@ -186,26 +192,83 @@ export default function SplashPage() {
             DEEDAO 地道
           </span>
 
-          {/* Typewriter */}
+          {/* Title */}
+          <h2
+            className="splash-el"
+            style={{
+              fontSize: 28,
+              fontWeight: 500,
+              color: "#1A1A1A",
+              textAlign: "center",
+              opacity: s2Title ? 1 : 0,
+              transform: s2Title ? "translateY(0)" : "translateY(24px)",
+            }}
+          >
+            {chosenLang === "zh" ? "今天想吃什么？" : "What are you craving?"}
+          </h2>
+
+          {/* Search box (simulated) */}
           <div
             className="splash-el"
             style={{
-              minHeight: 50,
-              opacity: s2Typer ? 1 : 0,
-              transform: s2Typer ? "translateY(0)" : "translateY(24px)",
+              marginTop: 32,
+              maxWidth: 300,
+              width: "100%",
+              opacity: s2Search ? 1 : 0,
+              transform: s2Search ? "translateY(0)" : "translateY(24px)",
             }}
           >
-            <span
-              className="splash-cursor"
+            <div
               style={{
-                fontSize: 36,
-                fontWeight: 500,
-                color: "#1A1A1A",
-                letterSpacing: -1,
+                display: "flex",
+                alignItems: "center",
+                gap: 10,
+                padding: "12px 16px",
+                border: "1px solid #e0e0e0",
+                borderRadius: 12,
               }}
             >
-              {typedText}
-            </span>
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#bbb"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="shrink-0"
+              >
+                <circle cx="11" cy="11" r="7" />
+                <path d="M21 21l-4.35-4.35" />
+              </svg>
+
+              {phase === "placeholder" ? (
+                <span style={{ color: "#bbb", fontSize: 14 }}>
+                  {chosenLang === "zh" ? "搜索你想吃的" : "Search a dish..."}
+                </span>
+              ) : (
+                <span
+                  style={{
+                    fontSize: 14,
+                    color: "#1A1A1A",
+                    display: "flex",
+                    alignItems: "center",
+                    minHeight: 20,
+                  }}
+                >
+                  {typedText}
+                  <span
+                    style={{
+                      borderRight: "2px solid #000",
+                      height: 18,
+                      marginLeft: 2,
+                      animation: "cursor-blink 0.8s step-end infinite",
+                    }}
+                  />
+                </span>
+              )}
+            </div>
           </div>
 
           {/* Slogan — appears after first word typed */}
