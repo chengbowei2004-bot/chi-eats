@@ -89,7 +89,7 @@
   },
   {
     "id": "spicy-boiled-fish",
-    "name_en": "Spicy Boiled Fish",
+    "name_en": "Sichuan Boiled Fish",
     "name_zh": "水煮鱼",
     "description_en": "Thin-sliced fish fillets poached in a bold, numbing chili broth with bean sprouts and tofu.",
     "description_zh": "鱼片在麻辣汤中汆煮，配豆芽和豆腐，汤色红亮，麻辣鲜美。",
@@ -117,7 +117,7 @@
   },
   {
     "id": "spicy-boiled-beef",
-    "name_en": "Spicy Boiled Beef",
+    "name_en": "Sichuan Boiled Beef",
     "name_zh": "水煮牛肉",
     "description_en": "Tender beef slices cooked in a scorching numbing-spicy broth poured over vegetables at the table.",
     "description_zh": "嫩滑的牛肉片在麻辣汤中浸煮，上桌时浇上热油，香气四溢。",
@@ -194,7 +194,7 @@
   },
   {
     "id": "sichuan-red-oil-wontons",
-    "name_en": "Red Oil Wontons",
+    "name_en": "Wontons in Chili Oil",
     "name_zh": "红油抄手",
     "description_en": "Pork-filled wontons served in a pool of fragrant red chili oil with soy and Sichuan pepper.",
     "description_zh": "猪肉馄饨淋上浓郁的红油、酱油和花椒，是成都街头最受欢迎的小吃。",
@@ -448,7 +448,7 @@
   },
   {
     "id": "beef-noodle-soup",
-    "name_en": "Beef Noodle Soup",
+    "name_en": "Braised Beef Noodle Soup",
     "name_zh": "红烧牛肉面",
     "description_en": "Rich, slow-simmered beef broth with tender braised chunks of beef and springy wheat noodles.",
     "description_zh": "用牛骨慢熬的浓郁汤底，搭配软烂的红烧牛肉和劲道面条，暖胃暖心。",
@@ -525,7 +525,7 @@
   },
   {
     "id": "zha-jiang-mian",
-    "name_en": "Zha Jiang Mian",
+    "name_en": "Zhajiang Noodles",
     "name_zh": "炸酱面",
     "description_en": "Beijing-style noodles topped with a savory ground pork and fermented soybean paste sauce, garnished with fresh vegetables.",
     "description_zh": "北京风味面条，浇上由猪肉末和黄豆酱炒制的炸酱，配时令蔬菜丝。",
@@ -698,7 +698,7 @@
   },
   {
     "id": "xiao-long-bao",
-    "name_en": "Xiao Long Bao",
+    "name_en": "Soup Dumplings",
     "name_zh": "小笼包",
     "description_en": "Delicate steamed soup dumplings filled with a juicy pork and gelatin filling — pierce the skin carefully before eating.",
     "description_zh": "精巧的小笼包内藏鲜美汤汁和猪肉馅，轻咬一口，汤汁四溢，是上海小吃的骄傲。",
@@ -803,7 +803,7 @@
   },
   {
     "id": "di-san-xian",
-    "name_en": "Di San Xian",
+    "name_en": "Three Treasures",
     "name_zh": "地三鲜",
     "description_en": "A northeastern stir-fry of eggplant, potato, and green pepper in a rich garlic-soy sauce — hearty and satisfying.",
     "description_zh": "东北名菜，茄子、土豆和青椒大火爆炒，蒜香浓郁，下饭神器。",
@@ -852,7 +852,7 @@
   },
   {
     "id": "suan-cai-fish",
-    "name_en": "Sour Cabbage Fish",
+    "name_en": "Fish in Pickled Mustard Greens",
     "name_zh": "酸菜鱼",
     "description_en": "Fish fillets poached in a tangy, mildly spicy broth made from fermented mustard greens — a Chongqing classic.",
     "description_zh": "鱼片在酸菜汤中汆煮，汤底酸辣开胃，鱼肉嫩滑，是重庆江湖菜的代表之一。",
@@ -1118,7 +1118,7 @@
   },
   {
     "id": "liangpi-cold-skin-noodles",
-    "name_en": "Cold Skin Noodles (Liangpi)",
+    "name_en": "Cold Skin Noodles",
     "name_zh": "凉皮",
     "description_en": "Wide, slippery rice or wheat noodle sheets served cold with sesame paste, chili oil, vinegar, and cucumbers.",
     "description_zh": "宽而滑的米皮或面皮，拌上芝麻酱、辣椒油、醋和黄瓜，是西北地区夏季最受欢迎的凉食。",
@@ -1140,7 +1140,7 @@
   },
   {
     "id": "malatang",
-    "name_en": "Malatang",
+    "name_en": "Spicy Numbing Soup",
     "name_zh": "麻辣烫",
     "description_en": "DIY soup pot — pick your own meats, vegetables, and noodles from the bar, cooked in a spicy mala broth. Sold by weight.",
     "description_zh": "自选荤素食材按重量计费，在麻辣汤底中涮煮，鲜香麻辣，丰俭由人。",
@@ -1487,7 +1487,7 @@
   },
   {
     "id": "cold-dressed-cucumber",
-    "name_en": "Cold Dressed Cucumber",
+    "name_en": "Smashed Cucumber",
     "name_zh": "凉拌黄瓜",
     "description_en": "Thin cucumber coins tossed in garlic vinegar dressing with chili oil — the quintessential Chinese table starter.",
     "description_zh": "黄瓜切片后拌上蒜末、香醋和辣椒油，清凉爽脆，是中餐桌上最常见的开胃小凉菜。",
@@ -1849,7 +1849,7 @@
   },
   {
     "id": "spicy-diced-chicken",
-    "name_en": "Spicy Diced Chicken",
+    "name_en": "Chongqing Spicy Chicken",
     "name_zh": "辣子鸡",
     "description_en": "Bite-sized chicken pieces wok-fried with a mountain of dried red chilies, Sichuan peppercorns, and peanuts.",
     "description_zh": "鸡丁与大量干辣椒、花椒和花生一起爆炒，麻辣焦香。",
@@ -2558,7 +2558,7 @@
   },
   {
     "id": "hot-sour-shredded-potato",
-    "name_en": "Hot and Sour Shredded Potato",
+    "name_en": "Shredded Potato in Vinegar",
     "name_zh": "酸辣土豆丝",
     "description_en": "Julienned potato stir-fried with dried chilies and Sichuan peppercorn in rice vinegar — crunchy and tangy.",
     "description_zh": "土豆切丝爆炒，加干辣椒、花椒和米醋，酸辣爽脆，是中国国民家常菜。",
@@ -2764,7 +2764,7 @@
   },
   {
     "id": "fish-fragrant-shredded-pork",
-    "name_en": "Fish-Fragrant Shredded Pork",
+    "name_en": "Shredded Pork in Garlic Sauce",
     "name_zh": "鱼香肉丝",
     "description_en": "Shredded pork stir-fried in a tangy, slightly sweet fish-fragrant sauce with wood ear mushrooms and bamboo shoots.",
     "description_zh": "肉丝与木耳、笋丝在鱼香汁中翻炒，酸甜微辣，是川菜中最经典的家常菜之一。",
@@ -3900,7 +3900,7 @@
   },
   {
     "id": "popcorn-chicken",
-    "name_en": "Popcorn Chicken",
+    "name_en": "Taiwanese Popcorn Chicken",
     "name_zh": "盐酥鸡",
     "description_en": "Bite-sized chicken pieces fried until golden and crispy, seasoned with salt and pepper.",
     "description_zh": "鸡肉炸至金黄酥脆，撒上椒盐调味，香脆可口。",
@@ -5991,7 +5991,7 @@
   },
   {
     "id": "lu-ro-fan-lobanton",
-    "name_en": "Lu Ro Fan (Taiwanese Braised Pork Rice)",
+    "name_en": "Braised Pork Rice Bowl",
     "name_zh": "卤肉饭",
     "description_en": "Classic Taiwanese comfort food — slow-braised minced pork in aromatic soy sauce over steamed rice.",
     "description_zh": "台湾经典卤肉饭，慢炖五花肉末浇在白米饭上，咸香下饭。",
