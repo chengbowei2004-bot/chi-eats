@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { MapPin, X } from "lucide-react";
 import { useLanguage } from "@/lib/useLanguage";
-import { CERTIFIED_RESTAURANTS, XHS_POPULAR_RESTAURANTS } from "@/lib/constants";
+import { CERTIFIED_RESTAURANTS, REDNOTE_VERIFIED_RESTAURANTS } from "@/lib/constants";
 
 type Restaurant = {
   id: string;
@@ -44,7 +44,7 @@ export function RestaurantCard({ restaurant }: Props) {
   const isCertified = CERTIFIED_RESTAURANTS.some(
     (n) => name.includes(n) || name_zh.includes(n)
   );
-  const isXhsPopular = XHS_POPULAR_RESTAURANTS.some(
+  const isRedNoteVerified = REDNOTE_VERIFIED_RESTAURANTS.some(
     (n) => name.includes(n) || name_zh.includes(n)
   );
 
@@ -66,7 +66,7 @@ export function RestaurantCard({ restaurant }: Props) {
         )}
 
         {/* Badges row */}
-        {(isCertified || isXhsPopular) && (
+        {(isCertified || isRedNoteVerified) && (
           <div style={{ display: "flex", gap: 6, flexWrap: "wrap" as const, marginBottom: 12 }}>
             {isCertified && (
               <div
@@ -87,7 +87,7 @@ export function RestaurantCard({ restaurant }: Props) {
                 </span>
               </div>
             )}
-            {isXhsPopular && (
+            {isRedNoteVerified && (
               <div
                 style={{
                   display: "flex",
@@ -102,7 +102,7 @@ export function RestaurantCard({ restaurant }: Props) {
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15l-4-4 1.41-1.41L11 14.17l6.59-6.59L19 9l-8 8z" />
                 </svg>
                 <span style={{ fontSize: 10, color: "#fff", fontWeight: 500, letterSpacing: "0.5px" }}>
-                  {t("小红书热门", "XHS Popular")}
+                  {t("RedNote 认证", "RedNote Verified")}
                 </span>
               </div>
             )}

@@ -10,8 +10,8 @@ export const CERTIFIED_RESTAURANTS = [
   "Lamei Hotpot",
 ];
 
-/** Restaurants frequently mentioned on Xiaohongshu (小红书). */
-export const XHS_POPULAR_RESTAURANTS = [
+/** Restaurants frequently mentioned on RedNote. */
+export const REDNOTE_VERIFIED_RESTAURANTS = [
   "Chongqing House",
   "Chengdu Taste",
   "Rong Chic",
