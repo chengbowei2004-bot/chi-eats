@@ -6054,5 +6054,122 @@
       "snacks"
     ],
     "dish_type": "dish"
+  },
+  {
+    "id": "mala-hot-pot",
+    "name_en": "Spicy Hot Pot",
+    "name_zh": "麻辣火锅",
+    "description_en": "A bubbling pot of fiery Sichuan broth loaded with chili and peppercorn — cook meats, vegetables, and noodles at the table.",
+    "description_zh": "翻滚的麻辣锅底配上各式涮菜和肉类，在餐桌上现煮现吃，是川菜社交聚餐的灵魂。",
+    "cuisine_tag": "火锅",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "rich",
+      "savory"
+    ],
+    "image_url": "/dishes/malahuoguo.jpg",
+    "available_at": [
+      "chongqing-house",
+      "shu-da-xia"
+    ],
+    "tags": [
+      "spicy"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "bbq-skewers",
+    "name_en": "BBQ Skewers",
+    "name_zh": "烤串",
+    "description_en": "Charcoal-grilled cumin lamb skewers — the iconic Xinjiang street food.",
+    "description_zh": "炭火烤制羊肉串，撒上孜然辣椒，新疆经典街头味。",
+    "cuisine_tag": "新疆菜",
+    "flavor_tags": [
+      "smoky",
+      "cumin",
+      "spicy",
+      "savory"
+    ],
+    "image_url": "/dishes/kaochuan.jpg",
+    "available_at": [
+      "jahunger"
+    ],
+    "tags": [
+      "meaty"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "sweet-sour-pork-loin",
+    "name_en": "Sweet & Sour Pork",
+    "name_zh": "糖醋里脊",
+    "description_en": "Pork ribs glazed in a sticky sweet-and-sour sauce of vinegar, sugar, and soy — caramelized and tender.",
+    "description_zh": "排骨裹上糖醋汁烧至收汁，外层焦糖化，酸甜适口，骨肉相连。",
+    "cuisine_tag": "家常菜",
+    "flavor_tags": [
+      "sweet",
+      "tangy",
+      "savory",
+      "rich"
+    ],
+    "image_url": "/dishes/tangculiji.jpg",
+    "available_at": [
+      "chengdu-taste"
+    ],
+    "tags": [
+      "meaty"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "pan-fried-dumplings",
+    "name_en": "Pan-Fried Dumplings",
+    "name_zh": "煎饺",
+    "description_en": "Pan-fried buns with a crispy golden bottom and juicy pork filling.",
+    "description_zh": "生煎包，底部金黄酥脆，内馅多汁鲜美。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "savory",
+      "crispy",
+      "juicy"
+    ],
+    "image_url": "/dishes/jianjiao.jpg",
+    "available_at": [
+      "chef-yao"
+    ],
+    "tags": [
+      "noodles",
+      "snacks"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "chongqing-noodles",
+    "name_en": "Chongqing Noodles",
+    "name_zh": "重庆小面",
+    "description_en": "Thin wheat noodles topped with spicy chili oil, sesame paste, minced pork, and scallions.",
+    "description_zh": "细面条淋上辣椒油、芝麻酱、肉末和葱花，麻辣爽口。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "savory",
+      "rich"
+    ],
+    "image_url": "/dishes/chongqingxiaomian.jpg",
+    "available_at": [
+      "chongqing-house",
+      "chengdu-taste",
+      "rong-chic",
+      "noahs-kitchen",
+      "yi-ma-yi-la",
+      "chef-yao"
+    ],
+    "tags": [
+      "noodles",
+      "spicy"
+    ],
+    "dish_type": "dish"
   }
 ]
