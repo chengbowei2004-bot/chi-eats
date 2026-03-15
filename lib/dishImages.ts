@@ -14,7 +14,7 @@ const dishImageMap: Record<string, string> = {
   "回锅肉": "/dishes/huiguorou.jpg",
   "炸酱面": "/dishes/zhajiangmian.jpg",
   "凉拌黄瓜": "/dishes/liangbanhuanggua.jpg",
-  "烤肉串": "/dishes/kaorouchuan.jpg",
+  "烤肉串": "/dishes/kaochuan.jpg",
   "烤串": "/dishes/kaochuan.jpg",
   "糖醋排骨": "/dishes/tangcupaigu.jpg",
   "糖醋里脊": "/dishes/tangculiji.jpg",
