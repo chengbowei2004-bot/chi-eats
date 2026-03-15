@@ -18,15 +18,15 @@ type Step = "language" | "typewriter";
 type Lang = "zh" | "en";
 
 const LOGO_LETTERS = [
-  { char: "D", left: 0,   sx: -60, sy: -40, sr: -15, delay: 0.2 },
-  { char: "E", left: 22,  sx: 40,  sy: 50,  sr: 20,  delay: 0.35 },
-  { char: "E", left: 42,  sx: -30, sy: 60,  sr: -10, delay: 0.5 },
-  { char: "D", left: 62,  sx: 70,  sy: -50, sr: 25,  delay: 0.3 },
-  { char: "A", left: 84,  sx: -50, sy: -60, sr: -20, delay: 0.45 },
-  { char: "O", left: 106, sx: 60,  sy: 40,  sr: 15,  delay: 0.55 },
-  { char: " ", left: 126, sx: 0,   sy: 0,   sr: 0,   delay: 0 },
-  { char: "地", left: 140, sx: -40, sy: -30, sr: 10,  delay: 0.7 },
-  { char: "道", left: 170, sx: 50,  sy: 50,  sr: -25, delay: 0.85 },
+  { char: "D", left: 0,   sx: -15, sy: -12, delay: 0.3 },
+  { char: "E", left: 22,  sx: 10,  sy: 15,  delay: 0.4 },
+  { char: "E", left: 42,  sx: -12, sy: 18,  delay: 0.5 },
+  { char: "D", left: 62,  sx: 18,  sy: -15, delay: 0.4 },
+  { char: "A", left: 84,  sx: -15, sy: -18, delay: 0.5 },
+  { char: "O", left: 106, sx: 12,  sy: 12,  delay: 0.6 },
+  { char: " ", left: 126, sx: 0,   sy: 0,   delay: 0 },
+  { char: "地", left: 140, sx: -10, sy: -10, delay: 0.7 },
+  { char: "道", left: 170, sx: 15,  sy: 12,  delay: 0.8 },
 ];
 
 export default function SplashPage() {
@@ -130,8 +130,8 @@ export default function SplashPage() {
                     fontWeight: 400,
                     color: "#bbb",
                     opacity: 0,
-                    transform: `translate(${l.sx}px, ${l.sy}px) rotate(${l.sr}deg)`,
-                    animation: `land 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) ${l.delay}s forwards`,
+                    transform: `translate(${l.sx}px, ${l.sy}px)`,
+                    animation: `land 1.2s cubic-bezier(0.16, 1, 0.3, 1) ${l.delay}s forwards`,
                   }}
                 >
                   {l.char}
@@ -147,7 +147,7 @@ export default function SplashPage() {
                   height: 1,
                   background: "#ddd",
                   transform: "translateX(-50%)",
-                  animation: "draw 0.4s ease 1.6s forwards",
+                  animation: "draw 0.4s ease 2.0s forwards",
                 }}
               />
             </div>
@@ -158,7 +158,7 @@ export default function SplashPage() {
                 color: "#bbb",
                 marginTop: 32,
                 opacity: 0,
-                animation: "fadeUp 0.5s ease 1.8s forwards",
+                animation: "fadeUp 0.5s ease 2.2s forwards",
               }}
             >
               Choose your language
@@ -169,7 +169,7 @@ export default function SplashPage() {
               style={{
                 marginTop: 20,
                 opacity: 0,
-                animation: "fadeUp 0.5s ease 2.1s forwards",
+                animation: "fadeUp 0.5s ease 2.5s forwards",
               }}
             >
               中文
@@ -180,7 +180,7 @@ export default function SplashPage() {
               style={{
                 marginTop: 12,
                 opacity: 0,
-                animation: "fadeUp 0.5s ease 2.3s forwards",
+                animation: "fadeUp 0.5s ease 2.7s forwards",
               }}
             >
               English
@@ -191,7 +191,7 @@ export default function SplashPage() {
                 color: "#bbb",
                 marginTop: 24,
                 opacity: 0,
-                animation: "fadeUp 0.5s ease 2.6s forwards",
+                animation: "fadeUp 0.5s ease 3.0s forwards",
               }}
             >
               You can change this later in settings
