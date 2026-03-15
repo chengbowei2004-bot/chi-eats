@@ -17,18 +17,6 @@ const DISHES_EN = [
 type Step = "language" | "typewriter";
 type Lang = "zh" | "en";
 
-const LOGO_LETTERS = [
-  { char: "D", left: 0,   sx: -15, sy: -12, delay: 0.3 },
-  { char: "E", left: 22,  sx: 10,  sy: 15,  delay: 0.4 },
-  { char: "E", left: 42,  sx: -12, sy: 18,  delay: 0.5 },
-  { char: "D", left: 62,  sx: 18,  sy: -15, delay: 0.4 },
-  { char: "A", left: 84,  sx: -15, sy: -18, delay: 0.5 },
-  { char: "O", left: 106, sx: 12,  sy: 12,  delay: 0.6 },
-  { char: " ", left: 126, sx: 0,   sy: 0,   delay: 0 },
-  { char: "地", left: 140, sx: -10, sy: -10, delay: 0.7 },
-  { char: "道", left: 170, sx: 15,  sy: 12,  delay: 0.8 },
-];
-
 export default function SplashPage() {
   const router = useRouter();
   const [step, setStep] = useState<Step>("language");
@@ -52,7 +40,6 @@ export default function SplashPage() {
 
   const typedText = useTypewriter(dishes, phase === "typing", onFirstComplete);
 
-  // Start typing 300ms after search box appears
   useEffect(() => {
     if (!s2Search) return;
     const timer = setTimeout(() => setPhase("typing"), 300);
@@ -67,7 +54,6 @@ export default function SplashPage() {
     }
   }, [router]);
 
-  // Unified step transition: fade out → swap → fade in
   function goToStep(next: Step) {
     setVisible(false);
     setTimeout(() => {
@@ -78,7 +64,6 @@ export default function SplashPage() {
     }, 300);
   }
 
-  // Final exit: fade out → navigate to onboarding or home
   function goToNext() {
     setVisible(false);
     setTimeout(() => {
@@ -94,7 +79,6 @@ export default function SplashPage() {
     goToStep("typewriter");
   }
 
-  // When typewriter step becomes visible, stagger its elements
   useEffect(() => {
     if (step !== "typewriter" || !visible) return;
     setTimeout(() => setS2Logo(true), 0);
@@ -115,93 +99,134 @@ export default function SplashPage() {
           justifyContent: "center",
         }}
       >
+        {/* ── Screen 1: Language selection ── */}
         {step === "language" && (
-          <div className="flex flex-col items-center">
-            {/* Scatter logo */}
-            <div style={{ position: "relative", height: 50, width: 228, marginBottom: 8 }}>
-              {LOGO_LETTERS.map((l, i) => (
-                <span
-                  key={i}
-                  style={{
-                    position: "absolute",
-                    left: l.left,
-                    top: 16,
-                    fontSize: 14,
-                    fontWeight: 400,
-                    color: "#000",
-                    opacity: 0,
-                    transform: `translate(${l.sx}px, ${l.sy}px)`,
-                    animation: `land 1.2s cubic-bezier(0.16, 1, 0.3, 1) ${l.delay}s forwards`,
-                  }}
-                >
-                  {l.char}
-                </span>
-              ))}
-              {/* Underline */}
-              <div
-                style={{
-                  position: "absolute",
-                  bottom: 0,
-                  left: "50%",
-                  width: 0,
-                  height: 1,
-                  background: "#000",
-                  transform: "translateX(-50%)",
-                  animation: "draw 0.4s ease 2.0s forwards",
-                }}
-              />
-            </div>
-
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center" }}>
+            {/* DEEDAO */}
             <span
-              style={{
-                fontSize: 12,
-                color: "#bbb",
-                marginTop: 32,
-                opacity: 0,
-                animation: "fadeUp 0.5s ease 2.2s forwards",
-              }}
-            >
-              Choose your language
-            </span>
-            <button
-              onClick={() => handleLangSelect("zh")}
-              className="splash-btn"
-              style={{
-                marginTop: 20,
-                opacity: 0,
-                animation: "fadeUp 0.5s ease 2.5s forwards",
-              }}
-            >
-              中文
-            </button>
-            <button
-              onClick={() => handleLangSelect("en")}
-              className="splash-btn"
-              style={{
-                marginTop: 12,
-                opacity: 0,
-                animation: "fadeUp 0.5s ease 2.7s forwards",
-              }}
-            >
-              English
-            </button>
-            <span
+              className="splash-up"
               style={{
                 fontSize: 11,
-                color: "#bbb",
-                marginTop: 24,
-                opacity: 0,
-                animation: "fadeUp 0.5s ease 3.0s forwards",
+                fontWeight: 500,
+                letterSpacing: 12,
+                textIndent: 12,
+                color: "#000",
+                animationDelay: "0.3s",
               }}
             >
-              You can change this later in settings
+              DEEDAO
+            </span>
+
+            {/* 地 道 */}
+            <span
+              className="splash-up"
+              style={{
+                fontSize: 28,
+                fontWeight: 300,
+                letterSpacing: 16,
+                textIndent: 16,
+                color: "#000",
+                marginTop: 6,
+                animationDelay: "0.5s",
+              }}
+            >
+              地 道
+            </span>
+
+            {/* Slogan */}
+            <span
+              className="splash-up"
+              style={{
+                fontSize: 11,
+                color: "#999",
+                letterSpacing: 3,
+                textIndent: 3,
+                marginTop: 20,
+                animationDelay: "0.9s",
+                animationDuration: "0.6s",
+                animationTimingFunction: "ease",
+              }}
+            >
+              以菜寻味 以味寻道
+            </span>
+
+            {/* Divider */}
+            <div
+              className="splash-up"
+              style={{
+                width: 24,
+                height: 1,
+                background: "#999",
+                margin: "56px auto",
+                animationDelay: "1.3s",
+                animationDuration: "0.4s",
+                animationTimingFunction: "ease",
+              }}
+            />
+
+            {/* SELECT LANGUAGE */}
+            <span
+              className="splash-up"
+              style={{
+                fontSize: 11,
+                color: "#999",
+                letterSpacing: 2,
+                textIndent: 2,
+                marginBottom: 28,
+                animationDelay: "1.5s",
+                animationDuration: "0.5s",
+                animationTimingFunction: "ease",
+              }}
+            >
+              SELECT LANGUAGE
+            </span>
+
+            {/* Buttons */}
+            <div
+              className="splash-up"
+              style={{
+                display: "flex",
+                gap: 12,
+                width: 260,
+                animationDelay: "1.7s",
+                animationDuration: "0.5s",
+                animationTimingFunction: "ease",
+              }}
+            >
+              <button
+                onClick={() => handleLangSelect("zh")}
+                className="splash-lang-btn-filled"
+              >
+                中文
+              </button>
+              <button
+                onClick={() => handleLangSelect("en")}
+                className="splash-lang-btn-outline"
+              >
+                EN
+              </button>
+            </div>
+
+            {/* Hint */}
+            <span
+              className="splash-up"
+              style={{
+                fontSize: 11,
+                color: "#999",
+                marginTop: 40,
+                animationDelay: "2.1s",
+                animationDuration: "0.5s",
+                animationTimingFunction: "ease",
+              }}
+            >
+              You can change this later
             </span>
           </div>
         )}
 
+        {/* ── Screen 2: Typewriter ── */}
         {step === "typewriter" && (
           <div className="flex flex-col items-center w-full" style={{ padding: "0 40px" }}>
-            {/* Logo */}
             <span
               className="splash-el-fast"
               style={{
@@ -216,7 +241,6 @@ export default function SplashPage() {
               DEEDAO 地道
             </span>
 
-            {/* Title */}
             <h2
               className="splash-el-fast"
               style={{
@@ -233,7 +257,6 @@ export default function SplashPage() {
                 : "Search the dish. Find the authentic."}
             </h2>
 
-            {/* Search box */}
             <div
               className="splash-el-fast"
               style={{
@@ -297,7 +320,6 @@ export default function SplashPage() {
               </div>
             </div>
 
-            {/* Slogan — Chinese mode only */}
             {chosenLang === "zh" && (
               <div
                 className="splash-el-fast"
@@ -314,7 +336,6 @@ export default function SplashPage() {
               </div>
             )}
 
-            {/* Enter button */}
             <button
               onClick={goToNext}
               className="splash-el-fast splash-enter-btn"
