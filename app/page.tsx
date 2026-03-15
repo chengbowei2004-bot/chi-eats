@@ -18,7 +18,7 @@ type BrowseDish = {
 };
 
 const CATEGORIES = [
-  { zh: "全部", en: "All", key: "" },
+  { zh: "全部", en: "All", key: "all" },
   { zh: "想吃辣", en: "Spicy", key: "spicy" },
   { zh: "想吃面", en: "Noodles", key: "noodles" },
   { zh: "吃点清淡的", en: "Light", key: "light" },
@@ -34,7 +34,7 @@ export default function HomePage() {
   const router = useRouter();
 
   const [query, setQuery] = useState("");
-  const [activeTag, setActiveTag] = useState("");
+  const [activeTag, setActiveTag] = useState("all");
   const [dishes, setDishes] = useState<BrowseDish[]>([]);
   const [showCityPicker, setShowCityPicker] = useState(false);
 
@@ -54,7 +54,7 @@ export default function HomePage() {
   // Fetch browse dishes
   useEffect(() => {
     const params = new URLSearchParams({ city });
-    if (activeTag) params.set("tag", activeTag);
+    if (activeTag && activeTag !== "all") params.set("tag", activeTag);
     fetch(`/api/dishes/browse?${params}`)
       .then((r) => r.json())
       .then((data) => setDishes(data.dishes ?? []))
@@ -237,56 +237,64 @@ export default function HomePage() {
       </div>
 
       {/* ── Section title ── */}
-      <div style={{ padding: "40px 24px 0" }}>
-        <p
-          className="text-[10px] uppercase"
-          style={{ color: "#999", letterSpacing: "2.5px" }}
-        >
-          {t("附近热门食物", "POPULAR NEARBY")}
-        </p>
-      </div>
+      {activeTag === "all" && (
+        <div style={{ padding: "40px 24px 0" }}>
+          <p
+            className="text-[10px] uppercase"
+            style={{ color: "#999", letterSpacing: "2.5px" }}
+          >
+            {t("附近热门食物", "POPULAR NEARBY")}
+          </p>
+        </div>
+      )}
 
       {/* ── Dish card grid ── */}
-      <div
-        className="grid grid-cols-2"
-        style={{ gap: 16, padding: "16px 24px 0" }}
-      >
-        {dishes.map((dish) => (
-          <button
-            key={dish.id}
-            onClick={() => router.push(`/dish/${dish.id}`)}
-            className="text-left rounded-[14px] overflow-hidden transition-shadow hover:shadow-md"
-            style={{
-              border: "0.5px solid #E5E5E5",
-              background: "#ffffff",
-            }}
-          >
-            <div style={{ height: 160, overflow: "hidden" }}>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={getDishImage(dish.name_zh)}
-                alt={dish.name_zh}
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  objectFit: "cover",
-                }}
-              />
-            </div>
-            <div style={{ padding: 16 }}>
-              <p className="text-[18px] font-medium text-[#1A1A1A] leading-tight">
-                {t(dish.name_zh, dish.name_en)}
-              </p>
-              <p className="text-[11px] text-[#999] mt-1">
-                {t(dish.name_en, dish.name_zh)}
-              </p>
-              <p className="text-[11px] text-[#1A1A1A] mt-1.5">
-                ● {dish.restaurant_count} {t("家餐厅", "restaurants")}
-              </p>
-            </div>
-          </button>
-        ))}
-      </div>
+      {dishes.length > 0 ? (
+        <div
+          className="grid grid-cols-2"
+          style={{ gap: 16, padding: `${activeTag === "all" ? 16 : 40}px 24px 0` }}
+        >
+          {dishes.map((dish) => (
+            <button
+              key={dish.id}
+              onClick={() => router.push(`/dish/${dish.id}`)}
+              className="text-left rounded-[14px] overflow-hidden transition-shadow hover:shadow-md"
+              style={{
+                border: "0.5px solid #E5E5E5",
+                background: "#ffffff",
+              }}
+            >
+              <div style={{ height: 160, overflow: "hidden" }}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={getDishImage(dish.name_zh)}
+                  alt={dish.name_zh}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                  }}
+                />
+              </div>
+              <div style={{ padding: 16 }}>
+                <p className="text-[18px] font-medium text-[#1A1A1A] leading-tight">
+                  {t(dish.name_zh, dish.name_en)}
+                </p>
+                <p className="text-[11px] text-[#999] mt-1">
+                  {t(dish.name_en, dish.name_zh)}
+                </p>
+                <p className="text-[11px] text-[#1A1A1A] mt-1.5">
+                  ● {dish.restaurant_count} {t("家餐厅", "restaurants")}
+                </p>
+              </div>
+            </button>
+          ))}
+        </div>
+      ) : (
+        <p style={{ textAlign: "center", color: "#bbb", padding: "40px 0", fontSize: 14 }}>
+          {t("暂无相关菜品", "No dishes found")}
+        </p>
+      )}
 
       {/* ── Footer slogan ── */}
       <div className="text-center" style={{ padding: "36px 24px 32px" }}>
