@@ -27,8 +27,7 @@
       "kings-garden"
     ],
     "tags": [
-      "spicy",
-      "light"
+      "spicy"
     ],
     "dish_type": "dish"
   },
@@ -164,10 +163,8 @@
       "noahs-kitchen",
       "chef-yao"
     ],
-    "tags": [
-      "spicy"
-    ],
-    "dish_type": "dish"
+    "tags": [],
+    "dish_type": "adventurous"
   },
   {
     "id": "mouthwatering-chicken",
@@ -192,11 +189,8 @@
       "y-bento",
       "12-dumplings"
     ],
-    "tags": [
-      "spicy",
-      "meaty"
-    ],
-    "dish_type": "dish"
+    "tags": [],
+    "dish_type": "adventurous"
   },
   {
     "id": "sichuan-red-oil-wontons",
@@ -3815,10 +3809,8 @@
     "available_at": [
       "chef-yao"
     ],
-    "tags": [
-      "spicy"
-    ],
-    "dish_type": "dish"
+    "tags": [],
+    "dish_type": "adventurous"
   },
   {
     "id": "tomato-radish-beef-stew",
@@ -4202,8 +4194,7 @@
       "12-dumplings"
     ],
     "tags": [
-      "spicy",
-      "light"
+      "spicy"
     ],
     "dish_type": "dish"
   },
