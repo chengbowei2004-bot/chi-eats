@@ -27,7 +27,8 @@
       "kings-garden"
     ],
     "tags": [
-      "spicy"
+      "spicy",
+      "light"
     ],
     "dish_type": "dish"
   },
@@ -54,7 +55,6 @@
       "chef-yao"
     ],
     "tags": [
-      "spicy",
       "noodles"
     ],
     "dish_type": "dish"
@@ -84,7 +84,6 @@
       "kings-garden"
     ],
     "tags": [
-      "spicy",
       "meaty"
     ],
     "dish_type": "dish"
@@ -166,8 +165,7 @@
       "chef-yao"
     ],
     "tags": [
-      "spicy",
-      "meaty"
+      "spicy"
     ],
     "dish_type": "dish"
   },
@@ -224,6 +222,7 @@
     ],
     "tags": [
       "spicy",
+      "noodles",
       "meaty"
     ],
     "dish_type": "dish"
@@ -275,9 +274,7 @@
       "y-bento"
     ],
     "tags": [
-      "spicy",
-      "noodles",
-      "light"
+      "noodles"
     ],
     "dish_type": "dish"
   },
@@ -301,7 +298,6 @@
       "chef-yao"
     ],
     "tags": [
-      "spicy",
       "meaty"
     ],
     "dish_type": "dish"
@@ -367,10 +363,7 @@
     "available_at": [
       "shu-da-xia"
     ],
-    "tags": [
-      "spicy",
-      "meaty"
-    ],
+    "tags": [],
     "dish_type": "adventurous"
   },
   {
@@ -390,10 +383,7 @@
     "available_at": [
       "shu-da-xia"
     ],
-    "tags": [
-      "spicy",
-      "meaty"
-    ],
+    "tags": [],
     "dish_type": "adventurous"
   },
   {
@@ -414,8 +404,7 @@
       "shu-da-xia"
     ],
     "tags": [
-      "spicy",
-      "light"
+      "snacks"
     ],
     "dish_type": "dish"
   },
@@ -459,7 +448,6 @@
       "shu-da-xia"
     ],
     "tags": [
-      "spicy",
       "light"
     ],
     "dish_type": "dish"
@@ -510,6 +498,7 @@
       "chengdu-taste"
     ],
     "tags": [
+      "spicy",
       "noodles",
       "light"
     ],
@@ -536,8 +525,7 @@
       "y-bento"
     ],
     "tags": [
-      "noodles",
-      "light"
+      "noodles"
     ],
     "dish_type": "dish"
   },
@@ -709,8 +697,8 @@
       "12-dumplings"
     ],
     "tags": [
-      "meaty",
-      "snacks"
+      "noodles",
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -739,8 +727,8 @@
       "kings-garden"
     ],
     "tags": [
-      "meaty",
-      "snacks"
+      "noodles",
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -762,7 +750,7 @@
       "rong-chic"
     ],
     "tags": [
-      "snacks"
+      "noodles"
     ],
     "dish_type": "dish"
   },
@@ -784,7 +772,8 @@
       "rong-chic"
     ],
     "tags": [
-      "snacks"
+      "noodles",
+      "light"
     ],
     "dish_type": "dish"
   },
@@ -813,6 +802,7 @@
       "12-dumplings"
     ],
     "tags": [
+      "noodles",
       "snacks"
     ],
     "dish_type": "dish"
@@ -836,7 +826,9 @@
       "chongqing-house",
       "golden-garden-malden"
     ],
-    "tags": [],
+    "tags": [
+      "snacks"
+    ],
     "dish_type": "dish"
   },
   {
@@ -859,9 +851,8 @@
       "mala-noodle"
     ],
     "tags": [
-      "meaty",
-      "snacks",
-      "sweets"
+      "noodles",
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -887,7 +878,6 @@
       "chef-yao"
     ],
     "tags": [
-      "spicy",
       "meaty"
     ],
     "dish_type": "dish"
@@ -935,6 +925,7 @@
       "chongqing-house"
     ],
     "tags": [
+      "noodles",
       "snacks"
     ],
     "dish_type": "dish"
@@ -1030,7 +1021,9 @@
       "aries-noodle",
       "ifresh-noodle"
     ],
-    "tags": [],
+    "tags": [
+      "noodles"
+    ],
     "dish_type": "dish"
   },
   {
@@ -1054,9 +1047,7 @@
       "wing-it"
     ],
     "tags": [
-      "spicy",
-      "meaty",
-      "snacks"
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -1079,8 +1070,7 @@
       "wing-it"
     ],
     "tags": [
-      "snacks",
-      "sweets"
+      "snacks"
     ],
     "dish_type": "dish"
   },
@@ -1105,7 +1095,6 @@
       "wu-er-roast"
     ],
     "tags": [
-      "spicy",
       "meaty"
     ],
     "dish_type": "dish"
@@ -1128,6 +1117,7 @@
       "jahunger"
     ],
     "tags": [
+      "noodles",
       "snacks"
     ],
     "dish_type": "dish"
@@ -1150,8 +1140,7 @@
       "rong-chic"
     ],
     "tags": [
-      "spicy",
-      "light"
+      "noodles"
     ],
     "dish_type": "dish"
   },
@@ -1199,7 +1188,7 @@
       "yi-ma-yi-la"
     ],
     "tags": [
-      "light"
+      "snacks"
     ],
     "dish_type": "dish"
   },
@@ -1221,7 +1210,7 @@
       "rong-chic"
     ],
     "tags": [
-      "spicy"
+      "snacks"
     ],
     "dish_type": "dish"
   },
@@ -1268,6 +1257,7 @@
     ],
     "tags": [
       "noodles",
+      "light",
       "meaty"
     ],
     "dish_type": "dish"
@@ -1291,8 +1281,7 @@
       "chef-yao"
     ],
     "tags": [
-      "meaty",
-      "sweets"
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -1314,8 +1303,8 @@
       "chef-yao"
     ],
     "tags": [
-      "meaty",
-      "sweets"
+      "light",
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -1337,8 +1326,8 @@
       "rong-chic"
     ],
     "tags": [
-      "meaty",
-      "snacks"
+      "noodles",
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -1359,9 +1348,7 @@
     "available_at": [
       "rong-chic"
     ],
-    "tags": [
-      "meaty"
-    ],
+    "tags": [],
     "dish_type": "adventurous"
   },
   {
@@ -1388,7 +1375,7 @@
       "chef-yao"
     ],
     "tags": [
-      "spicy"
+      "snacks"
     ],
     "dish_type": "dish"
   },
@@ -1432,7 +1419,6 @@
       "chongqing-house"
     ],
     "tags": [
-      "spicy",
       "meaty"
     ],
     "dish_type": "dish"
@@ -1500,6 +1486,7 @@
       "rong-chic"
     ],
     "tags": [
+      "light",
       "meaty"
     ],
     "dish_type": "dish"
@@ -1545,8 +1532,8 @@
       "rong-chic"
     ],
     "tags": [
-      "meaty",
-      "snacks"
+      "noodles",
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -1569,8 +1556,7 @@
       "y-noodle-bar"
     ],
     "tags": [
-      "noodles",
-      "light"
+      "noodles"
     ],
     "dish_type": "dish"
   },
@@ -1592,7 +1578,7 @@
       "rong-chic"
     ],
     "tags": [
-      "snacks"
+      "noodles"
     ],
     "dish_type": "dish"
   },
@@ -1641,7 +1627,6 @@
       "chengdu-taste"
     ],
     "tags": [
-      "spicy",
       "meaty"
     ],
     "dish_type": "dish"
@@ -1665,8 +1650,7 @@
       "chongqing-house"
     ],
     "tags": [
-      "meaty",
-      "sweets"
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -1688,7 +1672,6 @@
       "chongqing-house"
     ],
     "tags": [
-      "spicy",
       "meaty"
     ],
     "dish_type": "dish"
@@ -1711,7 +1694,6 @@
       "rong-chic"
     ],
     "tags": [
-      "spicy",
       "light"
     ],
     "dish_type": "dish"
@@ -1735,8 +1717,7 @@
       "kings-garden"
     ],
     "tags": [
-      "meaty",
-      "snacks"
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -1758,7 +1739,6 @@
       "moon-flower-house"
     ],
     "tags": [
-      "spicy",
       "meaty",
       "snacks"
     ],
@@ -1781,7 +1761,7 @@
       "chung-shin-yuan"
     ],
     "tags": [
-      "snacks"
+      "noodles"
     ],
     "dish_type": "dish"
   },
@@ -1848,7 +1828,6 @@
       "susu-gourmet"
     ],
     "tags": [
-      "meaty",
       "snacks"
     ],
     "dish_type": "dish"
@@ -1870,7 +1849,7 @@
       "big-fun-cafe"
     ],
     "tags": [
-      "sweets"
+      "snacks"
     ],
     "dish_type": "dish"
   },
@@ -1920,8 +1899,7 @@
     ],
     "tags": [
       "spicy",
-      "meaty",
-      "snacks"
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -1942,8 +1920,7 @@
       "big-fun-cafe"
     ],
     "tags": [
-      "meaty",
-      "snacks"
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -1991,6 +1968,7 @@
     ],
     "tags": [
       "spicy",
+      "noodles",
       "meaty"
     ],
     "dish_type": "dish"
@@ -2105,7 +2083,8 @@
       "chef-yao"
     ],
     "tags": [
-      "spicy"
+      "spicy",
+      "light"
     ],
     "dish_type": "dish"
   },
@@ -2127,6 +2106,8 @@
       "chengdu-taste"
     ],
     "tags": [
+      "noodles",
+      "light",
       "meaty"
     ],
     "dish_type": "dish"
@@ -2172,6 +2153,7 @@
       "chengdu-taste"
     ],
     "tags": [
+      "light",
       "meaty"
     ],
     "dish_type": "dish"
@@ -2241,7 +2223,6 @@
       "12-dumplings"
     ],
     "tags": [
-      "spicy",
       "noodles"
     ],
     "dish_type": "dish"
@@ -2264,7 +2245,6 @@
       "chengdu-taste"
     ],
     "tags": [
-      "spicy",
       "meaty"
     ],
     "dish_type": "dish"
@@ -2287,7 +2267,6 @@
       "chengdu-taste"
     ],
     "tags": [
-      "spicy",
       "meaty"
     ],
     "dish_type": "dish"
@@ -2310,7 +2289,6 @@
       "chengdu-taste"
     ],
     "tags": [
-      "spicy",
       "meaty"
     ],
     "dish_type": "dish"
@@ -2356,7 +2334,7 @@
       "chengdu-taste"
     ],
     "tags": [
-      "spicy",
+      "light",
       "meaty"
     ],
     "dish_type": "dish"
@@ -2379,7 +2357,7 @@
       "chengdu-taste"
     ],
     "tags": [
-      "spicy",
+      "light",
       "meaty"
     ],
     "dish_type": "dish"
@@ -2402,7 +2380,7 @@
       "chengdu-taste"
     ],
     "tags": [
-      "spicy"
+      "snacks"
     ],
     "dish_type": "dish"
   },
@@ -2424,7 +2402,6 @@
       "chengdu-taste"
     ],
     "tags": [
-      "spicy",
       "meaty"
     ],
     "dish_type": "dish"
@@ -2447,8 +2424,7 @@
       "chengdu-taste"
     ],
     "tags": [
-      "meaty",
-      "sweets"
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -2469,10 +2445,7 @@
     "available_at": [
       "chengdu-taste"
     ],
-    "tags": [
-      "spicy",
-      "meaty"
-    ],
+    "tags": [],
     "dish_type": "adventurous"
   },
   {
@@ -2493,7 +2466,6 @@
       "chengdu-taste"
     ],
     "tags": [
-      "spicy",
       "meaty"
     ],
     "dish_type": "dish"
@@ -2539,6 +2511,7 @@
       "chengdu-taste"
     ],
     "tags": [
+      "spicy",
       "meaty"
     ],
     "dish_type": "dish"
@@ -2633,8 +2606,7 @@
       "chengdu-taste"
     ],
     "tags": [
-      "snacks",
-      "sweets"
+      "noodles"
     ],
     "dish_type": "dish"
   },
@@ -2656,9 +2628,7 @@
       "chengdu-taste"
     ],
     "tags": [
-      "light",
-      "snacks",
-      "sweets"
+      "light"
     ],
     "dish_type": "dish"
   },
@@ -2680,8 +2650,8 @@
       "chengdu-taste"
     ],
     "tags": [
-      "snacks",
-      "sweets"
+      "spicy",
+      "light"
     ],
     "dish_type": "dish"
   },
@@ -2726,7 +2696,7 @@
       "chengdu-taste"
     ],
     "tags": [
-      "spicy",
+      "light",
       "meaty"
     ],
     "dish_type": "dish"
@@ -2749,7 +2719,6 @@
       "chengdu-taste"
     ],
     "tags": [
-      "spicy",
       "meaty"
     ],
     "dish_type": "dish"
@@ -2772,7 +2741,6 @@
       "chengdu-taste"
     ],
     "tags": [
-      "spicy",
       "noodles",
       "light"
     ],
@@ -2796,8 +2764,7 @@
       "chengdu-taste"
     ],
     "tags": [
-      "spicy",
-      "light"
+      "snacks"
     ],
     "dish_type": "dish"
   },
@@ -2822,8 +2789,7 @@
       "chef-yao"
     ],
     "tags": [
-      "meaty",
-      "sweets"
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -2870,7 +2836,6 @@
       "chengdu-taste"
     ],
     "tags": [
-      "spicy",
       "meaty"
     ],
     "dish_type": "dish"
@@ -2893,9 +2858,7 @@
       "chengdu-taste"
     ],
     "tags": [
-      "spicy",
-      "meaty",
-      "sweets"
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -2916,10 +2879,7 @@
     "available_at": [
       "chengdu-taste"
     ],
-    "tags": [
-      "spicy",
-      "meaty"
-    ],
+    "tags": [],
     "dish_type": "adventurous"
   },
   {
@@ -2986,8 +2946,7 @@
       "chengdu-taste"
     ],
     "tags": [
-      "meaty",
-      "sweets"
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -3009,7 +2968,6 @@
       "chengdu-taste"
     ],
     "tags": [
-      "spicy",
       "meaty"
     ],
     "dish_type": "dish"
@@ -3032,6 +2990,7 @@
       "mala-noodle"
     ],
     "tags": [
+      "noodles",
       "snacks"
     ],
     "dish_type": "dish"
@@ -3054,8 +3013,9 @@
       "mala-noodle"
     ],
     "tags": [
-      "meaty",
-      "snacks"
+      "noodles",
+      "light",
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -3077,8 +3037,7 @@
       "mala-noodle"
     ],
     "tags": [
-      "meaty",
-      "snacks"
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -3100,7 +3059,6 @@
       "mala-noodle"
     ],
     "tags": [
-      "spicy",
       "snacks"
     ],
     "dish_type": "dish"
@@ -3168,9 +3126,7 @@
       "mala-noodle"
     ],
     "tags": [
-      "light",
-      "snacks",
-      "sweets"
+      "snacks"
     ],
     "dish_type": "dish"
   },
@@ -3192,9 +3148,7 @@
       "mala-noodle"
     ],
     "tags": [
-      "light",
-      "snacks",
-      "sweets"
+      "snacks"
     ],
     "dish_type": "dish"
   },
@@ -3215,7 +3169,7 @@
       "jahunger"
     ],
     "tags": [
-      "snacks"
+      "noodles"
     ],
     "dish_type": "dish"
   },
@@ -3236,8 +3190,8 @@
       "jahunger"
     ],
     "tags": [
-      "meaty",
-      "snacks"
+      "noodles",
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -3342,7 +3296,7 @@
       "jahunger"
     ],
     "tags": [
-      "spicy",
+      "light",
       "meaty"
     ],
     "dish_type": "dish"
@@ -3364,6 +3318,7 @@
       "jahunger"
     ],
     "tags": [
+      "light",
       "meaty"
     ],
     "dish_type": "dish"
@@ -3386,7 +3341,6 @@
       "jahunger"
     ],
     "tags": [
-      "spicy",
       "meaty"
     ],
     "dish_type": "dish"
@@ -3409,8 +3363,7 @@
       "jahunger"
     ],
     "tags": [
-      "spicy",
-      "light"
+      "snacks"
     ],
     "dish_type": "dish"
   },
@@ -3430,10 +3383,7 @@
     "available_at": [
       "jahunger"
     ],
-    "tags": [
-      "spicy",
-      "meaty"
-    ],
+    "tags": [],
     "dish_type": "adventurous"
   },
   {
@@ -3454,9 +3404,7 @@
       "jahunger"
     ],
     "tags": [
-      "spicy",
-      "meaty",
-      "snacks"
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -3478,8 +3426,7 @@
       "jahunger"
     ],
     "tags": [
-      "snacks",
-      "sweets"
+      "snacks"
     ],
     "dish_type": "dish"
   },
@@ -3501,8 +3448,7 @@
       "jahunger"
     ],
     "tags": [
-      "light",
-      "sweets"
+      "snacks"
     ],
     "dish_type": "dish"
   },
@@ -3522,8 +3468,7 @@
       "jahunger"
     ],
     "tags": [
-      "sweets",
-      "meaty"
+      "snacks"
     ],
     "dish_type": "dish"
   },
@@ -3544,8 +3489,8 @@
       "chef-yao"
     ],
     "tags": [
-      "noodles",
-      "light"
+      "spicy",
+      "noodles"
     ],
     "dish_type": "dish"
   },
@@ -3567,8 +3512,7 @@
     ],
     "tags": [
       "spicy",
-      "noodles",
-      "light"
+      "noodles"
     ],
     "dish_type": "dish"
   },
@@ -3612,7 +3556,8 @@
       "chef-yao"
     ],
     "tags": [
-      "spicy"
+      "spicy",
+      "light"
     ],
     "dish_type": "dish"
   },
@@ -3633,6 +3578,7 @@
       "chef-yao"
     ],
     "tags": [
+      "noodles",
       "snacks"
     ],
     "dish_type": "dish"
@@ -3654,6 +3600,7 @@
       "chef-yao"
     ],
     "tags": [
+      "noodles",
       "snacks"
     ],
     "dish_type": "dish"
@@ -3676,7 +3623,6 @@
       "chef-yao"
     ],
     "tags": [
-      "spicy",
       "meaty"
     ],
     "dish_type": "dish"
@@ -3699,7 +3645,6 @@
       "chef-yao"
     ],
     "tags": [
-      "spicy",
       "meaty"
     ],
     "dish_type": "dish"
@@ -3721,7 +3666,6 @@
       "chef-yao"
     ],
     "tags": [
-      "spicy",
       "meaty"
     ],
     "dish_type": "dish"
@@ -3764,7 +3708,6 @@
       "chef-yao"
     ],
     "tags": [
-      "spicy",
       "meaty"
     ],
     "dish_type": "dish"
@@ -3786,7 +3729,6 @@
       "chef-yao"
     ],
     "tags": [
-      "spicy",
       "meaty"
     ],
     "dish_type": "dish"
@@ -3809,6 +3751,7 @@
     ],
     "tags": [
       "spicy",
+      "light",
       "meaty"
     ],
     "dish_type": "dish"
@@ -3831,7 +3774,6 @@
       "chef-yao"
     ],
     "tags": [
-      "spicy",
       "light"
     ],
     "dish_type": "dish"
@@ -3853,10 +3795,7 @@
     "available_at": [
       "chef-yao"
     ],
-    "tags": [
-      "spicy",
-      "meaty"
-    ],
+    "tags": [],
     "dish_type": "adventurous"
   },
   {
@@ -3877,8 +3816,7 @@
       "chef-yao"
     ],
     "tags": [
-      "spicy",
-      "meaty"
+      "spicy"
     ],
     "dish_type": "dish"
   },
@@ -3920,8 +3858,8 @@
       "y-bento"
     ],
     "tags": [
-      "meaty",
-      "snacks"
+      "noodles",
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -3943,7 +3881,6 @@
       "y-bento"
     ],
     "tags": [
-      "spicy",
       "meaty"
     ],
     "dish_type": "dish"
@@ -3965,7 +3902,7 @@
       "y-bento"
     ],
     "tags": [
-      "snacks"
+      "light"
     ],
     "dish_type": "dish"
   },
@@ -4030,7 +3967,7 @@
       "kings-garden"
     ],
     "tags": [
-      "sweets"
+      "spicy"
     ],
     "dish_type": "dish"
   },
@@ -4051,7 +3988,8 @@
       "12-dumplings"
     ],
     "tags": [
-      "snacks"
+      "noodles",
+      "light"
     ],
     "dish_type": "dish"
   },
@@ -4072,7 +4010,8 @@
       "12-dumplings"
     ],
     "tags": [
-      "snacks"
+      "noodles",
+      "light"
     ],
     "dish_type": "dish"
   },
@@ -4093,8 +4032,8 @@
       "12-dumplings"
     ],
     "tags": [
-      "meaty",
-      "snacks"
+      "noodles",
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -4115,8 +4054,8 @@
       "12-dumplings"
     ],
     "tags": [
-      "meaty",
-      "snacks"
+      "noodles",
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -4137,8 +4076,8 @@
       "12-dumplings"
     ],
     "tags": [
-      "meaty",
-      "snacks"
+      "noodles",
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -4159,7 +4098,7 @@
       "12-dumplings"
     ],
     "tags": [
-      "snacks"
+      "noodles"
     ],
     "dish_type": "dish"
   },
@@ -4180,8 +4119,7 @@
       "12-dumplings"
     ],
     "tags": [
-      "snacks",
-      "sweets"
+      "noodles"
     ],
     "dish_type": "dish"
   },
@@ -4202,9 +4140,7 @@
       "12-dumplings",
       "kings-garden"
     ],
-    "tags": [
-      "meaty"
-    ],
+    "tags": [],
     "dish_type": "adventurous"
   },
   {
@@ -4224,8 +4160,7 @@
       "12-dumplings"
     ],
     "tags": [
-      "meaty",
-      "snacks"
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -4246,8 +4181,7 @@
       "12-dumplings"
     ],
     "tags": [
-      "meaty",
-      "snacks"
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -4269,7 +4203,7 @@
     ],
     "tags": [
       "spicy",
-      "snacks"
+      "light"
     ],
     "dish_type": "dish"
   },
@@ -4291,8 +4225,7 @@
     ],
     "tags": [
       "spicy",
-      "meaty",
-      "snacks"
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -4571,8 +4504,7 @@
       "kings-garden"
     ],
     "tags": [
-      "snacks",
-      "sweets"
+      "noodles"
     ],
     "dish_type": "dish"
   },
@@ -4592,7 +4524,7 @@
       "kings-garden"
     ],
     "tags": [
-      "snacks"
+      "noodles"
     ],
     "dish_type": "dish"
   },
@@ -4613,7 +4545,7 @@
       "kings-garden"
     ],
     "tags": [
-      "snacks"
+      "noodles"
     ],
     "dish_type": "dish"
   },
@@ -4654,7 +4586,9 @@
     "available_at": [
       "kings-garden"
     ],
-    "tags": [],
+    "tags": [
+      "snacks"
+    ],
     "dish_type": "dish"
   },
   {
@@ -4673,7 +4607,9 @@
     "available_at": [
       "kings-garden"
     ],
-    "tags": [],
+    "tags": [
+      "snacks"
+    ],
     "dish_type": "dish"
   },
   {
@@ -4693,8 +4629,7 @@
       "kings-garden"
     ],
     "tags": [
-      "meaty",
-      "snacks"
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -4715,6 +4650,7 @@
       "kings-garden"
     ],
     "tags": [
+      "light",
       "meaty"
     ],
     "dish_type": "dish"
@@ -4779,8 +4715,7 @@
       "kings-garden"
     ],
     "tags": [
-      "meaty",
-      "sweets"
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -4822,8 +4757,9 @@
       "kings-garden"
     ],
     "tags": [
-      "meaty",
-      "snacks"
+      "noodles",
+      "light",
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -4866,7 +4802,6 @@
       "kings-garden"
     ],
     "tags": [
-      "spicy",
       "meaty"
     ],
     "dish_type": "dish"
@@ -4972,7 +4907,6 @@
       "kings-garden"
     ],
     "tags": [
-      "sweets",
       "meaty"
     ],
     "dish_type": "dish"
@@ -5036,7 +4970,9 @@
     "available_at": [
       "kings-garden"
     ],
-    "tags": [],
+    "tags": [
+      "snacks"
+    ],
     "dish_type": "dish"
   },
   {
@@ -5056,7 +4992,6 @@
       "kings-garden"
     ],
     "tags": [
-      "spicy",
       "meaty"
     ],
     "dish_type": "dish"
@@ -5078,7 +5013,7 @@
       "kings-garden"
     ],
     "tags": [
-      "light"
+      "snacks"
     ],
     "dish_type": "dish"
   },
@@ -5099,7 +5034,7 @@
       "kings-garden"
     ],
     "tags": [
-      "spicy"
+      "snacks"
     ],
     "dish_type": "dish"
   },
@@ -5203,7 +5138,9 @@
     "available_at": [
       "kings-garden"
     ],
-    "tags": [],
+    "tags": [
+      "snacks"
+    ],
     "dish_type": "dish"
   },
   {
@@ -5264,10 +5201,7 @@
     "available_at": [
       "kings-garden"
     ],
-    "tags": [
-      "noodles",
-      "meaty"
-    ],
+    "tags": [],
     "dish_type": "adventurous"
   },
   {
@@ -5307,9 +5241,7 @@
     "available_at": [
       "lamei-hotpot"
     ],
-    "tags": [
-      "sweets"
-    ],
+    "tags": [],
     "dish_type": "ingredient"
   },
   {
@@ -5349,10 +5281,7 @@
     "available_at": [
       "lamei-hotpot"
     ],
-    "tags": [
-      "spicy",
-      "light"
-    ],
+    "tags": [],
     "dish_type": "ingredient"
   },
   {
@@ -5372,10 +5301,7 @@
     "available_at": [
       "lamei-hotpot"
     ],
-    "tags": [
-      "spicy",
-      "meaty"
-    ],
+    "tags": [],
     "dish_type": "ingredient"
   },
   {
@@ -5416,10 +5342,8 @@
       "lamei-hotpot"
     ],
     "tags": [
-      "spicy",
       "noodles",
-      "light",
-      "sweets"
+      "light"
     ],
     "dish_type": "dish"
   },
@@ -5441,8 +5365,7 @@
       "lamei-hotpot"
     ],
     "tags": [
-      "spicy",
-      "sweets"
+      "snacks"
     ],
     "dish_type": "dish"
   },
@@ -5464,7 +5387,6 @@
       "lamei-hotpot"
     ],
     "tags": [
-      "light",
       "snacks"
     ],
     "dish_type": "dish"
@@ -5510,8 +5432,8 @@
       "lamei-hotpot"
     ],
     "tags": [
-      "meaty",
-      "snacks"
+      "noodles",
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -5533,7 +5455,7 @@
       "lamei-hotpot"
     ],
     "tags": [
-      "snacks"
+      "light"
     ],
     "dish_type": "dish"
   },
@@ -5554,9 +5476,7 @@
     "available_at": [
       "lamei-hotpot"
     ],
-    "tags": [
-      "meaty"
-    ],
+    "tags": [],
     "dish_type": "ingredient"
   },
   {
@@ -5576,9 +5496,7 @@
     "available_at": [
       "lamei-hotpot"
     ],
-    "tags": [
-      "meaty"
-    ],
+    "tags": [],
     "dish_type": "ingredient"
   },
   {
@@ -5598,10 +5516,7 @@
     "available_at": [
       "lamei-hotpot"
     ],
-    "tags": [
-      "spicy",
-      "meaty"
-    ],
+    "tags": [],
     "dish_type": "ingredient"
   },
   {
@@ -5621,9 +5536,7 @@
     "available_at": [
       "lamei-hotpot"
     ],
-    "tags": [
-      "meaty"
-    ],
+    "tags": [],
     "dish_type": "ingredient"
   },
   {
@@ -5643,9 +5556,7 @@
     "available_at": [
       "lamei-hotpot"
     ],
-    "tags": [
-      "meaty"
-    ],
+    "tags": [],
     "dish_type": "ingredient"
   },
   {
@@ -5666,7 +5577,6 @@
       "lamei-hotpot"
     ],
     "tags": [
-      "spicy",
       "meaty"
     ],
     "dish_type": "dish"
@@ -5688,10 +5598,7 @@
     "available_at": [
       "lamei-hotpot"
     ],
-    "tags": [
-      "spicy",
-      "meaty"
-    ],
+    "tags": [],
     "dish_type": "ingredient"
   },
   {
@@ -5711,9 +5618,7 @@
     "available_at": [
       "lamei-hotpot"
     ],
-    "tags": [
-      "meaty"
-    ],
+    "tags": [],
     "dish_type": "ingredient"
   },
   {
@@ -5733,9 +5638,7 @@
     "available_at": [
       "lamei-hotpot"
     ],
-    "tags": [
-      "meaty"
-    ],
+    "tags": [],
     "dish_type": "ingredient"
   },
   {
@@ -5755,9 +5658,7 @@
     "available_at": [
       "lamei-hotpot"
     ],
-    "tags": [
-      "meaty"
-    ],
+    "tags": [],
     "dish_type": "adventurous"
   },
   {
@@ -5777,9 +5678,7 @@
     "available_at": [
       "lamei-hotpot"
     ],
-    "tags": [
-      "meaty"
-    ],
+    "tags": [],
     "dish_type": "ingredient"
   },
   {
@@ -5799,10 +5698,7 @@
     "available_at": [
       "lamei-hotpot"
     ],
-    "tags": [
-      "spicy",
-      "meaty"
-    ],
+    "tags": [],
     "dish_type": "ingredient"
   },
   {
@@ -5842,10 +5738,7 @@
     "available_at": [
       "lamei-hotpot"
     ],
-    "tags": [
-      "spicy",
-      "meaty"
-    ],
+    "tags": [],
     "dish_type": "ingredient"
   },
   {
@@ -5865,9 +5758,7 @@
     "available_at": [
       "lamei-hotpot"
     ],
-    "tags": [
-      "meaty"
-    ],
+    "tags": [],
     "dish_type": "ingredient"
   },
   {
@@ -5887,9 +5778,7 @@
     "available_at": [
       "lamei-hotpot"
     ],
-    "tags": [
-      "meaty"
-    ],
+    "tags": [],
     "dish_type": "ingredient"
   },
   {
@@ -5909,9 +5798,7 @@
     "available_at": [
       "lamei-hotpot"
     ],
-    "tags": [
-      "meaty"
-    ],
+    "tags": [],
     "dish_type": "ingredient"
   },
   {
@@ -5931,9 +5818,7 @@
     "available_at": [
       "lamei-hotpot"
     ],
-    "tags": [
-      "meaty"
-    ],
+    "tags": [],
     "dish_type": "ingredient"
   },
   {
@@ -5954,6 +5839,7 @@
       "lamei-hotpot"
     ],
     "tags": [
+      "spicy",
       "noodles"
     ],
     "dish_type": "dish"
@@ -5975,9 +5861,7 @@
     "available_at": [
       "lamei-hotpot"
     ],
-    "tags": [
-      "noodles"
-    ],
+    "tags": [],
     "dish_type": "ingredient"
   },
   {
@@ -5997,9 +5881,7 @@
     "available_at": [
       "lamei-hotpot"
     ],
-    "tags": [
-      "snacks"
-    ],
+    "tags": [],
     "dish_type": "ingredient"
   },
   {
@@ -6020,8 +5902,8 @@
       "lobanton"
     ],
     "tags": [
-      "meaty",
-      "snacks"
+      "noodles",
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -6043,8 +5925,8 @@
       "lobanton"
     ],
     "tags": [
-      "meaty",
-      "snacks"
+      "noodles",
+      "meaty"
     ],
     "dish_type": "dish"
   },
@@ -6112,8 +5994,7 @@
       "lobanton"
     ],
     "tags": [
-      "snacks",
-      "sweets"
+      "snacks"
     ],
     "dish_type": "dish"
   },
@@ -6135,8 +6016,7 @@
       "lobanton"
     ],
     "tags": [
-      "meaty",
-      "snacks"
+      "meaty"
     ],
     "dish_type": "dish"
   },
