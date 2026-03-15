@@ -2,8 +2,6 @@
 
 import { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
-import { ArrowLeft } from "lucide-react";
-import { BottomNav } from "@/components/BottomNav";
 import { RestaurantCard } from "@/components/RestaurantCard";
 import { SortToggle } from "@/components/SortToggle";
 import { SkeletonRestaurantCard } from "@/components/SkeletonCard";
@@ -11,6 +9,7 @@ import { SignInModal } from "@/components/SignInModal";
 import { useLanguage } from "@/lib/useLanguage";
 import { useAuth } from "@/lib/useAuth";
 import { useCity } from "@/lib/useCity";
+import { getDishImage } from "@/lib/dishImages";
 
 type Sort = "nearest" | "best_reviewed";
 
@@ -41,17 +40,6 @@ type AlternativeDish = {
   name_en: string;
 };
 
-function DishHeaderImage({ src, alt, cuisineTag }: { src: string; alt: string; cuisineTag?: string }) {
-  const [errored, setErrored] = useState(false);
-  if (errored) {
-    return <div className="w-full aspect-video bg-gray-100 flex items-center justify-center">
-      <span className="text-gray-400 text-sm">{cuisineTag}</span>
-    </div>;
-  }
-  // eslint-disable-next-line @next/next/no-img-element
-  return <img src={src} alt={alt} onError={() => setErrored(true)} className="w-full aspect-video object-cover" />;
-}
-
 export default function RestaurantResultsPage() {
   const { dishId } = useParams<{ dishId: string }>();
   const router = useRouter();
@@ -67,7 +55,6 @@ export default function RestaurantResultsPage() {
   const [userLat, setUserLat] = useState<number | null>(null);
   const [userLng, setUserLng] = useState<number | null>(null);
   const [showSignIn, setShowSignIn] = useState(false);
-  const [favoritedIds, setFavoritedIds] = useState<Set<string>>(new Set());
 
   // Get GPS once on mount
   useEffect(() => {
@@ -79,17 +66,6 @@ export default function RestaurantResultsPage() {
       () => {}
     );
   }, []);
-
-  // Fetch favorited restaurant IDs
-  useEffect(() => {
-    if (!user) return;
-    fetch("/api/favorites")
-      .then((r) => r.json())
-      .then((data) => {
-        setFavoritedIds(new Set(data.restaurantIds ?? []));
-      })
-      .catch(() => {});
-  }, [user]);
 
   // Fetch restaurants whenever dish, sort, or coords change
   useEffect(() => {
@@ -117,20 +93,60 @@ export default function RestaurantResultsPage() {
       .finally(() => setLoading(false));
   }, [dishId, sort, city, userLat, userLng]);
 
+  // Resolve dish image: getDishImage (curated) first, then image_url from API, then fallback
+  const dishImage = dish
+    ? getDishImage(dish.name_zh) !== "/dishes/default.jpg"
+      ? getDishImage(dish.name_zh)
+      : dish.image_url || "/dishes/default.jpg"
+    : "/dishes/default.jpg";
+
+  const [imgErrored, setImgErrored] = useState(false);
+
   return (
     <>
-      <main className="pb-28">
+      <main className="pb-12">
         {/* Dish header image */}
         <div className="relative">
-          {dish && (
-            <DishHeaderImage src={dish.image_url} alt={dish.name_en} />
-          )}
+          <div style={{ width: "100%", height: 280, overflow: "hidden", background: "#f5f5f5" }}>
+            {!imgErrored ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src={dishImage}
+                alt={dish?.name_zh ?? ""}
+                onError={() => setImgErrored(true)}
+                style={{ width: "100%", height: "100%", objectFit: "cover" }}
+              />
+            ) : (
+              <div className="w-full h-full flex items-center justify-center">
+                <span className="text-gray-400 text-2xl font-light">
+                  {dish ? t(dish.name_zh, dish.name_en) : ""}
+                </span>
+              </div>
+            )}
+          </div>
+
           <button
             onClick={() => router.back()}
-            className="absolute top-4 left-4 w-9 h-9 bg-white/90 backdrop-blur-sm flex items-center justify-center rounded-full shadow-sm"
             aria-label="Go back"
+            style={{
+              position: "absolute",
+              top: 16,
+              left: 16,
+              width: 36,
+              height: 36,
+              borderRadius: "50%",
+              background: "rgba(255,255,255,0.9)",
+              border: "none",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              cursor: "pointer",
+              zIndex: 10,
+            }}
           >
-            <ArrowLeft size={18} strokeWidth={1.5} className="text-gray-900" />
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#000" strokeWidth="2">
+              <path d="M19 12H5M12 19l-7-7 7-7" />
+            </svg>
           </button>
         </div>
 
@@ -164,8 +180,6 @@ export default function RestaurantResultsPage() {
                 <RestaurantCard
                   key={r.id}
                   restaurant={r}
-                  favorited={favoritedIds.has(r.id)}
-                  onSignInRequired={() => setShowSignIn(true)}
                 />
               ))}
             </div>
@@ -206,7 +220,6 @@ export default function RestaurantResultsPage() {
         </div>
       </main>
 
-      <BottomNav />
       {showSignIn && <SignInModal onClose={() => setShowSignIn(false)} />}
     </>
   );

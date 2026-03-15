@@ -4,7 +4,6 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { MapPin, X } from "lucide-react";
 import { useLanguage } from "@/lib/useLanguage";
-import { FavoriteButton } from "./FavoriteButton";
 
 type Restaurant = {
   id: string;
@@ -26,7 +25,7 @@ type Props = {
   onSignInRequired?: () => void;
 };
 
-export function RestaurantCard({ restaurant, favorited = false, onSignInRequired }: Props) {
+export function RestaurantCard({ restaurant }: Props) {
   const { t } = useLanguage();
   const router = useRouter();
   const [showSheet, setShowSheet] = useState(false);
@@ -35,8 +34,6 @@ export function RestaurantCard({ restaurant, favorited = false, onSignInRequired
     name,
     name_zh,
     distance_miles,
-    review_summary,
-    review_score,
     navigate_url_google,
     navigate_url_apple,
     top_pick,
@@ -46,59 +43,89 @@ export function RestaurantCard({ restaurant, favorited = false, onSignInRequired
   return (
     <>
       <div
-        className={`bg-white rounded-xl border overflow-hidden ${
-          top_pick ? "border-gray-900" : "border-gray-200"
-        }`}
+        style={{
+          border: top_pick ? "1px solid #1A1A1A" : "1px solid #e0e0e0",
+          borderRadius: 14,
+          padding: 20,
+          background: "#fff",
+        }}
       >
-        <div className="p-5">
-          {top_pick && (
-            <p className="text-gray-400 text-xs tracking-widest uppercase mb-2">
-              {t("推荐", "TOP PICK")}
-            </p>
-          )}
-
-          <div className="flex items-start justify-between gap-2">
-            <div className="min-w-0">
-              <h3 className="text-gray-900 text-lg font-light tracking-tight leading-tight">{name}</h3>
-              {name_zh && <p className="text-gray-400 text-sm mt-0.5">{name_zh}</p>}
-            </div>
-            <div className="flex items-start gap-1 shrink-0">
-              <div className="text-right">
-                <p className="text-gray-900 text-sm">{review_score.toFixed(1)}</p>
-                <p className="text-gray-400 text-xs">{t("评分", "score")}</p>
-              </div>
-              {onSignInRequired && (
-                <FavoriteButton
-                  restaurantId={id}
-                  initialFavorited={favorited}
-                  onSignInRequired={onSignInRequired}
-                />
-              )}
-            </div>
+        {/* Top row: TOP PICK + DeeDao Certified */}
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12 }}>
+          <span style={{ fontSize: 10, color: "#999", letterSpacing: "1.5px", textTransform: "uppercase" as const }}>
+            {top_pick ? t("推荐", "TOP PICK") : ""}
+          </span>
+          {/* DeeDao Certified badge */}
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: 4,
+              padding: "4px 10px",
+              borderRadius: 20,
+              background: "#000",
+            }}
+          >
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.5">
+              <path d="M20 6L9 17l-5-5" />
+            </svg>
+            <span style={{ fontSize: 10, color: "#fff", fontWeight: 500, letterSpacing: "0.5px" }}>
+              {t("DeeDao 认证", "DeeDao Certified")}
+            </span>
           </div>
-
-          <div className="flex items-center gap-1 mt-2">
-            <MapPin size={12} strokeWidth={1.5} className="text-gray-400 shrink-0" />
-            <p className="text-gray-400 text-xs">
-              {distance_miles} {t("英里", "mi")}
-            </p>
-          </div>
-
-          <p className="text-gray-500 text-sm mt-3 leading-relaxed line-clamp-2 italic">
-            &ldquo;{review_summary}&rdquo;
-          </p>
         </div>
 
-        <div className="px-5 pb-5 flex gap-3">
+        {/* Restaurant name */}
+        <h3 style={{ fontSize: 18, fontWeight: 500, margin: "0 0 2px", color: "#000" }}>
+          {t(name_zh || name, name)}
+        </h3>
+        <p style={{ fontSize: 12, color: "#999", margin: "0 0 8px" }}>
+          {t(name, name_zh || "")}
+        </p>
+
+        {/* Distance */}
+        <div className="flex items-center gap-1" style={{ marginBottom: 16 }}>
+          <MapPin size={12} strokeWidth={1.5} className="text-gray-400 shrink-0" />
+          <span style={{ fontSize: 12, color: "#999" }}>
+            {distance_miles} {t("英里", "mi")}
+          </span>
+        </div>
+
+        {/* Buttons */}
+        <div style={{ display: "flex", gap: 10 }}>
           <button
             onClick={() => router.push(`/restaurant/${id}/menu`)}
-            className="flex-1 flex items-center justify-center py-2 rounded-full border border-[#1A1A1A] text-[#1A1A1A] text-sm tracking-wider uppercase hover:bg-[#1A1A1A] hover:text-white transition-colors"
+            style={{
+              flex: 1,
+              padding: "12px 0",
+              borderRadius: 10,
+              border: "1px solid #000",
+              background: "none",
+              color: "#000",
+              fontSize: 12,
+              fontWeight: 500,
+              letterSpacing: "1px",
+              cursor: "pointer",
+              textTransform: "uppercase" as const,
+            }}
           >
             {t("看菜单", "MENU")}
           </button>
           <button
             onClick={() => setShowSheet(true)}
-            className="flex-1 flex items-center justify-center py-2 bg-gray-900 text-white text-sm tracking-wider uppercase rounded-full hover:bg-gray-800 transition-colors"
+            style={{
+              flex: 1,
+              padding: "12px 0",
+              borderRadius: 10,
+              background: "#000",
+              color: "#fff",
+              border: "none",
+              fontSize: 12,
+              fontWeight: 500,
+              letterSpacing: "1px",
+              cursor: "pointer",
+              textTransform: "uppercase" as const,
+            }}
           >
             {t("导航", "NAVIGATE")}
           </button>
