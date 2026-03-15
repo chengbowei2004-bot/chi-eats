@@ -3,6 +3,7 @@
 import { useEffect, useState, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { useTypewriter } from "@/lib/useTypewriter";
+import { useLanguage } from "@/lib/useLanguage";
 
 const DISHES_ZH = [
   "红烧牛肉面", "麻辣火锅", "小笼包", "酸菜鱼", "炸酱面", "烤串",
@@ -19,9 +20,11 @@ type Lang = "zh" | "en";
 
 export default function SplashPage() {
   const router = useRouter();
+  const { setLang } = useLanguage();
   const [step, setStep] = useState<Step>("language");
   const [visible, setVisible] = useState(true);
   const [chosenLang, setChosenLang] = useState<Lang>("zh");
+  const [mounted, setMounted] = useState(false);
 
   // Screen 2 stagger
   const [s2Logo, setS2Logo] = useState(false);
@@ -46,12 +49,15 @@ export default function SplashPage() {
     return () => clearTimeout(timer);
   }, [s2Search]);
 
-  // Skip if language already chosen
+  // Skip if language already chosen; wait until mounted to avoid flash
   useEffect(() => {
     const lang = localStorage.getItem("deedao_lang");
     if (lang) {
       router.replace("/");
+      return;
     }
+    // Only show the splash animation after mount (prevents SSR flash)
+    setMounted(true);
   }, [router]);
 
   function goToStep(next: Step) {
@@ -73,7 +79,8 @@ export default function SplashPage() {
   }
 
   function handleLangSelect(lang: Lang) {
-    localStorage.setItem("deedao_lang", lang);
+    // Update context (which also writes to localStorage)
+    setLang(lang);
     localStorage.setItem("deedao_lang_chosen", "1");
     setChosenLang(lang);
     goToStep("typewriter");
@@ -85,6 +92,11 @@ export default function SplashPage() {
     setTimeout(() => setS2Title(true), 100);
     setTimeout(() => setS2Search(true), 200);
   }, [step, visible]);
+
+  // Don't render anything until mounted (prevents flash/premature animation)
+  if (!mounted) {
+    return <main className="min-h-screen bg-white" />;
+  }
 
   return (
     <main className="min-h-screen bg-white relative overflow-hidden">

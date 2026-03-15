@@ -43,6 +43,8 @@ export default function HomePage() {
   const [dishes, setDishes] = useState<BrowseDish[]>([]);
   const [showCityPicker, setShowCityPicker] = useState(false);
 
+  const [pageReady, setPageReady] = useState(false);
+
   // Redirect to splash if no language set (first-time user)
   useEffect(() => {
     const lang = localStorage.getItem("deedao_lang");
@@ -53,17 +55,21 @@ export default function HomePage() {
     const onboarded = localStorage.getItem("deedao_onboarded");
     if (!onboarded) {
       router.replace("/onboarding");
+      return;
     }
+    // Only show page after redirect checks pass
+    setPageReady(true);
   }, [router]);
 
-  // Fade in after paint
+  // Fade in after paint (only when page is ready)
   useEffect(() => {
+    if (!pageReady) return;
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
         mainRef.current?.classList.replace("page-enter", "page-ready");
       });
     });
-  }, []);
+  }, [pageReady]);
 
   // Fetch browse dishes
   useEffect(() => {
@@ -93,6 +99,10 @@ export default function HomePage() {
   function handleCitySelect(c: City) {
     setCity(c);
     setShowCityPicker(false);
+  }
+
+  if (!pageReady) {
+    return <main className="min-h-screen bg-white" />;
   }
 
   return (

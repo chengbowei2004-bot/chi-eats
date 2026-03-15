@@ -180,7 +180,7 @@ function SearchResults() {
             {alternatives.length > 0 && (
               <div className="flex flex-wrap justify-center gap-2 mt-4">
                 {alternatives.map((dish) => (
-                  <DishChip key={dish.id} name={dish.name_zh} />
+                  <DishChip key={dish.id} name={t(dish.name_zh, dish.name_en)} />
                 ))}
               </div>
             )}

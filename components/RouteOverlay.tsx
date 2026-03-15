@@ -17,13 +17,14 @@ export function RouteOverlay() {
     if (prevPath.current !== pathname) {
       // Route changed — instantly show white overlay
       setVisible(true);
-      // After new page paints, fade out the overlay
-      requestAnimationFrame(() => {
+      prevPath.current = pathname;
+      // Give the new page time to paint before fading out
+      const timer = setTimeout(() => {
         requestAnimationFrame(() => {
           setVisible(false);
         });
-      });
-      prevPath.current = pathname;
+      }, 50);
+      return () => clearTimeout(timer);
     }
   }, [pathname]);
 
