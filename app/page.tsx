@@ -83,17 +83,11 @@ export default function HomePage() {
 
   return (
     <main className="min-h-screen bg-white">
-      {/* ── Top nav (2-column) ── */}
+      {/* ── Top nav ── */}
       <nav
-        className="flex items-center justify-between"
+        className="flex items-center justify-end"
         style={{ padding: "20px 24px" }}
       >
-        <span
-          className="text-[18px] font-medium text-[#1A1A1A]"
-          style={{ letterSpacing: "-0.5px" }}
-        >
-          {t("DeeDao 地道", "DeeDao")}
-        </span>
         <button
           onClick={() => router.push("/settings")}
           aria-label="Settings"
