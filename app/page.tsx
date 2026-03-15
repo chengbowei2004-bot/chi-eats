@@ -31,6 +31,7 @@ export default function HomePage() {
   const { t } = useLanguage();
   const { city, setCity, cityLabel, allCities } = useCity();
   const router = useRouter();
+  const [mounted, setMounted] = useState(false);
 
   const [query, setQuery] = useState("");
   const [activeTag, setActiveTag] = useState("");
@@ -49,6 +50,13 @@ export default function HomePage() {
       router.replace("/onboarding");
     }
   }, [router]);
+
+  // Fade in after mount
+  useEffect(() => {
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => setMounted(true));
+    });
+  }, []);
 
   // Fetch browse dishes
   useEffect(() => {
@@ -81,7 +89,10 @@ export default function HomePage() {
   }
 
   return (
-    <main className="min-h-screen bg-white">
+    <main
+      className="min-h-screen bg-white"
+      style={{ opacity: mounted ? 1 : 0, transition: "opacity 0.4s ease" }}
+    >
       {/* ── Top nav (2-column) ── */}
       <nav
         className="flex items-center justify-between"
