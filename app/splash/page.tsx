@@ -78,10 +78,13 @@ export default function SplashPage() {
     }, 300);
   }
 
-  // Final exit to home page: fade out → navigate
-  function goToHome() {
+  // Final exit: fade out → navigate to onboarding or home
+  function goToNext() {
     setVisible(false);
-    setTimeout(() => router.replace("/"), 400);
+    setTimeout(() => {
+      const onboarded = localStorage.getItem("deedao_onboarded");
+      router.replace(onboarded ? "/" : "/onboarding");
+    }, 400);
   }
 
   function handleLangSelect(lang: Lang) {
@@ -313,7 +316,7 @@ export default function SplashPage() {
 
             {/* Enter button */}
             <button
-              onClick={goToHome}
+              onClick={goToNext}
               className="splash-el-fast splash-enter-btn"
               style={{
                 marginTop: chosenLang === "zh" ? 40 : 32,

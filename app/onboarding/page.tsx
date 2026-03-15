@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { useLanguage } from "@/lib/useLanguage";
 
@@ -21,6 +21,15 @@ export default function OnboardingPage() {
   const router = useRouter();
   const { t } = useLanguage();
   const [selected, setSelected] = useState<string[]>([]);
+  const mainRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        mainRef.current?.classList.replace("page-enter", "page-ready");
+      });
+    });
+  }, []);
 
   function toggle(id: string) {
     setSelected((prev) =>
@@ -37,7 +46,7 @@ export default function OnboardingPage() {
   }
 
   return (
-    <main className="min-h-screen bg-white flex flex-col px-5 pt-16 pb-12">
+    <main ref={mainRef} className="min-h-screen bg-white flex flex-col px-5 pt-16 pb-12 page-enter">
       {/* Header */}
       <div className="mb-10">
         <p className="text-[#bbb] text-xs tracking-widest uppercase mb-3">
