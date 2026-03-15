@@ -102,7 +102,7 @@ export function RestaurantCard({ restaurant }: Props) {
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15l-4-4 1.41-1.41L11 14.17l6.59-6.59L19 9l-8 8z" />
                 </svg>
                 <span style={{ fontSize: 10, color: "#fff", fontWeight: 500, letterSpacing: "0.5px" }}>
-                  {t("RedNote 认证", "RedNote Verified")}
+                  {t("RedNote 热门", "Popular on RedNote")}
                 </span>
               </div>
             )}
