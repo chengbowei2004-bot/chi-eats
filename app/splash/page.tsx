@@ -101,126 +101,64 @@ export default function SplashPage() {
       >
         {/* ── Screen 1: Language selection ── */}
         {step === "language" && (
-          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center" }}>
-            {/* DEEDAO */}
-            <span
-              className="splash-up"
-              style={{
-                fontSize: 11,
-                fontWeight: 500,
-                letterSpacing: 12,
-                textIndent: 12,
-                color: "#000",
-                animationDelay: "0.3s",
-              }}
-            >
-              DEEDAO
-            </span>
-
-            {/* 地 道 */}
-            <span
-              className="splash-up"
-              style={{
-                fontSize: 28,
-                fontWeight: 300,
-                letterSpacing: 16,
-                textIndent: 16,
-                color: "#000",
-                marginTop: 6,
-                animationDelay: "0.5s",
-              }}
-            >
-              地 道
-            </span>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", padding: "0 40px", width: "100%" }}>
+            {/* Logo block */}
+            <div style={{ marginBottom: 64 }}>
+              <div
+                className="splash-up"
+                style={{ fontSize: 20, fontWeight: 500, letterSpacing: 3, color: "#000", animationDelay: "0.3s" }}
+              >
+                DEEDAO
+              </div>
+              <div
+                className="splash-up"
+                style={{ fontSize: 12, fontWeight: 400, letterSpacing: 6, textIndent: 6, color: "#666", marginTop: 6, animationDelay: "0.5s" }}
+              >
+                地 道
+              </div>
+            </div>
 
             {/* Slogan */}
-            <span
+            <div
               className="splash-up"
-              style={{
-                fontSize: 11,
-                color: "#999",
-                letterSpacing: 3,
-                textIndent: 3,
-                marginTop: 20,
-                animationDelay: "0.9s",
-                animationDuration: "0.6s",
-                animationTimingFunction: "ease",
-              }}
+              style={{ fontSize: 11, color: "#bbb", letterSpacing: 2, marginBottom: 56, animationDelay: "0.8s", animationDuration: "0.6s", animationTimingFunction: "ease" }}
             >
               以菜寻味 以味寻道
-            </span>
+            </div>
 
-            {/* Divider */}
+            {/* Choose language */}
             <div
               className="splash-up"
-              style={{
-                width: 24,
-                height: 1,
-                background: "#999",
-                margin: "56px auto",
-                animationDelay: "1.3s",
-                animationDuration: "0.4s",
-                animationTimingFunction: "ease",
-              }}
-            />
-
-            {/* SELECT LANGUAGE */}
-            <span
-              className="splash-up"
-              style={{
-                fontSize: 11,
-                color: "#999",
-                letterSpacing: 2,
-                textIndent: 2,
-                marginBottom: 28,
-                animationDelay: "1.5s",
-                animationDuration: "0.5s",
-                animationTimingFunction: "ease",
-              }}
+              style={{ fontSize: 12, color: "#bbb", letterSpacing: 1, marginBottom: 24, animationDelay: "1.1s", animationDuration: "0.5s", animationTimingFunction: "ease" }}
             >
-              SELECT LANGUAGE
-            </span>
+              Choose your language
+            </div>
 
             {/* Buttons */}
-            <div
-              className="splash-up"
-              style={{
-                display: "flex",
-                gap: 12,
-                width: 260,
-                animationDelay: "1.7s",
-                animationDuration: "0.5s",
-                animationTimingFunction: "ease",
-              }}
-            >
+            <div style={{ display: "flex", flexDirection: "column", gap: 12, width: "100%", maxWidth: 300 }}>
               <button
                 onClick={() => handleLangSelect("zh")}
-                className="splash-lang-btn-filled"
+                className="splash-up splash-lang-filled"
+                style={{ animationDelay: "1.3s", animationDuration: "0.5s", animationTimingFunction: "ease" }}
               >
                 中文
               </button>
               <button
                 onClick={() => handleLangSelect("en")}
-                className="splash-lang-btn-outline"
+                className="splash-up splash-lang-outline"
+                style={{ animationDelay: "1.5s", animationDuration: "0.5s", animationTimingFunction: "ease" }}
               >
-                EN
+                English
               </button>
             </div>
 
             {/* Hint */}
-            <span
+            <div
               className="splash-up"
-              style={{
-                fontSize: 11,
-                color: "#999",
-                marginTop: 40,
-                animationDelay: "2.1s",
-                animationDuration: "0.5s",
-                animationTimingFunction: "ease",
-              }}
+              style={{ fontSize: 11, color: "#bbb", marginTop: 40, animationDelay: "1.8s", animationDuration: "0.5s", animationTimingFunction: "ease" }}
             >
-              You can change this later
-            </span>
+              You can change this later in settings
+            </div>
           </div>
         )}
 

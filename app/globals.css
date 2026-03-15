@@ -80,44 +80,34 @@ body {
               transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-/* ── Splash: language buttons (square corners) ── */
-.splash-lang-btn-filled {
-  flex: 1;
-  padding: 14px;
+/* ── Splash: language buttons (rounded, full-width) ── */
+.splash-lang-filled {
+  width: 100%;
+  padding: 16px;
   border: none;
-  border-radius: 0;
-  background: #000;
+  border-radius: 12px;
+  background: #1A1A1A;
   color: #fff;
   font-size: 14px;
-  letter-spacing: 2px;
   cursor: pointer;
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
-.splash-lang-btn-filled:hover {
-  transform: translateY(-2px);
-}
-.splash-lang-btn-filled:active {
-  transform: translateY(0) scale(0.98);
-}
+.splash-lang-filled:hover { transform: scale(1.02); }
+.splash-lang-filled:active { transform: scale(0.97); }
 
-.splash-lang-btn-outline {
-  flex: 1;
-  padding: 14px;
-  border: 1px solid #000;
-  border-radius: 0;
+.splash-lang-outline {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
   background: transparent;
-  color: #000;
+  color: #1A1A1A;
   font-size: 14px;
-  letter-spacing: 2px;
   cursor: pointer;
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
-.splash-lang-btn-outline:hover {
-  transform: translateY(-2px);
-}
-.splash-lang-btn-outline:active {
-  transform: translateY(0) scale(0.98);
-}
+.splash-lang-outline:hover { transform: scale(1.02); }
+.splash-lang-outline:active { transform: scale(0.97); }
 
 /* ── Splash: enter button ── */
 .splash-enter-btn {
