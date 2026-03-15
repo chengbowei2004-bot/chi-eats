@@ -8,20 +8,9 @@ export async function GET(req: NextRequest) {
 
   let dishes = city ? getDishesForCity(city) : allDishes;
 
-  // Filter by cuisine tag category
+  // Filter by dish tag
   if (tag) {
-    // Map UI category labels to cuisine_tags
-    const tagMap: Record<string, string[]> = {
-      "面食": ["面食"],
-      "火锅": ["火锅"],
-      "点心": ["点心", "饺子"],
-      "烧烤": ["新疆菜"],
-      "米饭": ["家常菜", "粤菜", "台湾菜"],
-    };
-    const allowedTags = tagMap[tag];
-    if (allowedTags) {
-      dishes = dishes.filter((d) => allowedTags.includes(d.cuisine_tag));
-    }
+    dishes = dishes.filter((d) => d.tags?.includes(tag));
   }
 
   // Shuffle and pick up to 12

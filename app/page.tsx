@@ -18,12 +18,13 @@ type BrowseDish = {
 };
 
 const CATEGORIES = [
-  { zh: "全部", en: "All", tag: "" },
-  { zh: "面食", en: "Noodles", tag: "面食" },
-  { zh: "火锅", en: "Hot Pot", tag: "火锅" },
-  { zh: "点心", en: "Dim Sum", tag: "点心" },
-  { zh: "烧烤", en: "BBQ", tag: "烧烤" },
-  { zh: "米饭", en: "Rice", tag: "米饭" },
+  { zh: "全部", en: "All", key: "" },
+  { zh: "想吃辣", en: "Spicy", key: "spicy" },
+  { zh: "想吃面", en: "Noodles", key: "noodles" },
+  { zh: "吃点清淡的", en: "Light", key: "light" },
+  { zh: "想吃肉", en: "Meaty", key: "meaty" },
+  { zh: "来点小吃", en: "Snacks", key: "snacks" },
+  { zh: "甜食奶茶", en: "Sweets & Boba", key: "sweets" },
 ];
 
 export default function HomePage() {
@@ -213,11 +214,11 @@ export default function HomePage() {
       {/* ── Category tags ── */}
       <div className="flex flex-wrap justify-center" style={{ gap: 10, padding: "32px 24px 0" }}>
         {CATEGORIES.map((cat) => {
-          const active = activeTag === cat.tag;
+          const active = activeTag === cat.key;
           return (
             <button
-              key={cat.tag}
-              onClick={() => setActiveTag(cat.tag)}
+              key={cat.key}
+              onClick={() => setActiveTag(cat.key)}
               className="rounded-full text-[12px] transition-colors"
               style={
                 active

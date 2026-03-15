@@ -25,6 +25,11 @@
       "y-bento",
       "12-dumplings",
       "kings-garden"
+    ],
+    "tags": [
+      "spicy",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -48,6 +53,11 @@
       "noahs-kitchen",
       "yi-ma-yi-la",
       "chef-yao"
+    ],
+    "tags": [
+      "spicy",
+      "noodles",
+      "meaty"
     ]
   },
   {
@@ -73,6 +83,10 @@
       "chef-yao",
       "y-bento",
       "kings-garden"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -96,6 +110,10 @@
       "yi-ma-yi-la",
       "chef-yao",
       "12-dumplings"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -118,6 +136,10 @@
       "noahs-kitchen",
       "yi-ma-yi-la",
       "chef-yao"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -140,6 +162,10 @@
       "rong-chic",
       "noahs-kitchen",
       "chef-yao"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -164,6 +190,10 @@
       "chef-yao",
       "y-bento",
       "12-dumplings"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -187,6 +217,10 @@
       "noahs-kitchen",
       "chef-yao",
       "12-dumplings"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -208,6 +242,10 @@
       "chengdu-taste",
       "yi-ma-yi-la",
       "wing-it"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -230,6 +268,12 @@
       "rong-chic",
       "noahs-kitchen",
       "y-bento"
+    ],
+    "tags": [
+      "spicy",
+      "noodles",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -250,6 +294,10 @@
       "chengdu-taste",
       "rong-chic",
       "chef-yao"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -268,6 +316,10 @@
     "image_url": "/images/dishes/hotpot-beef-slices.webp",
     "available_at": [
       "shu-da-xia"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -286,6 +338,10 @@
     "image_url": "/images/dishes/hotpot-lamb-slices.webp",
     "available_at": [
       "shu-da-xia"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -304,6 +360,10 @@
     "image_url": "/images/dishes/hotpot-tripe.webp",
     "available_at": [
       "shu-da-xia"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -322,6 +382,10 @@
     "image_url": "/images/dishes/duck-blood-curd.webp",
     "available_at": [
       "shu-da-xia"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -340,6 +404,11 @@
     "image_url": "/images/dishes/enoki-mushrooms.webp",
     "available_at": [
       "shu-da-xia"
+    ],
+    "tags": [
+      "spicy",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -358,6 +427,10 @@
     "image_url": "/images/dishes/fatty-beef-hotpot.webp",
     "available_at": [
       "shu-da-xia"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -376,6 +449,11 @@
     "image_url": "/images/dishes/tofu-skin-hotpot.webp",
     "available_at": [
       "shu-da-xia"
+    ],
+    "tags": [
+      "spicy",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -397,6 +475,10 @@
       "rong-chic",
       "aries-noodle",
       "ifresh-noodle"
+    ],
+    "tags": [
+      "noodles",
+      "meaty"
     ]
   },
   {
@@ -417,6 +499,11 @@
       "y-noodle-bar",
       "rong-chic",
       "chengdu-taste"
+    ],
+    "tags": [
+      "noodles",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -438,6 +525,11 @@
       "rong-chic",
       "wings-kitchen",
       "y-bento"
+    ],
+    "tags": [
+      "noodles",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -459,6 +551,10 @@
       "y-noodle-bar",
       "chengdu-taste",
       "y-bento"
+    ],
+    "tags": [
+      "noodles",
+      "meaty"
     ]
   },
   {
@@ -480,6 +576,11 @@
       "rong-chic",
       "jibei-chuan",
       "wens-yunnan"
+    ],
+    "tags": [
+      "noodles",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -500,6 +601,11 @@
       "rong-chic",
       "y-noodle-bar",
       "12-dumplings"
+    ],
+    "tags": [
+      "noodles",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -521,6 +627,10 @@
       "rong-chic",
       "aries-noodle",
       "ifresh-noodle"
+    ],
+    "tags": [
+      "noodles",
+      "meaty"
     ]
   },
   {
@@ -539,6 +649,10 @@
     "image_url": "/images/dishes/hot-dry-noodles.webp",
     "available_at": [
       "rong-chic"
+    ],
+    "tags": [
+      "noodles",
+      "meaty"
     ]
   },
   {
@@ -558,6 +672,11 @@
     "available_at": [
       "chongqing-house",
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "noodles",
+      "meaty"
     ]
   },
   {
@@ -580,6 +699,11 @@
       "golden-garden-malden",
       "chengdu-taste",
       "12-dumplings"
+    ],
+    "tags": [
+      "light",
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -605,6 +729,10 @@
       "chef-yao",
       "12-dumplings",
       "kings-garden"
+    ],
+    "tags": [
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -623,6 +751,10 @@
     "image_url": "/images/dishes/pork-chive-dumplings.webp",
     "available_at": [
       "rong-chic"
+    ],
+    "tags": [
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -641,6 +773,11 @@
     "image_url": "/images/dishes/vegetable-dumplings.webp",
     "available_at": [
       "rong-chic"
+    ],
+    "tags": [
+      "light",
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -666,6 +803,10 @@
       "jahunger",
       "chef-yao",
       "12-dumplings"
+    ],
+    "tags": [
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -686,6 +827,9 @@
       "rong-chic",
       "chongqing-house",
       "golden-garden-malden"
+    ],
+    "tags": [
+      "meaty"
     ]
   },
   {
@@ -706,6 +850,12 @@
       "rong-chic",
       "golden-garden-malden",
       "mala-noodle"
+    ],
+    "tags": [
+      "light",
+      "meaty",
+      "snacks",
+      "sweets"
     ]
   },
   {
@@ -728,6 +878,11 @@
       "golden-garden-malden",
       "chengdu-taste",
       "chef-yao"
+    ],
+    "tags": [
+      "spicy",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -747,6 +902,10 @@
     "available_at": [
       "rong-chic",
       "golden-garden-malden"
+    ],
+    "tags": [
+      "noodles",
+      "meaty"
     ]
   },
   {
@@ -766,6 +925,10 @@
     "available_at": [
       "rong-chic",
       "chongqing-house"
+    ],
+    "tags": [
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -784,6 +947,10 @@
     "image_url": "/images/dishes/fish-head-chili.webp",
     "available_at": [
       "rong-chic"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -804,6 +971,10 @@
       "rong-chic",
       "yi-ma-yi-la",
       "wing-it"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -824,6 +995,10 @@
       "rong-chic",
       "yi-ma-yi-la",
       "noahs-kitchen"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -844,6 +1019,9 @@
       "jahunger",
       "aries-noodle",
       "ifresh-noodle"
+    ],
+    "tags": [
+      "meaty"
     ]
   },
   {
@@ -865,6 +1043,11 @@
       "wu-er-roast",
       "friendship-bbq",
       "wing-it"
+    ],
+    "tags": [
+      "spicy",
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -884,6 +1067,11 @@
     "available_at": [
       "jahunger",
       "wing-it"
+    ],
+    "tags": [
+      "meaty",
+      "snacks",
+      "sweets"
     ]
   },
   {
@@ -905,6 +1093,10 @@
       "chongqing-house",
       "wing-it",
       "wu-er-roast"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -923,6 +1115,10 @@
     "image_url": "/images/dishes/samsa.webp",
     "available_at": [
       "jahunger"
+    ],
+    "tags": [
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -941,6 +1137,11 @@
     "image_url": "/images/dishes/liangpi.webp",
     "available_at": [
       "rong-chic"
+    ],
+    "tags": [
+      "spicy",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -961,6 +1162,10 @@
       "mala-noodle",
       "rong-chic",
       "yi-ma-yi-la"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -981,6 +1186,10 @@
       "rong-chic",
       "noahs-kitchen",
       "yi-ma-yi-la"
+    ],
+    "tags": [
+      "light",
+      "meaty"
     ]
   },
   {
@@ -999,6 +1208,10 @@
     "image_url": "/images/dishes/doubanjiang-eggplant.webp",
     "available_at": [
       "rong-chic"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -1018,6 +1231,10 @@
     "available_at": [
       "y-noodle-bar",
       "rong-chic"
+    ],
+    "tags": [
+      "noodles",
+      "meaty"
     ]
   },
   {
@@ -1037,6 +1254,11 @@
     "available_at": [
       "y-noodle-bar",
       "rong-chic"
+    ],
+    "tags": [
+      "noodles",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -1056,6 +1278,10 @@
     "available_at": [
       "rong-chic",
       "chef-yao"
+    ],
+    "tags": [
+      "meaty",
+      "sweets"
     ]
   },
   {
@@ -1074,6 +1300,11 @@
     "image_url": "/images/dishes/lotus-root-soup.webp",
     "available_at": [
       "chef-yao"
+    ],
+    "tags": [
+      "light",
+      "meaty",
+      "sweets"
     ]
   },
   {
@@ -1092,6 +1323,11 @@
     "image_url": "/images/dishes/corn-pork-dumplings.webp",
     "available_at": [
       "rong-chic"
+    ],
+    "tags": [
+      "meaty",
+      "snacks",
+      "sweets"
     ]
   },
   {
@@ -1110,6 +1346,10 @@
     "image_url": "/images/dishes/braised-pork-knuckle.webp",
     "available_at": [
       "rong-chic"
+    ],
+    "tags": [
+      "meaty",
+      "sweets"
     ]
   },
   {
@@ -1134,6 +1374,10 @@
       "china-gourmet",
       "jahunger",
       "chef-yao"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -1152,6 +1396,10 @@
     "image_url": "/images/dishes/crispy-tofu.webp",
     "available_at": [
       "rong-chic"
+    ],
+    "tags": [
+      "light",
+      "meaty"
     ]
   },
   {
@@ -1170,6 +1418,10 @@
     "image_url": "/images/dishes/sichuan-pork-ribs.webp",
     "available_at": [
       "chongqing-house"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -1188,6 +1440,10 @@
     "image_url": "/images/dishes/spicy-tofu-skin.webp",
     "available_at": [
       "rong-chic"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -1206,6 +1462,10 @@
     "image_url": "/images/dishes/cucumber-pork-stir-fry.webp",
     "available_at": [
       "rong-chic"
+    ],
+    "tags": [
+      "light",
+      "meaty"
     ]
   },
   {
@@ -1224,6 +1484,11 @@
     "image_url": "/images/dishes/pork-belly-tofu-braise.webp",
     "available_at": [
       "rong-chic"
+    ],
+    "tags": [
+      "light",
+      "meaty",
+      "sweets"
     ]
   },
   {
@@ -1243,6 +1508,9 @@
     "available_at": [
       "chongqing-house",
       "rong-chic"
+    ],
+    "tags": [
+      "light"
     ]
   },
   {
@@ -1261,6 +1529,10 @@
     "image_url": "/images/dishes/pork-mushroom-dumplings.webp",
     "available_at": [
       "rong-chic"
+    ],
+    "tags": [
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -1280,6 +1552,12 @@
     "available_at": [
       "rong-chic",
       "y-noodle-bar"
+    ],
+    "tags": [
+      "noodles",
+      "light",
+      "meaty",
+      "sweets"
     ]
   },
   {
@@ -1298,6 +1576,11 @@
     "image_url": "/images/dishes/chive-egg-pancake.webp",
     "available_at": [
       "rong-chic"
+    ],
+    "tags": [
+      "light",
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -1316,6 +1599,10 @@
     "image_url": "/images/dishes/wood-ear-mushroom-salad.webp",
     "available_at": [
       "rong-chic"
+    ],
+    "tags": [
+      "light",
+      "meaty"
     ]
   },
   {
@@ -1339,6 +1626,10 @@
       "wu-er-roast",
       "wing-it",
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -1358,6 +1649,10 @@
     "available_at": [
       "rong-chic",
       "chongqing-house"
+    ],
+    "tags": [
+      "meaty",
+      "sweets"
     ]
   },
   {
@@ -1376,6 +1671,11 @@
     "image_url": "/images/dishes/kung-pao-shrimp.webp",
     "available_at": [
       "chongqing-house"
+    ],
+    "tags": [
+      "spicy",
+      "meaty",
+      "sweets"
     ]
   },
   {
@@ -1394,6 +1694,11 @@
     "image_url": "/images/dishes/spicy-braised-tofu.webp",
     "available_at": [
       "rong-chic"
+    ],
+    "tags": [
+      "spicy",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -1413,6 +1718,10 @@
     "available_at": [
       "feng-shui-burlington",
       "kings-garden"
+    ],
+    "tags": [
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -1431,6 +1740,11 @@
     "image_url": "/images/dishes/chinese-fried-chicken.webp",
     "available_at": [
       "moon-flower-house"
+    ],
+    "tags": [
+      "spicy",
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -1448,6 +1762,10 @@
     "image_url": "/images/dishes/taiwanese-egg-crepe.webp",
     "available_at": [
       "chung-shin-yuan"
+    ],
+    "tags": [
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -1465,6 +1783,9 @@
     "image_url": "/images/dishes/soy-milk-you-tiao.webp",
     "available_at": [
       "chung-shin-yuan"
+    ],
+    "tags": [
+      "snacks"
     ]
   },
   {
@@ -1484,6 +1805,10 @@
     "available_at": [
       "jibei-chuan",
       "wens-yunnan"
+    ],
+    "tags": [
+      "noodles",
+      "meaty"
     ]
   },
   {
@@ -1503,6 +1828,11 @@
       "wings-kitchen",
       "big-fun-cafe",
       "susu-gourmet"
+    ],
+    "tags": [
+      "meaty",
+      "snacks",
+      "sweets"
     ]
   },
   {
@@ -1520,6 +1850,10 @@
     "image_url": "/images/dishes/hk-milk-tea.webp",
     "available_at": [
       "big-fun-cafe"
+    ],
+    "tags": [
+      "meaty",
+      "sweets"
     ]
   },
   {
@@ -1541,6 +1875,10 @@
       "yi-ma-yi-la",
       "friendship-bbq",
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -1560,6 +1898,11 @@
     "available_at": [
       "yi-ma-yi-la",
       "friendship-bbq"
+    ],
+    "tags": [
+      "spicy",
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -1577,6 +1920,10 @@
     "image_url": "/images/dishes/baked-pork-chop-rice.webp",
     "available_at": [
       "big-fun-cafe"
+    ],
+    "tags": [
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -1596,6 +1943,10 @@
     "available_at": [
       "chongqing-house",
       "shu-da-xia"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -1616,6 +1967,11 @@
       "chongqing-house",
       "noahs-kitchen",
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -1634,6 +1990,10 @@
     "image_url": "/images/dishes/mala-beef.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -1652,6 +2012,11 @@
     "image_url": "/images/dishes/steamed-eggplant-chili.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -1670,6 +2035,9 @@
     "image_url": "/images/dishes/smoked-tea-duck.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "meaty"
     ]
   },
   {
@@ -1688,6 +2056,10 @@
     "image_url": "/images/dishes/pig-ear-chili-oil.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -1707,6 +2079,11 @@
     "available_at": [
       "chengdu-taste",
       "chef-yao"
+    ],
+    "tags": [
+      "spicy",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -1725,6 +2102,10 @@
     "image_url": "/images/dishes/wonton-soup.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "light",
+      "meaty"
     ]
   },
   {
@@ -1744,6 +2125,10 @@
     "available_at": [
       "chengdu-taste",
       "chef-yao"
+    ],
+    "tags": [
+      "light",
+      "meaty"
     ]
   },
   {
@@ -1762,6 +2147,10 @@
     "image_url": "/images/dishes/pig-feet-soup.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "light",
+      "meaty"
     ]
   },
   {
@@ -1780,6 +2169,11 @@
     "image_url": "/images/dishes/mustard-pork-noodle.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "noodles",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -1799,6 +2193,11 @@
     "available_at": [
       "chengdu-taste",
       "mala-noodle"
+    ],
+    "tags": [
+      "spicy",
+      "noodles",
+      "meaty"
     ]
   },
   {
@@ -1817,6 +2216,12 @@
     "image_url": "/images/dishes/singapore-mei-fun.webp",
     "available_at": [
       "12-dumplings"
+    ],
+    "tags": [
+      "spicy",
+      "noodles",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -1835,6 +2240,10 @@
     "image_url": "/images/dishes/double-cooked-fish.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -1853,6 +2262,10 @@
     "image_url": "/images/dishes/cumin-beef.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -1871,6 +2284,10 @@
     "image_url": "/images/dishes/dry-sauteed-shredded-beef.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -1889,6 +2306,10 @@
     "image_url": "/images/dishes/hot-spicy-crispy-beef.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -1907,6 +2328,11 @@
     "image_url": "/images/dishes/beef-sour-soup.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -1925,6 +2351,11 @@
     "image_url": "/images/dishes/fish-sour-sauce.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -1943,6 +2374,10 @@
     "image_url": "/images/dishes/ants-climbing-tree.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -1961,6 +2396,10 @@
     "image_url": "/images/dishes/country-style-pork.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -1979,6 +2418,11 @@
     "image_url": "/images/dishes/sweet-sour-pork-ribs.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "light",
+      "meaty",
+      "sweets"
     ]
   },
   {
@@ -1997,6 +2441,10 @@
     "image_url": "/images/dishes/hot-spicy-pork-feet.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -2015,6 +2463,10 @@
     "image_url": "/images/dishes/shredded-beef-green-pepper.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -2033,6 +2485,10 @@
     "image_url": "/images/dishes/spicy-beef-pot.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -2051,6 +2507,9 @@
     "image_url": "/images/dishes/beer-duck-griddle.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "meaty"
     ]
   },
   {
@@ -2069,6 +2528,10 @@
     "image_url": "/images/dishes/beef-griddle.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -2087,6 +2550,10 @@
     "image_url": "/images/dishes/lamb-griddle.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -2108,6 +2575,10 @@
       "jahunger",
       "chef-yao",
       "y-bento"
+    ],
+    "tags": [
+      "spicy",
+      "light"
     ]
   },
   {
@@ -2126,6 +2597,10 @@
     "image_url": "/images/dishes/pumpkin-cake.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "snacks",
+      "sweets"
     ]
   },
   {
@@ -2144,6 +2619,11 @@
     "image_url": "/images/dishes/fermented-rice-balls.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "light",
+      "snacks",
+      "sweets"
     ]
   },
   {
@@ -2162,6 +2642,12 @@
     "image_url": "/images/dishes/sesame-rice-balls.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "light",
+      "meaty",
+      "snacks",
+      "sweets"
     ]
   },
   {
@@ -2180,6 +2666,10 @@
     "image_url": "/images/dishes/beef-tripe-red-oil.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -2198,6 +2688,11 @@
     "image_url": "/images/dishes/steamed-chicken-garlic.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -2216,6 +2711,10 @@
     "image_url": "/images/dishes/bang-bang-chicken.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -2234,6 +2733,11 @@
     "image_url": "/images/dishes/chengdu-cold-jelly.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "noodles",
+      "light"
     ]
   },
   {
@@ -2252,6 +2756,10 @@
     "image_url": "/images/dishes/sichuan-pickles.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "light"
     ]
   },
   {
@@ -2273,6 +2781,11 @@
       "chongqing-house",
       "rong-chic",
       "chef-yao"
+    ],
+    "tags": [
+      "light",
+      "meaty",
+      "sweets"
     ]
   },
   {
@@ -2293,6 +2806,10 @@
       "chengdu-taste",
       "chongqing-house",
       "12-dumplings"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -2311,6 +2828,10 @@
     "image_url": "/images/dishes/douban-fish-fillet.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -2329,6 +2850,12 @@
     "image_url": "/images/dishes/fish-fragrant-chicken.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "light",
+      "meaty",
+      "sweets"
     ]
   },
   {
@@ -2347,6 +2874,10 @@
     "image_url": "/images/dishes/dry-pot-intestines.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -2365,6 +2896,10 @@
     "image_url": "/images/dishes/mala-whole-fish.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -2383,6 +2918,10 @@
     "image_url": "/images/dishes/spicy-whole-fish.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -2401,6 +2940,11 @@
     "image_url": "/images/dishes/pine-nut-whole-fish.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "light",
+      "meaty",
+      "sweets"
     ]
   },
   {
@@ -2419,6 +2963,10 @@
     "image_url": "/images/dishes/douban-whole-fish.webp",
     "available_at": [
       "chengdu-taste"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -2437,6 +2985,10 @@
     "image_url": "/images/dishes/shouzhuabing.webp",
     "available_at": [
       "mala-noodle"
+    ],
+    "tags": [
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -2455,6 +3007,11 @@
     "image_url": "/images/dishes/chicken-soup-wonton.webp",
     "available_at": [
       "mala-noodle"
+    ],
+    "tags": [
+      "light",
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -2473,6 +3030,11 @@
     "image_url": "/images/dishes/sweet-cream-shrimp.webp",
     "available_at": [
       "mala-noodle"
+    ],
+    "tags": [
+      "meaty",
+      "snacks",
+      "sweets"
     ]
   },
   {
@@ -2491,6 +3053,11 @@
     "image_url": "/images/dishes/fried-skewers.webp",
     "available_at": [
       "mala-noodle"
+    ],
+    "tags": [
+      "spicy",
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -2509,6 +3076,10 @@
     "image_url": "/images/dishes/mala-xiang-guo.webp",
     "available_at": [
       "mala-noodle"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -2527,6 +3098,10 @@
     "image_url": "/images/dishes/mala-noodle-beef-ramen.webp",
     "available_at": [
       "mala-noodle"
+    ],
+    "tags": [
+      "noodles",
+      "meaty"
     ]
   },
   {
@@ -2545,6 +3120,11 @@
     "image_url": "/images/dishes/golden-bun.webp",
     "available_at": [
       "mala-noodle"
+    ],
+    "tags": [
+      "light",
+      "snacks",
+      "sweets"
     ]
   },
   {
@@ -2563,6 +3143,11 @@
     "image_url": "/images/dishes/house-soft-ice-cream.webp",
     "available_at": [
       "mala-noodle"
+    ],
+    "tags": [
+      "light",
+      "snacks",
+      "sweets"
     ]
   },
   {
@@ -2580,6 +3165,10 @@
     "image_url": "/images/dishes/chive-egg-dumplings.webp",
     "available_at": [
       "jahunger"
+    ],
+    "tags": [
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -2597,6 +3186,10 @@
     "image_url": "/images/dishes/lamb-dumplings-handmade.webp",
     "available_at": [
       "jahunger"
+    ],
+    "tags": [
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -2614,6 +3207,10 @@
     "image_url": "/images/dishes/ding-ding-noodles.webp",
     "available_at": [
       "jahunger"
+    ],
+    "tags": [
+      "noodles",
+      "meaty"
     ]
   },
   {
@@ -2631,6 +3228,11 @@
     "image_url": "/images/dishes/rice-noodles-plain.webp",
     "available_at": [
       "jahunger"
+    ],
+    "tags": [
+      "noodles",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -2648,6 +3250,10 @@
     "image_url": "/images/dishes/jahunger-mixed-noodles.webp",
     "available_at": [
       "jahunger"
+    ],
+    "tags": [
+      "noodles",
+      "meaty"
     ]
   },
   {
@@ -2665,6 +3271,10 @@
     "image_url": "/images/dishes/stir-fried-rice-noodles.webp",
     "available_at": [
       "jahunger"
+    ],
+    "tags": [
+      "noodles",
+      "meaty"
     ]
   },
   {
@@ -2682,6 +3292,11 @@
     "image_url": "/images/dishes/cold-chicken-salad.webp",
     "available_at": [
       "jahunger"
+    ],
+    "tags": [
+      "spicy",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -2699,6 +3314,10 @@
     "image_url": "/images/dishes/cold-beef-cucumber.webp",
     "available_at": [
       "jahunger"
+    ],
+    "tags": [
+      "light",
+      "meaty"
     ]
   },
   {
@@ -2717,6 +3336,10 @@
     "image_url": "/images/dishes/dry-fried-lamb.webp",
     "available_at": [
       "jahunger"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -2735,6 +3358,10 @@
     "image_url": "/images/dishes/tiger-salad.webp",
     "available_at": [
       "jahunger"
+    ],
+    "tags": [
+      "spicy",
+      "light"
     ]
   },
   {
@@ -2752,6 +3379,10 @@
     "image_url": "/images/dishes/spicy-beef-tripe.webp",
     "available_at": [
       "jahunger"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -2770,6 +3401,11 @@
     "image_url": "/images/dishes/kavap-skewers.webp",
     "available_at": [
       "jahunger"
+    ],
+    "tags": [
+      "spicy",
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -2788,6 +3424,11 @@
     "image_url": "/images/dishes/polo-pilaf.webp",
     "available_at": [
       "jahunger"
+    ],
+    "tags": [
+      "meaty",
+      "snacks",
+      "sweets"
     ]
   },
   {
@@ -2806,6 +3447,10 @@
     "image_url": "/images/dishes/homemade-yogurt.webp",
     "available_at": [
       "jahunger"
+    ],
+    "tags": [
+      "light",
+      "sweets"
     ]
   },
   {
@@ -2822,6 +3467,9 @@
     "image_url": "/images/dishes/honey-cake.webp",
     "available_at": [
       "jahunger"
+    ],
+    "tags": [
+      "sweets"
     ]
   },
   {
@@ -2839,6 +3487,11 @@
     "image_url": "/images/dishes/sesame-cold-noodles.webp",
     "available_at": [
       "chef-yao"
+    ],
+    "tags": [
+      "noodles",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -2856,6 +3509,11 @@
     "image_url": "/images/dishes/spicy-cold-noodles.webp",
     "available_at": [
       "chef-yao"
+    ],
+    "tags": [
+      "spicy",
+      "noodles",
+      "light"
     ]
   },
   {
@@ -2874,6 +3532,10 @@
     "image_url": "/images/dishes/spicy-crispy-cucumber.webp",
     "available_at": [
       "chef-yao"
+    ],
+    "tags": [
+      "spicy",
+      "light"
     ]
   },
   {
@@ -2891,6 +3553,9 @@
     "image_url": "/images/dishes/spicy-wood-ear-fungus.webp",
     "available_at": [
       "chef-yao"
+    ],
+    "tags": [
+      "spicy"
     ]
   },
   {
@@ -2908,6 +3573,10 @@
     "image_url": "/images/dishes/beef-scallion-pancake-wrap.webp",
     "available_at": [
       "chef-yao"
+    ],
+    "tags": [
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -2925,6 +3594,10 @@
     "image_url": "/images/dishes/fried-mini-buns.webp",
     "available_at": [
       "chef-yao"
+    ],
+    "tags": [
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -2943,6 +3616,10 @@
     "image_url": "/images/dishes/xiao-chao-huang-niu.webp",
     "available_at": [
       "chef-yao"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -2961,6 +3638,10 @@
     "image_url": "/images/dishes/hunan-xiao-chao-rou.webp",
     "available_at": [
       "chef-yao"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -2978,6 +3659,10 @@
     "image_url": "/images/dishes/hunan-sauteed-chicken.webp",
     "available_at": [
       "chef-yao"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -2995,6 +3680,9 @@
     "image_url": "/images/dishes/bamboo-shoots-bacon.webp",
     "available_at": [
       "chef-yao"
+    ],
+    "tags": [
+      "meaty"
     ]
   },
   {
@@ -3012,6 +3700,10 @@
     "image_url": "/images/dishes/hunan-stir-fried-bacon.webp",
     "available_at": [
       "chef-yao"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -3029,6 +3721,10 @@
     "image_url": "/images/dishes/spicy-chicken-gizzard.webp",
     "available_at": [
       "chef-yao"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -3046,6 +3742,11 @@
     "image_url": "/images/dishes/chopped-pepper-fish.webp",
     "available_at": [
       "chef-yao"
+    ],
+    "tags": [
+      "spicy",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -3064,6 +3765,11 @@
     "image_url": "/images/dishes/spicy-stinky-tofu.webp",
     "available_at": [
       "chef-yao"
+    ],
+    "tags": [
+      "spicy",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -3082,6 +3788,10 @@
     "image_url": "/images/dishes/spicy-bullfrog.webp",
     "available_at": [
       "chef-yao"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -3100,6 +3810,10 @@
     "image_url": "/images/dishes/mao-xue-wang.webp",
     "available_at": [
       "chef-yao"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -3117,6 +3831,9 @@
     "image_url": "/images/dishes/tomato-radish-beef-stew.webp",
     "available_at": [
       "y-bento"
+    ],
+    "tags": [
+      "meaty"
     ]
   },
   {
@@ -3134,6 +3851,10 @@
     "image_url": "/images/dishes/nappa-cabbage-pork-dumplings.webp",
     "available_at": [
       "y-bento"
+    ],
+    "tags": [
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -3152,6 +3873,10 @@
     "image_url": "/images/dishes/beef-mao-cai.webp",
     "available_at": [
       "y-bento"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -3169,6 +3894,11 @@
     "image_url": "/images/dishes/vegetable-fried-rice.webp",
     "available_at": [
       "y-bento"
+    ],
+    "tags": [
+      "light",
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -3186,6 +3916,10 @@
     "image_url": "/images/dishes/popcorn-chicken.webp",
     "available_at": [
       "12-dumplings"
+    ],
+    "tags": [
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -3203,6 +3937,9 @@
     "image_url": "/images/dishes/crispy-pork-tenderloin.webp",
     "available_at": [
       "12-dumplings"
+    ],
+    "tags": [
+      "meaty"
     ]
   },
   {
@@ -3221,6 +3958,9 @@
     "available_at": [
       "12-dumplings",
       "kings-garden"
+    ],
+    "tags": [
+      "sweets"
     ]
   },
   {
@@ -3238,6 +3978,11 @@
     "image_url": "/images/dishes/tofu-dumplings.webp",
     "available_at": [
       "12-dumplings"
+    ],
+    "tags": [
+      "light",
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -3255,6 +4000,11 @@
     "image_url": "/images/dishes/vegetable-dumplings-12d.webp",
     "available_at": [
       "12-dumplings"
+    ],
+    "tags": [
+      "light",
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -3272,6 +4022,10 @@
     "image_url": "/images/dishes/pork-dumplings.webp",
     "available_at": [
       "12-dumplings"
+    ],
+    "tags": [
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -3289,6 +4043,11 @@
     "image_url": "/images/dishes/teriyaki-chicken-dumplings.webp",
     "available_at": [
       "12-dumplings"
+    ],
+    "tags": [
+      "meaty",
+      "snacks",
+      "sweets"
     ]
   },
   {
@@ -3306,6 +4065,10 @@
     "image_url": "/images/dishes/black-pepper-beef-dumplings.webp",
     "available_at": [
       "12-dumplings"
+    ],
+    "tags": [
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -3323,6 +4086,10 @@
     "image_url": "/images/dishes/signature-dumplings-12d.webp",
     "available_at": [
       "12-dumplings"
+    ],
+    "tags": [
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -3340,6 +4107,10 @@
     "image_url": "/images/dishes/custard-bun.webp",
     "available_at": [
       "12-dumplings"
+    ],
+    "tags": [
+      "snacks",
+      "sweets"
     ]
   },
   {
@@ -3358,6 +4129,9 @@
     "available_at": [
       "12-dumplings",
       "kings-garden"
+    ],
+    "tags": [
+      "meaty"
     ]
   },
   {
@@ -3375,6 +4149,10 @@
     "image_url": "/images/dishes/curry-chicken-rice.webp",
     "available_at": [
       "12-dumplings"
+    ],
+    "tags": [
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -3392,6 +4170,11 @@
     "image_url": "/images/dishes/braised-pork-rice.webp",
     "available_at": [
       "12-dumplings"
+    ],
+    "tags": [
+      "meaty",
+      "snacks",
+      "sweets"
     ]
   },
   {
@@ -3409,6 +4192,12 @@
     "image_url": "/images/dishes/mapo-tofu-rice.webp",
     "available_at": [
       "12-dumplings"
+    ],
+    "tags": [
+      "spicy",
+      "light",
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -3426,6 +4215,11 @@
     "image_url": "/images/dishes/chili-chicken-rice.webp",
     "available_at": [
       "12-dumplings"
+    ],
+    "tags": [
+      "spicy",
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -3443,6 +4237,11 @@
     "image_url": "/images/dishes/tomato-egg-rice.webp",
     "available_at": [
       "12-dumplings"
+    ],
+    "tags": [
+      "light",
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -3461,6 +4260,10 @@
     "image_url": "/images/dishes/mala-classic-dry-pot.webp",
     "available_at": [
       "12-dumplings"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -3478,6 +4281,10 @@
     "image_url": "/images/dishes/mala-your-way.webp",
     "available_at": [
       "12-dumplings"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -3495,6 +4302,9 @@
     "image_url": "/images/dishes/chicken-congee.webp",
     "available_at": [
       "12-dumplings"
+    ],
+    "tags": [
+      "meaty"
     ]
   },
   {
@@ -3513,6 +4323,10 @@
     "available_at": [
       "12-dumplings",
       "kings-garden"
+    ],
+    "tags": [
+      "light",
+      "meaty"
     ]
   },
   {
@@ -3530,6 +4344,10 @@
     "image_url": "/images/dishes/beef-potato-stew-noodles.webp",
     "available_at": [
       "12-dumplings"
+    ],
+    "tags": [
+      "noodles",
+      "meaty"
     ]
   },
   {
@@ -3547,6 +4365,10 @@
     "image_url": "/images/dishes/braised-pork-noodles.webp",
     "available_at": [
       "12-dumplings"
+    ],
+    "tags": [
+      "noodles",
+      "meaty"
     ]
   },
   {
@@ -3564,6 +4386,10 @@
     "image_url": "/images/dishes/home-style-tofu.webp",
     "available_at": [
       "12-dumplings"
+    ],
+    "tags": [
+      "light",
+      "meaty"
     ]
   },
   {
@@ -3581,6 +4407,9 @@
     "image_url": "/images/dishes/beef-potato-stew.webp",
     "available_at": [
       "12-dumplings"
+    ],
+    "tags": [
+      "meaty"
     ]
   },
   {
@@ -3598,6 +4427,10 @@
     "image_url": "/images/dishes/char-siu-cheung-fun.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "noodles",
+      "meaty"
     ]
   },
   {
@@ -3615,6 +4448,10 @@
     "image_url": "/images/dishes/shrimp-cheung-fun.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "noodles",
+      "meaty"
     ]
   },
   {
@@ -3631,6 +4468,10 @@
     "image_url": "/images/dishes/beef-cheung-fun.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "noodles",
+      "meaty"
     ]
   },
   {
@@ -3648,6 +4489,11 @@
     "image_url": "/images/dishes/golden-lava-bun.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "meaty",
+      "snacks",
+      "sweets"
     ]
   },
   {
@@ -3664,6 +4510,10 @@
     "image_url": "/images/dishes/chive-dumplings.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -3681,6 +4531,10 @@
     "image_url": "/images/dishes/chao-chow-dumpling.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -3698,6 +4552,10 @@
     "image_url": "/images/dishes/stuffed-tofu.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "light",
+      "meaty"
     ]
   },
   {
@@ -3715,6 +4573,9 @@
     "image_url": "/images/dishes/stuffed-eggplant.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "meaty"
     ]
   },
   {
@@ -3732,6 +4593,9 @@
     "image_url": "/images/dishes/stuffed-green-pepper.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "meaty"
     ]
   },
   {
@@ -3749,6 +4613,10 @@
     "image_url": "/images/dishes/roast-duck-cantonese.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -3766,6 +4634,9 @@
     "image_url": "/images/dishes/poached-chicken-ginger.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "meaty"
     ]
   },
   {
@@ -3783,6 +4654,10 @@
     "image_url": "/images/dishes/steamed-chicken-mushroom.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "light",
+      "meaty"
     ]
   },
   {
@@ -3800,6 +4675,9 @@
     "image_url": "/images/dishes/pepper-salt-pork-chop.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "meaty"
     ]
   },
   {
@@ -3817,6 +4695,10 @@
     "image_url": "/images/dishes/king-tou-spare-ribs.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "meaty",
+      "sweets"
     ]
   },
   {
@@ -3834,6 +4716,9 @@
     "image_url": "/images/dishes/shredded-pork-snow-cabbage.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "meaty"
     ]
   },
   {
@@ -3851,6 +4736,11 @@
     "image_url": "/images/dishes/steamed-meat-cake-salted-fish.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "light",
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -3868,6 +4758,9 @@
     "image_url": "/images/dishes/ginger-scallion-beef.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "meaty"
     ]
   },
   {
@@ -3886,6 +4779,10 @@
     "image_url": "/images/dishes/xo-sauce-beef.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -3903,6 +4800,9 @@
     "image_url": "/images/dishes/black-pepper-beef-filet.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "meaty"
     ]
   },
   {
@@ -3920,6 +4820,9 @@
     "image_url": "/images/dishes/sizzling-steak.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "meaty"
     ]
   },
   {
@@ -3937,6 +4840,9 @@
     "image_url": "/images/dishes/pepper-salt-shrimp.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "meaty"
     ]
   },
   {
@@ -3954,6 +4860,9 @@
     "image_url": "/images/dishes/pepper-salt-calamari.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "meaty"
     ]
   },
   {
@@ -3971,6 +4880,9 @@
     "image_url": "/images/dishes/honey-walnut-prawns.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "sweets"
     ]
   },
   {
@@ -3988,6 +4900,9 @@
     "image_url": "/images/dishes/shrimp-scrambled-egg.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "meaty"
     ]
   },
   {
@@ -4005,6 +4920,10 @@
     "image_url": "/images/dishes/steamed-garlic-shrimp.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "light",
+      "meaty"
     ]
   },
   {
@@ -4022,6 +4941,9 @@
     "image_url": "/images/dishes/stuffed-trio.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "meaty"
     ]
   },
   {
@@ -4039,6 +4961,10 @@
     "image_url": "/images/dishes/hunan-eggplant-pork.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -4056,6 +4982,9 @@
     "image_url": "/images/dishes/garlic-pea-shoots.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "light"
     ]
   },
   {
@@ -4073,6 +5002,10 @@
     "image_url": "/images/dishes/xo-string-beans.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -4090,6 +5023,9 @@
     "image_url": "/images/dishes/braised-beef-brisket.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "meaty"
     ]
   },
   {
@@ -4107,6 +5043,9 @@
     "image_url": "/images/dishes/beef-brisket-turnip.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "meaty"
     ]
   },
   {
@@ -4124,6 +5063,10 @@
     "image_url": "/images/dishes/eight-treasure-tofu.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "light",
+      "meaty"
     ]
   },
   {
@@ -4141,6 +5084,9 @@
     "image_url": "/images/dishes/salted-fish-eggplant-pot.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "meaty"
     ]
   },
   {
@@ -4158,6 +5104,9 @@
     "image_url": "/images/dishes/seafood-congee.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "meaty"
     ]
   },
   {
@@ -4175,6 +5124,10 @@
     "image_url": "/images/dishes/beef-brisket-noodle-soup.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "noodles",
+      "meaty"
     ]
   },
   {
@@ -4191,6 +5144,10 @@
     "image_url": "/images/dishes/roast-duck-noodle-soup.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "noodles",
+      "meaty"
     ]
   },
   {
@@ -4207,6 +5164,10 @@
     "image_url": "/images/dishes/beef-tripe-noodle-soup.webp",
     "available_at": [
       "kings-garden"
+    ],
+    "tags": [
+      "noodles",
+      "meaty"
     ]
   },
   {
@@ -4225,6 +5186,10 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -4243,6 +5208,12 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "light",
+      "meaty",
+      "sweets"
     ]
   },
   {
@@ -4261,6 +5232,11 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -4279,6 +5255,10 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "light"
     ]
   },
   {
@@ -4297,6 +5277,10 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -4315,6 +5299,10 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -4333,6 +5321,12 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "noodles",
+      "light",
+      "sweets"
     ]
   },
   {
@@ -4351,6 +5345,11 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "meaty",
+      "sweets"
     ]
   },
   {
@@ -4369,6 +5368,12 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "light",
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -4387,6 +5392,11 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -4405,6 +5415,11 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -4423,6 +5438,11 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -4441,6 +5461,10 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -4459,6 +5483,10 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -4477,6 +5505,10 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -4495,6 +5527,10 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -4513,6 +5549,10 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -4531,6 +5571,10 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -4549,6 +5593,10 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -4567,6 +5615,10 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -4585,6 +5637,10 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -4603,6 +5659,11 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -4621,6 +5682,11 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -4639,6 +5705,10 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -4657,6 +5727,11 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -4675,6 +5750,10 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -4693,6 +5772,10 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "meaty"
     ]
   },
   {
@@ -4711,6 +5794,11 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -4729,6 +5817,11 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "meaty",
+      "sweets"
     ]
   },
   {
@@ -4747,6 +5840,11 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "meaty",
+      "sweets"
     ]
   },
   {
@@ -4765,6 +5863,11 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "noodles",
+      "meaty"
     ]
   },
   {
@@ -4783,6 +5886,12 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "noodles",
+      "light",
+      "meaty"
     ]
   },
   {
@@ -4801,6 +5910,12 @@
     "image_url": "/images/dishes/default-hotpot.webp",
     "available_at": [
       "lamei-hotpot"
+    ],
+    "tags": [
+      "spicy",
+      "light",
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -4819,6 +5934,10 @@
     "image_url": "/images/dishes/default-dumpling.webp",
     "available_at": [
       "lobanton"
+    ],
+    "tags": [
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -4837,6 +5956,11 @@
     "image_url": "/images/dishes/default-dumpling.webp",
     "available_at": [
       "lobanton"
+    ],
+    "tags": [
+      "meaty",
+      "snacks",
+      "sweets"
     ]
   },
   {
@@ -4855,6 +5979,10 @@
     "image_url": "/images/dishes/default-onigiri.webp",
     "available_at": [
       "lobanton"
+    ],
+    "tags": [
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -4873,6 +6001,10 @@
     "image_url": "/images/dishes/default-onigiri.webp",
     "available_at": [
       "lobanton"
+    ],
+    "tags": [
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -4891,6 +6023,12 @@
     "image_url": "/images/dishes/default-onigiri.webp",
     "available_at": [
       "lobanton"
+    ],
+    "tags": [
+      "light",
+      "meaty",
+      "snacks",
+      "sweets"
     ]
   },
   {
@@ -4909,6 +6047,10 @@
     "image_url": "/images/dishes/default-rice.webp",
     "available_at": [
       "lobanton"
+    ],
+    "tags": [
+      "meaty",
+      "snacks"
     ]
   },
   {
@@ -4927,6 +6069,11 @@
     "image_url": "/images/dishes/default-rice.webp",
     "available_at": [
       "lobanton"
+    ],
+    "tags": [
+      "meaty",
+      "snacks",
+      "sweets"
     ]
   },
   {
@@ -4945,6 +6092,11 @@
     "image_url": "/images/dishes/default-snack.webp",
     "available_at": [
       "lobanton"
+    ],
+    "tags": [
+      "light",
+      "meaty",
+      "snacks"
     ]
   }
 ]
