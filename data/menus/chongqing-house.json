@@ -1,0 +1,23 @@
+[
+  { "name_zh": "口水鸡", "name_en": "Saliva Chicken", "price": 12.99, "category_zh": "凉菜", "category_en": "Cold Dishes", "description_zh": "麻辣鲜香，鸡肉嫩滑", "description_en": "Poached chicken in chili oil sauce", "is_popular": true, "spicy_level": 2 },
+  { "name_zh": "夫妻肺片", "name_en": "Sliced Beef & Ox Tongue in Chili Sauce", "price": 13.99, "category_zh": "凉菜", "category_en": "Cold Dishes", "description_zh": "经典川味凉菜", "description_en": "Classic Sichuan cold beef slices", "is_popular": true, "spicy_level": 2 },
+  { "name_zh": "凉拌黄瓜", "name_en": "Smashed Cucumber Salad", "price": 7.99, "category_zh": "凉菜", "category_en": "Cold Dishes", "description_zh": "蒜香爽脆", "description_en": "Garlic smashed cucumber", "is_popular": false, "spicy_level": 0 },
+  { "name_zh": "红油抄手", "name_en": "Wontons in Chili Oil", "price": 10.99, "category_zh": "凉菜", "category_en": "Cold Dishes", "description_zh": "红油飘香", "description_en": "Wontons in spicy chili oil", "is_popular": true, "spicy_level": 2 },
+
+  { "name_zh": "水煮鱼", "name_en": "Boiled Fish in Spicy Broth", "price": 22.99, "category_zh": "热菜", "category_en": "Mains", "description_zh": "麻辣水煮，鱼肉鲜嫩", "description_en": "Fish fillets in fiery Sichuan broth", "is_popular": true, "spicy_level": 3 },
+  { "name_zh": "水煮牛肉", "name_en": "Boiled Beef in Spicy Broth", "price": 21.99, "category_zh": "热菜", "category_en": "Mains", "description_zh": "经典水煮系列", "description_en": "Beef slices in spicy Sichuan broth", "is_popular": true, "spicy_level": 3 },
+  { "name_zh": "回锅肉", "name_en": "Twice-Cooked Pork", "price": 17.99, "category_zh": "热菜", "category_en": "Mains", "description_zh": "肥而不腻，下饭神器", "description_en": "Stir-fried pork belly with leeks", "is_popular": true, "spicy_level": 1 },
+  { "name_zh": "麻婆豆腐", "name_en": "Mapo Tofu", "price": 14.99, "category_zh": "热菜", "category_en": "Mains", "description_zh": "麻辣烫嫩", "description_en": "Tofu in spicy minced pork sauce", "is_popular": true, "spicy_level": 2 },
+  { "name_zh": "宫保鸡丁", "name_en": "Kung Pao Chicken", "price": 16.99, "category_zh": "热菜", "category_en": "Mains", "description_zh": "花生鸡丁，香辣可口", "description_en": "Diced chicken with peanuts and chili", "is_popular": true, "spicy_level": 1 },
+  { "name_zh": "辣子鸡", "name_en": "Chongqing Spicy Chicken", "price": 17.99, "category_zh": "热菜", "category_en": "Mains", "description_zh": "重庆名菜，干辣香脆", "description_en": "Crispy chicken pieces with dried chili", "is_popular": true, "spicy_level": 3 },
+  { "name_zh": "酸菜鱼", "name_en": "Fish with Pickled Mustard Greens", "price": 21.99, "category_zh": "热菜", "category_en": "Mains", "description_zh": "酸爽开胃", "description_en": "Fish in sour pickled vegetable broth", "is_popular": true, "spicy_level": 1 },
+  { "name_zh": "干煸四季豆", "name_en": "Dry-Fried Green Beans", "price": 14.99, "category_zh": "热菜", "category_en": "Mains", "description_zh": "干香入味", "description_en": "Stir-fried green beans with minced pork", "is_popular": false, "spicy_level": 1 },
+  { "name_zh": "鱼香肉丝", "name_en": "Yu Xiang Shredded Pork", "price": 16.99, "category_zh": "热菜", "category_en": "Mains", "description_zh": "甜酸微辣", "description_en": "Shredded pork in garlic sauce", "is_popular": false, "spicy_level": 1 },
+
+  { "name_zh": "重庆小面", "name_en": "Chongqing Street Noodles", "price": 12.99, "category_zh": "面食", "category_en": "Noodles", "description_zh": "地道重庆味", "description_en": "Spicy Chongqing-style noodles", "is_popular": true, "spicy_level": 2 },
+  { "name_zh": "担担面", "name_en": "Dan Dan Noodles", "price": 12.99, "category_zh": "面食", "category_en": "Noodles", "description_zh": "芝麻酱香浓郁", "description_en": "Noodles in sesame chili sauce", "is_popular": true, "spicy_level": 2 },
+  { "name_zh": "酸辣粉", "name_en": "Hot & Sour Glass Noodles", "price": 11.99, "category_zh": "面食", "category_en": "Noodles", "description_zh": "酸辣过瘾", "description_en": "Sweet potato noodles in sour spicy soup", "is_popular": true, "spicy_level": 2 },
+
+  { "name_zh": "蛋炒饭", "name_en": "Egg Fried Rice", "price": 11.99, "category_zh": "米饭", "category_en": "Rice", "description_zh": "粒粒分明", "description_en": "Classic egg fried rice", "is_popular": false, "spicy_level": 0 },
+  { "name_zh": "白米饭", "name_en": "Steamed Rice", "price": 2.50, "category_zh": "米饭", "category_en": "Rice", "description_zh": "", "description_en": "Steamed white rice", "is_popular": false, "spicy_level": 0 }
+]
