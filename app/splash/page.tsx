@@ -102,15 +102,9 @@ export default function SplashPage() {
         <div className="flex flex-col items-center gap-0">
           <span
             className="splash-rise"
-            style={{ fontSize: 22, fontWeight: 500, color: "#1A1A1A", animationDelay: "0.2s" }}
+            style={{ fontSize: 14, fontWeight: 400, letterSpacing: 4, color: "#bbb", animationDelay: "0.2s" }}
           >
-            DeeDao
-          </span>
-          <span
-            className="splash-rise"
-            style={{ fontSize: 13, color: "#bbb", letterSpacing: 2, marginTop: 6, animationDelay: "0.4s" }}
-          >
-            地道
+            DEEDAO 地道
           </span>
           <span
             className="splash-rise"
