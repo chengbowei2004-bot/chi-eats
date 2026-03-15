@@ -159,9 +159,11 @@ export default function MenuPage() {
                   </p>
                 )}
               </div>
-              <span className="text-[16px] text-[#1A1A1A] shrink-0">
-                ${item.price.toFixed(2)}
-              </span>
+              {item.price > 0 && (
+                <span className="text-[16px] text-[#1A1A1A] shrink-0">
+                  ${item.price.toFixed(2)}
+                </span>
+              )}
             </div>
           </div>
         ))}

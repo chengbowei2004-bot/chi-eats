@@ -26,14 +26,10 @@ type Props = {
   onSignInRequired?: () => void;
 };
 
-// Restaurants that have menu data
-const MENUS_AVAILABLE = new Set(["chongqing-house"]);
-
 export function RestaurantCard({ restaurant, favorited = false, onSignInRequired }: Props) {
   const { t } = useLanguage();
   const router = useRouter();
   const [showSheet, setShowSheet] = useState(false);
-  const hasMenu = MENUS_AVAILABLE.has(restaurant.id);
   const {
     id,
     name,
@@ -94,17 +90,15 @@ export function RestaurantCard({ restaurant, favorited = false, onSignInRequired
         </div>
 
         <div className="px-5 pb-5 flex gap-3">
-          {hasMenu && (
-            <button
-              onClick={() => router.push(`/restaurant/${id}/menu`)}
-              className="flex-1 flex items-center justify-center py-2 rounded-full border border-[#1A1A1A] text-[#1A1A1A] text-sm tracking-wider uppercase hover:bg-[#1A1A1A] hover:text-white transition-colors"
-            >
-              {t("看菜单", "MENU")}
-            </button>
-          )}
+          <button
+            onClick={() => router.push(`/restaurant/${id}/menu`)}
+            className="flex-1 flex items-center justify-center py-2 rounded-full border border-[#1A1A1A] text-[#1A1A1A] text-sm tracking-wider uppercase hover:bg-[#1A1A1A] hover:text-white transition-colors"
+          >
+            {t("看菜单", "MENU")}
+          </button>
           <button
             onClick={() => setShowSheet(true)}
-            className={`flex items-center justify-center py-2 bg-gray-900 text-white text-sm tracking-wider uppercase rounded-full hover:bg-gray-800 transition-colors ${hasMenu ? "flex-1" : "w-full"}`}
+            className="flex-1 flex items-center justify-center py-2 bg-gray-900 text-white text-sm tracking-wider uppercase rounded-full hover:bg-gray-800 transition-colors"
           >
             {t("导航", "NAVIGATE")}
           </button>
