@@ -8,6 +8,7 @@
 const dishImageMap: Record<string, string> = {
   "水煮鱼": "/dishes/shuizhuyu.jpg",
   "小笼包": "/dishes/xiaolongbao.jpg",
+  "四川火锅": "/dishes/malahuoguo.jpg",
   "麻辣香锅": "/dishes/malaxiangguo.jpg",
   "回锅肉": "/dishes/huiguorou.jpg",
   "炸酱面": "/dishes/zhajiangmian.jpg",
@@ -18,6 +19,7 @@ const dishImageMap: Record<string, string> = {
   "担担面": "/dishes/dandanmian.jpg",
   "麻婆豆腐": "/dishes/mapodoufu.jpg",
   "辣子鸡": "/dishes/laziji.jpg",
+  "重庆辣子鸡": "/dishes/laziji.jpg",
   "麻辣烫": "/dishes/malatang.jpg",
   "酸辣土豆丝": "/dishes/suanlatudousi.jpg",
   "水煮牛肉": "/dishes/shuizhuniurou.jpg",
