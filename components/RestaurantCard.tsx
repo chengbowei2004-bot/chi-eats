@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { MapPin, X } from "lucide-react";
 import { useLanguage } from "@/lib/useLanguage";
-import { CERTIFIED_RESTAURANTS } from "@/lib/constants";
+import { CERTIFIED_RESTAURANTS, XHS_POPULAR_RESTAURANTS } from "@/lib/constants";
 
 type Restaurant = {
   id: string;
@@ -44,6 +44,9 @@ export function RestaurantCard({ restaurant }: Props) {
   const isCertified = CERTIFIED_RESTAURANTS.some(
     (n) => name.includes(n) || name_zh.includes(n)
   );
+  const isXhsPopular = XHS_POPULAR_RESTAURANTS.some(
+    (n) => name.includes(n) || name_zh.includes(n)
+  );
 
   return (
     <>
@@ -55,31 +58,56 @@ export function RestaurantCard({ restaurant }: Props) {
           background: "#fff",
         }}
       >
-        {/* Top row: TOP PICK + DeeDao Certified */}
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12 }}>
-          <span style={{ fontSize: 10, color: "#999", letterSpacing: "1.5px", textTransform: "uppercase" as const }}>
-            {top_pick ? t("推荐", "TOP PICK") : ""}
-          </span>
-          {isCertified && (
-            <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                gap: 4,
-                padding: "4px 10px",
-                borderRadius: 20,
-                background: "#000",
-              }}
-            >
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.5">
-                <path d="M20 6L9 17l-5-5" />
-              </svg>
-              <span style={{ fontSize: 10, color: "#fff", fontWeight: 500, letterSpacing: "0.5px" }}>
-                {t("DeeDao 认证", "DeeDao Certified")}
-              </span>
-            </div>
-          )}
-        </div>
+        {/* TOP PICK label */}
+        {top_pick && (
+          <p style={{ fontSize: 10, color: "#999", letterSpacing: "1.5px", textTransform: "uppercase" as const, margin: "0 0 8px" }}>
+            {t("推荐", "TOP PICK")}
+          </p>
+        )}
+
+        {/* Badges row */}
+        {(isCertified || isXhsPopular) && (
+          <div style={{ display: "flex", gap: 6, flexWrap: "wrap" as const, marginBottom: 12 }}>
+            {isCertified && (
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: 4,
+                  padding: "4px 10px",
+                  borderRadius: 20,
+                  background: "#000",
+                }}
+              >
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.5">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+                <span style={{ fontSize: 10, color: "#fff", fontWeight: 500, letterSpacing: "0.5px" }}>
+                  {t("DeeDao 认证", "DeeDao Certified")}
+                </span>
+              </div>
+            )}
+            {isXhsPopular && (
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: 4,
+                  padding: "4px 10px",
+                  borderRadius: 20,
+                  background: "#FF2442",
+                }}
+              >
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="#fff" stroke="none">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15l-4-4 1.41-1.41L11 14.17l6.59-6.59L19 9l-8 8z" />
+                </svg>
+                <span style={{ fontSize: 10, color: "#fff", fontWeight: 500, letterSpacing: "0.5px" }}>
+                  {t("小红书热门", "XHS Popular")}
+                </span>
+              </div>
+            )}
+          </div>
+        )}
 
         {/* Restaurant name */}
         <h3 style={{ fontSize: 18, fontWeight: 500, margin: "0 0 2px", color: "#000" }}>
