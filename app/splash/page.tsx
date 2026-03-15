@@ -128,7 +128,7 @@ export default function SplashPage() {
                     top: 16,
                     fontSize: 14,
                     fontWeight: 400,
-                    color: "#bbb",
+                    color: "#000",
                     opacity: 0,
                     transform: `translate(${l.sx}px, ${l.sy}px)`,
                     animation: `land 1.2s cubic-bezier(0.16, 1, 0.3, 1) ${l.delay}s forwards`,
@@ -145,7 +145,7 @@ export default function SplashPage() {
                   left: "50%",
                   width: 0,
                   height: 1,
-                  background: "#ddd",
+                  background: "#000",
                   transform: "translateX(-50%)",
                   animation: "draw 0.4s ease 2.0s forwards",
                 }}
