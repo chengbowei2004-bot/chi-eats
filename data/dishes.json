@@ -28,7 +28,8 @@
     ],
     "tags": [
       "spicy"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "dan-dan-noodles",
@@ -55,7 +56,8 @@
     "tags": [
       "spicy",
       "noodles"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "twice-cooked-pork",
@@ -84,7 +86,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "spicy-boiled-fish",
@@ -111,7 +114,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "spicy-boiled-beef",
@@ -137,7 +141,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "husband-and-wife-beef",
@@ -163,7 +168,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "mouthwatering-chicken",
@@ -191,7 +197,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "sichuan-red-oil-wontons",
@@ -218,7 +225,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "mala-dry-pot",
@@ -242,7 +250,8 @@
     ],
     "tags": [
       "spicy"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "sichuan-cold-noodles",
@@ -269,7 +278,8 @@
       "spicy",
       "noodles",
       "light"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "boiled-pork-slices",
@@ -293,7 +303,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "hotpot-beef-slices",
@@ -314,7 +325,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "hotpot-lamb-slices",
@@ -335,7 +347,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "hotpot-tripe",
@@ -357,7 +370,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "duck-blood-curd",
@@ -379,7 +393,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "enoki-mushrooms-hotpot",
@@ -401,7 +416,8 @@
     "tags": [
       "spicy",
       "light"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "fatty-beef-hotpot",
@@ -422,7 +438,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "tofu-skin-hotpot",
@@ -444,7 +461,8 @@
     "tags": [
       "spicy",
       "light"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "beef-noodle-soup",
@@ -469,7 +487,8 @@
     "tags": [
       "noodles",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "cold-sesame-noodles",
@@ -493,7 +512,8 @@
     "tags": [
       "noodles",
       "light"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "scallion-oil-noodles",
@@ -518,7 +538,8 @@
     "tags": [
       "noodles",
       "light"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "zha-jiang-mian",
@@ -542,7 +563,8 @@
     ],
     "tags": [
       "noodles"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "crossing-bridge-noodles",
@@ -566,7 +588,8 @@
     ],
     "tags": [
       "noodles"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "tomato-egg-noodles",
@@ -589,7 +612,8 @@
     ],
     "tags": [
       "noodles"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "lanzhou-beef-noodle",
@@ -613,7 +637,8 @@
     ],
     "tags": [
       "noodles"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "hot-dry-noodles",
@@ -634,7 +659,8 @@
     ],
     "tags": [
       "noodles"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "spicy-beef-noodle-soup",
@@ -658,7 +684,8 @@
       "spicy",
       "noodles",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "pork-cabbage-dumplings",
@@ -684,7 +711,8 @@
     "tags": [
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "xiao-long-bao",
@@ -713,7 +741,8 @@
     "tags": [
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "pork-chive-dumplings",
@@ -734,7 +763,8 @@
     ],
     "tags": [
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "vegetable-dumplings",
@@ -755,7 +785,8 @@
     ],
     "tags": [
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "scallion-pancake",
@@ -783,7 +814,8 @@
     ],
     "tags": [
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "di-san-xian",
@@ -804,7 +836,8 @@
       "chongqing-house",
       "golden-garden-malden"
     ],
-    "tags": []
+    "tags": [],
+    "dish_type": "dish"
   },
   {
     "id": "guo-bao-rou",
@@ -829,7 +862,8 @@
       "meaty",
       "snacks",
       "sweets"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "suan-cai-fish",
@@ -855,7 +889,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "northeastern-pork-stew",
@@ -878,7 +913,8 @@
     "tags": [
       "noodles",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "stir-fried-rice-cake",
@@ -900,7 +936,8 @@
     ],
     "tags": [
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "spicy-steamed-fish-head",
@@ -922,7 +959,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "dry-pot-cauliflower",
@@ -945,7 +983,8 @@
     ],
     "tags": [
       "spicy"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "stir-fried-pork-peppers",
@@ -969,7 +1008,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "hand-pulled-lamb-noodles",
@@ -990,7 +1030,8 @@
       "aries-noodle",
       "ifresh-noodle"
     ],
-    "tags": []
+    "tags": [],
+    "dish_type": "dish"
   },
   {
     "id": "lamb-skewers",
@@ -1016,7 +1057,8 @@
       "spicy",
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "xinjiang-pilaf",
@@ -1039,7 +1081,8 @@
     "tags": [
       "snacks",
       "sweets"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "big-plate-chicken",
@@ -1064,7 +1107,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "samsa",
@@ -1085,7 +1129,8 @@
     ],
     "tags": [
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "liangpi-cold-skin-noodles",
@@ -1107,7 +1152,8 @@
     "tags": [
       "spicy",
       "light"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "malatang",
@@ -1130,7 +1176,8 @@
     ],
     "tags": [
       "spicy"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "tiger-skin-peppers",
@@ -1153,7 +1200,8 @@
     ],
     "tags": [
       "light"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "doubanjiang-eggplant",
@@ -1174,7 +1222,8 @@
     ],
     "tags": [
       "spicy"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "guilin-rice-noodles",
@@ -1196,7 +1245,8 @@
     ],
     "tags": [
       "noodles"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "pork-bone-noodle-soup",
@@ -1219,7 +1269,8 @@
     "tags": [
       "noodles",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "mao-braised-pork",
@@ -1242,7 +1293,8 @@
     "tags": [
       "meaty",
       "sweets"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "lotus-root-pork-rib-soup",
@@ -1264,7 +1316,8 @@
     "tags": [
       "meaty",
       "sweets"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "corn-pork-dumplings",
@@ -1286,7 +1339,8 @@
     "tags": [
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "braised-pork-knuckle",
@@ -1307,7 +1361,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "stir-fried-green-beans",
@@ -1334,7 +1389,8 @@
     ],
     "tags": [
       "spicy"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "crispy-tofu",
@@ -1355,7 +1411,8 @@
     ],
     "tags": [
       "light"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "sichuan-braised-pork-ribs",
@@ -1377,7 +1434,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "tofu-skin-salad",
@@ -1398,7 +1456,8 @@
     ],
     "tags": [
       "spicy"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "cucumber-pork-stir-fry",
@@ -1420,7 +1479,8 @@
     "tags": [
       "light",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "braised-pork-tofu",
@@ -1441,7 +1501,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "cold-dressed-cucumber",
@@ -1463,7 +1524,8 @@
     ],
     "tags": [
       "light"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "pork-and-mushroom-dumplings",
@@ -1485,7 +1547,8 @@
     "tags": [
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "cold-noodles-dongbei",
@@ -1508,7 +1571,8 @@
     "tags": [
       "noodles",
       "light"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "chive-egg-pancake",
@@ -1529,7 +1593,8 @@
     ],
     "tags": [
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "wood-ear-mushroom-salad",
@@ -1550,7 +1615,8 @@
     ],
     "tags": [
       "light"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "cumin-lamb-stir-fry",
@@ -1577,7 +1643,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "three-cup-chicken",
@@ -1600,7 +1667,8 @@
     "tags": [
       "meaty",
       "sweets"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "kung-pao-shrimp",
@@ -1622,7 +1690,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "braised-tofu-doubanjiang",
@@ -1644,7 +1713,8 @@
     "tags": [
       "spicy",
       "light"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "peking-duck",
@@ -1667,7 +1737,8 @@
     "tags": [
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "chinese-fried-chicken",
@@ -1690,7 +1761,8 @@
       "spicy",
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "taiwanese-egg-crepe",
@@ -1710,7 +1782,8 @@
     ],
     "tags": [
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "soy-milk-you-tiao",
@@ -1730,7 +1803,8 @@
     ],
     "tags": [
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "yunnan-rice-noodle",
@@ -1752,7 +1826,8 @@
     ],
     "tags": [
       "noodles"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "char-siu-rice",
@@ -1775,7 +1850,8 @@
     "tags": [
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "hk-milk-tea",
@@ -1795,7 +1871,8 @@
     ],
     "tags": [
       "sweets"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "spicy-diced-chicken",
@@ -1820,7 +1897,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "grilled-fish-mala",
@@ -1844,7 +1922,8 @@
       "spicy",
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "baked-pork-chop-rice",
@@ -1865,7 +1944,8 @@
     "tags": [
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "sichuan-hot-pot",
@@ -1887,7 +1967,8 @@
     ],
     "tags": [
       "spicy"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "spicy-wonton-chili-oil",
@@ -1911,7 +1992,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "mala-beef",
@@ -1933,7 +2015,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "steamed-eggplant-chili",
@@ -1955,7 +2038,8 @@
     "tags": [
       "spicy",
       "light"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "smoked-tea-duck",
@@ -1976,7 +2060,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "pig-ear-chili-oil",
@@ -1998,7 +2083,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "hot-sour-soup",
@@ -2020,7 +2106,8 @@
     ],
     "tags": [
       "spicy"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "wonton-soup",
@@ -2041,7 +2128,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "west-lake-beef-soup",
@@ -2063,7 +2151,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "pig-feet-soup",
@@ -2084,7 +2173,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "mustard-pork-noodle-soup",
@@ -2106,7 +2196,8 @@
     "tags": [
       "noodles",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "hot-sour-rice-noodle",
@@ -2129,7 +2220,8 @@
     "tags": [
       "spicy",
       "noodles"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "singapore-mei-fun",
@@ -2151,7 +2243,8 @@
     "tags": [
       "spicy",
       "noodles"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "double-cooked-fish",
@@ -2173,7 +2266,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "cumin-beef-stir-fry",
@@ -2195,7 +2289,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "dry-sauteed-shredded-beef",
@@ -2217,7 +2312,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "hot-spicy-crispy-beef",
@@ -2239,7 +2335,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "beef-sour-soup",
@@ -2261,7 +2358,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "fish-sour-sauce",
@@ -2283,7 +2381,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "ants-climbing-tree",
@@ -2304,7 +2403,8 @@
     ],
     "tags": [
       "spicy"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "country-style-pork",
@@ -2326,7 +2426,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "sweet-sour-pork-ribs",
@@ -2348,7 +2449,8 @@
     "tags": [
       "meaty",
       "sweets"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "hot-spicy-pork-feet",
@@ -2370,7 +2472,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "shredded-beef-green-pepper",
@@ -2392,7 +2495,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "spicy-beef-pot",
@@ -2414,7 +2518,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "beer-duck-griddle",
@@ -2435,7 +2540,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "beef-griddle",
@@ -2457,7 +2563,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "lamb-griddle",
@@ -2479,7 +2586,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "hot-sour-shredded-potato",
@@ -2504,7 +2612,8 @@
     "tags": [
       "spicy",
       "light"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "pumpkin-cake",
@@ -2526,7 +2635,8 @@
     "tags": [
       "snacks",
       "sweets"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "fermented-rice-balls",
@@ -2549,7 +2659,8 @@
       "light",
       "snacks",
       "sweets"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "sesame-rice-balls",
@@ -2571,7 +2682,8 @@
     "tags": [
       "snacks",
       "sweets"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "beef-tripe-red-oil",
@@ -2593,7 +2705,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "steamed-chicken-garlic",
@@ -2615,7 +2728,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "bang-bang-chicken",
@@ -2637,7 +2751,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "chengdu-cold-jelly",
@@ -2660,7 +2775,8 @@
       "spicy",
       "noodles",
       "light"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "sichuan-pickles",
@@ -2682,7 +2798,8 @@
     "tags": [
       "spicy",
       "light"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "fish-fragrant-shredded-pork",
@@ -2707,7 +2824,8 @@
     "tags": [
       "meaty",
       "sweets"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "chongqing-spicy-chicken",
@@ -2731,7 +2849,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "douban-fish-fillet",
@@ -2753,7 +2872,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "fish-fragrant-chicken",
@@ -2776,7 +2896,8 @@
       "spicy",
       "meaty",
       "sweets"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "dry-pot-intestines",
@@ -2798,7 +2919,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "mala-whole-fish",
@@ -2820,7 +2942,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "spicy-whole-fish",
@@ -2842,7 +2965,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "pine-nut-whole-fish",
@@ -2864,7 +2988,8 @@
     "tags": [
       "meaty",
       "sweets"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "douban-whole-fish",
@@ -2886,7 +3011,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "shouzhuabing",
@@ -2907,7 +3033,8 @@
     ],
     "tags": [
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "chicken-soup-wonton",
@@ -2929,7 +3056,8 @@
     "tags": [
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "sweet-cream-shrimp",
@@ -2951,7 +3079,8 @@
     "tags": [
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "fried-skewers",
@@ -2973,7 +3102,8 @@
     "tags": [
       "spicy",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "mala-xiang-guo",
@@ -2994,7 +3124,8 @@
     ],
     "tags": [
       "spicy"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "mala-noodle-beef-ramen",
@@ -3016,7 +3147,8 @@
     "tags": [
       "noodles",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "golden-bun",
@@ -3039,7 +3171,8 @@
       "light",
       "snacks",
       "sweets"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "house-soft-ice-cream",
@@ -3062,7 +3195,8 @@
       "light",
       "snacks",
       "sweets"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "chive-egg-dumplings",
@@ -3082,7 +3216,8 @@
     ],
     "tags": [
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "lamb-dumplings-handmade",
@@ -3103,7 +3238,8 @@
     "tags": [
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "ding-ding-noodles",
@@ -3123,7 +3259,8 @@
     ],
     "tags": [
       "noodles"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "rice-noodles-plain",
@@ -3143,7 +3280,8 @@
     ],
     "tags": [
       "noodles"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "jahunger-mixed-noodles",
@@ -3163,7 +3301,8 @@
     ],
     "tags": [
       "noodles"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "stir-fried-rice-noodles",
@@ -3183,7 +3322,8 @@
     ],
     "tags": [
       "noodles"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "cold-chicken-salad",
@@ -3204,7 +3344,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "cold-beef-cucumber",
@@ -3224,7 +3365,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "dry-fried-lamb",
@@ -3246,7 +3388,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "tiger-salad",
@@ -3268,7 +3411,8 @@
     "tags": [
       "spicy",
       "light"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "spicy-beef-tripe",
@@ -3289,7 +3433,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "kavap-skewers",
@@ -3312,7 +3457,8 @@
       "spicy",
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "polo-pilaf",
@@ -3334,7 +3480,8 @@
     "tags": [
       "snacks",
       "sweets"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "homemade-yogurt",
@@ -3356,7 +3503,8 @@
     "tags": [
       "light",
       "sweets"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "honey-cake",
@@ -3376,7 +3524,8 @@
     "tags": [
       "sweets",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "sesame-cold-noodles",
@@ -3397,7 +3546,8 @@
     "tags": [
       "noodles",
       "light"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "spicy-cold-noodles",
@@ -3419,7 +3569,8 @@
       "spicy",
       "noodles",
       "light"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "spicy-crispy-cucumber",
@@ -3441,7 +3592,8 @@
     "tags": [
       "spicy",
       "light"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "spicy-wood-ear-fungus",
@@ -3461,7 +3613,8 @@
     ],
     "tags": [
       "spicy"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "beef-scallion-pancake-wrap",
@@ -3481,7 +3634,8 @@
     ],
     "tags": [
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "fried-mini-buns",
@@ -3501,7 +3655,8 @@
     ],
     "tags": [
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "xiao-chao-huang-niu",
@@ -3523,7 +3678,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "hunan-xiao-chao-rou",
@@ -3545,7 +3701,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "hunan-sauteed-chicken",
@@ -3566,7 +3723,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "bamboo-shoots-bacon",
@@ -3586,7 +3744,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "hunan-stir-fried-bacon",
@@ -3607,7 +3766,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "spicy-chicken-gizzard",
@@ -3628,7 +3788,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "chopped-pepper-fish",
@@ -3649,7 +3810,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "spicy-stinky-tofu",
@@ -3671,7 +3833,8 @@
     "tags": [
       "spicy",
       "light"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "spicy-bullfrog",
@@ -3693,7 +3856,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "mao-xue-wang",
@@ -3715,7 +3879,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "tomato-radish-beef-stew",
@@ -3735,7 +3900,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "nappa-cabbage-pork-dumplings",
@@ -3756,7 +3922,8 @@
     "tags": [
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "beef-mao-cai",
@@ -3778,7 +3945,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "vegetable-fried-rice",
@@ -3798,7 +3966,8 @@
     ],
     "tags": [
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "popcorn-chicken",
@@ -3819,7 +3988,8 @@
     "tags": [
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "crispy-pork-tenderloin",
@@ -3839,7 +4009,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "sesame-balls",
@@ -3860,7 +4031,8 @@
     ],
     "tags": [
       "sweets"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "tofu-dumplings",
@@ -3880,7 +4052,8 @@
     ],
     "tags": [
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "vegetable-dumplings-12d",
@@ -3900,7 +4073,8 @@
     ],
     "tags": [
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "pork-dumplings",
@@ -3921,7 +4095,8 @@
     "tags": [
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "teriyaki-chicken-dumplings",
@@ -3942,7 +4117,8 @@
     "tags": [
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "black-pepper-beef-dumplings",
@@ -3963,7 +4139,8 @@
     "tags": [
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "signature-dumplings-12d",
@@ -3983,7 +4160,8 @@
     ],
     "tags": [
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "custard-bun",
@@ -4004,7 +4182,8 @@
     "tags": [
       "snacks",
       "sweets"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "beef-tripe-dim-sum",
@@ -4025,7 +4204,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "curry-chicken-rice",
@@ -4046,7 +4226,8 @@
     "tags": [
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "braised-pork-rice",
@@ -4067,7 +4248,8 @@
     "tags": [
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "mapo-tofu-rice",
@@ -4088,7 +4270,8 @@
     "tags": [
       "spicy",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "chili-chicken-rice",
@@ -4110,7 +4293,8 @@
       "spicy",
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "tomato-egg-rice",
@@ -4130,7 +4314,8 @@
     ],
     "tags": [
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "mala-classic-dry-pot",
@@ -4151,7 +4336,8 @@
     ],
     "tags": [
       "spicy"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "mala-your-way",
@@ -4171,7 +4357,8 @@
     ],
     "tags": [
       "spicy"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "chicken-congee",
@@ -4191,7 +4378,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "fish-congee",
@@ -4212,7 +4400,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "beef-potato-stew-noodles",
@@ -4233,7 +4422,8 @@
     "tags": [
       "noodles",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "braised-pork-noodles",
@@ -4254,7 +4444,8 @@
     "tags": [
       "noodles",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "home-style-tofu",
@@ -4274,7 +4465,8 @@
     ],
     "tags": [
       "light"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "beef-potato-stew",
@@ -4294,7 +4486,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "char-siu-cheung-fun",
@@ -4315,7 +4508,8 @@
     "tags": [
       "noodles",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "shrimp-cheung-fun",
@@ -4336,7 +4530,8 @@
     "tags": [
       "noodles",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "beef-cheung-fun",
@@ -4356,7 +4551,8 @@
     "tags": [
       "noodles",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "golden-lava-bun",
@@ -4377,7 +4573,8 @@
     "tags": [
       "snacks",
       "sweets"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "chive-dumplings",
@@ -4396,7 +4593,8 @@
     ],
     "tags": [
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "chao-chow-dumpling",
@@ -4416,7 +4614,8 @@
     ],
     "tags": [
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "stuffed-tofu",
@@ -4436,7 +4635,8 @@
     ],
     "tags": [
       "light"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "stuffed-eggplant",
@@ -4454,7 +4654,8 @@
     "available_at": [
       "kings-garden"
     ],
-    "tags": []
+    "tags": [],
+    "dish_type": "dish"
   },
   {
     "id": "stuffed-green-pepper",
@@ -4472,7 +4673,8 @@
     "available_at": [
       "kings-garden"
     ],
-    "tags": []
+    "tags": [],
+    "dish_type": "dish"
   },
   {
     "id": "roast-duck-cantonese",
@@ -4493,7 +4695,8 @@
     "tags": [
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "poached-chicken-ginger",
@@ -4513,7 +4716,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "steamed-chicken-mushroom",
@@ -4534,7 +4738,8 @@
     "tags": [
       "light",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "pepper-salt-pork-chop",
@@ -4554,7 +4759,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "king-tou-spare-ribs",
@@ -4575,7 +4781,8 @@
     "tags": [
       "meaty",
       "sweets"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "shredded-pork-snow-cabbage",
@@ -4595,7 +4802,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "steamed-meat-cake-salted-fish",
@@ -4616,7 +4824,8 @@
     "tags": [
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "ginger-scallion-beef",
@@ -4636,7 +4845,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "xo-sauce-beef",
@@ -4658,7 +4868,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "black-pepper-beef-filet",
@@ -4678,7 +4889,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "sizzling-steak",
@@ -4698,7 +4910,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "pepper-salt-shrimp",
@@ -4718,7 +4931,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "pepper-salt-calamari",
@@ -4738,7 +4952,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "honey-walnut-prawns",
@@ -4759,7 +4974,8 @@
     "tags": [
       "sweets",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "shrimp-scrambled-egg",
@@ -4779,7 +4995,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "steamed-garlic-shrimp",
@@ -4800,7 +5017,8 @@
     "tags": [
       "light",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "stuffed-trio",
@@ -4818,7 +5036,8 @@
     "available_at": [
       "kings-garden"
     ],
-    "tags": []
+    "tags": [],
+    "dish_type": "dish"
   },
   {
     "id": "hunan-eggplant-pork",
@@ -4839,7 +5058,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "garlic-pea-shoots",
@@ -4859,7 +5079,8 @@
     ],
     "tags": [
       "light"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "xo-string-beans",
@@ -4879,7 +5100,8 @@
     ],
     "tags": [
       "spicy"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "braised-beef-brisket",
@@ -4899,7 +5121,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "beef-brisket-turnip",
@@ -4919,7 +5142,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "eight-treasure-tofu",
@@ -4939,7 +5163,8 @@
     ],
     "tags": [
       "light"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "salted-fish-eggplant-pot",
@@ -4959,7 +5184,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "seafood-congee",
@@ -4977,7 +5203,8 @@
     "available_at": [
       "kings-garden"
     ],
-    "tags": []
+    "tags": [],
+    "dish_type": "dish"
   },
   {
     "id": "beef-brisket-noodle-soup",
@@ -4998,7 +5225,8 @@
     "tags": [
       "noodles",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "roast-duck-noodle-soup",
@@ -5018,7 +5246,8 @@
     "tags": [
       "noodles",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "beef-tripe-noodle-soup",
@@ -5038,7 +5267,8 @@
     "tags": [
       "noodles",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "wild-mushroom-broth-lamei",
@@ -5057,7 +5287,8 @@
     "available_at": [
       "lamei-hotpot"
     ],
-    "tags": []
+    "tags": [],
+    "dish_type": "ingredient"
   },
   {
     "id": "tomato-broth-lamei",
@@ -5078,7 +5309,8 @@
     ],
     "tags": [
       "sweets"
-    ]
+    ],
+    "dish_type": "ingredient"
   },
   {
     "id": "bone-broth-lamei",
@@ -5097,7 +5329,8 @@
     "available_at": [
       "lamei-hotpot"
     ],
-    "tags": []
+    "tags": [],
+    "dish_type": "ingredient"
   },
   {
     "id": "spicy-veg-oil-broth-lamei",
@@ -5119,7 +5352,8 @@
     "tags": [
       "spicy",
       "light"
-    ]
+    ],
+    "dish_type": "ingredient"
   },
   {
     "id": "spicy-beef-tallow-broth-lamei",
@@ -5141,7 +5375,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "ingredient"
   },
   {
     "id": "two-flavor-broth-lamei",
@@ -5160,7 +5395,8 @@
     "available_at": [
       "lamei-hotpot"
     ],
-    "tags": []
+    "tags": [],
+    "dish_type": "ingredient"
   },
   {
     "id": "ice-jelly-lamei",
@@ -5184,7 +5420,8 @@
       "noodles",
       "light",
       "sweets"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "fried-rice-cake-lamei",
@@ -5206,7 +5443,8 @@
     "tags": [
       "spicy",
       "sweets"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "fried-mini-bun-lamei",
@@ -5228,7 +5466,8 @@
     "tags": [
       "light",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "crispy-pork-strip-lamei",
@@ -5250,7 +5489,8 @@
     "tags": [
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "pork-dumplings-lamei",
@@ -5272,7 +5512,8 @@
     "tags": [
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "fried-rice-lamei",
@@ -5293,7 +5534,8 @@
     ],
     "tags": [
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "snowflake-short-ribs-lamei",
@@ -5314,7 +5556,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "ingredient"
   },
   {
     "id": "premium-beef-lamei",
@@ -5335,7 +5578,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "ingredient"
   },
   {
     "id": "beef-lamb-combo-lamei",
@@ -5357,7 +5601,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "ingredient"
   },
   {
     "id": "nz-lamb-shoulder-lamei",
@@ -5378,7 +5623,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "ingredient"
   },
   {
     "id": "beef-tongue-lamei",
@@ -5399,7 +5645,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "ingredient"
   },
   {
     "id": "crunchy-meatballs-lamei",
@@ -5421,7 +5668,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "pork-kidney-lamei",
@@ -5443,7 +5691,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "ingredient"
   },
   {
     "id": "beef-omasum-lamei",
@@ -5464,7 +5713,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "ingredient"
   },
   {
     "id": "beef-tripe-lamei",
@@ -5485,7 +5735,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "ingredient"
   },
   {
     "id": "frog-leg-lamei",
@@ -5506,7 +5757,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "goose-intestine-lamei",
@@ -5527,7 +5779,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "ingredient"
   },
   {
     "id": "pork-brain-lamei",
@@ -5549,7 +5802,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "ingredient"
   },
   {
     "id": "beef-throat-lamei",
@@ -5568,7 +5822,8 @@
     "available_at": [
       "lamei-hotpot"
     ],
-    "tags": []
+    "tags": [],
+    "dish_type": "ingredient"
   },
   {
     "id": "boneless-duck-feet-lamei",
@@ -5590,7 +5845,8 @@
     "tags": [
       "spicy",
       "meaty"
-    ]
+    ],
+    "dish_type": "ingredient"
   },
   {
     "id": "shrimp-paste-lamei",
@@ -5611,7 +5867,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "ingredient"
   },
   {
     "id": "flounder-slices-lamei",
@@ -5632,7 +5889,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "ingredient"
   },
   {
     "id": "whole-shrimp-lamei",
@@ -5653,7 +5911,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "ingredient"
   },
   {
     "id": "lobster-tail-lamei",
@@ -5674,7 +5933,8 @@
     ],
     "tags": [
       "meaty"
-    ]
+    ],
+    "dish_type": "ingredient"
   },
   {
     "id": "hand-pulled-noodles-lamei",
@@ -5695,7 +5955,8 @@
     ],
     "tags": [
       "noodles"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "purple-potato-noodles-lamei",
@@ -5716,7 +5977,8 @@
     ],
     "tags": [
       "noodles"
-    ]
+    ],
+    "dish_type": "ingredient"
   },
   {
     "id": "rice-cake-lamei",
@@ -5737,7 +5999,8 @@
     ],
     "tags": [
       "snacks"
-    ]
+    ],
+    "dish_type": "ingredient"
   },
   {
     "id": "thai-basil-chicken-dumplings-lobanton",
@@ -5759,7 +6022,8 @@
     "tags": [
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "maize-runner-dumplings-lobanton",
@@ -5781,7 +6045,8 @@
     "tags": [
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "spam-egg-onigirazu-lobanton",
@@ -5803,7 +6068,8 @@
     "tags": [
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "shrimp-tempura-onigirazu-lobanton",
@@ -5825,7 +6091,8 @@
     "tags": [
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "pumpkin-onigirazu-lobanton",
@@ -5847,7 +6114,8 @@
     "tags": [
       "snacks",
       "sweets"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "lu-ro-fan-lobanton",
@@ -5869,7 +6137,8 @@
     "tags": [
       "meaty",
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "japanese-curry-bento-lobanton",
@@ -5890,7 +6159,8 @@
     ],
     "tags": [
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   },
   {
     "id": "lemon-garlic-fries-lobanton",
@@ -5911,6 +6181,7 @@
     ],
     "tags": [
       "snacks"
-    ]
+    ],
+    "dish_type": "dish"
   }
 ]

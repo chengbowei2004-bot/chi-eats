@@ -10,6 +10,7 @@ export type Dish = {
   cuisine_tag: string;
   flavor_tags: string[];
   tags: string[];
+  dish_type: string;
   image_url: string;
   available_at: string[];
 };

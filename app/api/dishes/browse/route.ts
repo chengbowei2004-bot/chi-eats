@@ -8,7 +8,8 @@ export async function GET(req: NextRequest) {
   const city = searchParams.get("city") || "providence";
   const tag = searchParams.get("tag") || "";
 
-  let dishes = city ? getDishesForCity(city) : allDishes;
+  let dishes = (city ? getDishesForCity(city) : allDishes)
+    .filter((d) => d.dish_type !== "ingredient");
 
   // Filter by dish tag
   if (tag) {
