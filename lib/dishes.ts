@@ -135,3 +135,21 @@ export function getDishSummaries(): DishSummary[] {
     flavor_tags,
   }));
 }
+
+/**
+ * Keyword-based search that matches dishes AND restaurant names.
+ * Returns restaurant IDs that match the query via their name,
+ * so the search API can include them alongside Claude's dish results.
+ */
+export function searchRestaurantsByKeyword(query: string, city?: string): Restaurant[] {
+  const q = query.toLowerCase().trim();
+  if (!q) return [];
+
+  let pool = city ? getRestaurantsByCity(city) : allRestaurants;
+  return pool.filter(
+    (r) =>
+      r.name.toLowerCase().includes(q) ||
+      r.name_zh.includes(q) ||
+      r.cuisine_tags.some((t) => t.includes(q))
+  );
+}

@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { searchDishes } from "@/lib/claude";
-import { getDishesByIds, getRestaurantsForDish, getRandomDishes, getRestaurantsByCity } from "@/lib/dishes";
+import { getDishesByIds, getRestaurantsForDish, getRandomDishes, getRestaurantsByCity, searchRestaurantsByKeyword, allDishes } from "@/lib/dishes";
 import { distanceMiles, generateBothMapsUrls, getCityCenter } from "@/lib/geo";
 
 // Simple in-memory rate limiter: max 20 requests per user (by IP) per hour.
@@ -48,10 +48,21 @@ export async function POST(req: NextRequest) {
       );
     }
 
+    // 1. Claude semantic dish search
     const dishIds = await searchDishes(query);
     const dishes = getDishesByIds(dishIds);
 
-    if (dishes.length === 0) {
+    const center = getCityCenter(city);
+    const lat = isFinite(userLat) ? userLat : center.lat;
+    const lng = isFinite(userLng) ? userLng : center.lng;
+
+    const cityRestaurantIds = new Set(getRestaurantsByCity(city).map((r) => r.id));
+
+    // 2. Also search restaurant names by keyword
+    const nameMatchedRestaurants = searchRestaurantsByKeyword(query, city);
+
+    // If no dishes AND no restaurants match, show alternatives
+    if (dishes.length === 0 && nameMatchedRestaurants.length === 0) {
       const alternatives = getRandomDishes(3, { city });
       return NextResponse.json({
         restaurants: [],
@@ -64,58 +75,66 @@ export async function POST(req: NextRequest) {
       });
     }
 
-    const center = getCityCenter(city);
-    const lat = isFinite(userLat) ? userLat : center.lat;
-    const lng = isFinite(userLng) ? userLng : center.lng;
+    type RestaurantEntry = {
+      id: string;
+      name: string;
+      name_zh: string;
+      address: string;
+      distance_miles: number;
+      review_summary: string;
+      review_score: number;
+      navigate_url_google: string;
+      navigate_url_apple: string;
+      top_pick: boolean;
+      yelp_url?: string;
+      dishes_served: string[];
+    };
 
-    const cityRestaurantIds = new Set(getRestaurantsByCity(city).map((r) => r.id));
+    const restaurantMap = new Map<string, RestaurantEntry>();
 
-    // Aggregate restaurants from all matched dishes, deduplicating by restaurant ID
-    const restaurantMap = new Map<
-      string,
-      {
-        id: string;
-        name: string;
-        name_zh: string;
-        address: string;
-        distance_miles: number;
-        review_summary: string;
-        review_score: number;
-        navigate_url_google: string;
-        navigate_url_apple: string;
-        top_pick: boolean;
-        yelp_url?: string;
-        dishes_served: string[];
+    function addRestaurant(r: typeof nameMatchedRestaurants[0], dishName?: string) {
+      if (!cityRestaurantIds.has(r.id)) return;
+      if (!restaurantMap.has(r.id)) {
+        const miles = distanceMiles(lat, lng, r.lat, r.lng);
+        const maps = generateBothMapsUrls(r.lat, r.lng);
+        restaurantMap.set(r.id, {
+          id: r.id,
+          name: r.name,
+          name_zh: r.name_zh,
+          address: r.address,
+          distance_miles: parseFloat(miles.toFixed(1)),
+          review_summary: r.review_summary,
+          review_score: r.review_score,
+          navigate_url_google: maps.google,
+          navigate_url_apple: maps.apple,
+          top_pick: false,
+          yelp_url: r.yelp_url,
+          dishes_served: dishName ? [dishName] : [],
+        });
+      } else if (dishName) {
+        const existing = restaurantMap.get(r.id)!;
+        if (!existing.dishes_served.includes(dishName)) {
+          existing.dishes_served.push(dishName);
+        }
       }
-    >();
+    }
 
+    // Add restaurants from matched dishes
     for (const dish of dishes) {
       const restaurants = getRestaurantsForDish(dish.id);
       for (const r of restaurants) {
-        if (!cityRestaurantIds.has(r.id)) continue;
-        if (!restaurantMap.has(r.id)) {
-          const miles = distanceMiles(lat, lng, r.lat, r.lng);
-          const maps = generateBothMapsUrls(r.lat, r.lng);
-          restaurantMap.set(r.id, {
-            id: r.id,
-            name: r.name,
-            name_zh: r.name_zh,
-            address: r.address,
-            distance_miles: parseFloat(miles.toFixed(1)),
-            review_summary: r.review_summary,
-            review_score: r.review_score,
-            navigate_url_google: maps.google,
-            navigate_url_apple: maps.apple,
-            top_pick: false,
-            yelp_url: r.yelp_url,
-            dishes_served: [dish.name_zh],
-          });
-        } else {
-          const existing = restaurantMap.get(r.id)!;
-          if (!existing.dishes_served.includes(dish.name_zh)) {
-            existing.dishes_served.push(dish.name_zh);
-          }
-        }
+        addRestaurant(r, dish.name_zh);
+      }
+    }
+
+    // Add restaurants matched by name (find their best dish as context)
+    for (const r of nameMatchedRestaurants) {
+      if (!restaurantMap.has(r.id)) {
+        // Find a representative dish this restaurant serves
+        const repDish = allDishes.find(
+          (d) => d.dish_type === "dish" && d.available_at.includes(r.id)
+        );
+        addRestaurant(r, repDish?.name_zh);
       }
     }
 
