@@ -371,7 +371,7 @@
       "spicy",
       "meaty"
     ],
-    "dish_type": "dish"
+    "dish_type": "adventurous"
   },
   {
     "id": "duck-blood-curd",
@@ -394,7 +394,7 @@
       "spicy",
       "meaty"
     ],
-    "dish_type": "dish"
+    "dish_type": "adventurous"
   },
   {
     "id": "enoki-mushrooms-hotpot",
@@ -1362,7 +1362,7 @@
     "tags": [
       "meaty"
     ],
-    "dish_type": "dish"
+    "dish_type": "adventurous"
   },
   {
     "id": "stir-fried-green-beans",
@@ -2473,7 +2473,7 @@
       "spicy",
       "meaty"
     ],
-    "dish_type": "dish"
+    "dish_type": "adventurous"
   },
   {
     "id": "shredded-beef-green-pepper",
@@ -2920,7 +2920,7 @@
       "spicy",
       "meaty"
     ],
-    "dish_type": "dish"
+    "dish_type": "adventurous"
   },
   {
     "id": "mala-whole-fish",
@@ -3434,7 +3434,7 @@
       "spicy",
       "meaty"
     ],
-    "dish_type": "dish"
+    "dish_type": "adventurous"
   },
   {
     "id": "kavap-skewers",
@@ -3857,7 +3857,7 @@
       "spicy",
       "meaty"
     ],
-    "dish_type": "dish"
+    "dish_type": "adventurous"
   },
   {
     "id": "mao-xue-wang",
@@ -4205,7 +4205,7 @@
     "tags": [
       "meaty"
     ],
-    "dish_type": "dish"
+    "dish_type": "adventurous"
   },
   {
     "id": "curry-chicken-rice",
@@ -5268,7 +5268,7 @@
       "noodles",
       "meaty"
     ],
-    "dish_type": "dish"
+    "dish_type": "adventurous"
   },
   {
     "id": "wild-mushroom-broth-lamei",
@@ -5758,7 +5758,7 @@
     "tags": [
       "meaty"
     ],
-    "dish_type": "dish"
+    "dish_type": "adventurous"
   },
   {
     "id": "goose-intestine-lamei",

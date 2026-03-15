@@ -9,7 +9,7 @@ export async function GET(req: NextRequest) {
   const tag = searchParams.get("tag") || "";
 
   let dishes = (city ? getDishesForCity(city) : allDishes)
-    .filter((d) => d.dish_type !== "ingredient");
+    .filter((d) => d.dish_type === "dish");
 
   // Filter by dish tag
   if (tag) {
