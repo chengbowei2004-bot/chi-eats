@@ -121,7 +121,7 @@ export default function HomePage() {
         </button>
       </nav>
 
-      {/* ── Hero ── */}
+      {/* ── Hero (scrolls normally) ── */}
       <div className="text-center" style={{ padding: "56px 28px 0" }}>
         <h1
           className="text-[34px] font-medium text-[#1A1A1A]"
@@ -131,7 +131,7 @@ export default function HomePage() {
         </h1>
 
         {/* City picker */}
-        <div className="relative inline-block" style={{ marginBottom: 40 }}>
+        <div className="relative inline-block">
           <button
             onClick={(e) => {
               e.stopPropagation();
@@ -181,52 +181,52 @@ export default function HomePage() {
             </div>
           )}
         </div>
+      </div>
 
-        {/* ── Search box ── */}
-        <div>
-          <form onSubmit={handleSearch}>
-            <div
-              className="flex items-center rounded-[12px]"
-              style={{
-                border: "1px solid #E0E0E0",
-                padding: "12px 16px",
-                gap: 12,
-              }}
+      {/* ── Sticky search box ── */}
+      <div style={{ position: "sticky", top: 0, zIndex: 10, background: "#ffffff", padding: "16px 24px" }}>
+        <form onSubmit={handleSearch}>
+          <div
+            className="flex items-center rounded-[12px]"
+            style={{
+              border: "1px solid #E0E0E0",
+              padding: "12px 16px",
+              gap: 12,
+            }}
+          >
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#AAAAAA"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="shrink-0"
             >
-              <svg
-                width="14"
-                height="14"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="#AAAAAA"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="shrink-0"
-              >
-                <circle cx="11" cy="11" r="8" />
-                <line x1="21" y1="21" x2="16.65" y2="16.65" />
-              </svg>
-              <input
-                type="text"
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-                placeholder={t("搜索你想吃的", "Search a dish...")}
-                className="home-search-light"
-                style={{
-                  border: "none",
-                  background: "none",
-                  outline: "none",
-                  color: "#1A1A1A",
-                  width: "100%",
-                  fontSize: 14,
-                  padding: 0,
-                  margin: 0,
-                }}
-              />
-            </div>
-          </form>
-        </div>
+              <circle cx="11" cy="11" r="8" />
+              <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg>
+            <input
+              type="text"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder={t("搜索你想吃的", "Search a dish...")}
+              className="home-search-light"
+              style={{
+                border: "none",
+                background: "none",
+                outline: "none",
+                color: "#1A1A1A",
+                width: "100%",
+                fontSize: 14,
+                padding: 0,
+                margin: 0,
+              }}
+            />
+          </div>
+        </form>
       </div>
 
       {/* ── Category tags ── */}
