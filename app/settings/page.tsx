@@ -2,8 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { ChevronRight, LogOut, MapPin } from "lucide-react";
-import { BottomNav } from "@/components/BottomNav";
+import { ArrowLeft, ChevronRight, LogOut, MapPin } from "lucide-react";
 import { SignInModal } from "@/components/SignInModal";
 import { useAuth } from "@/lib/useAuth";
 import { useLanguage } from "@/lib/useLanguage";
@@ -85,7 +84,14 @@ export default function SettingsPage() {
 
   return (
     <>
-      <main className="px-5 pt-12 pb-28">
+      <main className="px-5 pt-6 pb-12">
+        <button
+          onClick={() => router.push("/")}
+          className="flex items-center gap-1 text-sm text-gray-500 mb-6 hover:text-gray-900 transition-colors"
+        >
+          <ArrowLeft size={16} strokeWidth={1.5} />
+          {t("返回", "Back")}
+        </button>
         <h1 className="text-2xl font-light text-gray-900 tracking-tight mb-8">
           {t("设置", "SETTINGS")}
         </h1>
@@ -197,7 +203,6 @@ export default function SettingsPage() {
         )}
       </main>
 
-      <BottomNav />
       {showSignIn && <SignInModal onClose={() => setShowSignIn(false)} />}
     </>
   );
