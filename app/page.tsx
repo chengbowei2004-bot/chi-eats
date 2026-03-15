@@ -17,7 +17,7 @@ type BrowseDish = {
   restaurant_count: number;
 };
 
-const CATEGORIES = [
+const ALL_CATEGORIES = [
   { zh: "全部", en: "All", key: "all" },
   { zh: "想吃辣", en: "Spicy", key: "spicy" },
   { zh: "想吃面", en: "Noodles", key: "noodles" },
@@ -26,6 +26,10 @@ const CATEGORIES = [
   { zh: "来点小吃", en: "Snacks", key: "snacks" },
   { zh: "甜食奶茶", en: "Sweets & Boba", key: "sweets" },
 ];
+
+const HIDDEN_BY_CITY: Record<string, string[]> = {
+  providence: ["sweets"],
+};
 
 export default function HomePage() {
   const { user } = useAuth();
@@ -207,7 +211,7 @@ export default function HomePage() {
 
       {/* ── Category tags ── */}
       <div className="flex flex-wrap justify-center" style={{ gap: 10, padding: "32px 24px 0" }}>
-        {CATEGORIES.map((cat) => {
+        {ALL_CATEGORIES.filter((c) => !HIDDEN_BY_CITY[city]?.includes(c.key)).map((cat) => {
           const active = activeTag === cat.key;
           return (
             <button
