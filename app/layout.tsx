@@ -2,7 +2,6 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { AuthProvider } from "@/components/AuthProvider";
 import { LanguageProvider } from "@/components/LanguageProvider";
-import { RouteOverlay } from "@/components/RouteOverlay";
 
 export const metadata: Metadata = {
   title: "DeeDao — 发现你身边的地道中国味",
@@ -28,7 +27,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="mx-auto max-w-[430px] min-h-screen bg-white relative">
               {children}
             </div>
-            <RouteOverlay />
           </LanguageProvider>
         </AuthProvider>
       </body>

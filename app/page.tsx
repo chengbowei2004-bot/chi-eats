@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, type FormEvent } from "react";
+import { useEffect, useState, useRef, type FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import { Settings } from "lucide-react";
 import { getDishImage } from "@/lib/dishImages";
@@ -37,6 +37,7 @@ export default function HomePage() {
   const { city, setCity, cityLabel, allCities } = useCity();
   const router = useRouter();
 
+  const mainRef = useRef<HTMLElement>(null);
   const [query, setQuery] = useState("");
   const [activeTag, setActiveTag] = useState("all");
   const [dishes, setDishes] = useState<BrowseDish[]>([]);
@@ -54,6 +55,15 @@ export default function HomePage() {
       router.replace("/onboarding");
     }
   }, [router]);
+
+  // Fade in after paint
+  useEffect(() => {
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        mainRef.current?.classList.replace("page-enter", "page-ready");
+      });
+    });
+  }, []);
 
   // Fetch browse dishes
   useEffect(() => {
@@ -86,7 +96,7 @@ export default function HomePage() {
   }
 
   return (
-    <main className="min-h-screen bg-white">
+    <main ref={mainRef} className="min-h-screen bg-white page-enter">
       {/* ── Top nav ── */}
       <nav
         className="flex items-center justify-end"

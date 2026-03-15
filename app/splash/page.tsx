@@ -60,8 +60,10 @@ export default function SplashPage() {
     setVisible(false);
     setTimeout(() => {
       setStep(next);
-      setTimeout(() => setVisible(true), 50);
-    }, 400);
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => setVisible(true));
+      });
+    }, 300);
   }
 
   // Final exit to home page: fade out → navigate
@@ -90,7 +92,7 @@ export default function SplashPage() {
       <div
         style={{
           opacity: visible ? 1 : 0,
-          transition: "opacity 0.4s ease",
+          transition: "opacity 0.3s ease",
           minHeight: "100vh",
           display: "flex",
           flexDirection: "column",
