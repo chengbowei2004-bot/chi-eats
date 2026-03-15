@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { MapPin, X } from "lucide-react";
 import { useLanguage } from "@/lib/useLanguage";
+import { CERTIFIED_RESTAURANTS } from "@/lib/constants";
 
 type Restaurant = {
   id: string;
@@ -40,6 +41,10 @@ export function RestaurantCard({ restaurant }: Props) {
     yelp_url,
   } = restaurant;
 
+  const isCertified = CERTIFIED_RESTAURANTS.some(
+    (n) => name.includes(n) || name_zh.includes(n)
+  );
+
   return (
     <>
       <div
@@ -55,24 +60,25 @@ export function RestaurantCard({ restaurant }: Props) {
           <span style={{ fontSize: 10, color: "#999", letterSpacing: "1.5px", textTransform: "uppercase" as const }}>
             {top_pick ? t("推荐", "TOP PICK") : ""}
           </span>
-          {/* DeeDao Certified badge */}
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: 4,
-              padding: "4px 10px",
-              borderRadius: 20,
-              background: "#000",
-            }}
-          >
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.5">
-              <path d="M20 6L9 17l-5-5" />
-            </svg>
-            <span style={{ fontSize: 10, color: "#fff", fontWeight: 500, letterSpacing: "0.5px" }}>
-              {t("DeeDao 认证", "DeeDao Certified")}
-            </span>
-          </div>
+          {isCertified && (
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: 4,
+                padding: "4px 10px",
+                borderRadius: 20,
+                background: "#000",
+              }}
+            >
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.5">
+                <path d="M20 6L9 17l-5-5" />
+              </svg>
+              <span style={{ fontSize: 10, color: "#fff", fontWeight: 500, letterSpacing: "0.5px" }}>
+                {t("DeeDao 认证", "DeeDao Certified")}
+              </span>
+            </div>
+          )}
         </div>
 
         {/* Restaurant name */}
