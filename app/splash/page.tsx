@@ -17,6 +17,18 @@ const DISHES_EN = [
 type Step = "language" | "typewriter";
 type Lang = "zh" | "en";
 
+const LOGO_LETTERS = [
+  { char: "D", left: 0,   sx: -60, sy: -40, sr: -15, delay: 0.2 },
+  { char: "E", left: 22,  sx: 40,  sy: 50,  sr: 20,  delay: 0.35 },
+  { char: "E", left: 42,  sx: -30, sy: 60,  sr: -10, delay: 0.5 },
+  { char: "D", left: 62,  sx: 70,  sy: -50, sr: 25,  delay: 0.3 },
+  { char: "A", left: 84,  sx: -50, sy: -60, sr: -20, delay: 0.45 },
+  { char: "O", left: 106, sx: 60,  sy: 40,  sr: 15,  delay: 0.55 },
+  { char: " ", left: 126, sx: 0,   sy: 0,   sr: 0,   delay: 0 },
+  { char: "地", left: 140, sx: -40, sy: -30, sr: 10,  delay: 0.7 },
+  { char: "道", left: 170, sx: 50,  sy: 50,  sr: -25, delay: 0.85 },
+];
+
 export default function SplashPage() {
   const router = useRouter();
   const [step, setStep] = useState<Step>("language");
@@ -102,35 +114,82 @@ export default function SplashPage() {
       >
         {step === "language" && (
           <div className="flex flex-col items-center">
+            {/* Scatter logo */}
+            <div style={{ position: "relative", height: 50, width: 228, marginBottom: 8 }}>
+              {LOGO_LETTERS.map((l, i) => (
+                <span
+                  key={i}
+                  style={{
+                    position: "absolute",
+                    left: l.left,
+                    top: 16,
+                    fontSize: 14,
+                    fontWeight: 400,
+                    color: "#bbb",
+                    opacity: 0,
+                    transform: `translate(${l.sx}px, ${l.sy}px) rotate(${l.sr}deg)`,
+                    animation: `land 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) ${l.delay}s forwards`,
+                  }}
+                >
+                  {l.char}
+                </span>
+              ))}
+              {/* Underline */}
+              <div
+                style={{
+                  position: "absolute",
+                  bottom: 0,
+                  left: "50%",
+                  width: 0,
+                  height: 1,
+                  background: "#ddd",
+                  transform: "translateX(-50%)",
+                  animation: "draw 0.4s ease 1.6s forwards",
+                }}
+              />
+            </div>
+
             <span
-              className="splash-rise"
-              style={{ fontSize: 14, fontWeight: 400, letterSpacing: 4, color: "#bbb", animationDelay: "0.2s" }}
-            >
-              DEEDAO 地道
-            </span>
-            <span
-              className="splash-rise"
-              style={{ fontSize: 12, color: "#bbb", marginTop: 40, animationDelay: "0.4s" }}
+              style={{
+                fontSize: 12,
+                color: "#bbb",
+                marginTop: 32,
+                opacity: 0,
+                animation: "fadeUp 0.5s ease 1.8s forwards",
+              }}
             >
               Choose your language
             </span>
             <button
               onClick={() => handleLangSelect("zh")}
-              className="splash-rise splash-btn"
-              style={{ animationDelay: "0.6s", marginTop: 20 }}
+              className="splash-btn"
+              style={{
+                marginTop: 20,
+                opacity: 0,
+                animation: "fadeUp 0.5s ease 2.1s forwards",
+              }}
             >
               中文
             </button>
             <button
               onClick={() => handleLangSelect("en")}
-              className="splash-rise splash-btn"
-              style={{ animationDelay: "0.8s", marginTop: 12 }}
+              className="splash-btn"
+              style={{
+                marginTop: 12,
+                opacity: 0,
+                animation: "fadeUp 0.5s ease 2.3s forwards",
+              }}
             >
               English
             </button>
             <span
-              className="splash-rise"
-              style={{ fontSize: 11, color: "#bbb", marginTop: 24, animationDelay: "1.0s" }}
+              style={{
+                fontSize: 11,
+                color: "#bbb",
+                marginTop: 24,
+                opacity: 0,
+                animation: "fadeUp 0.5s ease 2.6s forwards",
+              }}
             >
               You can change this later in settings
             </span>
