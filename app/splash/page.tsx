@@ -101,18 +101,18 @@ export default function SplashPage() {
       >
         {/* ── Screen 1: Language selection ── */}
         {step === "language" && (
-          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", padding: "0 40px", width: "100%" }}>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", padding: "0 48px", width: "100%" }}>
             {/* Logo block */}
-            <div style={{ marginBottom: 64 }}>
+            <div style={{ marginBottom: 16 }}>
               <div
                 className="splash-up"
-                style={{ fontSize: 20, fontWeight: 500, letterSpacing: 3, color: "#000", animationDelay: "0.3s" }}
+                style={{ fontSize: 36, fontWeight: 400, letterSpacing: 8, textIndent: 8, color: "#000", animationDelay: "0.3s" }}
               >
                 DEEDAO
               </div>
               <div
                 className="splash-up"
-                style={{ fontSize: 12, fontWeight: 400, letterSpacing: 6, textIndent: 6, color: "#666", marginTop: 6, animationDelay: "0.5s" }}
+                style={{ fontSize: 16, fontWeight: 400, letterSpacing: 12, textIndent: 12, color: "#666", marginTop: 6, animationDelay: "0.5s" }}
               >
                 地 道
               </div>
@@ -121,7 +121,7 @@ export default function SplashPage() {
             {/* Slogan */}
             <div
               className="splash-up"
-              style={{ fontSize: 11, color: "#bbb", letterSpacing: 2, marginBottom: 56, animationDelay: "0.8s", animationDuration: "0.6s", animationTimingFunction: "ease" }}
+              style={{ fontSize: 11, color: "#bbb", letterSpacing: 3, textIndent: 3, marginBottom: 80, animationDelay: "0.8s", animationDuration: "0.6s", animationTimingFunction: "ease" }}
             >
               以菜寻味 以味寻道
             </div>
@@ -129,13 +129,13 @@ export default function SplashPage() {
             {/* Choose language */}
             <div
               className="splash-up"
-              style={{ fontSize: 12, color: "#bbb", letterSpacing: 1, marginBottom: 24, animationDelay: "1.1s", animationDuration: "0.5s", animationTimingFunction: "ease" }}
+              style={{ fontSize: 11, color: "#bbb", letterSpacing: 1.5, marginBottom: 20, animationDelay: "1.1s", animationDuration: "0.5s", animationTimingFunction: "ease" }}
             >
               Choose your language
             </div>
 
             {/* Buttons */}
-            <div style={{ display: "flex", flexDirection: "column", gap: 12, width: "100%", maxWidth: 300 }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: 10, width: "100%", maxWidth: 240 }}>
               <button
                 onClick={() => handleLangSelect("zh")}
                 className="splash-up splash-lang-filled"
@@ -155,7 +155,7 @@ export default function SplashPage() {
             {/* Hint */}
             <div
               className="splash-up"
-              style={{ fontSize: 11, color: "#bbb", marginTop: 40, animationDelay: "1.8s", animationDuration: "0.5s", animationTimingFunction: "ease" }}
+              style={{ fontSize: 11, color: "#bbb", marginTop: 32, animationDelay: "1.8s", animationDuration: "0.5s", animationTimingFunction: "ease" }}
             >
               You can change this later in settings
             </div>
