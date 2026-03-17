@@ -38,6 +38,7 @@ const dishImageMap: Record<string, string> = {
   "凉皮": "/dishes/liangpi.jpg",
   "肉夹馍": "/dishes/roujiamo.jpg",
   "刀削面": "/dishes/daoxiaomian.jpg",
+  "虾仁炒面": "/dishes/dandanmian.jpg",
 
   // ── Light tab ──
   "蒸饺": "/dishes/zhengjiao.jpg",

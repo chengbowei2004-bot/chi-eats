@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"D:/CHI EATS\" && cp -r chieats-temp/app . && cp -r chieats-temp/public . && cp chieats-temp/package.json . && cp chieats-temp/package-lock.json . && cp chieats-temp/tsconfig.json . && cp chieats-temp/next.config.ts . && cp chieats-temp/postcss.config.mjs . && cp chieats-temp/next-env.d.ts . && rm -rf chieats-temp && ls)",
+      "WebSearch",
+      "Bash(cd \"D:\\\\CHI EATS\" && node -e \"\nconst dishes = require\\('./data/dishes.json'\\);\n// All dishes NOT assigned to chongqing-house\nconst unassigned = dishes.filter\\(d => !d.available_at.includes\\('chongqing-house'\\)\\);\nconsole.log\\('=== DISHES NOT ASSIGNED TO CHONGQING-HOUSE ==='\\);\nunassigned.forEach\\(d => console.log\\(d.id + ' | ' + d.name_zh + ' | ' + d.name_en\\)\\);\n\")",
+      "Bash(cd \"D:/CHI EATS\" && npm run build 2>&1)",
+      "Bash(cd \"D:/CHI EATS\" && node -e \"\nconst dishes = require\\('./data/dishes.json'\\);\nconst ct = dishes.filter\\(d => d.available_at.includes\\('chengdu-taste'\\)\\);\nconsole.log\\('Total: ' + ct.length + ' dishes'\\);\nct.forEach\\(d => console.log\\(d.name_zh + ' | ' + d.name_en\\)\\);\n\")",
+      "Bash(cd \"D:/CHI EATS\" && npm run build 2>&1 | tail -10)",
+      "Bash(cd \"D:/CHI EATS\" && npm run build 2>&1 | tail -5)",
+      "Bash(cd \"D:/CHI EATS\" && node -e \"\nconst d=JSON.parse\\(require\\('fs'\\).readFileSync\\('data/dishes.json','utf8'\\)\\);\nconst c=d.filter\\(x=>x.available_at.includes\\('chef-yao'\\)\\);\nconsole.log\\('Current chef-yao dishes:',c.length\\);\nc.forEach\\(x=>console.log\\('  '+x.id+': '+x.name_zh+' / '+x.name_en\\)\\);\n\")",
+      "Bash(cd:*)"
+    ]
+  }
+}
