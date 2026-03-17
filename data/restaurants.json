@@ -14,7 +14,8 @@
     ],
     "review_summary": "Authentic Sichuan flavors with generous portions. The mapo tofu and spicy boiled fish are standouts.",
     "review_score": 4.4,
-    "yelp_url": "https://www.yelp.com/biz/chongqing-house-providence"
+    "yelp_url": "https://www.yelp.com/biz/chongqing-house-providence",
+    "price_per_person": 18
   },
   {
     "id": "chengdu-taste",
@@ -30,7 +31,8 @@
     ],
     "review_summary": "Classic Chengdu-style dishes done right. Dan dan noodles and twice-cooked pork are fan favorites.",
     "review_score": 4.3,
-    "yelp_url": "https://www.yelp.com/biz/chengdu-taste-providence"
+    "yelp_url": "https://www.yelp.com/biz/chengdu-taste-providence",
+    "price_per_person": 16
   },
   {
     "id": "rong-chic",
@@ -47,7 +49,8 @@
     ],
     "review_summary": "A no-frills spot beloved by Chinese students for its affordable home-style dishes and hearty noodle soups.",
     "review_score": 4.2,
-    "yelp_url": "https://www.yelp.com/biz/rong-chic-providence"
+    "yelp_url": "https://www.yelp.com/biz/rong-chic-providence",
+    "price_per_person": 12
   },
   {
     "id": "jahunger",
@@ -64,7 +67,8 @@
     ],
     "review_summary": "Providence's only Uyghur restaurant. The lamb skewers, big plate chicken, and hand-pulled noodles are unlike anything else in the city.",
     "review_score": 4.6,
-    "yelp_url": "https://www.yelp.com/biz/jahunger-providence"
+    "yelp_url": "https://www.yelp.com/biz/jahunger-providence",
+    "price_per_person": 15
   },
   {
     "id": "chef-yao",
@@ -81,7 +85,8 @@
     ],
     "review_summary": "Dependable Cantonese classics with a friendly atmosphere. Great for a full sit-down meal with roast meats and stir-fries.",
     "review_score": 4.1,
-    "yelp_url": "https://www.yelp.com/biz/chef-yao-providence"
+    "yelp_url": "https://www.yelp.com/biz/chef-yao-providence",
+    "price_per_person": 20
   },
   {
     "id": "mala-noodle",
@@ -98,7 +103,8 @@
     ],
     "review_summary": "Excellent spicy noodle soups popular with the Brown and RISD crowd. The mala broth is addictive.",
     "review_score": 4.5,
-    "yelp_url": "https://www.yelp.com/biz/mala-noodle-providence"
+    "yelp_url": "https://www.yelp.com/biz/mala-noodle-providence",
+    "price_per_person": 14
   },
   {
     "id": "12-dumplings",
@@ -115,7 +121,8 @@
     ],
     "review_summary": "Handmade dumplings with a variety of fillings — pork and cabbage are the classic, but the shrimp and chive are excellent too.",
     "review_score": 4.4,
-    "yelp_url": "https://www.yelp.com/biz/12-dumplings-providence"
+    "yelp_url": "https://www.yelp.com/biz/12-dumplings-providence",
+    "price_per_person": 12
   },
   {
     "id": "y-bento",
@@ -132,7 +139,8 @@
     ],
     "review_summary": "Quick, affordable Japanese-style bento boxes with generous rice and protein combinations. Great for a fast lunch.",
     "review_score": 4,
-    "yelp_url": "https://www.yelp.com/biz/y-bento-providence"
+    "yelp_url": "https://www.yelp.com/biz/y-bento-providence",
+    "price_per_person": 11
   },
   {
     "id": "y-noodle-bar",
@@ -149,7 +157,8 @@
     ],
     "review_summary": "A casual noodle bar with broth-based soups and dry noodle options. Customizable spice levels and toppings.",
     "review_score": 4.1,
-    "yelp_url": "https://www.yelp.com/biz/y-noodle-bar-providence"
+    "yelp_url": "https://www.yelp.com/biz/y-noodle-bar-providence",
+    "price_per_person": 13
   },
   {
     "id": "lamei-hotpot",
@@ -166,7 +175,8 @@
     ],
     "review_summary": "Providence's best hotpot experience with quality fresh ingredients and rich broth options. Come hungry and with friends.",
     "review_score": 4.5,
-    "yelp_url": "https://www.yelp.com/biz/lamei-hotpot-providence"
+    "yelp_url": "https://www.yelp.com/biz/lamei-hotpot-providence",
+    "price_per_person": 25
   },
   {
     "id": "pho-horn",
@@ -183,7 +193,8 @@
     ],
     "review_summary": "Exceptional pho and Vietnamese staples just outside Providence. The bone broth is simmered for hours and it shows.",
     "review_score": 4.6,
-    "yelp_url": "https://www.yelp.com/biz/pho-horn-cranston"
+    "yelp_url": "https://www.yelp.com/biz/pho-horn-cranston",
+    "price_per_person": 14
   },
   {
     "id": "champa",
@@ -200,7 +211,8 @@
     ],
     "review_summary": "Flavorful Southeast Asian dishes with a focus on Lao cuisine. The papaya salad and larb are fresh and vibrant.",
     "review_score": 4.3,
-    "yelp_url": "https://www.yelp.com/biz/champa-providence"
+    "yelp_url": "https://www.yelp.com/biz/champa-providence",
+    "price_per_person": 16
   },
   {
     "id": "lobanton",
@@ -217,7 +229,8 @@
     ],
     "review_summary": "A neighborhood Chinese restaurant with solid Cantonese stir-fries and rice plates. Relaxed vibe and reliable quality.",
     "review_score": 4,
-    "yelp_url": "https://www.yelp.com/biz/lobanton-providence"
+    "yelp_url": "https://www.yelp.com/biz/lobanton-providence",
+    "price_per_person": 13
   },
   {
     "id": "noahs-kitchen",
@@ -233,7 +246,8 @@
     ],
     "review_summary": "Brookline's go-to Sichuan spot. Fiery mapo tofu, crispy spicy chicken, and generous portions draw a loyal crowd.",
     "review_score": 4.4,
-    "yelp_url": "https://www.yelp.com/biz/noahs-kitchen-brookline"
+    "yelp_url": "https://www.yelp.com/biz/noahs-kitchen-brookline",
+    "price_per_person": 17
   },
   {
     "id": "baozang-55beach",
@@ -249,7 +263,8 @@
     ],
     "review_summary": "A Chinatown gem for hearty home-style Chinese. Braised pork belly and tomato egg are comfort food done right.",
     "review_score": 4.2,
-    "yelp_url": "https://www.yelp.com/biz/fuchun-ju-boston-2"
+    "yelp_url": "https://www.yelp.com/biz/fuchun-ju-boston-2",
+    "price_per_person": 14
   },
   {
     "id": "golden-garden-malden",
@@ -265,7 +280,8 @@
     ],
     "review_summary": "Hearty Dongbei classics like guo bao rou and suan cai fish. Feels like eating at a northeastern grandma's house.",
     "review_score": 4.3,
-    "yelp_url": "https://www.yelp.com/biz/golden-garden-malden-2"
+    "yelp_url": "https://www.yelp.com/biz/golden-garden-malden-2",
+    "price_per_person": 15
   },
   {
     "id": "yi-ma-yi-la",
@@ -282,7 +298,8 @@
     ],
     "review_summary": "Fiery mala flavors in Allston. The spicy grilled fish and mala dry pot are dangerously addictive late-night picks.",
     "review_score": 4.5,
-    "yelp_url": "https://www.yelp.com/biz/mala-restaurant-boston"
+    "yelp_url": "https://www.yelp.com/biz/mala-restaurant-boston",
+    "price_per_person": 18
   },
   {
     "id": "wings-kitchen",
@@ -299,7 +316,8 @@
     ],
     "review_summary": "Reliable Cantonese comfort food in the heart of Chinatown. Char siu rice and wonton noodle soup are must-orders.",
     "review_score": 4.1,
-    "yelp_url": "https://www.yelp.com/biz/wings-kitchen-boston-2"
+    "yelp_url": "https://www.yelp.com/biz/wings-kitchen-boston-2",
+    "price_per_person": 13
   },
   {
     "id": "chung-shin-yuan",
@@ -315,7 +333,8 @@
     ],
     "review_summary": "The Boston area's best Taiwanese breakfast. Egg crepes, soy milk with you tiao, and scallion pancakes worth the drive to Newton.",
     "review_score": 4.6,
-    "yelp_url": "https://www.yelp.com/biz/chung-shin-yuan-newton"
+    "yelp_url": "https://www.yelp.com/biz/chung-shin-yuan-newton",
+    "price_per_person": 10
   },
   {
     "id": "wu-er-roast",
@@ -331,7 +350,8 @@
     ],
     "review_summary": "All-you-can-eat Chinese BBQ with quality meats and lively atmosphere. Lamb skewers and cumin dishes are the highlights.",
     "review_score": 4.2,
-    "yelp_url": "https://www.yelp.com/biz/wu-er-by-wow-barbecue-brookline-4"
+    "yelp_url": "https://www.yelp.com/biz/wu-er-by-wow-barbecue-brookline-4",
+    "price_per_person": 30
   },
   {
     "id": "wing-it",
@@ -347,7 +367,8 @@
     ],
     "review_summary": "Xinjiang meets Hunan in Allston. Big plate chicken, spicy dry pot, and bold flavors that pack a punch.",
     "review_score": 4.3,
-    "yelp_url": "https://www.yelp.com/biz/boston-wing-it-allston"
+    "yelp_url": "https://www.yelp.com/biz/boston-wing-it-allston",
+    "price_per_person": 16
   },
   {
     "id": "moon-flower-house",
@@ -363,7 +384,8 @@
     ],
     "review_summary": "Crispy, juicy Chinese fried chicken that rivals any chain. Late-night favorite for BU and BC students.",
     "review_score": 4,
-    "yelp_url": "https://www.yelp.com/biz/moon-flower-house-boston-4"
+    "yelp_url": "https://www.yelp.com/biz/moon-flower-house-boston-4",
+    "price_per_person": 12
   },
   {
     "id": "jumbo-seafood",
@@ -380,7 +402,8 @@
     ],
     "review_summary": "A Chinatown institution for dim sum and seafood. Weekend brunch carts roll through with har gow, siu mai, and more.",
     "review_score": 4.3,
-    "yelp_url": "https://www.yelp.com/biz/jumbo-seafood-restaurant-boston"
+    "yelp_url": "https://www.yelp.com/biz/jumbo-seafood-restaurant-boston",
+    "price_per_person": 22
   },
   {
     "id": "feng-shui-burlington",
@@ -397,7 +420,8 @@
     ],
     "review_summary": "Upscale Chinese dining with an excellent Peking duck. Modern ambiance and a cocktail bar set it apart from the crowd.",
     "review_score": 4.4,
-    "yelp_url": "https://gofengshui.com/burlington/"
+    "yelp_url": "https://gofengshui.com/burlington/",
+    "price_per_person": 28
   },
   {
     "id": "aries-noodle",
@@ -414,7 +438,8 @@
     ],
     "review_summary": "Hand-pulled Lanzhou beef noodles made fresh to order. The broth is clear, aromatic, and deeply satisfying.",
     "review_score": 4.5,
-    "yelp_url": "https://www.yelp.com/biz/aries-noodle-and-dumpling-waltham"
+    "yelp_url": "https://www.yelp.com/biz/aries-noodle-and-dumpling-waltham",
+    "price_per_person": 14
   },
   {
     "id": "big-fun-cafe",
@@ -431,7 +456,8 @@
     ],
     "review_summary": "Authentic Hong Kong-style cafe in Quincy. Baked pork chop rice, milk tea, and egg tarts transport you to Kowloon.",
     "review_score": 4.3,
-    "yelp_url": "https://www.yelp.com/biz/big-fun-cafe-quincy"
+    "yelp_url": "https://www.yelp.com/biz/big-fun-cafe-quincy",
+    "price_per_person": 13
   },
   {
     "id": "susu-gourmet",
@@ -447,7 +473,8 @@
     ],
     "review_summary": "Tiny Chinatown counter serving satisfying Cantonese plates. Steamed fish, congee, and stir-fries at unbeatable prices.",
     "review_score": 4.1,
-    "yelp_url": "https://www.yelp.com/biz/su-su-gourmet-boston"
+    "yelp_url": "https://www.yelp.com/biz/su-su-gourmet-boston",
+    "price_per_person": 11
   },
   {
     "id": "ifresh-noodle",
@@ -463,7 +490,8 @@
     ],
     "review_summary": "Allston's hand-pulled noodle shop. Watch the noodle master stretch dough to order — the beef noodle soup is the star.",
     "review_score": 4.4,
-    "yelp_url": "https://www.yelp.com/biz/ifresh-noodle-allston"
+    "yelp_url": "https://www.yelp.com/biz/ifresh-noodle-allston",
+    "price_per_person": 13
   },
   {
     "id": "shu-da-xia",
@@ -480,7 +508,8 @@
     ],
     "review_summary": "Premium Sichuan hot pot near BU. Rich mala broth, fresh sliced meats, and a vibrant communal dining atmosphere.",
     "review_score": 4.5,
-    "yelp_url": "https://www.yelp.com/biz/shudaxia-hotpot-boston"
+    "yelp_url": "https://www.yelp.com/biz/shudaxia-hotpot-boston",
+    "price_per_person": 30
   },
   {
     "id": "jibei-chuan",
@@ -496,7 +525,8 @@
     ],
     "review_summary": "Yunnan-style rice noodle soups with rich chicken broth and fish maw. A Chinatown newcomer with a cult following.",
     "review_score": 4.3,
-    "yelp_url": "https://www.yelp.com/biz/jibei-chuan-boston-3"
+    "yelp_url": "https://www.yelp.com/biz/jibei-chuan-boston-3",
+    "price_per_person": 14
   },
   {
     "id": "jade-garden",
@@ -512,7 +542,8 @@
     ],
     "review_summary": "Classic Chinatown dim sum parlor. Weekend mornings are packed for a reason — steaming carts, fast turnover, great value.",
     "review_score": 4.2,
-    "yelp_url": "https://www.yelp.com/biz/jade-garden-boston"
+    "yelp_url": "https://www.yelp.com/biz/jade-garden-boston",
+    "price_per_person": 18
   },
   {
     "id": "wens-yunnan",
@@ -528,7 +559,8 @@
     ],
     "review_summary": "Crossing-the-bridge noodles on Newbury St. A unique find in Back Bay with rich broth and customizable toppings.",
     "review_score": 4.1,
-    "yelp_url": "https://www.yelp.com/biz/wens-yunnan-noodle-and-ramen-boston-7"
+    "yelp_url": "https://www.yelp.com/biz/wens-yunnan-noodle-and-ramen-boston-7",
+    "price_per_person": 15
   },
   {
     "id": "friendship-bbq",
@@ -545,7 +577,8 @@
     ],
     "review_summary": "Allston's favorite Chinese BBQ. Lamb skewers over charcoal, cumin-spiced everything, and a lively late-night scene.",
     "review_score": 4.4,
-    "yelp_url": "https://www.yelp.com/biz/friendship-bbq-boston-6"
+    "yelp_url": "https://www.yelp.com/biz/friendship-bbq-boston-6",
+    "price_per_person": 20
   },
   {
     "id": "china-gourmet",
@@ -562,7 +595,8 @@
     ],
     "review_summary": "A Chinatown staple serving a wide range of Chinese classics. Reliable and affordable — the menu has something for everyone.",
     "review_score": 4,
-    "yelp_url": "https://www.yelp.com/biz/china-gourmet-restaurant-boston"
+    "yelp_url": "https://www.yelp.com/biz/china-gourmet-restaurant-boston",
+    "price_per_person": 14
   },
   {
     "id": "kings-garden",
@@ -579,6 +613,7 @@
     ],
     "review_summary": "Popular dim sum spot with extensive menu including Szechuan dishes, hot pots, and classic dim sum staples. Known for generous portions and authentic flavors.",
     "review_score": 4.3,
-    "yelp_url": ""
+    "yelp_url": "",
+    "price_per_person": 18
   }
 ]

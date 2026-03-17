@@ -26,6 +26,7 @@ export type Restaurant = {
   cuisine_tags: string[];
   review_summary: string;
   review_score: number;
+  price_per_person?: number;
   yelp_url?: string;
 };
 
@@ -152,4 +153,100 @@ export function searchRestaurantsByKeyword(query: string, city?: string): Restau
       r.name_zh.includes(q) ||
       r.cuisine_tags.some((t) => t.includes(q))
   );
+}
+
+/**
+ * Weighted keyword search across dishes and restaurants.
+ * Returns a list of { restaurant, dish, score } entries,
+ * deduplicated per restaurant (keeps highest-scoring dish).
+ *
+ * Weights:
+ *   dish name_zh / name_en match → 10
+ *   restaurant name / name_zh match → 8
+ *   dish cuisine_tag match → 5
+ *   dish tags match → 3
+ */
+export type ScoredResult = {
+  restaurantId: string;
+  dishId: string;
+  dishNameZh: string;
+  score: number;
+};
+
+export function weightedKeywordSearch(query: string, city?: string): ScoredResult[] {
+  const q = query.toLowerCase().trim();
+  if (!q) return [];
+
+  const cityPool = city ? getRestaurantsByCity(city) : allRestaurants;
+  const cityRestaurantIds = new Set(cityPool.map((r) => r.id));
+  const restaurantById = new Map(cityPool.map((r) => [r.id, r]));
+
+  // Score each (restaurant, dish) pair
+  const pairScores = new Map<string, ScoredResult>(); // key: restaurantId
+
+  // 1. Score dishes → find their restaurants
+  for (const dish of allDishes) {
+    if (dish.dish_type !== "dish") continue;
+
+    let dishScore = 0;
+    const qLower = q;
+
+    // dish name match → weight 10
+    if (dish.name_zh.includes(q) || dish.name_en.toLowerCase().includes(qLower)) {
+      dishScore += 10;
+    }
+    // cuisine_tag match → weight 5
+    if (dish.cuisine_tag.includes(q) || dish.cuisine_tag.toLowerCase().includes(qLower)) {
+      dishScore += 5;
+    }
+    // tags match → weight 3
+    if (dish.tags.some((t) => t.toLowerCase().includes(qLower) || t.includes(q))) {
+      dishScore += 3;
+    }
+
+    if (dishScore === 0) continue;
+
+    // Apply to each restaurant that serves this dish
+    for (const rid of dish.available_at) {
+      if (!cityRestaurantIds.has(rid)) continue;
+      const r = restaurantById.get(rid);
+      if (!r) continue;
+
+      // Also add restaurant name bonus
+      let rBonus = 0;
+      if (r.name.toLowerCase().includes(qLower) || r.name_zh.includes(q)) {
+        rBonus = 8;
+      }
+
+      const totalScore = dishScore + rBonus;
+      const existing = pairScores.get(rid);
+      if (!existing || totalScore > existing.score) {
+        pairScores.set(rid, {
+          restaurantId: rid,
+          dishId: dish.id,
+          dishNameZh: dish.name_zh,
+          score: totalScore,
+        });
+      }
+    }
+  }
+
+  // 2. Also score restaurants matched by name that have no dish match yet
+  for (const r of cityPool) {
+    if (pairScores.has(r.id)) continue;
+    if (r.name.toLowerCase().includes(q) || r.name_zh.includes(q)) {
+      // Find a representative dish
+      const repDish = allDishes.find(
+        (d) => d.dish_type === "dish" && d.available_at.includes(r.id)
+      );
+      pairScores.set(r.id, {
+        restaurantId: r.id,
+        dishId: repDish?.id ?? "",
+        dishNameZh: repDish?.name_zh ?? "",
+        score: 8,
+      });
+    }
+  }
+
+  return Array.from(pairScores.values()).sort((a, b) => b.score - a.score);
 }

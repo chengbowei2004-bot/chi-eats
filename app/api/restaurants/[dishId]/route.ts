@@ -12,6 +12,7 @@ type RestaurantWithDistance = {
   cuisine_tags: string[];
   review_summary: string;
   review_score: number;
+  price_per_person?: number;
   distance_miles: number;
   navigate_url_google: string;
   navigate_url_apple: string;

@@ -6171,5 +6171,682 @@
       "spicy"
     ],
     "dish_type": "dish"
+  },
+  {
+    "id": "suan-la-fen",
+    "name_en": "Hot and Sour Glass Noodles",
+    "name_zh": "酸辣粉",
+    "description_en": "Chewy sweet potato noodles in a tangy, spicy broth with peanuts and cilantro.",
+    "description_zh": "红薯粉在酸辣汤中煮制，配花生碎和香菜，酸辣开胃。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "sour",
+      "savory"
+    ],
+    "image_url": "/images/dishes/suan-la-fen.webp",
+    "available_at": [
+      "chongqing-house",
+      "chengdu-taste",
+      "rong-chic",
+      "noahs-kitchen",
+      "yi-ma-yi-la",
+      "mala-noodle"
+    ],
+    "tags": [
+      "spicy",
+      "noodles"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "xiang-la-xia",
+    "name_en": "Spicy Prawns",
+    "name_zh": "香辣虾",
+    "description_en": "Stir-fried prawns with dried chilies, garlic, and Sichuan peppercorns.",
+    "description_zh": "大虾与干辣椒、蒜和花椒同炒，香辣浓郁。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "savory",
+      "rich"
+    ],
+    "image_url": "/images/dishes/xiang-la-xia.webp",
+    "available_at": [
+      "chongqing-house",
+      "chengdu-taste",
+      "rong-chic",
+      "noahs-kitchen",
+      "yi-ma-yi-la"
+    ],
+    "tags": [
+      "spicy"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "teng-jiao-yu-pian",
+    "name_en": "Fish Fillet in Vine Pepper Broth",
+    "name_zh": "藤椒鱼片",
+    "description_en": "Tender fish slices poached in a fragrant vine pepper broth with fresh greens.",
+    "description_zh": "鱼片在藤椒汤中汆煮，清香麻辣，鲜嫩可口。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "numbing",
+      "savory",
+      "fresh"
+    ],
+    "image_url": "/images/dishes/teng-jiao-yu-pian.webp",
+    "available_at": [
+      "chongqing-house",
+      "chengdu-taste",
+      "rong-chic",
+      "noahs-kitchen",
+      "yi-ma-yi-la"
+    ],
+    "tags": [
+      "spicy"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "niu-rou-la-mian",
+    "name_en": "Beef Hand-Pulled Noodles",
+    "name_zh": "牛肉拉面",
+    "description_en": "Hand-pulled noodles in a clear beef bone broth with tender beef slices and cilantro.",
+    "description_zh": "手工拉面配牛骨清汤、牛肉片和香菜，汤鲜面韧。",
+    "cuisine_tag": "面食",
+    "flavor_tags": [
+      "savory",
+      "rich"
+    ],
+    "image_url": "/images/dishes/niu-rou-la-mian.webp",
+    "available_at": [
+      "aries-noodle",
+      "ifresh-noodle",
+      "mala-noodle",
+      "y-noodle-bar"
+    ],
+    "tags": [
+      "noodles"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "rou-jia-mo",
+    "name_en": "Chinese Hamburger (Roujiamo)",
+    "name_zh": "肉夹馍",
+    "description_en": "Braised pork belly stuffed in a crispy flatbread bun.",
+    "description_zh": "酥脆的白吉駍夹卤肉，外酥里嫩，肉香四溢。",
+    "cuisine_tag": "陕西小吃",
+    "flavor_tags": [
+      "savory",
+      "rich"
+    ],
+    "image_url": "/images/dishes/rou-jia-mo.webp",
+    "available_at": [
+      "rong-chic",
+      "chongqing-house",
+      "baozang-55beach",
+      "china-gourmet"
+    ],
+    "tags": [
+      "snacks"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "xia-ren-chao-mian",
+    "name_en": "Shrimp Fried Noodles",
+    "name_zh": "虾仁炒面",
+    "description_en": "Wok-fried noodles tossed with plump shrimp, vegetables, and savory soy glaze.",
+    "description_zh": "虾仁与面条在猛火中快炒，配蔬菜和酱汁。",
+    "cuisine_tag": "面食",
+    "flavor_tags": [
+      "savory",
+      "umami"
+    ],
+    "image_url": "/images/dishes/xia-ren-chao-mian.webp",
+    "available_at": [
+      "chef-yao",
+      "wings-kitchen",
+      "jumbo-seafood",
+      "jade-garden",
+      "susu-gourmet",
+      "y-noodle-bar"
+    ],
+    "tags": [
+      "noodles"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "dao-xiao-mian",
+    "name_en": "Knife-Cut Noodles",
+    "name_zh": "刀削面",
+    "description_en": "Thick, chewy noodles sliced directly into boiling broth, topped with braised meat.",
+    "description_zh": "刀削面条厚实有嚼劲，配卤肉浇头。",
+    "cuisine_tag": "面食",
+    "flavor_tags": [
+      "savory",
+      "rich"
+    ],
+    "image_url": "/images/dishes/dao-xiao-mian.webp",
+    "available_at": [
+      "rong-chic",
+      "mala-noodle",
+      "ifresh-noodle",
+      "y-noodle-bar"
+    ],
+    "tags": [
+      "noodles"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "zheng-jiao",
+    "name_en": "Steamed Dumplings",
+    "name_zh": "蒸饺",
+    "description_en": "Delicate steamed dumplings with a thin wrapper and savory pork filling.",
+    "description_zh": "薄皮蒸饺，馅料鲜美多汁。",
+    "cuisine_tag": "面食",
+    "flavor_tags": [
+      "savory",
+      "light"
+    ],
+    "image_url": "/images/dishes/zheng-jiao.webp",
+    "available_at": [
+      "12-dumplings",
+      "rong-chic",
+      "chongqing-house",
+      "chengdu-taste"
+    ],
+    "tags": [
+      "light"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "bai-zhuo-cai-xin",
+    "name_en": "Blanched Choy Sum",
+    "name_zh": "白灼菜心",
+    "description_en": "Tender choy sum blanched and drizzled with hot oil and premium soy sauce.",
+    "description_zh": "菜心焒水后淋上热油和生抽，清脆爽口。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "light",
+      "fresh"
+    ],
+    "image_url": "/images/dishes/bai-zhuo-cai-xin.webp",
+    "available_at": [
+      "chef-yao",
+      "wings-kitchen",
+      "jumbo-seafood",
+      "jade-garden",
+      "susu-gourmet"
+    ],
+    "tags": [
+      "light"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "qing-chao-shi-shu",
+    "name_en": "Stir-Fried Seasonal Greens",
+    "name_zh": "清炒时蔬",
+    "description_en": "Fresh seasonal vegetables wok-fried with garlic until just tender.",
+    "description_zh": "时令蔬菜与蒜瓣快炒，清爽鲜嫩。",
+    "cuisine_tag": "家常菜",
+    "flavor_tags": [
+      "light",
+      "fresh"
+    ],
+    "image_url": "/images/dishes/qing-chao-shi-shu.webp",
+    "available_at": [
+      "chongqing-house",
+      "chengdu-taste",
+      "rong-chic",
+      "chef-yao",
+      "baozang-55beach",
+      "china-gourmet"
+    ],
+    "tags": [
+      "light"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "bai-qie-ji",
+    "name_en": "White Cut Chicken",
+    "name_zh": "白切鸡",
+    "description_en": "Poached whole chicken served cold with ginger-scallion dipping sauce.",
+    "description_zh": "白切鸡皮脆肉嫩，配姜葱蒸料。",
+    "cuisine_tag": "粤菜",
+    "flavor_tags": [
+      "light",
+      "savory"
+    ],
+    "image_url": "/images/dishes/bai-qie-ji.webp",
+    "available_at": [
+      "chef-yao",
+      "wings-kitchen",
+      "jumbo-seafood",
+      "jade-garden",
+      "susu-gourmet"
+    ],
+    "tags": [
+      "light"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "dan-hua-tang",
+    "name_en": "Egg Drop Soup",
+    "name_zh": "蛋花汤",
+    "description_en": "A light, silky soup with whisked egg ribbons in a clear chicken broth.",
+    "description_zh": "鸡汤中打入蛋花，清淡鲜美。",
+    "cuisine_tag": "家常菜",
+    "flavor_tags": [
+      "light",
+      "savory"
+    ],
+    "image_url": "/images/dishes/dan-hua-tang.webp",
+    "available_at": [
+      "chongqing-house",
+      "chengdu-taste",
+      "rong-chic",
+      "chef-yao",
+      "baozang-55beach",
+      "china-gourmet"
+    ],
+    "tags": [
+      "light"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "ji-dan-chao-fan",
+    "name_en": "Egg Fried Rice",
+    "name_zh": "鸡蛋炒饭",
+    "description_en": "Classic fried rice with fluffy eggs, scallions, and a touch of soy sauce.",
+    "description_zh": "米饭与鸡蛋在猛火中翻炒，粒粒分明。",
+    "cuisine_tag": "家常菜",
+    "flavor_tags": [
+      "savory",
+      "light"
+    ],
+    "image_url": "/images/dishes/ji-dan-chao-fan.webp",
+    "available_at": [
+      "chongqing-house",
+      "chengdu-taste",
+      "rong-chic",
+      "chef-yao",
+      "baozang-55beach",
+      "china-gourmet"
+    ],
+    "tags": [
+      "light"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "xia-ren-dou-fu",
+    "name_en": "Shrimp with Tofu",
+    "name_zh": "虾仁豆腐",
+    "description_en": "Silken tofu braised with shrimp in a light, savory sauce.",
+    "description_zh": "嫩豆腐与虾仁同烧，汤汁鲜美。",
+    "cuisine_tag": "家常菜",
+    "flavor_tags": [
+      "light",
+      "savory"
+    ],
+    "image_url": "/images/dishes/xia-ren-dou-fu.webp",
+    "available_at": [
+      "chongqing-house",
+      "chengdu-taste",
+      "rong-chic",
+      "chef-yao",
+      "baozang-55beach",
+      "china-gourmet"
+    ],
+    "tags": [
+      "light"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "zi-cai-dan-hua-tang",
+    "name_en": "Seaweed Egg Drop Soup",
+    "name_zh": "紫菜蛋花汤",
+    "description_en": "A comforting soup with nori seaweed and egg ribbons in light broth.",
+    "description_zh": "紫菜与蛋花在清汤中煮制，简单营养。",
+    "cuisine_tag": "家常菜",
+    "flavor_tags": [
+      "light",
+      "umami"
+    ],
+    "image_url": "/images/dishes/zi-cai-dan-hua-tang.webp",
+    "available_at": [
+      "chongqing-house",
+      "chengdu-taste",
+      "rong-chic",
+      "chef-yao",
+      "baozang-55beach",
+      "china-gourmet"
+    ],
+    "tags": [
+      "light"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "xi-hong-shi-chao-ji-dan",
+    "name_en": "Tomato and Scrambled Eggs",
+    "name_zh": "西红柿炒鸡蛋",
+    "description_en": "Fluffy scrambled eggs with sweet tomato sauce — China’s most beloved home dish.",
+    "description_zh": "番茄与鸡蛋同炒，酸甜可口，是最经典的家常菜。",
+    "cuisine_tag": "家常菜",
+    "flavor_tags": [
+      "savory",
+      "sweet",
+      "light"
+    ],
+    "image_url": "/images/dishes/xi-hong-shi-chao-ji-dan.webp",
+    "available_at": [
+      "chongqing-house",
+      "chengdu-taste",
+      "rong-chic",
+      "chef-yao",
+      "baozang-55beach",
+      "china-gourmet"
+    ],
+    "tags": [
+      "light"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "hong-shao-pai-gu",
+    "name_en": "Braised Pork Ribs",
+    "name_zh": "红烧排骨",
+    "description_en": "Pork ribs braised in soy sauce, sugar, and aromatic spices until fall-off-the-bone tender.",
+    "description_zh": "排骨在酱油、冰糖和香料中慢炖，色泽红亮。",
+    "cuisine_tag": "家常菜",
+    "flavor_tags": [
+      "savory",
+      "sweet",
+      "rich"
+    ],
+    "image_url": "/images/dishes/hong-shao-pai-gu.webp",
+    "available_at": [
+      "chongqing-house",
+      "chengdu-taste",
+      "rong-chic",
+      "chef-yao",
+      "baozang-55beach",
+      "china-gourmet"
+    ],
+    "tags": [
+      "meaty"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "kao-yang-rou-chuan",
+    "name_en": "Grilled Lamb Skewers",
+    "name_zh": "烤羊肉串",
+    "description_en": "Cumin-spiced lamb threaded on skewers and grilled over charcoal.",
+    "description_zh": "羊肉串撒上孜然辣椒粉，炭火烤制。",
+    "cuisine_tag": "新疆菜",
+    "flavor_tags": [
+      "savory",
+      "smoky",
+      "spicy"
+    ],
+    "image_url": "/images/dishes/kao-yang-rou-chuan.webp",
+    "available_at": [
+      "jahunger",
+      "wu-er-roast",
+      "friendship-bbq",
+      "wing-it"
+    ],
+    "tags": [
+      "meaty"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "gong-bao-ji-ding",
+    "name_en": "Kung Pao Chicken",
+    "name_zh": "宫保鸡丁",
+    "description_en": "Diced chicken wok-fried with peanuts, dried chilies, and Sichuan peppercorns.",
+    "description_zh": "鸡丁与花生、干辣椒和花椒同炒。",
+    "cuisine_tag": "川菜",
+    "flavor_tags": [
+      "spicy",
+      "numbing",
+      "savory"
+    ],
+    "image_url": "/images/dishes/gong-bao-ji-ding.webp",
+    "available_at": [
+      "chongqing-house",
+      "chengdu-taste",
+      "rong-chic",
+      "noahs-kitchen",
+      "yi-ma-yi-la",
+      "chongqing-house",
+      "chengdu-taste",
+      "rong-chic",
+      "chef-yao",
+      "baozang-55beach",
+      "china-gourmet"
+    ],
+    "tags": [
+      "meaty",
+      "spicy"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "cong-bao-yang-rou",
+    "name_en": "Scallion-Fried Lamb",
+    "name_zh": "葱爆羊肉",
+    "description_en": "Tender lamb slices flash-fried with scallions in a smoky wok.",
+    "description_zh": "羊肉片与大葱在猛火中爆炒，葱香浓郁。",
+    "cuisine_tag": "北京菜",
+    "flavor_tags": [
+      "savory",
+      "smoky"
+    ],
+    "image_url": "/images/dishes/cong-bao-yang-rou.webp",
+    "available_at": [
+      "jahunger",
+      "feng-shui-burlington",
+      "golden-garden-malden",
+      "chongqing-house"
+    ],
+    "tags": [
+      "meaty"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "chun-juan",
+    "name_en": "Spring Rolls",
+    "name_zh": "春卷",
+    "description_en": "Crispy deep-fried rolls filled with shredded vegetables and pork.",
+    "description_zh": "薄皮包裹蔬菜肉丝，炸至金黄酥脆。",
+    "cuisine_tag": "点心",
+    "flavor_tags": [
+      "savory",
+      "crispy"
+    ],
+    "image_url": "/images/dishes/chun-juan.webp",
+    "available_at": [
+      "chef-yao",
+      "wings-kitchen",
+      "jumbo-seafood",
+      "jade-garden",
+      "susu-gourmet",
+      "12-dumplings",
+      "rong-chic",
+      "chongqing-house",
+      "chengdu-taste"
+    ],
+    "tags": [
+      "snacks"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "dan-ta",
+    "name_en": "Egg Tarts",
+    "name_zh": "蛋挞",
+    "description_en": "Flaky pastry shells filled with silky custard, baked until golden.",
+    "description_zh": "酥脆挛皮内填入丝滑蛋奶液，烤至金黄。",
+    "cuisine_tag": "点心",
+    "flavor_tags": [
+      "sweet",
+      "creamy"
+    ],
+    "image_url": "/images/dishes/dan-ta.webp",
+    "available_at": [
+      "chef-yao",
+      "wings-kitchen",
+      "jumbo-seafood",
+      "jade-garden",
+      "susu-gourmet",
+      "big-fun-cafe"
+    ],
+    "tags": [
+      "snacks"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "guo-tie",
+    "name_en": "Potstickers",
+    "name_zh": "锅贴",
+    "description_en": "Pan-fried dumplings with a crispy golden bottom and juicy pork filling.",
+    "description_zh": "底部煎至金黄酥脆，馅料多汁鲜美。",
+    "cuisine_tag": "面食",
+    "flavor_tags": [
+      "savory",
+      "crispy"
+    ],
+    "image_url": "/images/dishes/guo-tie.webp",
+    "available_at": [
+      "12-dumplings",
+      "rong-chic",
+      "chongqing-house",
+      "chengdu-taste"
+    ],
+    "tags": [
+      "snacks"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "zha-ji-chi",
+    "name_en": "Fried Chicken Wings",
+    "name_zh": "炸鸡翅",
+    "description_en": "Crispy deep-fried chicken wings seasoned with five-spice and chili salt.",
+    "description_zh": "鸡翅炸至金黄酥脆，撒上五香粉和椒盐。",
+    "cuisine_tag": "小吃",
+    "flavor_tags": [
+      "savory",
+      "crispy",
+      "spicy"
+    ],
+    "image_url": "/images/dishes/zha-ji-chi.webp",
+    "available_at": [
+      "moon-flower-house",
+      "chongqing-house",
+      "chengdu-taste",
+      "rong-chic",
+      "chef-yao",
+      "baozang-55beach",
+      "china-gourmet"
+    ],
+    "tags": [
+      "snacks"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "xia-jiao",
+    "name_en": "Shrimp Dumplings (Har Gow)",
+    "name_zh": "虾饺",
+    "description_en": "Translucent steamed dumplings filled with whole shrimp.",
+    "description_zh": "水晶虾饺，薄皮透明，虾仁鲜美弹牙。",
+    "cuisine_tag": "点心",
+    "flavor_tags": [
+      "savory",
+      "fresh"
+    ],
+    "image_url": "/images/dishes/xia-jiao.webp",
+    "available_at": [
+      "chef-yao",
+      "wings-kitchen",
+      "jumbo-seafood",
+      "jade-garden",
+      "susu-gourmet",
+      "jumbo-seafood",
+      "jade-garden"
+    ],
+    "tags": [
+      "snacks"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "zha-jiang-ban-mian",
+    "name_en": "Mixed Noodles with Soybean Paste",
+    "name_zh": "炸酱拌面",
+    "description_en": "Chewy noodles tossed with savory fermented soybean paste and fresh vegetables.",
+    "description_zh": "面条拌上浓郁炒酱和新鲜蔬菜。",
+    "cuisine_tag": "面食",
+    "flavor_tags": [
+      "savory",
+      "rich"
+    ],
+    "image_url": "/images/dishes/zha-jiang-ban-mian.webp",
+    "available_at": [
+      "mala-noodle",
+      "y-noodle-bar",
+      "rong-chic",
+      "ifresh-noodle",
+      "aries-noodle"
+    ],
+    "tags": [
+      "snacks",
+      "noodles"
+    ],
+    "dish_type": "dish"
+  },
+  {
+    "id": "nuo-mi-ji",
+    "name_en": "Sticky Rice in Lotus Leaf",
+    "name_zh": "糯米鸡",
+    "description_en": "Glutinous rice stuffed with chicken, mushrooms, and sausage, steamed in lotus leaf.",
+    "description_zh": "糯米包裹鸡肉、香菇和腊肠，荷叶蒸制。",
+    "cuisine_tag": "点心",
+    "flavor_tags": [
+      "savory",
+      "rich"
+    ],
+    "image_url": "/images/dishes/nuo-mi-ji.webp",
+    "available_at": [
+      "chef-yao",
+      "wings-kitchen",
+      "jumbo-seafood",
+      "jade-garden",
+      "susu-gourmet",
+      "jumbo-seafood"
+    ],
+    "tags": [
+      "snacks"
+    ],
+    "dish_type": "dish"
   }
 ]

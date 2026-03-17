@@ -26,6 +26,7 @@ type RestaurantResult = {
   distance_miles: number;
   review_summary: string;
   review_score: number;
+  price_per_person?: number;
   navigate_url_google: string;
   navigate_url_apple: string;
   top_pick: boolean;

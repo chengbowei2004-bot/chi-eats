@@ -14,6 +14,7 @@ type Restaurant = {
   distance_miles: number;
   review_summary: string;
   review_score: number;
+  price_per_person?: number;
   navigate_url_google: string;
   navigate_url_apple: string;
   top_pick: boolean;
@@ -35,6 +36,7 @@ export function RestaurantCard({ restaurant }: Props) {
     name,
     name_zh,
     distance_miles,
+    price_per_person,
     navigate_url_google,
     navigate_url_apple,
     top_pick,
@@ -118,12 +120,19 @@ export function RestaurantCard({ restaurant }: Props) {
           {t(name, name_zh || "")}
         </p>
 
-        {/* Distance */}
-        <div className="flex items-center gap-1" style={{ marginBottom: 16 }}>
-          <MapPin size={12} strokeWidth={1.5} className="text-gray-400 shrink-0" />
-          <span style={{ fontSize: 12, color: "#999" }}>
-            {distance_miles} {t("英里", "mi")}
-          </span>
+        {/* Distance + Price */}
+        <div className="flex items-center gap-3" style={{ marginBottom: 16 }}>
+          <div className="flex items-center gap-1">
+            <MapPin size={12} strokeWidth={1.5} className="text-gray-400 shrink-0" />
+            <span style={{ fontSize: 12, color: "#999" }}>
+              {distance_miles} {t("英里", "mi")}
+            </span>
+          </div>
+          {price_per_person && (
+            <span style={{ fontSize: 12, color: "#999" }}>
+              {t(`人均 $${price_per_person}`, `~$${price_per_person}/person`)}
+            </span>
+          )}
         </div>
 
         {/* Buttons */}

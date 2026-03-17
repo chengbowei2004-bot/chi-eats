@@ -21,6 +21,7 @@ type RestaurantResult = {
   distance_miles: number;
   review_summary: string;
   review_score: number;
+  price_per_person?: number;
   navigate_url_google: string;
   navigate_url_apple: string;
   top_pick: boolean;
@@ -93,11 +94,9 @@ export default function RestaurantResultsPage() {
       .finally(() => setLoading(false));
   }, [dishId, sort, city, userLat, userLng]);
 
-  // Resolve dish image: getDishImage (curated) first, then image_url from API, then fallback
+  // Resolve dish image: curated map → dish.image_url → default
   const dishImage = dish
-    ? getDishImage(dish.name_zh) !== "/dishes/default.jpg"
-      ? getDishImage(dish.name_zh)
-      : dish.image_url || "/dishes/default.jpg"
+    ? getDishImage(dish.name_zh, dish.image_url)
     : "/dishes/default.jpg";
 
   const [imgErrored, setImgErrored] = useState(false);

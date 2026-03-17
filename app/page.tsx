@@ -291,7 +291,7 @@ export default function HomePage() {
               <div style={{ height: 160, overflow: "hidden" }}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src={getDishImage(dish.name_zh)}
+                  src={getDishImage(dish.name_zh, dish.image_url)}
                   alt={dish.name_zh}
                   style={{
                     width: "100%",

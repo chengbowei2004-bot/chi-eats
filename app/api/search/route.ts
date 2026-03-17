@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { searchDishes } from "@/lib/claude";
-import { getDishesByIds, getRestaurantsForDish, getRandomDishes, getRestaurantsByCity, searchRestaurantsByKeyword, allDishes } from "@/lib/dishes";
+import { getDishesByIds, getRestaurantsForDish, getRandomDishes, getRestaurantsByCity, searchRestaurantsByKeyword, allDishes, weightedKeywordSearch, getRestaurantById, getDishById } from "@/lib/dishes";
 import { distanceMiles, generateBothMapsUrls, getCityCenter } from "@/lib/geo";
 
 // Simple in-memory rate limiter: max 20 requests per user (by IP) per hour.
@@ -48,21 +48,26 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // 1. Claude semantic dish search
-    const dishIds = await searchDishes(query);
-    const dishes = getDishesByIds(dishIds);
-
     const center = getCityCenter(city);
     const lat = isFinite(userLat) ? userLat : center.lat;
     const lng = isFinite(userLng) ? userLng : center.lng;
 
     const cityRestaurantIds = new Set(getRestaurantsByCity(city).map((r) => r.id));
 
-    // 2. Also search restaurant names by keyword
-    const nameMatchedRestaurants = searchRestaurantsByKeyword(query, city);
+    // 1. Weighted keyword search (instant, no API call)
+    const keywordResults = weightedKeywordSearch(query, city);
 
-    // If no dishes AND no restaurants match, show alternatives
-    if (dishes.length === 0 && nameMatchedRestaurants.length === 0) {
+    // 2. Claude semantic dish search (async, may fail gracefully)
+    let claudeDishIds: string[] = [];
+    try {
+      claudeDishIds = await searchDishes(query);
+    } catch {
+      // Claude search failure is non-fatal; keyword results still work
+    }
+    const claudeDishes = getDishesByIds(claudeDishIds);
+
+    // If no keyword results AND no Claude results, show alternatives
+    if (keywordResults.length === 0 && claudeDishes.length === 0) {
       const alternatives = getRandomDishes(3, { city });
       return NextResponse.json({
         restaurants: [],
@@ -83,6 +88,7 @@ export async function POST(req: NextRequest) {
       distance_miles: number;
       review_summary: string;
       review_score: number;
+      price_per_person?: number;
       navigate_url_google: string;
       navigate_url_apple: string;
       top_pick: boolean;
@@ -92,8 +98,9 @@ export async function POST(req: NextRequest) {
 
     const restaurantMap = new Map<string, RestaurantEntry>();
 
-    function addRestaurant(r: typeof nameMatchedRestaurants[0], dishName?: string) {
-      if (!cityRestaurantIds.has(r.id)) return;
+    function addRestaurantEntry(rId: string, dishName?: string) {
+      const r = getRestaurantById(rId);
+      if (!r || !cityRestaurantIds.has(r.id)) return;
       if (!restaurantMap.has(r.id)) {
         const miles = distanceMiles(lat, lng, r.lat, r.lng);
         const maps = generateBothMapsUrls(r.lat, r.lng);
@@ -105,6 +112,7 @@ export async function POST(req: NextRequest) {
           distance_miles: parseFloat(miles.toFixed(1)),
           review_summary: r.review_summary,
           review_score: r.review_score,
+          price_per_person: r.price_per_person,
           navigate_url_google: maps.google,
           navigate_url_apple: maps.apple,
           top_pick: false,
@@ -119,22 +127,16 @@ export async function POST(req: NextRequest) {
       }
     }
 
-    // Add restaurants from matched dishes
-    for (const dish of dishes) {
-      const restaurants = getRestaurantsForDish(dish.id);
-      for (const r of restaurants) {
-        addRestaurant(r, dish.name_zh);
-      }
+    // Add restaurants from weighted keyword search (highest score first)
+    for (const kr of keywordResults) {
+      addRestaurantEntry(kr.restaurantId, kr.dishNameZh || undefined);
     }
 
-    // Add restaurants matched by name (find their best dish as context)
-    for (const r of nameMatchedRestaurants) {
-      if (!restaurantMap.has(r.id)) {
-        // Find a representative dish this restaurant serves
-        const repDish = allDishes.find(
-          (d) => d.dish_type === "dish" && d.available_at.includes(r.id)
-        );
-        addRestaurant(r, repDish?.name_zh);
+    // Merge Claude results (adds any restaurants keyword search missed)
+    for (const dish of claudeDishes) {
+      const restaurants = getRestaurantsForDish(dish.id);
+      for (const r of restaurants) {
+        addRestaurantEntry(r.id, dish.name_zh);
       }
     }
 
@@ -149,13 +151,22 @@ export async function POST(req: NextRequest) {
     const top = results.slice(0, 8);
     if (top.length > 0) top[0].top_pick = true;
 
+    // Collect all unique matched dishes for the response
+    const matchedDishIds = new Set<string>();
+    for (const kr of keywordResults) {
+      if (kr.dishId) matchedDishIds.add(kr.dishId);
+    }
+    for (const d of claudeDishes) {
+      matchedDishIds.add(d.id);
+    }
+    const allMatchedDishes = Array.from(matchedDishIds)
+      .map((id) => getDishById(id))
+      .filter(Boolean)
+      .map((d) => ({ id: d!.id, name_zh: d!.name_zh, name_en: d!.name_en }));
+
     return NextResponse.json({
       restaurants: top,
-      matchedDishes: dishes.map((d) => ({
-        id: d.id,
-        name_zh: d.name_zh,
-        name_en: d.name_en,
-      })),
+      matchedDishes: allMatchedDishes,
       alternatives: [],
     });
   } catch (err) {
