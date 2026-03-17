@@ -8,17 +8,12 @@ import { useAuth } from "@/lib/useAuth";
 import { useLanguage } from "@/lib/useLanguage";
 import type { Lang } from "@/components/LanguageProvider";
 
-const CUISINE_OPTIONS = [
-  { id: "川菜", en: "Sichuan" },
-  { id: "粤菜", en: "Cantonese" },
-  { id: "江浙菜", en: "Jiangzhe" },
-  { id: "火锅", en: "Hotpot" },
-  { id: "东北菜", en: "Dongbei" },
-  { id: "湘菜", en: "Hunan" },
-  { id: "烧烤", en: "BBQ" },
-  { id: "新疆菜", en: "Northwestern" },
-  { id: "面食", en: "Noodles" },
-  { id: "饺子", en: "Dumplings" },
+const TASTE_CATEGORIES = [
+  { id: "spicy", zh: "想吃辣", en: "Spicy & Bold", emoji: "🌶️" },
+  { id: "noodles", zh: "想吃面", en: "Noodles & Dumplings", emoji: "🍜" },
+  { id: "light", zh: "吃点清淡的", en: "Light & Fresh", emoji: "🥬" },
+  { id: "meaty", zh: "想吃肉", en: "Protein Packed", emoji: "🥩" },
+  { id: "snacks", zh: "来点小吃", en: "Snacks & Bites", emoji: "🥟" },
 ];
 
 function SectionLabel({ children }: { children: React.ReactNode }) {
@@ -164,9 +159,9 @@ export default function SettingsPage() {
         </div>
 
         {/* Cuisine Preferences */}
-        <SectionLabel>{t("口味偏好", "CUISINE PREFERENCES")}</SectionLabel>
+        <SectionLabel>{t("口味偏好", "TASTE PREFERENCES")}</SectionLabel>
         <div className="flex flex-wrap gap-2">
-          {CUISINE_OPTIONS.map(({ id, en }) => {
+          {TASTE_CATEGORIES.map(({ id, zh, en, emoji }) => {
             const active = selectedCuisines.includes(id);
             return (
               <button
@@ -178,7 +173,7 @@ export default function SettingsPage() {
                     : "bg-white text-gray-900 border-gray-200"
                 }`}
               >
-                {t(id, en)}
+                {emoji} {t(zh, en)}
               </button>
             );
           })}

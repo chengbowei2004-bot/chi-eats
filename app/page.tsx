@@ -19,11 +19,11 @@ type BrowseDish = {
 
 const ALL_CATEGORIES = [
   { zh: "全部", en: "All", key: "all" },
-  { zh: "想吃辣", en: "Spicy", key: "spicy" },
-  { zh: "想吃面", en: "Noodles", key: "noodles" },
-  { zh: "吃点清淡的", en: "Light", key: "light" },
-  { zh: "想吃肉", en: "Meaty", key: "meaty" },
-  { zh: "来点小吃", en: "Snacks", key: "snacks" },
+  { zh: "想吃辣", en: "Spicy & Bold", key: "spicy" },
+  { zh: "想吃面", en: "Noodles & Dumplings", key: "noodles" },
+  { zh: "吃点清淡的", en: "Light & Fresh", key: "light" },
+  { zh: "想吃肉", en: "Protein Packed", key: "meaty" },
+  { zh: "来点小吃", en: "Snacks & Bites", key: "snacks" },
   { zh: "甜食奶茶", en: "Sweets & Boba", key: "sweets" },
 ];
 

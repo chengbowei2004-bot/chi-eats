@@ -4,17 +4,12 @@ import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { useLanguage } from "@/lib/useLanguage";
 
-const CUISINE_OPTIONS = [
-  { id: "川菜", zh: "川菜", en: "Sichuan" },
-  { id: "粤菜", zh: "粤菜", en: "Cantonese" },
-  { id: "江浙菜", zh: "江浙菜", en: "Jiangzhe" },
-  { id: "火锅", zh: "火锅", en: "Hotpot" },
-  { id: "东北菜", zh: "东北菜", en: "Dongbei" },
-  { id: "湘菜", zh: "湘菜", en: "Hunan" },
-  { id: "烧烤", zh: "烧烤", en: "BBQ" },
-  { id: "新疆菜", zh: "新疆菜", en: "Northwestern" },
-  { id: "面食", zh: "面食", en: "Noodles" },
-  { id: "饺子", zh: "饺子", en: "Dumplings" },
+const TASTE_CATEGORIES = [
+  { id: "spicy", zh: "想吃辣", en: "Spicy & Bold", emoji: "🌶️" },
+  { id: "noodles", zh: "想吃面", en: "Noodles & Dumplings", emoji: "🍜" },
+  { id: "light", zh: "吃点清淡的", en: "Light & Fresh", emoji: "🥬" },
+  { id: "meaty", zh: "想吃肉", en: "Protein Packed", emoji: "🥩" },
+  { id: "snacks", zh: "来点小吃", en: "Snacks & Bites", emoji: "🥟" },
 ];
 
 export default function OnboardingPage() {
@@ -53,17 +48,17 @@ export default function OnboardingPage() {
           DEEDAO
         </p>
         <h1 className="text-3xl font-light text-[#1A1A1A] tracking-tight leading-tight">
-          {t("你喜欢吃", "What cuisines")}<br />{t("什么菜系？", "do you like?")}
+          {t("你喜欢什么口味？", "What flavors do you like?")}
         </h1>
         <p className="text-[#bbb] text-sm mt-3">
-          {t("选择你喜欢的菜系", "Pick your favorite cuisines")}
+          {t("选择你感兴趣的（可多选）", "Pick what sounds good (select multiple)")}
         </p>
       </div>
 
       {/* Cuisine picker */}
       <div className="flex-1">
         <div className="flex flex-wrap gap-3">
-          {CUISINE_OPTIONS.map((c) => {
+          {TASTE_CATEGORIES.map((c) => {
             const active = selected.includes(c.id);
             return (
               <button
@@ -75,7 +70,7 @@ export default function OnboardingPage() {
                     : "bg-white text-[#1A1A1A] border-[#D4D4D4]"
                 }`}
               >
-                {t(c.zh, c.en)}
+                {c.emoji} {t(c.zh, c.en)}
               </button>
             );
           })}
@@ -83,7 +78,7 @@ export default function OnboardingPage() {
 
         {selected.length > 0 && (
           <p className="text-[#bbb] text-xs mt-5">
-            {selected.length} {t("菜系已选择", "selected")}
+            {selected.length} {t("个已选择", "selected")}
           </p>
         )}
       </div>
